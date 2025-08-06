@@ -8798,7 +8798,273 @@
 					<link class="ability" recordname="ability.id-05017">Ability: Impart Force ( 5 Discipline)</link>
 					<link class="ability" recordname="ability.id-05016">Ability: Phase Strike (5 Discipline)</link>
 					<link class="ability" recordname="ability.id-05015">Ability: A Squad Unto Myself (5 Discipline)</link>
-				</linklist><p>[Source: Draw Steel Heroes v1.0]</p>
+				</linklist>
+				
+				
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;2nd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 2nd-level null, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one exploration, interpersonal, or intrigue perk of your choice. See Chapter 7: Perks.</p>
+				<h>2nd-Level Tradition Feature</h>
+				<p>Your null tradition grants you a feature, as shown on the 2nd-Level Tradition Features table.</p>
+				<table>
+					<tr>
+						<td>
+							<b>Tradition</b>
+						</td>
+						<td>
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Chronokinetic</td>
+						<td>Rapid Processing</td>
+					</tr>
+					<tr>
+						<td>Cryokinetic</td>
+						<td>Entropic Adaptability</td>
+					</tr>
+					<tr>
+						<td>Metakinetic</td>
+						<td>Inertial Sink</td>
+					</tr>
+				</table>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>2nd-Level Tradition Ability</h>
+				<p>Your null tradition grants your choice of one of two abilities.</p>
+				<h>2nd-Level Chronokinetic Ability</h>
+				<p>Choose one of the following abilities</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>2nd-Level Cryokinetic Ability</h>
+				<p>Choose one of the following heroic abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>2nd-Level Metakinetic Ability</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;3rd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 3rd-level null, you gain the following features.</p>
+				<h>Psionic Leap</h>
+				<p>You can long jump and high jump a distance equal to twice your Agility score without needing to make a test.</p>
+				<h>Reorder</h>
+				<p>At the start of each of your turns, you can use a free triggered action to end one effect on you that is ended by a saving throw or that ends at the end of your turn.</p>
+				<p>Alternatively, you can grant this benefit to one creature in the area of your Null Field ability.</p>
+				<h>7-Discipline Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 7 discipline to use.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;4th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 4th-level null, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Agility and Intuition scores each increase to 3.</p>
+				<h>Discipline Mastery Improvement</h>
+				<p>Your Discipline Mastery feature provides additional benefits when you have 8 or more discipline.</p>
+				<h>Enhanced Null Field</h>
+				<p>While using your Null Field ability, you disrupt magic and psionicpower suffusing the area around you. During combat, any temporarysupernatural terrain effects of your level or lower are removed whenyour aura partially or fully overlaps with their location. Permanent supernatural terrain effects of your level or lower are temporarily negatedwhile your aura overlaps with their location, but return when the aurano longer overlaps with them.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>Regenerative Field</h>
+				<p>The first time each combat round that an enemy in the area of yourNull Field ability uses a main action, you gain 2 discipline instead of 1.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice. See Skills in Chapter 9: Tests.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;5th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 5th-level null, you gain the following features.</p>
+				<h>5th-Level Tradition Feature</h>
+				<p>Your null tradition grants you a feature, as shown on the 5th-Level Tradition Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 5th-Level Tradition Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Tradition</b>
+						</td>
+						<td>
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Chronokinetic</td>
+						<td>Instant Action</td>
+					</tr>
+					<tr>
+						<td>Cryokinetic</td>
+						<td>Chilling Readiness</td>
+					</tr>
+					<tr>
+						<td>Metakinetic</td>
+						<td>Inertial Fulcrum</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>9-Discipline Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 9 discipline to use.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;6th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 6th-level null, you gain the following features.</p>
+				<h>Elemental Absorption</h>
+				<p>Whenever you use your Inertial Shield triggered action, you gain immunity to acid, cold, corruption, fire, lightning, poison, and sonic damage equal to your Intuition score against the triggering damage.</p>
+				<h>Elemental Buffer</h>
+				<p>Whenever you reduce acid, cold, corruption, fire, lightning, poison, or sonic damage with damage immunity, you gain 2 surges that can be used only to increase the damage of your next strike.</p>
+				<h>Perk</h>
+				<p>You gain one exploration, interpersonal, or intrigue perk of your choice.</p>
+				<h>6th-Level Tradition Ability</h>
+				<p>Your null tradition grants your choice of one of two heroic abilities.</p>
+				<h>6th-Level Chronokinetic Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>6th-Level Cryokinetic Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>6th-Level Metakinetic Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;7th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<h>Characteristic Increase</h>
+				<p>Each of your characteristic scores increases by 1, to a maximum of 4.</p>
+				<h>Discipline Mastery Improvement</h>
+				<p>Your Discipline Mastery feature provides additional benefits when you have 10 or more discipline.</p>
+				<h>Psi Boost</h>
+				<p>Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a psi boost to it and enhance its effects. A psi boost&#8217;s effects only last until the end of the turn which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.</p>
+				<h>Dynamic Power (1 Discipline)</h>
+				<p>If the ability force moves a target, the forced movement distance gains a bonus equal to your Intuition score.</p>
+				<h>Expanded Power (3 Discipline)</h>
+				<p>If the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.</p>
+				<h>Extended Power (1 Discipline)</h>
+				<p>If the ability is ranged, the distance gains a bonus equal to your Intuition score. If the ability is melee, the distance gains a +2 bonus.</p>
+				<h>Heightened Power (1 Discipline)</h>
+				<p>If the ability deals rolled damage, it deals extra damage equal to your Intuition score.</p>
+				<h>Magnified Power (5 Discipline)</h>
+				<p>If the ability has a potency, you increase that potency by an amount equal to your Intuition score.</p>
+				<h>Shared Power (5 Discipline)</h>
+				<p>If the ability targets individual creatures or objects, you target one additional creature or object within distance.</p>
+				<h>Sharpened Power (1 Discipline)</h>
+				<p>If the ability has any power roll, that roll gains an edge.</p>
+				<h>Improved Body</h>
+				<p>When you gain discipline at the start of each of your turns during combat, you gain 3 discipline instead of 2.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;8th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As an 8th-level null, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>8th-Level Tradition Feature</h>
+				<p>Your null tradition grants you a feature, as shown on the 8th-Level Tradition Features table.</p>
+				<table>
+					<tr>
+						<td>
+							<b>Tradition</b>
+						</td>
+						<td>
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Chronokinetic</td>
+						<td>Shared Momentum</td>
+					</tr>
+					<tr>
+						<td>Cryokinetic</td>
+						<td>Synaptic Triages</td>
+					</tr>
+					<tr>
+						<td>Metakinetic</td>
+						<td>Inertial Dampener</td>
+					</tr>
+				</table>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>11-Discipline Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 11 discipline to use.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;9th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 9th-level null, you gain the following features.</p>
+				<h>I Am the Weapon</h>
+				<p>Your Stamina increases by 21 and you can&#8217;t be made bleeding even while dying. You no longer age or have need of food. Additionally, you can use Intuition instead of another characteristic when resisting potencies.</p>
+				<h>9th-Level Tradition Ability</h>
+				<p>Your null tradition grants your choice of one of two heroic abilities.</p>
+				<h>9th-Level Chronokinetic Abilities</h>
+				<p>Choose one of the following abilities</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>9th-Level Cryokinetic Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>9th-Level Cryokinetic Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;10th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 10th-level null, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Agility and Intuition scores each increase to 5.</p>
+				<h>Discipline Mastery Improvement</h>
+				<p>Your Discipline Mastery feature provides additional benefits when you have 12 or more discipline.</p>
+				<h>Manifold Body</h>
+				<p>When you gain discipline at the start of each of your turns during combat, you gain 4 discipline instead of 3.</p>
+				<h>Manifold Resonance</h>
+				<p>Your body becomes perfected matter, beyond the whims and chaos of the timescape and the restrictions of the manifolds. Each time you finish a respite, you can shift yourself and any creatures in the area of your Null Field ability to any location in the timescape known to you, known to any other creature in the area, or where any supernatural treasure in the area has been before.</p>
+				<p>Whenever you use an ability, you gain 1 discipline that can be used only to apply a benefit from your Psi Boost feature to that ability. </p>
+				<p>Additionally, you and allies in the area of your Null Field ability ignore banes and double banes on your power rolls</p>
+				<h>Order</h>
+				<p>You have an epic resource called order. Each time you finish a respite, you gain order equal to the XP you gain. You can spend order on your abilities as if it were discipline. </p>
+				<p>At the start of a combat encounter, you can spend 1 order to increase the size of your Null Field by 1 until the end of the encounter.</p>
+				<p>Order remains until you spend it.</p>
+				<h>Perk</h>
+				<p>You gain one exploration, interpersonal, or intrigue perk of your choice.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice.</p>
+				
+				
+				<p>[Source: Draw Steel Heroes v1.0]</p>
 			</notes>
 			<staminaPerLevel type="number">9</staminaPerLevel>
 			<startingAgility type="number">2</startingAgility>
@@ -9272,7 +9538,269 @@
 					<link class="ability" recordname="ability.id-06020">Ability: One Hundred Throats (5 Insight)</link>
 					<link class="ability" recordname="ability.id-06017">Ability: Setup (5 Insight)</link>
 					<link class="ability" recordname="ability.id-06018">Ability: Shadowstrike (5 Insight)</link>
-				</linklist><p>[Source: Draw Steel Heroes v1.0]</p>
+				</linklist>
+				
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; 2nd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 2nd-level shadow, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one exploration, interpersonal, or intrigue perk of your choice. See Chapter 7: Perks.</p>
+				<h>2nd-Level College Feature</h>
+				<p>Your shadow college grants you a feature, as shown on the 2nd-Level College Features table.</p>
+				<table>
+					<tr>
+						<td>
+							<b>College</b>
+						</td>
+						<td colspan="3">
+							<b>Triggered Action</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Black Ash</td>
+						<td colspan="3">Burning Ash</td>
+					</tr>
+					<tr>
+						<td>Caustic Alchemy</td>
+						<td colspan="3">Trained Assassin</td>
+					</tr>
+					<tr>
+						<td>Harlequin Mask</td>
+						<td colspan="3">Friend!</td>
+					</tr>
+				</table>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>2nd-Level College Ability</h>
+				<p>Your shadow college grants your choice of one of two heroic abilities.</p>
+				<h>2nd-Level Black Ash Ability</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>2nd-Level Caustic Alchemy Ability</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>2nd-Level Harlequin Mask Ability</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; 3rd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 3rd-level shadow, you gain the following features.</p>
+				<h>Careful Observation</h>
+				<p>You have the following ability.</p>
+				<linklist>
+					<link class="" recordname="" />
+				</linklist>
+				<h>7-Insight Ability</h>
+				<p>Choose one heroic ability from the following options, each of which</p>
+				<p>costs 7 insight to use.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; 4th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 4th-level shadow, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Agility score increases to 3. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 3.</p>
+				<h>Keep It Down</h>
+				<p>While conversing with any creature you share a language with, you can decide whether anyone else can perceive what you&#8217;re conveying, even while yelling.</p>
+				<h>Night Watch</h>
+				<p>Your sense for stealth shows those around you how to evade notice. While you are hidden, enemies take a bane on tests made to search for you or other hidden creatures within 10 squares of you.</p>
+				<p>Additionally, you have the following ability.</p>
+				<linklist>
+					<link class="" recordname="" />
+				</linklist>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice. See Skills in Chapter 9: Tests.</p>
+				<h>Surge of Insight</h>
+				<p>The first time each combat round that you deal damage incorporating 1 or more surges, you gain 2 insight instead of 1</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; 5th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 5th-level shadow, you gain the following features.</p>
+				<h>5th-Level College Feature</h>
+				<p>Your shadow college grants you a feature, as shown on the 5th-Level College Features table.</p>
+				<table>
+					<tr>
+						<td>
+							<b>College</b>
+						</td>
+						<td colspan="3">
+							<b>Triggered Action</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Black Ash</td>
+						<td colspan="3">Trail of Cinders</td>
+					</tr>
+					<tr>
+						<td>Caustic Alchemy</td>
+						<td colspan="3">Volatile Reagents</td>
+					</tr>
+					<tr>
+						<td>Harlequin Mask</td>
+						<td colspan="3">Harlequin Gambit</td>
+					</tr>
+				</table>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>9-Insight Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 9 insight to use.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; 6th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 6th-level shadow, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>Umbral Form</h>
+				<p>As a maneuver, you lose control of yourself, becoming a shadow creature dripping with ash. This transformation lasts until the end of the encounter, until you are dying, or after 1 uninterrupted hour of quiet focus outside of combat. You gain the following effects while in this form:</p>
+				<list>
+					<li>You can automatically climb at full speed while moving.</li>
+					<li>Enemies&#8217; spaces don&#8217;t count as difficult terrain for you. An enemy takes corruption damage equal to your Agility score the first time you pass through their space on a turn.</li>
+					<li>If you end your turn with cover or concealment from another creature, you are automatically hidden from that creature.</li>
+					<li>You gain 1 surge at the start of each of your turns.</li>
+					<li>You have corruption immunity equal to 5 + your level.</li>
+					<li>Creatures gain an edge on strikes against you.</li>
+					<li>You take a bane on Presence tests made to interact with other creatures.</li>
+				</list>
+				<h>6th-Level College Ability</h>
+				<p>Your shadow college grants your choice of one of two heroic abilities.</p>
+				<h>6th-Level Black Ash Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>6th-Level Caustic Alchemy Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>6th-Level Harlequin Mask Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; 7th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 7th-level shadow, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Each of your characteristic scores increases by 1, to a maximum of 4.</p>
+				<h>Keen Insight</h>
+				<p>At the start of each of your turns during combat, you gain 1d3 + 1 insight instead of 1d3.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice.</p>
+				<h>Careful Observation Improvement</h>
+				<p>You can target two creatures simultaneously with your Careful Observation ability, observing both simultaneously. Making a strike against one target doesn&#8217;t end your observation of the other target.</p>
+				<h>Ventriloquist</h>
+				<p>Whenever you communicate, you can throw your voice so that it seems to originate from a creature or object within 10 squares. If you are hidden, talking this way doesn&#8217;t cause you to be revealed.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; 8th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As an 8th-level shadow, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>8th-Level College Feature</h>
+				<p>Your shadow college grants you a feature, as shown on the 8th-Level College Features table.</p>
+				<table>
+					<tr>
+						<td>
+							<b>College</b>
+						</td>
+						<td colspan="3">
+							<b>Triggered Action</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Black Ash</td>
+						<td colspan="3">Cinder Step</td>
+					</tr>
+					<tr>
+						<td>Caustic Alchemy</td>
+						<td colspan="3">Time Bomb</td>
+					</tr>
+					<tr>
+						<td>Harlequin Mask</td>
+						<td colspan="3">Parkour</td>
+					</tr>
+				</table>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>11-Insight Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 11 insight to use.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; 9th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 9th-level shadow, you gain the following features.</p>
+				<h>Gloom Squad</h>
+				<p>At the start of each of your turns, you can forgo gaining insight to create 1d6 clones of yourself in unoccupied adjacent spaces. A clone acts on your turn and uses your statistics, except they have 1 Stamina. They are affected by any conditions and effects on you, and last until the start of your next turn. A clone doesn&#8217;t have insight and can&#8217;t use the Careful Observation ability, the Umbral Form feature, or any triggered actions.</p>
+				<p>On their turn, a clone has a move action, a maneuver, and a main action that they can use only to make a free strike. While making a free strike, a clone must choose targets that you or another clone aren&#8217;t also striking</p>
+				<p>Outside of combat, you can have one clone active for every 2 Victories you have. If a clone is destroyed, you must wait 1 hour before creating another one.</p>
+				<h>9th-Level College Ability</h>
+				<p>Your shadow college grants your choice of one of two heroic abilities.</p>
+				<h>9th-Level Black Ash Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>9th-Level Caustic Alchemy Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>9th-Level Harlequin Mask Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; 10th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 10th-level shadow, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Agility score increases to 5. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 5.</p>
+				<h>Death Pool</h>
+				<p>The first time each combat round that you deal damage incorporating 1 or more surges, you gain 3 insight instead of 2.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice.</p>
+				<h>Careful Observation Improvement</h>
+				<p>You can target three creatures simultaneously with your Careful Observation ability.</p>
+				<h>Improved Umbral Form</h>
+				<p>You gain full control over the shadow creature you become with your Umbral Form feature, and you can end the transformation at will (no action required). Additionally, you are always wreathed in darkness that grants you concealment while in this form, and creatures no longer gain an edge on strikes against you.</p>
+				<p>While you are in your umbral form, you can spend 1 uninterrupted minute concentrating on a location where you&#8217;ve been before. At the end of that minute, you and each willing creature of your choice within 10 squares of you can teleport to unoccupied spaces of your choice within that location. Each creature who teleports this way is invisible for 1 hour or until they use an ability.</p>
+				<h>Subterfuge</h>
+				<p>You have an epic resource called subterfuge. Each time you finish a respite, you gain subterfuge equal to the XP you gain. You can spend subterfuge on your abilities as if it were insight.</p>
+				<p>Additionally, you can spend subterfuge to take additional maneuvers on your turn. You can use one maneuver for each subterfuge you spend.Subterfuge remains until you spend it</p>
+				
+				
+				<p>[Source: Draw Steel Heroes v1.0]</p>
 			</notes>
 			<staminaPerLevel type="number">6</staminaPerLevel>
 			<startingAgility type="number">2</startingAgility>
@@ -9783,7 +10311,293 @@
 					<link class="ability" recordname="ability.id-07031">Ability: Mind Game (5 Focus)</link>
 					<link class="ability" recordname="ability.id-07030">Ability: Now! (5 Focus)</link>
 					<link class="ability" recordname="ability.id-07033">Ability: This is What We Planned For! (5 Focus)</link>
-				</linklist><p>[Source: Draw Steel Heroes v1.0]</p>
+				</linklist>
+				
+				
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;2nd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 2nd-level tactician, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one exploration, interpersonal, or intrigue perk of your choice. See Chapter 7: Perks.</p>
+				<h>2nd-Level Doctrine Feature</h>
+				<p>Your tactical doctrine grants you a feature, as shown on the 2nd-Level Doctrine Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 2nd-Level Doctrine Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Doctrine</b>
+						</td>
+						<td>
+							<b>Triggered Action</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Insurgent</td>
+						<td>Advanced Tactics</td>
+					</tr>
+					<tr>
+						<td>Mastermind</td>
+						<td>Overwatch</td>
+					</tr>
+					<tr>
+						<td>Vanguard</td>
+						<td>Parry</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>2nd-Level Doctrine Ability</h>
+				<p>Your tactical doctrine grants your choice of one of two heroic abilities.</p>
+				<h>2nd-Level Insurgent Ability</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>2nd-Level Mastermind Ability</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>2nd-Level Vanguard Ability</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;3rd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 3rd-level tactician, you gain the following features.</p>
+				<h>Out of Position</h>
+				<p>Even before battle begins, your enemies struggle to keep up with your tactics. At the start of an encounter, you can use a free triggered action to use your Mark ability against one enemy you have line of effect to, even if you are surprised. You can then slide the marked target up to 3 squares, ignoring stability. The target can&#8217;t be moved in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect.</p>
+				<h>7-Focus Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 7 focus to use.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;4th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 4th-level tactician, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Might and Reason scores each increase to 3.</p>
+				<h>Focus on Their Weaknesses</h>
+				<p>The first time each combat round that you or any ally damages a target marked by you, you gain 2 focus instead of 1.</p>
+				<h>Improved Field Arsenal</h>
+				<p>Your expertise with weapons has grown. Whenever you use a signature ability from one of your equipped kits or make a free strike using a weapon from one of your equipped kits, you gain an edge.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice. See Skills in Chapter 9: Tests</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;5th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 5th-level tactician, you gain the following features.</p>
+				<h>5th-Level Doctrine Features</h>
+				<p>Your tactical doctrine grants you two features, as shown on the 5th-Level Doctrine Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 5th-Level Doctrine Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Doctrine</b>
+						</td>
+						<td>
+							<b>Triggered Action</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Insurgent</td>
+						<td>Distracted, Leave No Trace</td>
+					</tr>
+					<tr>
+						<td>Mastermind</td>
+						<td>Anticipation, I Predicted That</td>
+					</tr>
+					<tr>
+						<td>Vanguard</td>
+						<td>Shake It Off, Tactical Offensive</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>9-Focus Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 9 focus to use.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;6th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 6th-level tactician, you gain the following features.</p>
+				<h>Master of Arms</h>
+				<p>Your expertise with weapons has grown to true mastery. Whenever you use a signature ability from one of your equipped kits or make a free strike using a weapon from one of your equipped kits, you can negate a bane on the power roll or reduce a double bane to a bane.</p>
+				<h>Perk</h>
+				<p>You gain one exploration, interpersonal, or intrigue perk of your choice.</p>
+				<h>6th-Level Doctrine Ability</h>
+				<p>Your tactical doctrine grants your choice of one of two heroic abilities.</p>
+				<h>6th-Level Insurgent Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>6th-Level Mastermind Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>6th-Level Vanguard Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;7th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 7th-level tactician, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Each of your characteristic scores increases by 1, to a maximum of 4.</p>
+				<h>Heightened Focus</h>
+				<p>When you gain focus at the start of each of your turns during combat, you gain 3 focus instead of 2.</p>
+				<h>Seize the Initiative</h>
+				<p>If you are not surprised when combat begins, your side gets to go first. If an enemy has an ability that allows their side to go first, you roll as usual to determine who goes first.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice.</p>
+				<h>7th-Level Doctrine Feature</h>
+				<p>Your tactical doctrine grants you a feature, as shown on the 7th-Level Doctrine Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 7th-Level Doctrine Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Doctrine</b>
+						</td>
+						<td>
+							<b>Triggered Action</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Insurgent</td>
+						<td>Asymmetric Warfare</td>
+					</tr>
+					<tr>
+						<td>Mastermind</td>
+						<td>Grand Strategy</td>
+					</tr>
+					<tr>
+						<td>Vanguard</td>
+						<td>Shock and Awe</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;8th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As an 8th-level tactician, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>8th-Level Doctrine Feature</h>
+				<p>Your tactical doctrine grants you a feature, as shown on the 8th-Level Doctrine Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 8th-Level Doctrine Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Doctrine</b>
+						</td>
+						<td>
+							<b>Triggered Action</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Insurgent</td>
+						<td>Bait and Ambush</td>
+					</tr>
+					<tr>
+						<td>Mastermind</td>
+						<td>Pincer Movement</td>
+					</tr>
+					<tr>
+						<td>Vanguard</td>
+						<td>See Your Enemies Driven Before You</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>11-Focus Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 11 focus to use.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;9th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 9th-level tactician, you gain the following features.</p>
+				<h>Grandmaster of Arms</h>
+				<p>Your expertise with weapons has grown to true mastery. Whenever you use a signature ability from one of your equipped kits or make a free strike using a weapon from one of your equipped kits, you automatically obtain a tier 3 outcome on the power roll. You can still roll to determine if you score a critical hit.</p>
+				<h>9th-Level Doctrine Ability</h>
+				<p>Your tactical doctrine grants your choice of one of two heroic abilities.</p>
+				<h>9th-Level Insurgent Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>9th-Level Mastermind Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>9th-Level Vanguard Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;10th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 10th-level tactician, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Might and Reason scores each increase to 5.</p>
+				<h>Command </h>
+				<p>You have an epic resource called command. Each time you finish a respite, you gain command equal to the XP you gain. You can spend command on your abilities as if it were focus. </p>
+				<p>Additionally, whenever you or any ally uses an ability to deal rolled damage to a creature marked by you, you can spend 1 command as a free triggered action to increase the power roll outcome for that target by one tier. </p>
+				<p>Whenever an enemy marked by you makes an ability roll, you can spend 1 command as a free triggered action to decrease the power roll outcome by one tier.</p>
+				<p>Command remains until you spend it.</p>
+				<h>Perk</h>
+				<p>You gain one exploration, interpersonal, or intrigue perk of your choice. </p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice.</p>
+				<h>True Focus</h>
+				<p>When you gain focus at the start of each of your turns during combat, you gain 4 focus instead of 3.</p>
+				<h>Warmaster</h>
+				<p>You have mastered the entirety of possible strategies and tactics. Whenever you or any ally makes an ability roll against a target marked by you, the character making the roll can roll three dice and choose which two to use. </p>
+				<p>Additionally, whenever an ally uses a heroic ability that targets one or more creatures marked by you, they spend 2 fewer of their Heroic Resource on that ability (minimum 1)</p>
+				
+				
+				
+				
+				
+				
+				
+				
+				<p>[Source: Draw Steel Heroes v1.0]</p>
 			</notes>
 			<staminaPerLevel type="number">9</staminaPerLevel>
 			<startingAgility type="number">0</startingAgility>
