@@ -495,403 +495,227 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">8</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">5</characteristic>
+			<abilitytype type="string">Domain Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
-			<distance type="string">Ranged 10 </distance>
-			<effect type="string">While the target is slowed this way, each ally who starts their turn within 5 squares of them must use a free maneuver to make a free strike against the target. Additionally, while the target is slowed this way, each ally within 5 squares of them who can make a triggered free strike against a different creature must make the free strike against the target instead.</effect>
-			<keywords type="string">Ranged, Strike, Weapon</keywords>
-			<name type="string">Your Allies Turn on You! (11 Wrath)</name>
+			<distance type="string">3 burst</distance>
+			<effect type="string">Each ally is hidden from each enemy until the start of your next turn, and each ally can move up to 2 squares.</effect>
+			<keywords type="string">Area, Magic </keywords>
+			<name type="string">Miraculous Veil (11 Wrath) (Censor)</name>
 			<notes type="formattedtext">
-				<p>You turn your enemies&#8217; ire to the target.</p>
+				<p>A veil of holy energy protects you and your allies from enemy eyes.</p>
 			</notes>
-			<target type="string">One creature</target>
-			<type type="string">Main action</type>
+			<subclass type="string">Trickery Domain</subclass>
+			<target type="string">Each ally in the area</target>
+			<type type="string">Maneuver</type>
 		</id-01127>
-		<id-01128>
-			<ability_cost type="number">11</ability_cost>
-			<ability_cost_string type="string">Wrath</ability_cost_string>
-			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">This ability gains an edge against demons, devils, undead, and creatures not native to your current world. If you know the target’s true name, this ability has a double edge. While banished, the target is sent to another manifold in the timescape and removed from the encounter map. A banished target can do nothing but make saving throws, and takes 10 holy damage each time they do so. If the target is reduced to 0 Stamina while banished, they are lost to the timescape.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Banish (11 Wrath)</name>
-			<notes type="formattedtext">
-				<p>You sever the target&#8217;s tenuous connection to the world.</p>
-			</notes>
-			<subclass type="string">Exorcist</subclass>
-			<target type="string">One creature</target>
-			<tier1 type="string">5 + M damage; p&lt;Weak , the target is banished (save ends)</tier1>
-			<tier2 type="string">8 + M damage; p&lt;Average , the target is banished (save ends)</tier2>
-			<tier3 type="string">11 + M damage; p&lt;Strong , the target is banished (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-01128>
-		<id-01129>
-			<ability_cost type="number">11</ability_cost>
-			<ability_cost_string type="string">Wrath</ability_cost_string>
-			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
-			<characteristic type="number">5</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">While frightened this way, if a target who is a leader or solo creature is winded, they take an extra 25 psychic damage. If a target frightened this way is not a leader or solo creature and is winded, they are reduced to 0 Stamina. </effect>
-			<keywords type="string">Magic, Ranged, Strike </keywords>
-			<name type="string">Terror Manifest (11 Wrath)</name>
-			<notes type="formattedtext">
-				<p>&#8220;I know what you fear.&#34;</p>
-			</notes>
-			<subclass type="string">Exorcist</subclass>
-			<target type="string">One creature</target>
-			<tier1 type="string">7 + P psychic damage; p&lt;Weak , frightened (save ends)</tier1>
-			<tier2 type="string">10 + P psychic damage; p&lt;Average , frightened (save ends)</tier2>
-			<tier3 type="string">13 + P psychic damage; p&lt;Strong , frightened (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-01129>
-		<id-01051>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.\n\nWhenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them.\n\nWhen a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target. Additionally, you can spend 1 wrath to take one of the following\nfree triggered actions:\n\n  • When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.\n\n  • When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.\n\n  • When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.\n\n  • If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn.\n\nYou can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect.</effect>
-			<keywords type="string">Magic, Ranged</keywords>
-			<name type="string">Judgement</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You utter a prayer that outlines your foe in holy energy.</i>
-				</p>
-			</notes>
-			<target type="string">One enemy</target>
-			<type type="string">Maneuver</type>
-		</id-01051>
-		<id-01052>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">You spend a Recovery and the target regains Stamina equal to your recovery value.</effect>
-			<keywords type="string">Magic, Ranged</keywords>
-			<name type="string">My Life for Yours</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You channel some of your vitality into more resilience for you or an ally.</i>
-				</p>
-			</notes>
-			<special type="string">Spend 1 Wrath: You can end one effect on the target that is ended by a saving throw or that ends at the end of their turn, or a prone target can stand up.</special>
-			<target type="string">Self or one ally</target>
-			<trigger type="string">The target starts their turn or takes damage.</trigger>
-			<type type="string">Triggered</type>
-		</id-01052>
-		<id-01053>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Self</distance>
-			<effect type="string">You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has speed 5 and can fly, but can’t physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can’t be reduced in any way.</effect>
-			<keywords type="string">Magic</keywords>
-			<name type="string">Faithful Friend</name>
-			<notes type="formattedtext">
-				<p>An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.</p>
-			</notes>
-			<subclass type="string">Nature Domain</subclass>
-			<target type="string">Self</target>
-			<type type="string">Main action</type>
-		</id-01053>
-		<id-01065>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Magic</keywords>
-			<name type="string">Grave Speech</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You commune with the lingering soul of the recently dead.</i>
-				</p>
-			</notes>
-			<special type="string">You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. The trauma of dying can make a creature’s memory of that event hazy, but the target otherwise\nknows all they knew in life. After 1 minute, the effect ends. You can’t use this ability on the same creature twice.</special>
-			<subclass type="string">Death Domain</subclass>
-			<target type="string">One dead creature</target>
-			<type type="string">Maneuver</type>
-		</id-01065>
-		<id-01072>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Self</distance>
-			<effect type="string">You create a mundane object of size 1S or smaller. You can maintain a number of objects created this way equal to your\nPresence score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).</effect>
-			<keywords type="string">Magic</keywords>
-			<name type="string">Hands of the Maker</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You craft objects with the power of your mind.</i>
-				</p>
-			</notes>
-			<subclass type="string">Creation Domain</subclass>
-			<target type="string">Self</target>
-			<type type="string">Maneuver</type>
-		</id-01072>
-		<id-01084>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string"> Melee 1</distance>
-			<effect type="string">Each enemy adjacent to the target is pushed away from the target up to a number of squares equal to your Presence score.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Your Allies Cannot Save You!</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Your magic strike turns your foe&#8217;s guilt into a burst of holy power.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + M holy damage</tier1>
-			<tier2 type="string">5 + M holy damage</tier2>
-			<tier3 type="string">8 + M holy damage</tier3>
-			<type type="string">Main action</type>
-		</id-01084>
-		<id-01085>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Halt Miscreant!</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You infuse your weapon with holy magic that makes it difficult for your foe to get away.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">2 + M holy damage; P&lt;WEAK, slowed (save ends)</tier1>
-			<tier2 type="string">5 + M holy damage; P&lt;AVERAGE, slowed\n(save ends)</tier2>
-			<tier3 type="string">7 + M holy damage; P&lt;STRONG, slowed (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-01085>
-		<id-01086>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">5</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move.</effect>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Every Step … Death!</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You show your foe a glimpse of their fate after death.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">5 + P psychic damage</tier1>
-			<tier2 type="string">7 + P psychic damage</tier2>
-			<tier3 type="string">10+ P psychic damage</tier3>
-			<type type="string">Main action</type>
-		</id-01086>
-		<id-01087>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">5</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">2 cube within 1</distance>
-			<keywords type="string">Area, Magic, Melee, Weapon</keywords>
-			<name type="string">Back Blasphemer!</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You channel power through your weapon to repel foes.</i>
-				</p>
-			</notes>
-			<target type="string">Each enemy in the area</target>
-			<tier1 type="string">2 holy damage; push 1</tier1>
-			<tier2 type="string">4 holy damage; push 2</tier2>
-			<tier3 type="string">6 holy damage; push 3</tier3>
-			<type type="string">Main action</type>
-		</id-01087>
-		<id-01088>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">Until the start of your next turn, enemies take a bane on ability rolls made against you or any ally adjacent to you.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Behold a Shield of Faith! (3 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>A mighty blow turns your foe&#8217;s vitality into a holy light that envelops you and an ally, discouraging enemies who might attack you.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + M holy damage</tier1>
-			<tier2 type="string">6 + M holy damage</tier2>
-			<tier3 type="string">9 + M holy damage</tier3>
-			<type type="string">Main action</type>
-		</id-01088>
-		<id-01089>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">5</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Ranged 10</distance>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Repent! (3 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You conjure memories of their sins to harry your foes.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">5 + P holy damage; I&lt;WEAK, dazed (save ends)</tier1>
-			<tier2 type="string">8 + P holy damage; I&lt;AVERAGE, dazed (save ends)</tier2>
-			<tier3 type="string">11+ P holy damage; I&lt;STRONG, dazed (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-01089>
-		<id-01092>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">If the target makes a strike against a creature while grabbed this way, you can spend 3 wrath to deal holy damage to them equal to your Presence score, then change the target of the strike to another target within the strike’s distance.</effect>
-			<keywords type="string">Magic, Melee, Strike, Weapon</keywords>
-			<name type="string">Arrest (5 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>&#8220;I&#8217;ve got you, you son of a bitch.&#8221;</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">6 + M holy damage; grabbed</tier1>
-			<tier2 type="string">9 + M holy damage; grabbed</tier2>
-			<tier3 type="string">13 + M holy damage; grabbed</tier3>
-			<type type="string">Main action</type>
-		</id-01092>
-		<id-01093>
-			<ability_cost type="number">4</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1 or ranged 5</distance>
-			<effect type="string">While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage.</effect>
-			<keywords type="string">Magic, Melee, Ranged, Strike, Weapon</keywords>
-			<name type="string">Purifying Fire (5 Wrath)</name>
-			<notes type="formattedtext">
-				<p>The gods judge, fire cleanses.</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">5 + M holy damage; M&lt;WEAK, the target has fire weakness 3 (save ends)</tier1>
-			<tier2 type="string">9 + M holy damage; M&lt;AVERAGE, the target has fire weakness 5 (save ends)</tier2>
-			<tier3 type="string">12 + M holy damage; M&lt;STRONG, the target has fire weakness 7 (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-01093>
-		<id-01094>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">When a target who is not a leader or solo creature is made winded by this ability, they are reduced to 0 Stamina.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Censored (5 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Judged and sentenced.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">2 + M holy damage</tier1>
-			<tier2 type="string">3 + M holy damage</tier2>
-			<tier3 type="string">5 + M holy damage</tier3>
-			<type type="string">Main action</type>
-		</id-01094>
-		<id-01095>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1 or ranged 5</distance>
-			<effect type="string">Each enemy frightened this way is pushed up to 2 squares away from the target and takes psychic damage equal to your Presence score.</effect>
-			<keywords type="string">Magic, Melee, Ranged, Strike, Weapon</keywords>
-			<name type="string">Behold the Face of Justice! (5 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You attack a foe and your enemies behold a vision of the true nature of your resolve.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">3 + M holy damage; if the target has P&lt;WEAK, each enemy within 2 squares of them is frightened of you (save ends)</tier1>
-			<tier2 type="string">5 + M holy damage; if the target has P&lt;AVERAGE, each enemy within 2 squares of them is frightened of you (save ends)</tier2>
-			<tier3 type="string">8 + M holy damage; if the target has P&lt;STRONG, each enemy within 2 squares of them is frightened of you (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-01095>
-		<id-01096>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">You can spend a Recovery to allow yourself or one ally within 10 squares to regain Stamina equal to your recovery value.</effect>
-			<keywords type="string">Magic, Melee, Strike, Weapon</keywords>
-			<name type="string">The Gods Punish and Defend (3 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You channel holy energy to smite a foe and heal an ally.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">5 + M holy damage</tier1>
-			<tier2 type="string">8 + M holy damage</tier2>
-			<tier3 type="string">11 + M holy damage</tier3>
-			<type type="string">Main action</type>
-		</id-01096>
-		<id-01097>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">You can shift up to your speed. You must end this shift within distance of the target.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Driving Assault (3 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>As you force your enemy back with your weapon, you use your faith to stay close.</i>
-				</p>
-			</notes>
-			<target type="string"> One creature or object</target>
-			<tier1 type="string">3 + M damage; push 1</tier1>
-			<tier2 type="string">6 + M damage; push 3</tier2>
-			<tier3 type="string">9 + M damage; push 5</tier3>
-			<type type="string">Main action</type>
-		</id-01097>
 
 		<!-- Conduit Abilities -->
+		<id-02007>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Conduit</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The target can spend a Recovery.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">Healing Grace</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Your divine energy restores the righteous.</i>
+				</p>
+			</notes>
+			<special type="string">Spend 1+ Piety: For each piety spent, choose one of the following enhancements:
+			♦ You can target one additional ally within distance.
+			♦ You can end one effect on a target that is ended by a saving throw
+			or that ends at the end of their turn.
+			♦ A prone target can stand up.
+			♦ A target can spend 1 additional Recovery.</special>
+			<target type="string">Self or one ally</target>
+			<type type="string">Maneuver</type>
+		</id-02007>
+		<id-02046>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">4</characteristic>
+			<class type="string">Conduit</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">You can have this ability deal holy damage.</effect>
+			<keywords type="string">Magic, Ranged, Strike</keywords>
+			<name type="string">Ray of Wrath</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You unleash a blast of holy light upon your foe.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">2 + I damage</tier1>
+			<tier2 type="string">4 + I damage</tier2>
+			<tier3 type="string">6 + I damage</tier3>
+			<type type="string">Main action</type>
+		</id-02046>
+		<id-02047>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Conduit</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The power roll gains an edge.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">Word of Guidance</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You invigorate an attacking ally with divine energy.</i>
+				</p>
+			</notes>
+			<special type="string">Spend 1 Piety: The power roll has a double edge.</special>
+			<target type="string">One ally</target>
+			<trigger type="string">The target makes an ability roll for a damage-dealing ability.</trigger>
+			<type type="string">Triggered</type>
+		</id-02047>
+		<id-02048>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Conduit</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The power roll takes a bane against the target.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">Word of Judgment</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Your holy word saps an attacking enemy&#8217;s strength.</i>
+				</p>
+			</notes>
+			<special type="string">Spend 1 Piety: The power roll has a double bane against the target.</special>
+			<target type="string">One ally</target>
+			<trigger type="string">The target would take damage from an ability that uses a power roll.</trigger>
+			<type type="string">Triggered</type>
+		</id-02048>
+		<id-02049>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">4</characteristic>
+			<class type="string">Conduit</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">One ally within distance gains a number of surges equal to the tier outcome of your power roll.</effect>
+			<keywords type="string">Magic, Ranged, Strike</keywords>
+			<name type="string">Blessed Light</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Burning radiance falls upon your foe, transferring some of their energy to a nearby ally.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">3 + [I] holy damage</tier1>
+			<tier2 type="string">5 + [I] holy damage</tier2>
+			<tier3 type="string">8 + [I] holy damage</tier3>
+			<type type="string">Main action</type>
+		</id-02049>
+		<id-02066>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">4</characteristic>
+			<class type="string">Conduit</class>
+			<distance type="string">Ranged 10</distance>
+			<keywords type="string">Magic, Ranged, Strike</keywords>
+			<name type="string">Curse of Terror (5 Piety)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Fear of divine judgment overwhelms your foe.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">6 + [I] holy damage; [I]&lt;[WEAK], frightened (save ends)</tier1>
+			<tier2 type="string">9 + [I] holy damage; [I]&lt;[AVERAGE], frightened (save ends)</tier2>
+			<tier3 type="string">13 + [I] holy damage; [I]&lt;[STRONG], frightened (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-02066>
+		<id-02067>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">4</characteristic>
+			<class type="string">Conduit</class>
+			<distance type="string">Ranged 10</distance>
+			<keywords type="string">Magic, Ranged, Strike</keywords>
+			<name type="string">Corruption’s Curse (5 Piety)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Cursed by you, your enemy takes more damage from your allies.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">3 + I corruption damage; M&lt;w, damage weakness 5 (save ends)</tier1>
+			<tier2 type="string">6 + I corruption damage; M&lt;v, damage weakness 5 (save ends)</tier2>
+			<tier3 type="string">9 + I corruption damage; M&lt;s, damage weakness 5 (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-02067>
+		<id-02068>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">4</characteristic>
+			<class type="string">Conduit</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The first time on a turn that the target deals damage to another creature, the target of this ability takes 1d10 lightning damage (save ends).</effect>
+			<keywords type="string">Magic, Ranged, Strike</keywords>
+			<name type="string">Violence Will Not Aid Thee (3 Piety)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>After some holy lightning, your enemy will think twice about their next attack.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">3 + [I] lightning damage</tier1>
+			<tier2 type="string">6 + [I] lightning damage</tier2>
+			<tier3 type="string">9 + [I] lightning damage</tier3>
+			<type type="string">Main action</type>
+		</id-02068>
+		<id-02069>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">4</characteristic>
+			<class type="string">Conduit</class>
+			<distance type="string">Main action</distance>
+			<keywords type="string">Magic, Ranged, Strike</keywords>
+			<name type="string">Judgment’s Hammer (3 Piety)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Your divine fury is a hammer that crashes down upon the unrighteous.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">3 + [I] holy damage; [A]&lt;[WEAK], prone</tier1>
+			<tier2 type="string">6 + [I] holy damage; [A]&lt;[AVERAGE], prone</tier2>
+			<tier3 type="string">9 + [I] holy damage; [A]&lt;[STRONG], prone and can’t stand (save ends)</tier3>
+			<type type="string">Ranged 10</type>
+		</id-02069>
+		<id-02070>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Conduit</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">You summon a spirit of size 2 who can’t be harmed, and who appears in an unoccupied space within distance. The spirit lasts until the end of your next turn. You and your allies can move through the spirit’s space, but enemies can’t. Any enemy who moves within 2 squares of the spirit for the first time in a combat round or starts their turn there takes holy damage equal to your Intuition score.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">Font of Wrath (3 Piety)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.</i>
+				</p>
+			</notes>
+			<target type="string">Special</target>
+			<type type="string">Main action</type>
+		</id-02070>
 		<id-02071>
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
@@ -1322,9 +1146,9 @@
 				<p>&#8220;If you won&#8217;t kneel, the gods will make you.&#8221;</p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
-			<tier1 type="string">4 corruption damage; i&lt;Weak , prone and can’t stand \n(save ends)</tier1>
-			<tier2 type="string">7 corruption damage; i&lt;Average , prone and can’t stand \n(save ends)</tier2>
-			<tier3 type="string">11 corruption damage; i&lt;Strong , prone and can’t stand \n(save ends)</tier3>
+			<tier1 type="string">4 corruption damage; i&lt;Weak , prone and can’t stand (save ends)</tier1>
+			<tier2 type="string">7 corruption damage; i&lt;Average , prone and can’t stand (save ends)</tier2>
+			<tier3 type="string">11 corruption damage; i&lt;Strong , prone and can’t stand (save ends)</tier3>
 			<type type="string">Main action</type>
 		</id-02093>
 		<id-02094>
@@ -1443,7 +1267,11 @@
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
-			<effect type="string">You conjure a size 2 rolling machine that appears in an unoccupied space within distance. The machine has 50 Stamina and immunity all to poison and psychic damage. It disappears at the end of the encounter, if its Stamina drops to 0, or if you are dying. When the machine first appears, make the following power roll once, targeting each enemy adjacent to it.\n\nOnce on each subsequent turn, you can use a free maneuver to \nmove the machine a number of squares up to your Intuition score \nthen repeat the power roll.</effect>
+			<effect type="string">You conjure a size 2 rolling machine that appears in an unoccupied space within distance. The machine has 50 Stamina and immunity all to poison and psychic damage. It disappears at the end of the encounter, if its Stamina drops to 0, or if you are dying. When the machine first appears, make the following power roll once, targeting each enemy adjacent to it.
+
+				Once on each subsequent turn, you can use a free maneuver to 
+				move the machine a number of squares up to your Intuition score 
+				then repeat the power roll.</effect>
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Gods’ Machine (9 Piety)</name>
 			<notes type="formattedtext">
@@ -1468,7 +1296,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Invocation of Mystery (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>&#8220;Now you see us &#8230;&#8221;</p>
+				<p>“Now you see us …”</p>
 			</notes>
 			<subclass type="string">Trickery Domain</subclass>
 			<target type="string">Self and each ally in the area</target>
@@ -1622,7 +1450,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Trinity of Trickery (9 Piety) (Conduit)</name>
 			<notes type="formattedtext">
-				<p>Hey! I&#8217;m over here. No, here, numbskull.</p>
+				<p>Hey! I’m over here. No, here, numbskull.</p>
 			</notes>
 			<subclass type="string">Trickery Domain</subclass>
 			<target type="string">Self or one ally</target>
@@ -1674,7 +1502,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Blessing of the Blade (11 Piety)</name>
 			<notes type="formattedtext">
-				<p> &#8220;The power of the gods is within you, friends. Allow me to unleash it.&#8221;</p>
+				<p> “The power of the gods is within you, friends. Allow me to unleash it.”</p>
 			</notes>
 			<target type="string">Self and each ally in the area</target>
 			<type type="string">Maneuver</type>
@@ -1773,206 +1601,6 @@
 			</notes>
 			<subclass type="string">Fate Domain</subclass>
 		</id-02118>
-		<id-02007>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">The target can spend a Recovery.</effect>
-			<keywords type="string">Magic, Ranged</keywords>
-			<name type="string">Healing Grace</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Your divine energy restores the righteous.</i>
-				</p>
-			</notes>
-			<special type="string">Spend 1+ Piety: For each piety spent, choose one of the following enhancements:\n♦ You can target one additional ally within distance.\n♦ You can end one effect on a target that is ended by a saving throw\nor that ends at the end of their turn.\n♦ A prone target can stand up.\n♦ A target can spend 1 additional Recovery.</special>
-			<target type="string">Self or one ally</target>
-			<type type="string">Maneuver</type>
-		</id-02007>
-		<id-02046>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">You can have this ability deal holy damage.</effect>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Ray of Wrath</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You unleash a blast of holy light upon your foe.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">2 + I damage</tier1>
-			<tier2 type="string">4 + I damage</tier2>
-			<tier3 type="string">6 + I damage</tier3>
-			<type type="string">Main action</type>
-		</id-02046>
-		<id-02047>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">The power roll gains an edge.</effect>
-			<keywords type="string">Magic, Ranged</keywords>
-			<name type="string">Word of Guidance</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You invigorate an attacking ally with divine energy.</i>
-				</p>
-			</notes>
-			<special type="string">Spend 1 Piety: The power roll has a double edge.</special>
-			<target type="string">One ally</target>
-			<trigger type="string">The target makes an ability roll for a damage-dealing ability.</trigger>
-			<type type="string">Triggered</type>
-		</id-02047>
-		<id-02048>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">The power roll takes a bane against the target.</effect>
-			<keywords type="string">Magic, Ranged</keywords>
-			<name type="string">Word of Judgment</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Your holy word saps an attacking enemy&#8217;s strength.</i>
-				</p>
-			</notes>
-			<special type="string">Spend 1 Piety: The power roll has a double bane against the target.</special>
-			<target type="string">One ally</target>
-			<trigger type="string">The target would take damage from an ability that uses a power roll.</trigger>
-			<type type="string">Triggered</type>
-		</id-02048>
-		<id-02049>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">One ally within distance gains a number of surges equal to the tier outcome of your power roll.</effect>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Blessed Light</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Burning radiance falls upon your foe, transferring some of their energy to a nearby ally.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + [I] holy damage</tier1>
-			<tier2 type="string">5 + [I] holy damage</tier2>
-			<tier3 type="string">8 + [I] holy damage</tier3>
-			<type type="string">Main action</type>
-		</id-02049>
-		<id-02066>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Curse of Terror (5 Piety)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Fear of divine judgment overwhelms your foe.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">6 + [I] holy damage; [I]&lt;[WEAK], frightened (save ends)</tier1>
-			<tier2 type="string">9 + [I] holy damage; [I]&lt;[AVERAGE], frightened (save ends)</tier2>
-			<tier3 type="string">13 + [I] holy damage; [I]&lt;[STRONG], frightened (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-02066>
-		<id-02067>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Corruption’s Curse (5 Piety)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Cursed by you, your enemy takes more damage from your allies.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + I corruption damage; M&lt;w, damage weakness 5 (save ends)</tier1>
-			<tier2 type="string">6 + I corruption damage; M&lt;v, damage weakness 5 (save ends)</tier2>
-			<tier3 type="string">9 + I corruption damage; M&lt;s, damage weakness 5 (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-02067>
-		<id-02068>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">The first time on a turn that the target deals damage to another creature, the target of this ability takes 1d10 lightning damage (save ends).</effect>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Violence Will Not Aid Thee (3 Piety)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>After some holy lightning, your enemy will think twice about their next attack.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">3 + [I] lightning damage</tier1>
-			<tier2 type="string">6 + [I] lightning damage</tier2>
-			<tier3 type="string">9 + [I] lightning damage</tier3>
-			<type type="string">Main action</type>
-		</id-02068>
-		<id-02069>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Main action</distance>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Judgment’s Hammer (3 Piety)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Your divine fury is a hammer that crashes down upon the unrighteous.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + [I] holy damage; [A]&lt;[WEAK], prone</tier1>
-			<tier2 type="string">6 + [I] holy damage; [A]&lt;[AVERAGE], prone</tier2>
-			<tier3 type="string">9 + [I] holy damage; [A]&lt;[STRONG], prone and can’t stand (save ends)</tier3>
-			<type type="string">Ranged 10</type>
-		</id-02069>
-		<id-02070>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">You summon a spirit of size 2 who can’t be harmed, and who appears in an unoccupied space within distance. The spirit lasts until the end of your next turn. You and your allies can move through the spirit’s space, but enemies can’t. Any enemy who moves within 2 squares of the spirit for the first time in a combat round or starts their turn there takes holy damage equal to your Intuition score.</effect>
-			<keywords type="string">Magic, Ranged</keywords>
-			<name type="string">Font of Wrath (3 Piety)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.</i>
-				</p>
-			</notes>
-			<target type="string">Special</target>
-			<type type="string">Main action</type>
-		</id-02070>
 
 		<!-- Elementalist Abilities -->
 		<id-03001>
@@ -2424,6 +2052,23 @@
 		</id-03028>
 
 		<!-- Fury Abilities -->
+		<id-04071>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<characteristic type="number">0</characteristic>
+			<distance type="string">Self</distance>
+			<effect type="string">You take half the damage from the triggering effect and can shift up to a number of squares equal to your Agility score.</effect>
+			<name type="string">Unearthly Reflexes</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You are as elusive as a hummingbird.</i>
+				</p>
+			</notes>
+			<special type="string">Spend 1 Ferocity: If the damage has any potency effects associated with it, the potency is reduced by 1 for you.</special>
+			<target type="string">Self</target>
+			<trigger type="string">You take damage.</trigger>
+			<type type="string">Triggered</type>
+		</id-04071>
 		<id-04905>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
@@ -4637,23 +4282,7 @@
 			<target type="string">Self</target>
 			<type type="string">Maneuver</type>
 		</id-00001>
-		<id-00071>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">0</ability_level>
-			<characteristic type="number">0</characteristic>
-			<distance type="string">Self</distance>
-			<effect type="string">You take half the damage from the triggering effect and can shift up to a number of squares equal to your Agility score.</effect>
-			<name type="string">Unearthly Reflexes</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You are as elusive as a hummingbird.</i>
-				</p>
-			</notes>
-			<special type="string">Spend 1 Ferocity: If the damage has any potency effects associated with it, the potency is reduced by 1 for you.</special>
-			<target type="string">Self</target>
-			<trigger type="string">You take damage.</trigger>
-			<type type="string">Triggered</type>
-		</id-00071>
+		
 	</ability>
 	<class>
 		<id-00001>
