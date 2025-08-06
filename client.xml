@@ -2,92 +2,7 @@
 <root version="4.7" dataversion="20241002" release="1|CoreRPG:7">
 <!-- WIP: update classes to match Draw Steel Heroes Book v1.0 -->
 	<ability>
-		<id-04905>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Kit Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Unbalancing Attack</name>
-			<notes type="formattedtext">
-				<p>
-					<i>A wild assault forces your foe onto their back.</i>
-				</p>
-			</notes>
-			<subclass type="string">Stormwight</subclass>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">4 + [M] damage; [A]&lt;[WEAK] , prone</tier1>
-			<tier2 type="string">7 + [M] damage; [A]&lt;[AVERAGE] , prone</tier2>
-			<tier3 type="string">9 + [M] damage; [A]&lt;[STRONG] , prone</tier3>
-			<type type="string">Main action</type>
-		</id-04905>
-		<id-04906>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Kit Ability</abilitytype>
-			<characteristic type="number">2</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">You can shift up to the same number of squares that you pushed the target.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Driving Pounce</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Your enemies try in vain to fall back from your pouncing attack.</i>
-				</p>
-			</notes>
-			<subclass type="string">Stormwight</subclass>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">4 + A damage</tier1>
-			<tier2 type="string">7 + A damage; push 1</tier2>
-			<tier3 type="string">9 + A damage; push 2</tier3>
-			<type type="string">Main action</type>
-		</id-04906>
-		<id-04907>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Kit Ability</abilitytype>
-			<characteristic type="number">2</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">1 burst</distance>
-			<effect type="string">You can shift up to 2 squares before or after making the power roll.</effect>
-			<keywords type="string">Area, Melee, Weapon</keywords>
-			<name type="string">Wing Buffet</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Foes who try to close in around you do so at their peril.</i>
-				</p>
-			</notes>
-			<subclass type="string">Stormwight</subclass>
-			<target type="string">Each enemy in the area</target>
-			<tier1 type="string">3 damage</tier1>
-			<tier2 type="string">6 damage</tier2>
-			<tier3 type="string">8 damage</tier3>
-			<type type="string">Main action</type>
-		</id-04907>
-		<id-04908>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Kit Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Bear Claws</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Attacks with your sharp and deadly claws grab the weak.</i>
-				</p>
-			</notes>
-			<subclass type="string">Stormwight</subclass>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">2 + [M] damage; [M]&lt;[WEAK] , grabbed</tier1>
-			<tier2 type="string">5 + [M] damage; [M]&lt;[AVERAGE] , grabbed</tier2>
-			<tier3 type="string">11 + [M] damage; [M]&lt;[STRONG] , grabbed</tier3>
-			<type type="string">Main action</type>
-		</id-04908>
+		<!-- Censor Abilities -->
 		<id-01098>
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
@@ -635,6 +550,348 @@
 			<tier3 type="string">13 + P psychic damage; p&lt;Strong , frightened (save ends)</tier3>
 			<type type="string">Main action</type>
 		</id-01129>
+		<id-01051>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.\n\nWhenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them.\n\nWhen a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target. Additionally, you can spend 1 wrath to take one of the following\nfree triggered actions:\n\n  • When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.\n\n  • When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.\n\n  • When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.\n\n  • If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn.\n\nYou can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">Judgement</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You utter a prayer that outlines your foe in holy energy.</i>
+				</p>
+			</notes>
+			<target type="string">One enemy</target>
+			<type type="string">Maneuver</type>
+		</id-01051>
+		<id-01052>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">You spend a Recovery and the target regains Stamina equal to your recovery value.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">My Life for Yours</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You channel some of your vitality into more resilience for you or an ally.</i>
+				</p>
+			</notes>
+			<special type="string">Spend 1 Wrath: You can end one effect on the target that is ended by a saving throw or that ends at the end of their turn, or a prone target can stand up.</special>
+			<target type="string">Self or one ally</target>
+			<trigger type="string">The target starts their turn or takes damage.</trigger>
+			<type type="string">Triggered</type>
+		</id-01052>
+		<id-01053>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Self</distance>
+			<effect type="string">You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has speed 5 and can fly, but can’t physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can’t be reduced in any way.</effect>
+			<keywords type="string">Magic</keywords>
+			<name type="string">Faithful Friend</name>
+			<notes type="formattedtext">
+				<p>An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.</p>
+			</notes>
+			<subclass type="string">Nature Domain</subclass>
+			<target type="string">Self</target>
+			<type type="string">Main action</type>
+		</id-01053>
+		<id-01065>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<keywords type="string">Magic</keywords>
+			<name type="string">Grave Speech</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You commune with the lingering soul of the recently dead.</i>
+				</p>
+			</notes>
+			<special type="string">You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. The trauma of dying can make a creature’s memory of that event hazy, but the target otherwise\nknows all they knew in life. After 1 minute, the effect ends. You can’t use this ability on the same creature twice.</special>
+			<subclass type="string">Death Domain</subclass>
+			<target type="string">One dead creature</target>
+			<type type="string">Maneuver</type>
+		</id-01065>
+		<id-01072>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Self</distance>
+			<effect type="string">You create a mundane object of size 1S or smaller. You can maintain a number of objects created this way equal to your\nPresence score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).</effect>
+			<keywords type="string">Magic</keywords>
+			<name type="string">Hands of the Maker</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You craft objects with the power of your mind.</i>
+				</p>
+			</notes>
+			<subclass type="string">Creation Domain</subclass>
+			<target type="string">Self</target>
+			<type type="string">Maneuver</type>
+		</id-01072>
+		<id-01084>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string"> Melee 1</distance>
+			<effect type="string">Each enemy adjacent to the target is pushed away from the target up to a number of squares equal to your Presence score.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Your Allies Cannot Save You!</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Your magic strike turns your foe&#8217;s guilt into a burst of holy power.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">3 + M holy damage</tier1>
+			<tier2 type="string">5 + M holy damage</tier2>
+			<tier3 type="string">8 + M holy damage</tier3>
+			<type type="string">Main action</type>
+		</id-01084>
+		<id-01085>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Halt Miscreant!</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You infuse your weapon with holy magic that makes it difficult for your foe to get away.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">2 + M holy damage; P&lt;WEAK, slowed (save ends)</tier1>
+			<tier2 type="string">5 + M holy damage; P&lt;AVERAGE, slowed\n(save ends)</tier2>
+			<tier3 type="string">7 + M holy damage; P&lt;STRONG, slowed (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-01085>
+		<id-01086>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">5</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move.</effect>
+			<keywords type="string">Magic, Ranged, Strike</keywords>
+			<name type="string">Every Step … Death!</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You show your foe a glimpse of their fate after death.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">5 + P psychic damage</tier1>
+			<tier2 type="string">7 + P psychic damage</tier2>
+			<tier3 type="string">10+ P psychic damage</tier3>
+			<type type="string">Main action</type>
+		</id-01086>
+		<id-01087>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">5</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">2 cube within 1</distance>
+			<keywords type="string">Area, Magic, Melee, Weapon</keywords>
+			<name type="string">Back Blasphemer!</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You channel power through your weapon to repel foes.</i>
+				</p>
+			</notes>
+			<target type="string">Each enemy in the area</target>
+			<tier1 type="string">2 holy damage; push 1</tier1>
+			<tier2 type="string">4 holy damage; push 2</tier2>
+			<tier3 type="string">6 holy damage; push 3</tier3>
+			<type type="string">Main action</type>
+		</id-01087>
+		<id-01088>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">Until the start of your next turn, enemies take a bane on ability rolls made against you or any ally adjacent to you.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Behold a Shield of Faith! (3 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>A mighty blow turns your foe&#8217;s vitality into a holy light that envelops you and an ally, discouraging enemies who might attack you.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">3 + M holy damage</tier1>
+			<tier2 type="string">6 + M holy damage</tier2>
+			<tier3 type="string">9 + M holy damage</tier3>
+			<type type="string">Main action</type>
+		</id-01088>
+		<id-01089>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">5</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<keywords type="string">Magic, Ranged, Strike</keywords>
+			<name type="string">Repent! (3 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You conjure memories of their sins to harry your foes.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">5 + P holy damage; I&lt;WEAK, dazed (save ends)</tier1>
+			<tier2 type="string">8 + P holy damage; I&lt;AVERAGE, dazed (save ends)</tier2>
+			<tier3 type="string">11+ P holy damage; I&lt;STRONG, dazed (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-01089>
+		<id-01092>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">If the target makes a strike against a creature while grabbed this way, you can spend 3 wrath to deal holy damage to them equal to your Presence score, then change the target of the strike to another target within the strike’s distance.</effect>
+			<keywords type="string">Magic, Melee, Strike, Weapon</keywords>
+			<name type="string">Arrest (5 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>&#8220;I&#8217;ve got you, you son of a bitch.&#8221;</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">6 + M holy damage; grabbed</tier1>
+			<tier2 type="string">9 + M holy damage; grabbed</tier2>
+			<tier3 type="string">13 + M holy damage; grabbed</tier3>
+			<type type="string">Main action</type>
+		</id-01092>
+		<id-01093>
+			<ability_cost type="number">4</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1 or ranged 5</distance>
+			<effect type="string">While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage.</effect>
+			<keywords type="string">Magic, Melee, Ranged, Strike, Weapon</keywords>
+			<name type="string">Purifying Fire (5 Wrath)</name>
+			<notes type="formattedtext">
+				<p>The gods judge, fire cleanses.</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">5 + M holy damage; M&lt;WEAK, the target has fire weakness 3 (save ends)</tier1>
+			<tier2 type="string">9 + M holy damage; M&lt;AVERAGE, the target has fire weakness 5 (save ends)</tier2>
+			<tier3 type="string">12 + M holy damage; M&lt;STRONG, the target has fire weakness 7 (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-01093>
+		<id-01094>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">When a target who is not a leader or solo creature is made winded by this ability, they are reduced to 0 Stamina.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Censored (5 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Judged and sentenced.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">2 + M holy damage</tier1>
+			<tier2 type="string">3 + M holy damage</tier2>
+			<tier3 type="string">5 + M holy damage</tier3>
+			<type type="string">Main action</type>
+		</id-01094>
+		<id-01095>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1 or ranged 5</distance>
+			<effect type="string">Each enemy frightened this way is pushed up to 2 squares away from the target and takes psychic damage equal to your Presence score.</effect>
+			<keywords type="string">Magic, Melee, Ranged, Strike, Weapon</keywords>
+			<name type="string">Behold the Face of Justice! (5 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You attack a foe and your enemies behold a vision of the true nature of your resolve.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">3 + M holy damage; if the target has P&lt;WEAK, each enemy within 2 squares of them is frightened of you (save ends)</tier1>
+			<tier2 type="string">5 + M holy damage; if the target has P&lt;AVERAGE, each enemy within 2 squares of them is frightened of you (save ends)</tier2>
+			<tier3 type="string">8 + M holy damage; if the target has P&lt;STRONG, each enemy within 2 squares of them is frightened of you (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-01095>
+		<id-01096>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You can spend a Recovery to allow yourself or one ally within 10 squares to regain Stamina equal to your recovery value.</effect>
+			<keywords type="string">Magic, Melee, Strike, Weapon</keywords>
+			<name type="string">The Gods Punish and Defend (3 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You channel holy energy to smite a foe and heal an ally.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">5 + M holy damage</tier1>
+			<tier2 type="string">8 + M holy damage</tier2>
+			<tier3 type="string">11 + M holy damage</tier3>
+			<type type="string">Main action</type>
+		</id-01096>
+		<id-01097>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You can shift up to your speed. You must end this shift within distance of the target.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Driving Assault (3 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>As you force your enemy back with your weapon, you use your faith to stay close.</i>
+				</p>
+			</notes>
+			<target type="string"> One creature or object</target>
+			<tier1 type="string">3 + M damage; push 1</tier1>
+			<tier2 type="string">6 + M damage; push 3</tier2>
+			<tier3 type="string">9 + M damage; push 5</tier3>
+			<type type="string">Main action</type>
+		</id-01097>
+
+		<!-- Conduit Abilities -->
 		<id-02071>
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
@@ -1516,23 +1773,6 @@
 			</notes>
 			<subclass type="string">Fate Domain</subclass>
 		</id-02118>
-		<id-00001>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">0</ability_level>
-			<characteristic type="number">0</characteristic>
-			<distance type="string">Self</distance>
-			<effect type="string">You can shapeshift into the animal defined by your stormwight kit, into a hybrid form, or back into your true form. While in animal form or hybrid form, you can speak as you usually do, and you can also speak to animals who share your form. If you are in a negotiation with an animal while in animal form, you treat your Renown as 2 higher than usual.</effect>
-			<keywords type="string">Magic</keywords>
-			<name type="string">Aspect of the Wild</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You assume the form of the animal who channels your ferocity.</i>
-				</p>
-			</notes>
-			<special type="string">Spend 1 Ferocity: As a free maneuver, you can shapeshift a second time, either into another animal form, into your hybrid form, or back into your true form.</special>
-			<target type="string">Self</target>
-			<type type="string">Maneuver</type>
-		</id-00001>
 		<id-02007>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
@@ -1634,277 +1874,6 @@
 			<tier3 type="string">8 + [I] holy damage</tier3>
 			<type type="string">Main action</type>
 		</id-02049>
-		<id-01051>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.\n\nWhenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them.\n\nWhen a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target. Additionally, you can spend 1 wrath to take one of the following\nfree triggered actions:\n\n  • When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.\n\n  • When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.\n\n  • When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.\n\n  • If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn.\n\nYou can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect.</effect>
-			<keywords type="string">Magic, Ranged</keywords>
-			<name type="string">Judgement</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You utter a prayer that outlines your foe in holy energy.</i>
-				</p>
-			</notes>
-			<target type="string">One enemy</target>
-			<type type="string">Maneuver</type>
-		</id-01051>
-		<id-01052>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">You spend a Recovery and the target regains Stamina equal to your recovery value.</effect>
-			<keywords type="string">Magic, Ranged</keywords>
-			<name type="string">My Life for Yours</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You channel some of your vitality into more resilience for you or an ally.</i>
-				</p>
-			</notes>
-			<special type="string">Spend 1 Wrath: You can end one effect on the target that is ended by a saving throw or that ends at the end of their turn, or a prone target can stand up.</special>
-			<target type="string">Self or one ally</target>
-			<trigger type="string">The target starts their turn or takes damage.</trigger>
-			<type type="string">Triggered</type>
-		</id-01052>
-		<id-01053>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Self</distance>
-			<effect type="string">You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has speed 5 and can fly, but can’t physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can’t be reduced in any way.</effect>
-			<keywords type="string">Magic</keywords>
-			<name type="string">Faithful Friend</name>
-			<notes type="formattedtext">
-				<p>An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.</p>
-			</notes>
-			<subclass type="string">Nature Domain</subclass>
-			<target type="string">Self</target>
-			<type type="string">Main action</type>
-		</id-01053>
-		<id-02054>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">You or one ally within distance can spend a Recovery.</effect>
-			<keywords type="string">Magic, Melee, Strike</keywords>
-			<name type="string">Drain</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You drain the energy from your target to revitalize yourself or an ally.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">2 + [I] corruption damage</tier1>
-			<tier2 type="string">5 + [I] corruption damage</tier2>
-			<tier3 type="string">7 + [I] corruption damage</tier3>
-			<type type="string">Main action</type>
-		</id-02054>
-		<id-02055>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Holy Lash</name>
-			<notes type="formattedtext">
-				<p>
-					<i>A tendril of divine energy shoots forth to draw in your foe.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + [I] holy damage; vertical pull 2</tier1>
-			<tier2 type="string">5 + [I] holy damage; vertical pull 3</tier2>
-			<tier3 type="string">8 + [I] holy damage; vertical pull 4</tier3>
-			<type type="string">Main action</type>
-		</id-02055>
-		<id-02056>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">2 burst</distance>
-			<effect type="string">You can teleport yourself and each ally in the area to unoccupied spaces in the area.</effect>
-			<keywords type="string">Area, Magic</keywords>
-			<name type="string">Lightfall</name>
-			<notes type="formattedtext">
-				<p>
-					<i>A rain of holy light scours your enemies and repositions your allies.</i>
-				</p>
-			</notes>
-			<target type="string">Each enemy in the area</target>
-			<tier1 type="string">2 holy damage</tier1>
-			<tier2 type="string">3 holy damage</tier2>
-			<tier3 type="string">5 holy damage</tier3>
-			<type type="string">Main action</type>
-		</id-02056>
-		<id-02057>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">Choose yourself or one ally within distance. That character can impose a bane on one power roll made against them before the end of their next turn.</effect>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Sacrificial Offer</name>
-			<notes type="formattedtext">
-				<p>Divine magic tears at your foe and defends a nearby friend.</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">2 + [I] corruption damage</tier1>
-			<tier2 type="string">4 + [I] corruption damage</tier2>
-			<tier3 type="string">6 + [I] corruption damage</tier3>
-			<type type="string">Main action</type>
-		</id-02057>
-		<id-02058>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Magic, Melee, Strike</keywords>
-			<name type="string">Staggering Curse</name>
-			<notes type="formattedtext">
-				<p>
-					<i>A blast of judgment disorients your foe.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + [I] holy damage; slide 1</tier1>
-			<tier2 type="string">5 + [I] holy damage; slide 2</tier2>
-			<tier3 type="string">8 + [I] holy damage; slide 3</tier3>
-			<type type="string">Main action</type>
-		</id-02058>
-		<id-02059>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">You or one ally within distance gains temporary Stamina equal to your Intuition score.</effect>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Warrior’s Prayer</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Your quickly uttered prayer lends aggressive divine energy to a friend engaged in melee.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">3 + [I] holy damage</tier1>
-			<tier2 type="string">6 + [I] holy damage</tier2>
-			<tier3 type="string">9 + [I] holy damage</tier3>
-			<type type="string">Main action</type>
-		</id-02059>
-		<id-00060>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">0</ability_level>
-			<characteristic type="number">4</characteristic>
-			<distance type="string">Ranged 10</distance>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Wither</name>
-			<notes type="formattedtext">
-				<p>
-					<i>A bolt of holy energy saps the life from a foe.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + [I] corruption damage; P&lt;w, the target takes a bane on their next power roll</tier1>
-			<tier2 type="string">5 + [I] corruption damage; P&lt;v, the target takes a bane on their next power roll</tier2>
-			<tier3 type="string">8 + [I] corruption damage; P&lt;s, the target takes a bane on their next power roll</tier3>
-			<type type="string">Main action</type>
-		</id-00060>
-		<id-02062>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Main action</distance>
-			<effect type="string">You can push each willing ally in the area the same distance, ignoring stability.</effect>
-			<keywords type="string">Area, Magic, Ranged</keywords>
-			<name type="string">Call the Thunder Down (3 Piety)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You ask your saint for thunder and your prayer is answered.</i>
-				</p>
-			</notes>
-			<target type="string">Each enemy in the area</target>
-			<tier1 type="string">2 sonic damage; push 1</tier1>
-			<tier2 type="string">3 sonic damage; push 2</tier2>
-			<tier3 type="string">5 sonic damage; push 3</tier3>
-			<type type="string">3 cube within 10</type>
-		</id-02062>
-		<id-02063>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">4 burst</distance>
-			<effect type="string">Each target can spend a Recovery. Additionally, each target can use a free triggered action to end one effect on them that is ended by a saving throw or that ends at the end of their turn, or to\nstand up if prone.</effect>
-			<keywords type="string">Area, Magic</keywords>
-			<name type="string">Sermon of Grace (5 Piety)</name>
-			<notes type="formattedtext">
-				<p>You inspire your allies with tales of your saint&#8217;s great deeds.</p>
-			</notes>
-			<target type="string">Each ally in the area</target>
-			<type type="string">Main action</type>
-		</id-02063>
-		<id-02064>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">4</characteristic>
-			<class type="string">Conduit</class>
-			<distance type="string">Maneuver</distance>
-			<keywords type="string">Magic, Ranged</keywords>
-			<name type="string">Faith Is Our Armor (5 Piety)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>The heroes&#8217; armor glows with golden light, granting divine protection.</i>
-				</p>
-			</notes>
-			<target type="string">Four allies</target>
-			<tier1 type="string">The target gains 5 temporary Stamina.</tier1>
-			<tier2 type="string">The target gains 10 temporary Stamina.</tier2>
-			<tier3 type="string">The target gains 15 temporary Stamina.</tier3>
-			<type type="string">Ranged 10</type>
-		</id-02064>
-		<id-01065>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Magic</keywords>
-			<name type="string">Grave Speech</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You commune with the lingering soul of the recently dead.</i>
-				</p>
-			</notes>
-			<special type="string">You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. The trauma of dying can make a creature’s memory of that event hazy, but the target otherwise\nknows all they knew in life. After 1 minute, the effect ends. You can’t use this ability on the same creature twice.</special>
-			<subclass type="string">Death Domain</subclass>
-			<target type="string">One dead creature</target>
-			<type type="string">Maneuver</type>
-		</id-01065>
 		<id-02066>
 			<ability_cost type="number">5</ability_cost>
 			<ability_level type="number">1</ability_level>
@@ -2004,575 +1973,8 @@
 			<target type="string">Special</target>
 			<type type="string">Main action</type>
 		</id-02070>
-		<id-00071>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">0</ability_level>
-			<characteristic type="number">0</characteristic>
-			<distance type="string">Self</distance>
-			<effect type="string">You take half the damage from the triggering effect and can shift up to a number of squares equal to your Agility score.</effect>
-			<name type="string">Unearthly Reflexes</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You are as elusive as a hummingbird.</i>
-				</p>
-			</notes>
-			<special type="string">Spend 1 Ferocity: If the damage has any potency effects associated with it, the potency is reduced by 1 for you.</special>
-			<target type="string">Self</target>
-			<trigger type="string">You take damage.</trigger>
-			<type type="string">Triggered</type>
-		</id-00071>
-		<id-01072>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Self</distance>
-			<effect type="string">You create a mundane object of size 1S or smaller. You can maintain a number of objects created this way equal to your\nPresence score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).</effect>
-			<keywords type="string">Magic</keywords>
-			<name type="string">Hands of the Maker</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You craft objects with the power of your mind.</i>
-				</p>
-			</notes>
-			<subclass type="string">Creation Domain</subclass>
-			<target type="string">Self</target>
-			<type type="string">Maneuver</type>
-		</id-01072>
-		<id-04073>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">0</ability_level>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Fury</class>
-			<subclass type="string">Berserker</subclass>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">You can select a new target of the same size or smaller within distance to be force moved instead. You become the source of the forced movement, determine the new target’s destination, and can push the target instead of using the original forced movement type. Additionally, the forced movement distance gains a bonus equal to your Might score.</effect>
-			<keywords type="string">Magic, Melee</keywords>
-			<name type="string">Lines of Force</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You redirect the energy of motion.</i>
-				</p>
-			</notes>
-			<special type="string">Spend 1 Ferocity: The forced movement distance gains a bonus equal to twice your Might score instead.</special>
-			<target type="string">Self or one creature</target>
-			<trigger type="string">The target would be force moved.</trigger>
-			<type type="string">Triggered</type>
-		</id-04073>
-		<id-04074>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Triggered Action</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Self</distance>
-			<effect type="string">You gain temporary Stamina equal to your Might score and can enter your animal form or hybrid form.</effect>
-			<name type="string">Furious Change</name>
-			<notes type="formattedtext">
-				<p>
-					<i>In your anger, you revert to a more bestial form.</i>
-				</p>
-			</notes>
-			<special type="string">Spend 1 Ferocity: If you are not dying, you can spend a Recovery.</special>
-			<subclass type="string">Stormwight</subclass>
-			<target type="string">Self</target>
-			<trigger type="string">You lose Stamina and are not dying.</trigger>
-			<type type="string">Triggered</type>
-		</id-04074>
-		<id-04078>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">5 × 1 line within 1</distance>
-			<effect type="string">The targets are force moved one at a time, starting with the target nearest to you, and can be pushed into other targets in the same line.</effect>
-			<keywords type="string">Area, Melee, Weapon</keywords>
-			<name type="string">Thunder Roar (5 Ferocity)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You unleash a howl that hurls your enemies back.</i>
-				</p>
-			</notes>
-			<target type="string">Each enemy in the area</target>
-			<tier1 type="string">6 damage; push 2</tier1>
-			<tier2 type="string">9 damage; push 4</tier2>
-			<tier3 type="string">13 damage; push 6</tier3>
-			<type type="string">Main action</type>
-		</id-04078>
-		<id-01084>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string"> Melee 1</distance>
-			<effect type="string">Each enemy adjacent to the target is pushed away from the target up to a number of squares equal to your Presence score.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Your Allies Cannot Save You!</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Your magic strike turns your foe&#8217;s guilt into a burst of holy power.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + M holy damage</tier1>
-			<tier2 type="string">5 + M holy damage</tier2>
-			<tier3 type="string">8 + M holy damage</tier3>
-			<type type="string">Main action</type>
-		</id-01084>
-		<id-01085>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Halt Miscreant!</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You infuse your weapon with holy magic that makes it difficult for your foe to get away.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">2 + M holy damage; P&lt;WEAK, slowed (save ends)</tier1>
-			<tier2 type="string">5 + M holy damage; P&lt;AVERAGE, slowed\n(save ends)</tier2>
-			<tier3 type="string">7 + M holy damage; P&lt;STRONG, slowed (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-01085>
-		<id-01086>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">5</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Ranged 10</distance>
-			<effect type="string">Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move.</effect>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Every Step … Death!</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You show your foe a glimpse of their fate after death.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">5 + P psychic damage</tier1>
-			<tier2 type="string">7 + P psychic damage</tier2>
-			<tier3 type="string">10+ P psychic damage</tier3>
-			<type type="string">Main action</type>
-		</id-01086>
-		<id-01087>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">5</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">2 cube within 1</distance>
-			<keywords type="string">Area, Magic, Melee, Weapon</keywords>
-			<name type="string">Back Blasphemer!</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You channel power through your weapon to repel foes.</i>
-				</p>
-			</notes>
-			<target type="string">Each enemy in the area</target>
-			<tier1 type="string">2 holy damage; push 1</tier1>
-			<tier2 type="string">4 holy damage; push 2</tier2>
-			<tier3 type="string">6 holy damage; push 3</tier3>
-			<type type="string">Main action</type>
-		</id-01087>
-		<id-01088>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">Until the start of your next turn, enemies take a bane on ability rolls made against you or any ally adjacent to you.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Behold a Shield of Faith! (3 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>A mighty blow turns your foe&#8217;s vitality into a holy light that envelops you and an ally, discouraging enemies who might attack you.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + M holy damage</tier1>
-			<tier2 type="string">6 + M holy damage</tier2>
-			<tier3 type="string">9 + M holy damage</tier3>
-			<type type="string">Main action</type>
-		</id-01088>
-		<id-01089>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">5</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Ranged 10</distance>
-			<keywords type="string">Magic, Ranged, Strike</keywords>
-			<name type="string">Repent! (3 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You conjure memories of their sins to harry your foes.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">5 + P holy damage; I&lt;WEAK, dazed (save ends)</tier1>
-			<tier2 type="string">8 + P holy damage; I&lt;AVERAGE, dazed (save ends)</tier2>
-			<tier3 type="string">11+ P holy damage; I&lt;STRONG, dazed (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-01089>
-		<id-01092>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">If the target makes a strike against a creature while grabbed this way, you can spend 3 wrath to deal holy damage to them equal to your Presence score, then change the target of the strike to another target within the strike’s distance.</effect>
-			<keywords type="string">Magic, Melee, Strike, Weapon</keywords>
-			<name type="string">Arrest (5 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>&#8220;I&#8217;ve got you, you son of a bitch.&#8221;</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">6 + M holy damage; grabbed</tier1>
-			<tier2 type="string">9 + M holy damage; grabbed</tier2>
-			<tier3 type="string">13 + M holy damage; grabbed</tier3>
-			<type type="string">Main action</type>
-		</id-01092>
-		<id-01093>
-			<ability_cost type="number">4</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1 or ranged 5</distance>
-			<effect type="string">While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage.</effect>
-			<keywords type="string">Magic, Melee, Ranged, Strike, Weapon</keywords>
-			<name type="string">Purifying Fire (5 Wrath)</name>
-			<notes type="formattedtext">
-				<p>The gods judge, fire cleanses.</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">5 + M holy damage; M&lt;WEAK, the target has fire weakness 3 (save ends)</tier1>
-			<tier2 type="string">9 + M holy damage; M&lt;AVERAGE, the target has fire weakness 5 (save ends)</tier2>
-			<tier3 type="string">12 + M holy damage; M&lt;STRONG, the target has fire weakness 7 (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-01093>
-		<id-01094>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">When a target who is not a leader or solo creature is made winded by this ability, they are reduced to 0 Stamina.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Censored (5 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Judged and sentenced.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">2 + M holy damage</tier1>
-			<tier2 type="string">3 + M holy damage</tier2>
-			<tier3 type="string">5 + M holy damage</tier3>
-			<type type="string">Main action</type>
-		</id-01094>
-		<id-01095>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1 or ranged 5</distance>
-			<effect type="string">Each enemy frightened this way is pushed up to 2 squares away from the target and takes psychic damage equal to your Presence score.</effect>
-			<keywords type="string">Magic, Melee, Ranged, Strike, Weapon</keywords>
-			<name type="string">Behold the Face of Justice! (5 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You attack a foe and your enemies behold a vision of the true nature of your resolve.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">3 + M holy damage; if the target has P&lt;WEAK, each enemy within 2 squares of them is frightened of you (save ends)</tier1>
-			<tier2 type="string">5 + M holy damage; if the target has P&lt;AVERAGE, each enemy within 2 squares of them is frightened of you (save ends)</tier2>
-			<tier3 type="string">8 + M holy damage; if the target has P&lt;STRONG, each enemy within 2 squares of them is frightened of you (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-01095>
-		<id-01096>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">You can spend a Recovery to allow yourself or one ally within 10 squares to regain Stamina equal to your recovery value.</effect>
-			<keywords type="string">Magic, Melee, Strike, Weapon</keywords>
-			<name type="string">The Gods Punish and Defend (3 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You channel holy energy to smite a foe and heal an ally.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">5 + M holy damage</tier1>
-			<tier2 type="string">8 + M holy damage</tier2>
-			<tier3 type="string">11 + M holy damage</tier3>
-			<type type="string">Main action</type>
-		</id-01096>
-		<id-01097>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">You can shift up to your speed. You must end this shift within distance of the target.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Driving Assault (3 Wrath)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>As you force your enemy back with your weapon, you use your faith to stay close.</i>
-				</p>
-			</notes>
-			<target type="string"> One creature or object</target>
-			<tier1 type="string">3 + M damage; push 1</tier1>
-			<tier2 type="string">6 + M damage; push 3</tier2>
-			<tier3 type="string">9 + M damage; push 5</tier3>
-			<type type="string">Main action</type>
-		</id-01097>
-		<id-04099>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">To the Uttermost End (5 Ferocity)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You gut your life force to ensure a foe&#8217;s demise.</i>
-				</p>
-			</notes>
-			<special type="string">Spend 1+ Ferocity: While you are winded, this ability deals an extra 1d6 damage for each ferocity spent. While you are dying, it deals an extra 1d10 damage for each ferocity spent. In either case, you lose 1d6 Stamina after making this strike.</special>
-			<target type="string">One creature</target>
-			<tier1 type="string">7 + [M] damage</tier1>
-			<tier2 type="string">11 + [M] damage</tier2>
-			<tier3 type="string">16 + [M] damage</tier3>
-			<type type="string">Main action</type>
-		</id-04099>
-		<id-04000>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">1 burst</distance>
-			<keywords type="string">Area, Melee, Weapon</keywords>
-			<name type="string">Back! (3 Ferocity)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You hew about you with your mighty weapon, hurling enemies backward.</i>
-				</p>
-			</notes>
-			<target type="string">Each enemy in the area</target>
-			<tier1 type="string">5 damage</tier1>
-			<tier2 type="string">8 damage; push 1</tier2>
-			<tier3 type="string">11 damage; push 3</tier3>
-			<type type="string">Main action</type>
-		</id-04000>
-		<id-04001>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">While bleeding this way, the target takes damage equal to your Might score at the end of each of your turns.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Your Entrails Are Your Extrails! (3 Ferocity)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Hard for them to fight when they&#8217;re busy holding in their giblets.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + [M] damage; [M]&lt;[WEAK], bleeding (save ends)</tier1>
-			<tier2 type="string">5 + [M] damage; [M]&lt;[AVERAGE], bleeding (save ends)</tier2>
-			<tier3 type="string">8 + [M] damage; [M]&lt;[STRONG], bleeding (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-04001>
-		<id-04002>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Self; see below</distance>
-			<effect type="string">You move up to your speed in a straight line, and enemy squares are not difficult terrain for this movement. You can end\nthis movement in a creature’s space and move them to an adjacent unoccupied space. You make one power roll that targets each enemy whose space you move through.</effect>
-			<keywords type="string">Melee, Weapon</keywords>
-			<name type="string">Tide of Death (3 Ferocity)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Teach them the folly of lining up for you.</i>
-				</p>
-			</notes>
-			<special type="string">The last target you damage takes extra damage equal to your Might score for each opportunity attack you trigger during your move.</special>
-			<target type="string">Self</target>
-			<tier1 type="string">2 damage</tier1>
-			<tier2 type="string">3 damage</tier2>
-			<tier3 type="string">5 damage</tier3>
-			<type type="string">Main action</type>
-		</id-04002>
-		<id-04003>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Brutal Slam</name>
-			<notes type="formattedtext">
-				<p>
-					<i>The heavy impact of your weapon attacks drives your foes ever back.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + [M] damage; push 1</tier1>
-			<tier2 type="string">6 + [M] damage; push 2</tier2>
-			<tier3 type="string">9 + [M] damage; push 4</tier3>
-			<type type="string">Main action</type>
-		</id-04003>
-		<id-04004>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Self</distance>
-			<effect type="string">You gain 1 surge, and the next ability roll you make this turn automatically obtains a tier 3 outcome.</effect>
-			<name type="string">Make Peace With Your God! (5 Ferocity)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Anger is your energy.</i>
-				</p>
-			</notes>
-			<target type="string">Self</target>
-			<type type="string">Free maneuver</type>
-		</id-04004>
-		<id-04005>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">You gain 2 surges, and the target can make an opportunity attack against you as a free triggered action.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">To the Death!</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Your reckless assault leaves you tactically vulnerable.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">3 + [M] damage</tier1>
-			<tier2 type="string">6 + [M] damage</tier2>
-			<tier3 type="string">9 + [M] damage</tier3>
-			<type type="string">Main action</type>
-		</id-04005>
-		<id-04006>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">When you slide the target, you can move into any square they leave. If you take damage from an opportunity attack by moving this way, the target takes the same damage.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Out of the Way! (3 Ferocity)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Your enemies will clear your path&#8212;whether they want to or not.</i>
-				</p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">3 + [M] damage; slide 2</tier1>
-			<tier2 type="string">5 + [M] damage; slide 3</tier2>
-			<tier3 type="string">8 + [M] damage; slide 5</tier3>
-			<type type="string">Main action</type>
-		</id-04006>
-		<id-04007>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Impaled!</name>
-			<notes type="formattedtext">
-				<p>
-					<i>You skewer your enemy like a boar upon a spit.</i>
-				</p>
-			</notes>
-			<target type="string">One creature of your size or smaller</target>
-			<tier1 type="string">2 + [M] damage; [M]&lt;[WEAK], grabbed</tier1>
-			<tier2 type="string">5 + [M] damage; [M]&lt;[AVERAGE], grabbed</tier2>
-			<tier3 type="string">7 + [M] damage; [M]&lt;[STRONG], grabbed</tier3>
-			<type type="string">Main action</type>
-		</id-04007>
-		<id-04008>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Blood for Blood! (5 Ferocity)</name>
-			<notes type="formattedtext">
-				<p>
-					<i>See how well they fight after you&#8217;ve bled them dry.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">4 + [M] damage; [M]&lt;[WEAK], bleeding and weakened (save ends)</tier1>
-			<tier2 type="string">6 + [M] damage; [M]&lt;[AVERAGE], bleeding and weakened (save ends)</tier2>
-			<tier3 type="string">10 + [M] damage; [M]&lt;[STRONG], bleeding and weakened (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-04008>
-		<id-04009>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">1</characteristic>
-			<class type="string">Fury</class>
-			<distance type="string">Melee 1</distance>
-			<effect type="string">You can shift 1 square.</effect>
-			<keywords type="string">Melee, Strike, Weapon</keywords>
-			<name type="string">Hit and Run</name>
-			<notes type="formattedtext">
-				<p>
-					<i>Staying in constant motion helps you slip out of reach after a brutal assault.</i>
-				</p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">2 + [M] damage</tier1>
-			<tier2 type="string">5 + [M] damage</tier2>
-			<tier3 type="string">7 + [M] damage; [A]&lt;[STRONG], slowed (save ends)</tier3>
-			<type type="string">Main action</type>
-		</id-04009>
+
+		<!-- Elementalist Abilities -->
 		<id-03001>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
@@ -3020,6 +2422,382 @@
 			<tier3 type="string">10 acid damage</tier3>
 			<type type="string">Main action</type>
 		</id-03028>
+
+		<!-- Fury Abilities -->
+		<id-04905>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Kit Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Melee 1</distance>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Unbalancing Attack</name>
+			<notes type="formattedtext">
+				<p>
+					<i>A wild assault forces your foe onto their back.</i>
+				</p>
+			</notes>
+			<subclass type="string">Stormwight</subclass>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">4 + [M] damage; [A]&lt;[WEAK] , prone</tier1>
+			<tier2 type="string">7 + [M] damage; [A]&lt;[AVERAGE] , prone</tier2>
+			<tier3 type="string">9 + [M] damage; [A]&lt;[STRONG] , prone</tier3>
+			<type type="string">Main action</type>
+		</id-04905>
+		<id-04906>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Kit Ability</abilitytype>
+			<characteristic type="number">2</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You can shift up to the same number of squares that you pushed the target.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Driving Pounce</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Your enemies try in vain to fall back from your pouncing attack.</i>
+				</p>
+			</notes>
+			<subclass type="string">Stormwight</subclass>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">4 + A damage</tier1>
+			<tier2 type="string">7 + A damage; push 1</tier2>
+			<tier3 type="string">9 + A damage; push 2</tier3>
+			<type type="string">Main action</type>
+		</id-04906>
+		<id-04907>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Kit Ability</abilitytype>
+			<characteristic type="number">2</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">1 burst</distance>
+			<effect type="string">You can shift up to 2 squares before or after making the power roll.</effect>
+			<keywords type="string">Area, Melee, Weapon</keywords>
+			<name type="string">Wing Buffet</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Foes who try to close in around you do so at their peril.</i>
+				</p>
+			</notes>
+			<subclass type="string">Stormwight</subclass>
+			<target type="string">Each enemy in the area</target>
+			<tier1 type="string">3 damage</tier1>
+			<tier2 type="string">6 damage</tier2>
+			<tier3 type="string">8 damage</tier3>
+			<type type="string">Main action</type>
+		</id-04907>
+		<id-04908>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Kit Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Melee 1</distance>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Bear Claws</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Attacks with your sharp and deadly claws grab the weak.</i>
+				</p>
+			</notes>
+			<subclass type="string">Stormwight</subclass>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">2 + [M] damage; [M]&lt;[WEAK] , grabbed</tier1>
+			<tier2 type="string">5 + [M] damage; [M]&lt;[AVERAGE] , grabbed</tier2>
+			<tier3 type="string">11 + [M] damage; [M]&lt;[STRONG] , grabbed</tier3>
+			<type type="string">Main action</type>
+		</id-04908>
+		<id-04073>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Fury</class>
+			<subclass type="string">Berserker</subclass>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You can select a new target of the same size or smaller within distance to be force moved instead. You become the source of the forced movement, determine the new target’s destination, and can push the target instead of using the original forced movement type. Additionally, the forced movement distance gains a bonus equal to your Might score.</effect>
+			<keywords type="string">Magic, Melee</keywords>
+			<name type="string">Lines of Force</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You redirect the energy of motion.</i>
+				</p>
+			</notes>
+			<special type="string">Spend 1 Ferocity: The forced movement distance gains a bonus equal to twice your Might score instead.</special>
+			<target type="string">Self or one creature</target>
+			<trigger type="string">The target would be force moved.</trigger>
+			<type type="string">Triggered</type>
+		</id-04073>
+		<id-04074>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Triggered Action</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Self</distance>
+			<effect type="string">You gain temporary Stamina equal to your Might score and can enter your animal form or hybrid form.</effect>
+			<name type="string">Furious Change</name>
+			<notes type="formattedtext">
+				<p>
+					<i>In your anger, you revert to a more bestial form.</i>
+				</p>
+			</notes>
+			<special type="string">Spend 1 Ferocity: If you are not dying, you can spend a Recovery.</special>
+			<subclass type="string">Stormwight</subclass>
+			<target type="string">Self</target>
+			<trigger type="string">You lose Stamina and are not dying.</trigger>
+			<type type="string">Triggered</type>
+		</id-04074>
+		<id-04078>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">5 × 1 line within 1</distance>
+			<effect type="string">The targets are force moved one at a time, starting with the target nearest to you, and can be pushed into other targets in the same line.</effect>
+			<keywords type="string">Area, Melee, Weapon</keywords>
+			<name type="string">Thunder Roar (5 Ferocity)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You unleash a howl that hurls your enemies back.</i>
+				</p>
+			</notes>
+			<target type="string">Each enemy in the area</target>
+			<tier1 type="string">6 damage; push 2</tier1>
+			<tier2 type="string">9 damage; push 4</tier2>
+			<tier3 type="string">13 damage; push 6</tier3>
+			<type type="string">Main action</type>
+		</id-04078>
+		<id-04099>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Melee 1</distance>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">To the Uttermost End (5 Ferocity)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You gut your life force to ensure a foe&#8217;s demise.</i>
+				</p>
+			</notes>
+			<special type="string">Spend 1+ Ferocity: While you are winded, this ability deals an extra 1d6 damage for each ferocity spent. While you are dying, it deals an extra 1d10 damage for each ferocity spent. In either case, you lose 1d6 Stamina after making this strike.</special>
+			<target type="string">One creature</target>
+			<tier1 type="string">7 + [M] damage</tier1>
+			<tier2 type="string">11 + [M] damage</tier2>
+			<tier3 type="string">16 + [M] damage</tier3>
+			<type type="string">Main action</type>
+		</id-04099>
+		<id-04000>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">1 burst</distance>
+			<keywords type="string">Area, Melee, Weapon</keywords>
+			<name type="string">Back! (3 Ferocity)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You hew about you with your mighty weapon, hurling enemies backward.</i>
+				</p>
+			</notes>
+			<target type="string">Each enemy in the area</target>
+			<tier1 type="string">5 damage</tier1>
+			<tier2 type="string">8 damage; push 1</tier2>
+			<tier3 type="string">11 damage; push 3</tier3>
+			<type type="string">Main action</type>
+		</id-04000>
+		<id-04001>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">While bleeding this way, the target takes damage equal to your Might score at the end of each of your turns.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Your Entrails Are Your Extrails! (3 Ferocity)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Hard for them to fight when they&#8217;re busy holding in their giblets.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">3 + [M] damage; [M]&lt;[WEAK], bleeding (save ends)</tier1>
+			<tier2 type="string">5 + [M] damage; [M]&lt;[AVERAGE], bleeding (save ends)</tier2>
+			<tier3 type="string">8 + [M] damage; [M]&lt;[STRONG], bleeding (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-04001>
+		<id-04002>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Self; see below</distance>
+			<effect type="string">You move up to your speed in a straight line, and enemy squares are not difficult terrain for this movement. You can end\nthis movement in a creature’s space and move them to an adjacent unoccupied space. You make one power roll that targets each enemy whose space you move through.</effect>
+			<keywords type="string">Melee, Weapon</keywords>
+			<name type="string">Tide of Death (3 Ferocity)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Teach them the folly of lining up for you.</i>
+				</p>
+			</notes>
+			<special type="string">The last target you damage takes extra damage equal to your Might score for each opportunity attack you trigger during your move.</special>
+			<target type="string">Self</target>
+			<tier1 type="string">2 damage</tier1>
+			<tier2 type="string">3 damage</tier2>
+			<tier3 type="string">5 damage</tier3>
+			<type type="string">Main action</type>
+		</id-04002>
+		<id-04003>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Melee 1</distance>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Brutal Slam</name>
+			<notes type="formattedtext">
+				<p>
+					<i>The heavy impact of your weapon attacks drives your foes ever back.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">3 + [M] damage; push 1</tier1>
+			<tier2 type="string">6 + [M] damage; push 2</tier2>
+			<tier3 type="string">9 + [M] damage; push 4</tier3>
+			<type type="string">Main action</type>
+		</id-04003>
+		<id-04004>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Self</distance>
+			<effect type="string">You gain 1 surge, and the next ability roll you make this turn automatically obtains a tier 3 outcome.</effect>
+			<name type="string">Make Peace With Your God! (5 Ferocity)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Anger is your energy.</i>
+				</p>
+			</notes>
+			<target type="string">Self</target>
+			<type type="string">Free maneuver</type>
+		</id-04004>
+		<id-04005>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You gain 2 surges, and the target can make an opportunity attack against you as a free triggered action.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">To the Death!</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Your reckless assault leaves you tactically vulnerable.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">3 + [M] damage</tier1>
+			<tier2 type="string">6 + [M] damage</tier2>
+			<tier3 type="string">9 + [M] damage</tier3>
+			<type type="string">Main action</type>
+		</id-04005>
+		<id-04006>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">When you slide the target, you can move into any square they leave. If you take damage from an opportunity attack by moving this way, the target takes the same damage.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Out of the Way! (3 Ferocity)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Your enemies will clear your path&#8212;whether they want to or not.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">3 + [M] damage; slide 2</tier1>
+			<tier2 type="string">5 + [M] damage; slide 3</tier2>
+			<tier3 type="string">8 + [M] damage; slide 5</tier3>
+			<type type="string">Main action</type>
+		</id-04006>
+		<id-04007>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Melee 1</distance>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Impaled!</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You skewer your enemy like a boar upon a spit.</i>
+				</p>
+			</notes>
+			<target type="string">One creature of your size or smaller</target>
+			<tier1 type="string">2 + [M] damage; [M]&lt;[WEAK], grabbed</tier1>
+			<tier2 type="string">5 + [M] damage; [M]&lt;[AVERAGE], grabbed</tier2>
+			<tier3 type="string">7 + [M] damage; [M]&lt;[STRONG], grabbed</tier3>
+			<type type="string">Main action</type>
+		</id-04007>
+		<id-04008>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Blood for Blood! (5 Ferocity)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>See how well they fight after you&#8217;ve bled them dry.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">4 + [M] damage; [M]&lt;[WEAK], bleeding and weakened (save ends)</tier1>
+			<tier2 type="string">6 + [M] damage; [M]&lt;[AVERAGE], bleeding and weakened (save ends)</tier2>
+			<tier3 type="string">10 + [M] damage; [M]&lt;[STRONG], bleeding and weakened (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-04008>
+		<id-04009>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Fury</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You can shift 1 square.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Hit and Run</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Staying in constant motion helps you slip out of reach after a brutal assault.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">2 + [M] damage</tier1>
+			<tier2 type="string">5 + [M] damage</tier2>
+			<tier3 type="string">7 + [M] damage; [A]&lt;[STRONG], slowed (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-04009>
+
+		<!-- Null Abilities -->
 		<id-05001>
 			<effect type="string">Each target reduces their potencies by 1.</effect>
 			<ability_cost type="number">0</ability_cost>
@@ -3353,6 +3131,8 @@
 			<tier3 type="string">16 + [A] psychic damage; [M]&lt;[WEAK], weakened (save ends)</tier3>
 			<type type="string">Main Action</type>
 		</id-05018>
+
+		<!-- Shadow Abilities -->
 		<id-06001>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
@@ -3695,6 +3475,8 @@
 			<tier3 type="string">9 damage</tier3>
 			<type type="string">Main Action</type>
 		</id-06020>
+
+		<!-- Tactician Abilities -->
 		<id-07019>
 			<effect type="string">Additionally, if you have 24 hours or more before a combat encounter or negotiation, and you have one or more clues or rumors regarding the encounter or negotiation, you can make a Reason test as a respite activity.</effect>
 			<ability_cost type="number">0</ability_cost>
@@ -3974,6 +3756,8 @@
 			<target type="string">Two allies</target>
 			<type type="string">Maneuver</type>
 		</id-07033>
+
+		<!-- Talent -->
 		<id-08021>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">0</ability_level>
@@ -4391,6 +4175,8 @@
 			<target type="string">Self or one ally</target>
 			<type type="string">Maneuver</type>
 		</id-08046>
+
+		<!-- Troubadour Abilities -->
 		<id-09034>
 			<effect type="string">At the end of each of your turns while this performance is active, you can choose up to a number of targets equal to your Presence score. Each chosen target can spend a Recovery.</effect>
 			<ability_cost type="number">0</ability_cost>
@@ -4832,6 +4618,42 @@
 			<tier3 type="string">The target can shift up to 3 squares and make a free strike that gains an edge, then can spend a Recovery.</tier3>
 			<type type="string">Main Action</type>
 		</id-09057>
+
+		<!-- MISC Abilities -->
+		<id-00001>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<characteristic type="number">0</characteristic>
+			<distance type="string">Self</distance>
+			<effect type="string">You can shapeshift into the animal defined by your stormwight kit, into a hybrid form, or back into your true form. While in animal form or hybrid form, you can speak as you usually do, and you can also speak to animals who share your form. If you are in a negotiation with an animal while in animal form, you treat your Renown as 2 higher than usual.</effect>
+			<keywords type="string">Magic</keywords>
+			<name type="string">Aspect of the Wild</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You assume the form of the animal who channels your ferocity.</i>
+				</p>
+			</notes>
+			<special type="string">Spend 1 Ferocity: As a free maneuver, you can shapeshift a second time, either into another animal form, into your hybrid form, or back into your true form.</special>
+			<target type="string">Self</target>
+			<type type="string">Maneuver</type>
+		</id-00001>
+		<id-00071>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<characteristic type="number">0</characteristic>
+			<distance type="string">Self</distance>
+			<effect type="string">You take half the damage from the triggering effect and can shift up to a number of squares equal to your Agility score.</effect>
+			<name type="string">Unearthly Reflexes</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You are as elusive as a hummingbird.</i>
+				</p>
+			</notes>
+			<special type="string">Spend 1 Ferocity: If the damage has any potency effects associated with it, the potency is reduced by 1 for you.</special>
+			<target type="string">Self</target>
+			<trigger type="string">You take damage.</trigger>
+			<type type="string">Triggered</type>
+		</id-00071>
 	</ability>
 	<class>
 		<id-00001>
