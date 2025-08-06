@@ -3,6 +3,27 @@
 <!-- WIP: update classes to match Draw Steel Heroes Book v1.0 -->
 	<ability>
 		<!-- Censor Abilities -->
+		<id-01051>
+			<ability_cost type="number"></ability_cost>
+			<ability_cost_string type="string"></ability_cost_string>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.\n\nWhenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them.\n\nWhen a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target.\n\nAdditionally, you can spend 1 wrath to take one of the following free triggered actions:\n♦ When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.\n♦ When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.\n♦ When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.\n♦ If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn. You can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">Judgement</name>
+			<notes type="formattedtext">
+				<p><i>You utter a prayer that outlines your foe in holy energy.</i></p>
+			</notes>
+			<subclass type="string"></subclass>
+			<target type="string">One enemy</target>
+			<tier1 type="string"></tier1>
+			<tier2 type="string"></tier2>
+			<tier3 type="string"></tier3>
+			<type type="string">Maneuver</type>
+		</id-01051>
 		<id-01098>
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
@@ -14,7 +35,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Begone! (9 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You terrify your enemies into retreating, creating chaos in their ranks</p>
+				<p><i>You terrify your enemies into retreating, creating chaos in their ranks</i></p>
 			</notes>
 			<subclass type="string">Exorcist</subclass>
 			<target type="string">Each enemy in the area</target>
@@ -35,7 +56,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Pain of Your Own Making (9 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You reverse the effects from an evildoer.</p>
+				<p><i>You reverse the effects from an evildoer.</i></p>
 			</notes>
 			<subclass type="string">Exorcist</subclass>
 			<target type="string">Self or one ally</target>
@@ -54,7 +75,7 @@
 			<keywords type="string">Area, Magic </keywords>
 			<name type="string">Revelator (5 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You channel holy energy to harm unbelievers and reveal those hidden from your judgment.</p>
+				<p><i>You channel holy energy to harm unbelievers and reveal those hidden from your judgment.</i></p>
 			</notes>
 			<subclass type="string">Exorcist</subclass>
 			<target type="string">Each enemy in the area</target>
@@ -71,7 +92,7 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Burden of Evil (9 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You reveal a vision of your enemies&#8217; fate that causes them to scramble as it staggers them.</p>
+				<p><i>You reveal a vision of your enemies&#8217; fate that causes them to scramble as it staggers them.</i></p>
 			</notes>
 			<subclass type="string">Oracle</subclass>
 			<target type="string">Three enemies</target>
@@ -92,7 +113,7 @@
 			<keywords type="string">Magic, Ranged, Strike </keywords>
 			<name type="string">It Is Justice You Fear (5 Wrath)</name>
 			<notes type="formattedtext">
-				<p>I am but a vessel. Your own deeds weigh upon you.</p>
+				<p><i>I am but a vessel. Your own deeds weigh upon you.</i></p>
 			</notes>
 			<subclass type="string">Exorcist</subclass>
 			<target type="string">One creature</target>
@@ -113,7 +134,7 @@
 			<keywords type="string">Area, Magic </keywords>
 			<name type="string">Edict of Peace (9 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You anticipate your foes&#8217; moves and deny them.</p>
+				<p><i>You anticipate your foes&#8217; moves and deny them.</i></p>
 			</notes>
 			<subclass type="string">Oracle</subclass>
 			<target type="string">Each enemy in the area</target>
@@ -131,7 +152,7 @@
 			<keywords type="string">Melee, Strike, Weapon </keywords>
 			<name type="string">Congregation (9 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You focus your allies&#8217; wrath on a chosen foe.</p>
+				<p><i>You focus your allies&#8217; wrath on a chosen foe.</i></p>
 			</notes>
 			<subclass type="string">Paragon</subclass>
 			<target type="string">One creature</target>
@@ -152,7 +173,7 @@
 			<keywords type="string">Area, Magic </keywords>
 			<name type="string">Blessing of the Faithful (5 Wrath)</name>
 			<notes type="formattedtext">
-				<p>The gods reward your faith</p>
+				<p><i>The gods reward your faith</i></p>
 			</notes>
 			<subclass type="string">Paragon</subclass>
 			<target type="string">Self and each ally in the area</target>
@@ -170,7 +191,7 @@
 			<keywords type="string">Magic, Melee, Strike, Weapon </keywords>
 			<name type="string">Sentenced (5 Wrath)</name>
 			<notes type="formattedtext">
-				<p>The shock of your condemnation freezes your enemy in their boots.</p>
+				<p><i>The shock of your condemnation freezes your enemy in their boots.</i></p>
 			</notes>
 			<subclass type="string">Paragon</subclass>
 			<target type="string">One creature</target>
@@ -191,7 +212,7 @@
 			<keywords type="string">Magic, Ranged </keywords>
 			<name type="string">Prescient Grace (5 Wrath)</name>
 			<notes type="formattedtext">
-				<p>Gifted by a prescient vision, you warn an ally of an impending attack</p>
+				<p><i>Gifted by a prescient vision, you warn an ally of an impending attack</i></p>
 			</notes>
 			<subclass type="string">Oracle</subclass>
 			<target type="string">Self or one ally</target>
@@ -210,7 +231,7 @@
 			<keywords type="string">Magic, Ranged </keywords>
 			<name type="string">With My Blessing (5 Wrath)</name>
 			<notes type="formattedtext">
-				<p>A word in prayer, and the gods show the way.</p>
+				<p><i>A word in prayer, and the gods show the way.</i></p>
 			</notes>
 			<subclass type="string">Oracle</subclass>
 			<target type="string">Self or one ally</target>
@@ -228,7 +249,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Edict of Disruptive Isolation (7 Wrath)</name>
 			<notes type="formattedtext">
-				<p>The evil within your foes detonates with holy fire that burns only the guilty.</p>
+				<p><i>The evil within your foes detonates with holy fire that burns only the guilty.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<type type="string">Maneuver</type>
@@ -245,7 +266,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Edict of Perfect Order (7 Wrath)</name>
 			<notes type="formattedtext">
-				<p>Within the area of your divine presence, your enemies will regret using their fell abilities.</p>
+				<p><i>Within the area of your divine presence, your enemies will regret using their fell abilities.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<type type="string">Maneuver</type>
@@ -262,7 +283,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Edict of Purifying Pacifism (7 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You shed a righteous energy that punishes enemies who would harm you or your allies.</p>
+				<p><i>You shed a righteous energy that punishes enemies who would harm you or your allies.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<type type="string">Maneuver</type>
@@ -279,7 +300,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Edict of Stillness (7 Wrath)</name>
 			<notes type="formattedtext">
-				<p>The holy aura you project makes it painful for evil-doers to leave your reach.</p>
+				<p><i>The holy aura you project makes it painful for evil-doers to leave your reach.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<type type="string">Maneuver</type>
@@ -295,7 +316,7 @@
 			<keywords type="string">Magic</keywords>
 			<name type="string">Blessing of Secrets</name>
 			<notes type="formattedtext">
-				<p>You project an illusory aura that makes you and allies harder to notice.</p>
+				<p><i>You project an illusory aura that makes you and allies harder to notice.</i></p>
 			</notes>
 			<subclass type="string">Trickery Domain</subclass>
 			<target type="string">Self and each ally in the area</target>
@@ -313,7 +334,7 @@
 			<keywords type="string">Ranged</keywords>
 			<name type="string">Gods Grant Thee Strength (9 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You channel divine force for movement that cannot be stopped.</p>
+				<p><i>You channel divine force for movement that cannot be stopped.</i></p>
 			</notes>
 			<target type="string">Self or one ally</target>
 			<type type="string">Main action</type>
@@ -330,7 +351,7 @@
 			<keywords type="string">Area</keywords>
 			<name type="string">Orison of Victory (9 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You channel your god&#8217;s will to overcome hardship and inflict pain.</p>
+				<p><i>You channel your god&#8217;s will to overcome hardship and inflict pain.</i></p>
 			</notes>
 			<target type="string">Self and each ally in the area</target>
 			<tier1 type="string">Each target gains 1 surge</tier1>
@@ -350,7 +371,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Righteous Judgment (9 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You amplify the power of your judgment.</p>
+				<p><i>You amplify the power of your judgment.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">10 + M damage</tier1>
@@ -369,7 +390,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Shield of the Righteous (9 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You strike a foe and create a fleet of divine shields that protect your allies.</p>
+				<p><i>You strike a foe and create a fleet of divine shields that protect your allies.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">10 + M damage; you and each ally adjacent to you gain 10 temporary Stamina</tier1>
@@ -389,7 +410,7 @@
 			<keywords type="string">Magic, Ranged </keywords>
 			<name type="string">Intercede (9 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You take your ally&#8217;s place.</p>
+				<p><i>You take your ally&#8217;s place.</i></p>
 			</notes>
 			<subclass type="string">Paragon</subclass>
 			<target type="string">One ally</target>
@@ -407,7 +428,7 @@
 			<keywords type="string">Magic, Ranged </keywords>
 			<name type="string">Guided to Your Side (Censor)</name>
 			<notes type="formattedtext">
-				<p>You concentrate on a friend and teleport to them.</p>
+				<p><i>You concentrate on a friend and teleport to them.</i></p>
 			</notes>
 			<subclass type="string">Love Domain</subclass>
 			<target type="string">Self and each ally</target>
@@ -425,7 +446,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Trinity of Trickery (9 Wrath) (Censor)</name>
 			<notes type="formattedtext">
-				<p>Hey! I&#8217;m over here. No, here, numbskull.</p>
+				<p><i>Hey! I&#8217;m over here. No, here, numbskull.</i></p>
 			</notes>
 			<subclass type="string">Trickery Domain</subclass>
 			<target type="string">Self or one ally</target>
@@ -443,7 +464,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Excommunication (11 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You curse your foe to become a bane to their allies.</p>
+				<p><i>You curse your foe to become a bane to their allies.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">9 + M damage; i&lt;Weak , weakened (save ends)</tier1>
@@ -463,7 +484,7 @@
 			<keywords type="string">Ranged, Strike, Weapon</keywords>
 			<name type="string">Hand of the Gods (11 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You use your foe as a tool against your enemies.</p>
+				<p><i>You use your foe as a tool against your enemies.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">10 + M damage</tier1>
@@ -483,7 +504,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Pillar of Holy Fire (11 Wrath)</name>
 			<notes type="formattedtext">
-				<p>Your enemy&#8217;s guilt fuels a holy flame that burns your foes.</p>
+				<p><i>Your enemy&#8217;s guilt fuels a holy flame that burns your foes.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">9 + M damage; i&lt;Weak , dazed (save ends)</tier1>
@@ -503,7 +524,7 @@
 			<keywords type="string">Area, Magic </keywords>
 			<name type="string">Miraculous Veil (11 Wrath) (Censor)</name>
 			<notes type="formattedtext">
-				<p>A veil of holy energy protects you and your allies from enemy eyes.</p>
+				<p><i>A veil of holy energy protects you and your allies from enemy eyes.</i></p>
 			</notes>
 			<subclass type="string">Trickery Domain</subclass>
 			<target type="string">Each ally in the area</target>
@@ -522,9 +543,9 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Healing Grace</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Your divine energy restores the righteous.</i>
-				</p>
+				</i></p>
 			</notes>
 			<special type="string">Spend 1+ Piety: For each piety spent, choose one of the following enhancements:
 			♦ You can target one additional ally within distance.
@@ -546,9 +567,9 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Ray of Wrath</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>You unleash a blast of holy light upon your foe.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">2 + I damage</tier1>
@@ -567,9 +588,9 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Word of Guidance</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>You invigorate an attacking ally with divine energy.</i>
-				</p>
+				</i></p>
 			</notes>
 			<special type="string">Spend 1 Piety: The power roll has a double edge.</special>
 			<target type="string">One ally</target>
@@ -587,9 +608,9 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Word of Judgment</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Your holy word saps an attacking enemy&#8217;s strength.</i>
-				</p>
+				</i></p>
 			</notes>
 			<special type="string">Spend 1 Piety: The power roll has a double bane against the target.</special>
 			<target type="string">One ally</target>
@@ -607,9 +628,9 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Blessed Light</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Burning radiance falls upon your foe, transferring some of their energy to a nearby ally.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">3 + [I] holy damage</tier1>
@@ -627,9 +648,9 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Curse of Terror (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Fear of divine judgment overwhelms your foe.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">6 + [I] holy damage; [I]&lt;[WEAK], frightened (save ends)</tier1>
@@ -647,9 +668,9 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Corruption’s Curse (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Cursed by you, your enemy takes more damage from your allies.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">3 + I corruption damage; M&lt;w, damage weakness 5 (save ends)</tier1>
@@ -668,9 +689,9 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Violence Will Not Aid Thee (3 Piety)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>After some holy lightning, your enemy will think twice about their next attack.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">3 + [I] lightning damage</tier1>
@@ -688,9 +709,9 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Judgment’s Hammer (3 Piety)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Your divine fury is a hammer that crashes down upon the unrighteous.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">3 + [I] holy damage; [A]&lt;[WEAK], prone</tier1>
@@ -709,9 +730,9 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Font of Wrath (3 Piety)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">Special</target>
 			<type type="string">Main action</type>
@@ -728,7 +749,7 @@
 			<keywords type="string">Magic, Ranged </keywords>
 			<name type="string">Blessing of Fate and Destiny (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>Your enemies suffer their fate; your allies embrace their destiny!</p>
+				<p><i>Your enemies suffer their fate; your allies embrace their destiny!</i></p>
 			</notes>
 			<subclass type="string">Fate Domain</subclass>
 			<target type="string">Three creatures</target>
@@ -746,7 +767,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Blessing and a Curse (11 Wrath)</name>
 			<notes type="formattedtext">
-				<p>The gods bless and damn in equal measure.</p>
+				<p><i>The gods bless and damn in equal measure.</i></p>
 			</notes>
 			<subclass type="string">Oracle</subclass>
 			<target type="string">One creature</target>
@@ -765,7 +786,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Fulfill Your Destiny (11 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You have looked at various futures, and only this one works.</p>
+				<p><i>You have looked at various futures, and only this one works.</i></p>
 			</notes>
 			<subclass type="string">Oracle</subclass>
 			<target type="string">One ally</target>
@@ -784,7 +805,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Apostate (11 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You channel holy energy to seal an enemy&#8217;s fate.</p>
+				<p><i>You channel holy energy to seal an enemy&#8217;s fate.</i></p>
 			</notes>
 			<subclass type="string">Paragon</subclass>
 			<target type="string">One creature</target>
@@ -805,7 +826,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Edict of Unyielding Resolve (11 Wrath)</name>
 			<notes type="formattedtext">
-				<p>You and your allies are clad in shimmering armor.</p>
+				<p><i>You and your allies are clad in shimmering armor.</i></p>
 			</notes>
 			<subclass type="string">Paragon</subclass>
 			<target type="string">Self and each ally in the area</target>
@@ -823,7 +844,7 @@
 			<keywords type="string">Magic, Ranged </keywords>
 			<name type="string">Blessing of Insight (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>The gods grant insight revealing where best to strike your enemies.</p>
+				<p><i>The gods grant insight revealing where best to strike your enemies.</i></p>
 			</notes>
 			<subclass type="string">War Domain</subclass>
 			<target type="string">Self and each ally</target>
@@ -841,7 +862,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Divine Comedy (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>You and your allies swap places to confound your foes.</p>
+				<p><i>You and your allies swap places to confound your foes.</i></p>
 			</notes>
 			<subclass type="string">Trickery Domain</subclass>
 			<target type="string">Self and each ally in the area</target>
@@ -858,7 +879,7 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">The Gods Command You Obey (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>You speak with the voice of your saint, commanding your enemies.</p>
+				<p><i>You speak with the voice of your saint, commanding your enemies.</i></p>
 			</notes>
 			<subclass type="string">Knowledge Domain</subclass>
 			<target type="string">One creature</target>
@@ -879,7 +900,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Morning Light (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>Light shines at your command, burning your foes and blessing your allies.</p>
+				<p><i>Light shines at your command, burning your foes and blessing your allies.</i></p>
 			</notes>
 			<subclass type="string">Sun Domain</subclass>
 			<target type="string">Each enemy in the area</target>
@@ -899,7 +920,7 @@
 			<keywords type="string">Area, Magic, Ranged</keywords>
 			<name type="string">Nature Judges Thee (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>Mystical thorned vines appear at your bidding and bind your foes.</p>
+				<p><i>Mystical thorned vines appear at your bidding and bind your foes.</i></p>
 			</notes>
 			<subclass type="string">Nature Domain</subclass>
 			<target type="string">Each enemy in the area</target>
@@ -920,7 +941,7 @@
 			<keywords type="string">Magic, Ranged </keywords>
 			<name type="string">Our Hearts Your Strength (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>An ally gains strength from their friends.</p>
+				<p><i>An ally gains strength from their friends.</i></p>
 			</notes>
 			<subclass type="string">Love Domain</subclass>
 			<target type="string">Self and one ally</target>
@@ -938,7 +959,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Reap (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>The gods reward those who smite their foes.</p>
+				<p><i>The gods reward those who smite their foes.</i></p>
 			</notes>
 			<subclass type="string">Death Domain</subclass>
 			<target type="string">Each ally</target>
@@ -956,7 +977,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Sacred Bond (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>You forge a divine connection between two creatures.</p>
+				<p><i>You forge a divine connection between two creatures.</i></p>
 			</notes>
 			<subclass type="string">Protection Domain</subclass>
 			<target type="string">Self and one ally</target>
@@ -973,7 +994,7 @@
 			<keywords type="string">Area, Magic, Ranged </keywords>
 			<name type="string">Saint’s Tempest (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>A raging storm appears, striking your foes with lightning and throwing them around with wind.</p>
+				<p><i>A raging storm appears, striking your foes with lightning and throwing them around with wind.</i></p>
 			</notes>
 			<subclass type="string">Storm Domain</subclass>
 			<target type="string">Each enemy in the area</target>
@@ -994,7 +1015,7 @@
 			<keywords type="string">Magic, Ranged </keywords>
 			<name type="string">Statue of Power (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>A marble statue of your deity rises from the earth.</p>
+				<p><i>A marble statue of your deity rises from the earth.</i></p>
 			</notes>
 			<subclass type="string">Creation Domain</subclass>
 			<target type="string">Special</target>
@@ -1012,7 +1033,7 @@
 			<keywords type="string">Area, Magic </keywords>
 			<name type="string">Wellspring of Grace (5 Piety)</name>
 			<notes type="formattedtext">
-				<p>A holy light is emitted from your body, healing your allies.</p>
+				<p><i>A holy light is emitted from your body, healing your allies.</i></p>
 			</notes>
 			<subclass type="string">Life Domain</subclass>
 			<target type="string">Each ally in the area</target>
@@ -1030,7 +1051,7 @@
 			<keywords type="string">Area, Magic, Ranged</keywords>
 			<name type="string">Fear of the Gods (7 Piety)</name>
 			<notes type="formattedtext">
-				<p>Your divine magic makes a creature appear as what your enemies fear most.</p>
+				<p><i>Your divine magic makes a creature appear as what your enemies fear most.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<tier1 type="string">6 psychic damage; i&lt;Weak , frightened (save ends)</tier1>
@@ -1050,7 +1071,7 @@
 			<keywords type="string">Magic, Ranged </keywords>
 			<name type="string">Saint’s Raiment (7 Piety)</name>
 			<notes type="formattedtext">
-				<p>An ally becomes the wearer of an empowered golden cloak.</p>
+				<p><i>An ally becomes the wearer of an empowered golden cloak.</i></p>
 			</notes>
 			<target type="string">One ally</target>
 			<type type="string">Maneuver</type>
@@ -1067,7 +1088,7 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Soul Siphon (7 Piety)</name>
 			<notes type="formattedtext">
-				<p>A beam of energy connects a foe to a friend, draining life from one to heal the other.</p>
+				<p><i>A beam of energy connects a foe to a friend, draining life from one to heal the other.</i></p>
 			</notes>
 			<target type="string">One enemy</target>
 			<tier1 type="string">7 + I corruption damage</tier1>
@@ -1087,7 +1108,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Words of Wrath and Grace (7 Piety)</name>
 			<notes type="formattedtext">
-				<p>Your saint grants your enemies a vision of pain and fills your allies with healing energy.</p>
+				<p><i>Your saint grants your enemies a vision of pain and fills your allies with healing energy.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<tier1 type="string">2 holy damage</tier1>
@@ -1106,7 +1127,7 @@
 			<keywords type="string">Magic</keywords>
 			<name type="string">Blessing of Secrets</name>
 			<notes type="formattedtext">
-				<p>You project an illusory aura that makes you and allies harder to notice.</p>
+				<p><i>You project an illusory aura that makes you and allies harder to notice.</i></p>
 			</notes>
 			<subclass type="string">Trickery Domain</subclass>
 			<target type="string">Self and each ally in the area</target>
@@ -1124,7 +1145,7 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Beacon of Grace (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>You ignite a foe with holy radiance, rewarding allies who attack them</p>
+				<p><i>You ignite a foe with holy radiance, rewarding allies who attack them</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">8 + I holy damage</tier1>
@@ -1143,7 +1164,7 @@
 			<keywords type="string">Area, Magic, Ranged</keywords>
 			<name type="string">Penance (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>&#8220;If you won&#8217;t kneel, the gods will make you.&#8221;</p>
+				<p><i>&#8220;If you won&#8217;t kneel, the gods will make you.&#8221;</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<tier1 type="string">4 corruption damage; i&lt;Weak , prone and can’t stand (save ends)</tier1>
@@ -1163,7 +1184,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Sanctuary (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>You send yourself or an ally to a divine manifold to instantaneously regain health.</p>
+				<p><i>You send yourself or an ally to a divine manifold to instantaneously regain health.</i></p>
 			</notes>
 			<target type="string">Self or one ally</target>
 			<type type="string">Maneuver</type>
@@ -1180,7 +1201,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Vessel of Retribution (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.</p>
+				<p><i>You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.</i></p>
 			</notes>
 			<target type="string">Self or one ally</target>
 			<type type="string">Maneuver</type>
@@ -1197,7 +1218,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Aura of Souls (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>A whirlwind of souls of the dead flies around you at your command.</p>
+				<p><i>A whirlwind of souls of the dead flies around you at your command.</i></p>
 			</notes>
 			<subclass type="string">Death Domain</subclass>
 			<target type="string">Each creature in the area</target>
@@ -1214,7 +1235,7 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Blade of the Heavens (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>A greatsword streams down from the sky, threatening to pin your foe.</p>
+				<p><i>A greatsword streams down from the sky, threatening to pin your foe.</i></p>
 			</notes>
 			<subclass type="string">War Domain</subclass>
 			<target type="string">One creature</target>
@@ -1235,7 +1256,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Blessing of the Midday Sun (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>Your body emits a heat that bakes your enemies and inspires your allies.</p>
+				<p><i>Your body emits a heat that bakes your enemies and inspires your allies.</i></p>
 			</notes>
 			<subclass type="string">Sun Domain</subclass>
 			<target type="string">Self and each creature in the area</target>
@@ -1253,7 +1274,7 @@
 			<keywords type="string">Area, Magic, Ranged</keywords>
 			<name type="string">Cuirass of the Gods (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>Your allies are covered in spiritual armor.</p>
+				<p><i>Your allies are covered in spiritual armor.</i></p>
 			</notes>
 			<subclass type="string">Protection Domain</subclass>
 			<target type="string">Three creatures</target>
@@ -1275,7 +1296,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Gods’ Machine (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>You conjure a whirring tank made of blades and metal.</p>
+				<p><i>You conjure a whirring tank made of blades and metal.</i></p>
 			</notes>
 			<subclass type="string">Creation Domain</subclass>
 			<target type="string">Special</target>
@@ -1296,7 +1317,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Invocation of Mystery (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>“Now you see us …”</p>
+				<p><i>“Now you see us …”</i></p>
 			</notes>
 			<subclass type="string">Trickery Domain</subclass>
 			<target type="string">Self and each ally in the area</target>
@@ -1313,7 +1334,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Invocation of Undoing (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>You utter a secret word of destruction known only to deities.</p>
+				<p><i>You utter a secret word of destruction known only to deities.</i></p>
 			</notes>
 			<special type="string">You can choose to have this ability deal damage to and push objects, and to deal damage to buildings.</special>
 			<subclass type="string">Knowledge Domain</subclass>
@@ -1335,7 +1356,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Lauded by God (9 Piety</name>
 			<notes type="formattedtext">
-				<p>You beseech the gods to give your allies what they need to win the day, and the gods answer.</p>
+				<p><i>You beseech the gods to give your allies what they need to win the day, and the gods answer.</i></p>
 			</notes>
 			<subclass type="string">Love Domain</subclass>
 			<target type="string">Two allies</target>
@@ -1353,7 +1374,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Lightning Lord (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>Lightning bursts forth from your body in several directions.</p>
+				<p><i>Lightning bursts forth from your body in several directions.</i></p>
 			</notes>
 			<subclass type="string">Storm Domain</subclass>
 			<target type="string">Each enemy in the area</target>
@@ -1374,7 +1395,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Revitalizing Grace (9 Piety)</name>
 			<notes type="formattedtext">
-				<p> With a gesture, you restore your health and that of your allies.</p>
+				<p><i> With a gesture, you restore your health and that of your allies.</i></p>
 			</notes>
 			<subclass type="string">Life Domain</subclass>
 			<target type="string">Self and each ally in the area</target>
@@ -1391,7 +1412,7 @@
 			<keywords type="string">Area, Magic, Ranged </keywords>
 			<name type="string">Spirit Stampede (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>Animal spirits run through the battlefield, trampling your foes.</p>
+				<p><i>Animal spirits run through the battlefield, trampling your foes.</i></p>
 			</notes>
 			<subclass type="string">Nature Domain</subclass>
 			<target type="string">Each enemy in the area</target>
@@ -1412,7 +1433,7 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Your Story Ends Here (9 Piety)</name>
 			<notes type="formattedtext">
-				<p>You bend the fate of a foe, willing them to die.</p>
+				<p><i>You bend the fate of a foe, willing them to die.</i></p>
 			</notes>
 			<subclass type="string">Fate Domain</subclass>
 			<target type="string">One creature</target>
@@ -1432,7 +1453,7 @@
 			<keywords type="string">Magic, Ranged </keywords>
 			<name type="string">Guided to Your Side (Conduit)</name>
 			<notes type="formattedtext">
-				<p>You concentrate on a friend and teleport to them.</p>
+				<p><i>You concentrate on a friend and teleport to them.</i></p>
 			</notes>
 			<subclass type="string">Love Domain</subclass>
 			<target type="string">Self and each ally</target>
@@ -1450,7 +1471,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Trinity of Trickery (9 Piety) (Conduit)</name>
 			<notes type="formattedtext">
-				<p>Hey! I’m over here. No, here, numbskull.</p>
+				<p><i>Hey! I’m over here. No, here, numbskull.</i></p>
 			</notes>
 			<subclass type="string">Trickery Domain</subclass>
 			<target type="string">Self or one ally</target>
@@ -1468,7 +1489,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Arise! (11 Piety)</name>
 			<notes type="formattedtext">
-				<p>Your deity rewards you or an ally on the verge of defeat with a miracle burst of strength and resolve.</p>
+				<p><i>Your deity rewards you or an ally on the verge of defeat with a miracle burst of strength and resolve.</i></p>
 			</notes>
 			<target type="string">Self or one ally</target>
 			<type type="string">Main action</type>
@@ -1485,7 +1506,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Blessing of Steel (11 Piety)</name>
 			<notes type="formattedtext">
-				<p>A protective aura defends your allies from harm.</p>
+				<p><i>A protective aura defends your allies from harm.</i></p>
 			</notes>
 			<target type="string">Self and each ally in the area</target>
 			<type type="string">Maneuver</type>
@@ -1502,7 +1523,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Blessing of the Blade (11 Piety)</name>
 			<notes type="formattedtext">
-				<p> “The power of the gods is within you, friends. Allow me to unleash it.”</p>
+				<p><i> “The power of the gods is within you, friends. Allow me to unleash it.”</i></p>
 			</notes>
 			<target type="string">Self and each ally in the area</target>
 			<type type="string">Maneuver</type>
@@ -1519,7 +1540,7 @@
 			<keywords type="string">Magic, Ranged, Strike </keywords>
 			<name type="string">Drag the Unworthy (11 Piety)</name>
 			<notes type="formattedtext">
-				<p> You conjure an angel who moves a foe and heals your allies.</p>
+				<p><i> You conjure an angel who moves a foe and heals your allies.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">9 + I holy damage; slide 3</tier1>
@@ -1539,7 +1560,7 @@
 			<keywords type="string">Magic, Ranged </keywords>
 			<name type="string">Divine Dragon (11 Piety)</name>
 			<notes type="formattedtext">
-				<p>From nothing but divine will, you create a powerful ally</p>
+				<p><i>From nothing but divine will, you create a powerful ally</i></p>
 				<linklist>
 					<link class="ability" recordname="ability.id-00074">Ability: Divine Dragon Claw Attack</link>
 				</linklist>
@@ -1581,7 +1602,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Word of Final Redemption (11 Piety)</name>
 			<notes type="formattedtext">
-				<p>Your death will fuel our victory.</p>
+				<p><i>Your death will fuel our victory.</i></p>
 			</notes>
 			<subclass type="string">Death Domain</subclass>
 			<target type="string">One creature</target>
@@ -1613,7 +1634,7 @@
 			<keywords type="string">Magic, Ranged, Strike</keywords>
 			<name type="string">Hurl Element</name>
 			<notes type="formattedtext">
-				<p>You cast a ball of elemental energy at a foe.</p>
+				<p><i>You cast a ball of elemental energy at a foe.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">2 + [R] damage</tier1>
@@ -1631,7 +1652,7 @@
 			<keywords type="string">Self; see below</keywords>
 			<name type="string">Practical Magic</name>
 			<notes type="formattedtext">
-				<p>Your mastery of elemental power lets you customize your conjurations.</p>
+				<p><i>Your mastery of elemental power lets you customize your conjurations.</i></p>
 			</notes>
 			<target type="string">Self</target>
 			<type type="string">Maneuver</type>
@@ -1646,7 +1667,7 @@
 			<keywords type="string">Magic, Ranged, Void</keywords>
 			<name type="string">Shared Void Sense</name>
 			<notes type="formattedtext">
-				<p>You grant allies a taste of your unearthly vision.</p>
+				<p><i>You grant allies a taste of your unearthly vision.</i></p>
 			</notes>
 			<subclass type="string">Void Specialist</subclass>
 			<target type="string">Special</target>
@@ -1673,7 +1694,7 @@
 			<keywords type="string">Earth, Magic, Melee </keywords>
 			<name type="string">Motivate Earth</name>
 			<notes type="formattedtext">
-				<p>The earth rises, falls, or opens up at your command.</p>
+				<p><i>The earth rises, falls, or opens up at your command.</i></p>
 			</notes>
 			<subclass type="string">Earth Specialist</subclass>
 			<target type="string">Special</target>
@@ -1689,7 +1710,7 @@
 			<keywords type="string">Fire, Magic, Melee</keywords>
 			<name type="string">Return to Formlessness</name>
 			<notes type="formattedtext">
-				<p>With the merest touch, you cause an object to turn to slag or ash</p>
+				<p><i>With the merest touch, you cause an object to turn to slag or ash</i></p>
 			</notes>
 			<subclass type="string">Fire Specialist</subclass>
 			<target type="string">One mundane object</target>
@@ -1705,7 +1726,7 @@
 			<keywords type="string">Magic, Ranged, Void</keywords>
 			<name type="string">Subtle Relocation</name>
 			<notes type="formattedtext">
-				<p>You call on the void to swallow and spit out an ally</p>
+				<p><i>You call on the void to swallow and spit out an ally</i></p>
 			</notes>
 			<special type="string">Spend 1 Essence: You teleport the target up to a number of squares equal to twice your Reason score instead.</special>
 			<subclass type="string">Void Specialist</subclass>
@@ -1723,7 +1744,7 @@
 			<keywords type="string">Green, Magic, Ranged</keywords>
 			<name type="string">Breath of Dawn Remembered</name>
 			<notes type="formattedtext">
-				<p>The power you channel grants the ability to get back in the fight.</p>
+				<p><i>The power you channel grants the ability to get back in the fight.</i></p>
 			</notes>
 			<special type="string">Spend 1+ Essence: The target can spend an additional Recovery for each essence spent.</special>
 			<subclass type="string">Green Specialist</subclass>
@@ -1741,7 +1762,7 @@
 			<keywords type="string">Fire, Magic, Ranged </keywords>
 			<name type="string">Explosive Assistance</name>
 			<notes type="formattedtext">
-				<p>You add a little magic to an ally&#8217;s aggression at just the right time.</p>
+				<p><i>You add a little magic to an ally&#8217;s aggression at just the right time.</i></p>
 			</notes>
 			<special type="string">Spend 1 Essence: The forced movement distance gains a bonus equal to twice your Reason score instead.</special>
 			<subclass type="string">Fire Specialist</subclass>
@@ -1759,7 +1780,7 @@
 			<keywords type="string">Earth, Magic, Ranged </keywords>
 			<name type="string">Skin Like Castle Walls</name>
 			<notes type="formattedtext">
-				<p>You cover yourself or an ally in protective stone.</p>
+				<p><i>You cover yourself or an ally in protective stone.</i></p>
 			</notes>
 			<special type="string">Spend 1 Essence: If the damage has any potency effects associated with it, the potency is reduced by 1 for the target.</special>
 			<subclass type="string">Earth Specialist</subclass>
@@ -1776,7 +1797,7 @@
 			<keywords type="string">Magic, Ranged, Strike, Void</keywords>
 			<name type="string">Ray of Agonizing Self-Reflection</name>
 			<notes type="formattedtext">
-				<p>You inflict pain and doubt in equal measure.</p>
+				<p><i>You inflict pain and doubt in equal measure.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">2 + [R] corruption damage; [R]&lt;[WEAK], slowed (save ends)</tier1>
@@ -1793,7 +1814,7 @@
 			<keywords type="string">Earth, Magic, Melee, Strike</keywords>
 			<name type="string">Meteoric Introduction</name>
 			<notes type="formattedtext">
-				<p>You give your enemy a gentle tap&#8212;like an asteroid impact.</p>
+				<p><i>You give your enemy a gentle tap&#8212;like an asteroid impact.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">3 + [R] damage; push 2</tier1>
@@ -1811,7 +1832,7 @@
 			<keywords type="string">Green, Magic, Ranged, Rot, Strike</keywords>
 			<name type="string">Afflict a Bountiful Decay</name>
 			<notes type="formattedtext">
-				<p>Your curse causes your foe&#8217;s flesh to rot off as spores that aid your allies.</p>
+				<p><i>Your curse causes your foe&#8217;s flesh to rot off as spores that aid your allies.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">2 + [R] corruption damage</tier1>
@@ -1828,7 +1849,7 @@
 			<keywords type="string">Fire, Magic, Ranged, Strike</keywords>
 			<name type="string">Bifurcated Incineration</name>
 			<notes type="formattedtext">
-				<p>Two jets of flame lance out at your command.</p>
+				<p><i>Two jets of flame lance out at your command.</i></p>
 			</notes>
 			<target type="string">Two creatures or objects</target>
 			<tier1 type="string">2 fire damage</tier1>
@@ -1846,7 +1867,7 @@
 			<keywords type="string">Magic, Melee, Strike, Void</keywords>
 			<name type="string">Grasp of Beyond</name>
 			<notes type="formattedtext">
-				<p>You absorb the life energy of another creature and use it to teleport.</p>
+				<p><i>You absorb the life energy of another creature and use it to teleport.</i></p>
 			</notes>
 			<target type="string">One Creature</target>
 			<tier1 type="string">3 + [R] corruption damage</tier1>
@@ -1864,7 +1885,7 @@
 			<keywords type="string">Green, Magic, Ranged, Strike</keywords>
 			<name type="string">The Green Within, the Green Without</name>
 			<notes type="formattedtext">
-				<p>Whipping vines erupt from a foe&#8217;s body to grasp at another close by.</p>
+				<p><i>Whipping vines erupt from a foe&#8217;s body to grasp at another close by.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">2 + [R] damage</tier1>
@@ -1882,7 +1903,7 @@
 			<keywords type="string">Area, Earth, Magic, Ranged</keywords>
 			<name type="string">Unquiet Ground</name>
 			<notes type="formattedtext">
-				<p>A sudden storm of detritus assaults your foes and leaves them struggling to move.</p>
+				<p><i>A sudden storm of detritus assaults your foes and leaves them struggling to move.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<tier1 type="string">2 damage</tier1>
@@ -1899,7 +1920,7 @@
 			<keywords type="string">Fire, Magic, Ranged, Strike</keywords>
 			<name type="string">Viscous Fire</name>
 			<notes type="formattedtext">
-				<p>A jet of heavy fire erupts where you strike.</p>
+				<p><i>A jet of heavy fire erupts where you strike.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">2 + [R] fire damage; push 2</tier1>
@@ -1916,7 +1937,7 @@
 			<keywords type="string">Area, Magic, Ranged, Void</keywords>
 			<name type="string">Behold the Mystery (3 Essence)</name>
 			<notes type="formattedtext">
-				<p>You open a rift into the void to harry your foes.</p>
+				<p><i>You open a rift into the void to harry your foes.</i></p>
 			</notes>
 			<special type="string">Persistent 1: At the start of your turn, you can use a maneuver to use this ability again without spending essence.</special>
 			<target type="string">Each enemy in the area</target>
@@ -1934,7 +1955,7 @@
 			<keywords type="string">Fire, Magic, Ranged, Strike</keywords>
 			<name type="string">The Flesh, a Crucible (3 Essence)</name>
 			<notes type="formattedtext">
-				<p>Fire engulfs your target and continues to churn.</p>
+				<p><i>Fire engulfs your target and continues to churn.</i></p>
 			</notes>
 			<special type="string">Persistent 1: If the target is within distance at the start of your turn, you can make the power roll again without spending essence.</special>
 			<target type="string">One creature or object</target>
@@ -1953,7 +1974,7 @@
 			<keywords type="string">Green, Magic, Ranged, Strike</keywords>
 			<name type="string">Invigorating Growth (3 Essence)</name>
 			<notes type="formattedtext">
-				<p>Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores</p>
+				<p><i>Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">4 + [R] poison damage</tier1>
@@ -1971,7 +1992,7 @@
 			<keywords type="string">Area, Earth, Magic</keywords>
 			<name type="string">Ripples in the Earth (3 Essence)</name>
 			<notes type="formattedtext">
-				<p>Like a stone was dropped into a pond, waves in the earth radiate from you.</p>
+				<p><i>Like a stone was dropped into a pond, waves in the earth radiate from you.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<tier1 type="string">3 damage</tier1>
@@ -1988,7 +2009,7 @@
 			<keywords type="string">Area, Fire, Magic, Ranged</keywords>
 			<name type="string">Conflagration (5 Essence)</name>
 			<notes type="formattedtext">
-				<p>A storm of fire descends upon your enemies.</p>
+				<p><i>A storm of fire descends upon your enemies.</i></p>
 			</notes>
 			<special type="string">Persistent 2: At the start of your turn, you can use a maneuver to use this ability again without spending essence.</special>
 			<target type="string">Each enemy in the area</target>
@@ -2007,7 +2028,7 @@
 			<keywords type="string">Earth, Magic, Ranged</keywords>
 			<name type="string">Instantaneous Excavation (5 Essence)</name>
 			<notes type="formattedtext">
-				<p>The surface of the world around you opens up to swallow foes.</p>
+				<p><i>The surface of the world around you opens up to swallow foes.</i></p>
 			</notes>
 			<special type="string">Persistent 1: At the start of your turn, you open another hole, making a power roll against each creature who could fall into the hole when it opens without spending essence.</special>
 			<target type="string">Special</target>
@@ -2026,7 +2047,7 @@
 			<keywords type="string">Magic, Ranged, Void</keywords>
 			<name type="string">No More Than a Breeze (5 Essence)</name>
 			<notes type="formattedtext">
-				<p>The material substance of a creature shreds away at your command.</p>
+				<p><i>The material substance of a creature shreds away at your command.</i></p>
 			</notes>
 			<special type="string">Persistent 1: The effect lasts until the start of your next turn.</special>
 			<target type="string">Self or one ally</target>
@@ -2042,7 +2063,7 @@
 			<keywords type="string">Area, Green, Magic, Ranged</keywords>
 			<name type="string">Test of Rain (5 Essence)</name>
 			<notes type="formattedtext">
-				<p>You call down a rain that burns your enemies and restores your allies.</p>
+				<p><i>You call down a rain that burns your enemies and restores your allies.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<tier1 type="string">4 acid damage</tier1>
@@ -2060,9 +2081,9 @@
 			<effect type="string">You take half the damage from the triggering effect and can shift up to a number of squares equal to your Agility score.</effect>
 			<name type="string">Unearthly Reflexes</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>You are as elusive as a hummingbird.</i>
-				</p>
+				</i></p>
 			</notes>
 			<special type="string">Spend 1 Ferocity: If the damage has any potency effects associated with it, the potency is reduced by 1 for you.</special>
 			<target type="string">Self</target>
@@ -2079,9 +2100,9 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Unbalancing Attack</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>A wild assault forces your foe onto their back.</i>
-				</p>
+				</i></p>
 			</notes>
 			<subclass type="string">Stormwight</subclass>
 			<target type="string">One creature or object</target>
@@ -2101,9 +2122,9 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Driving Pounce</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Your enemies try in vain to fall back from your pouncing attack.</i>
-				</p>
+				</i></p>
 			</notes>
 			<subclass type="string">Stormwight</subclass>
 			<target type="string">One creature or object</target>
@@ -2123,9 +2144,9 @@
 			<keywords type="string">Area, Melee, Weapon</keywords>
 			<name type="string">Wing Buffet</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Foes who try to close in around you do so at their peril.</i>
-				</p>
+				</i></p>
 			</notes>
 			<subclass type="string">Stormwight</subclass>
 			<target type="string">Each enemy in the area</target>
@@ -2144,9 +2165,9 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Bear Claws</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Attacks with your sharp and deadly claws grab the weak.</i>
-				</p>
+				</i></p>
 			</notes>
 			<subclass type="string">Stormwight</subclass>
 			<target type="string">One creature or object</target>
@@ -2166,9 +2187,9 @@
 			<keywords type="string">Magic, Melee</keywords>
 			<name type="string">Lines of Force</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>You redirect the energy of motion.</i>
-				</p>
+				</i></p>
 			</notes>
 			<special type="string">Spend 1 Ferocity: The forced movement distance gains a bonus equal to twice your Might score instead.</special>
 			<target type="string">Self or one creature</target>
@@ -2185,9 +2206,9 @@
 			<effect type="string">You gain temporary Stamina equal to your Might score and can enter your animal form or hybrid form.</effect>
 			<name type="string">Furious Change</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>In your anger, you revert to a more bestial form.</i>
-				</p>
+				</i></p>
 			</notes>
 			<special type="string">Spend 1 Ferocity: If you are not dying, you can spend a Recovery.</special>
 			<subclass type="string">Stormwight</subclass>
@@ -2206,9 +2227,9 @@
 			<keywords type="string">Area, Melee, Weapon</keywords>
 			<name type="string">Thunder Roar (5 Ferocity)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>You unleash a howl that hurls your enemies back.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<tier1 type="string">6 damage; push 2</tier1>
@@ -2226,9 +2247,9 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">To the Uttermost End (5 Ferocity)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>You gut your life force to ensure a foe&#8217;s demise.</i>
-				</p>
+				</i></p>
 			</notes>
 			<special type="string">Spend 1+ Ferocity: While you are winded, this ability deals an extra 1d6 damage for each ferocity spent. While you are dying, it deals an extra 1d10 damage for each ferocity spent. In either case, you lose 1d6 Stamina after making this strike.</special>
 			<target type="string">One creature</target>
@@ -2247,9 +2268,9 @@
 			<keywords type="string">Area, Melee, Weapon</keywords>
 			<name type="string">Back! (3 Ferocity)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>You hew about you with your mighty weapon, hurling enemies backward.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<tier1 type="string">5 damage</tier1>
@@ -2268,9 +2289,9 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Your Entrails Are Your Extrails! (3 Ferocity)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Hard for them to fight when they&#8217;re busy holding in their giblets.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">3 + [M] damage; [M]&lt;[WEAK], bleeding (save ends)</tier1>
@@ -2289,9 +2310,9 @@
 			<keywords type="string">Melee, Weapon</keywords>
 			<name type="string">Tide of Death (3 Ferocity)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Teach them the folly of lining up for you.</i>
-				</p>
+				</i></p>
 			</notes>
 			<special type="string">The last target you damage takes extra damage equal to your Might score for each opportunity attack you trigger during your move.</special>
 			<target type="string">Self</target>
@@ -2310,9 +2331,9 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Brutal Slam</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>The heavy impact of your weapon attacks drives your foes ever back.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">3 + [M] damage; push 1</tier1>
@@ -2330,9 +2351,9 @@
 			<effect type="string">You gain 1 surge, and the next ability roll you make this turn automatically obtains a tier 3 outcome.</effect>
 			<name type="string">Make Peace With Your God! (5 Ferocity)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Anger is your energy.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">Self</target>
 			<type type="string">Free maneuver</type>
@@ -2348,9 +2369,9 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">To the Death!</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Your reckless assault leaves you tactically vulnerable.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">3 + [M] damage</tier1>
@@ -2369,9 +2390,9 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Out of the Way! (3 Ferocity)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Your enemies will clear your path&#8212;whether they want to or not.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">3 + [M] damage; slide 2</tier1>
@@ -2389,9 +2410,9 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Impaled!</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>You skewer your enemy like a boar upon a spit.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature of your size or smaller</target>
 			<tier1 type="string">2 + [M] damage; [M]&lt;[WEAK], grabbed</tier1>
@@ -2410,9 +2431,9 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Blood for Blood! (5 Ferocity)</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>See how well they fight after you&#8217;ve bled them dry.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">4 + [M] damage; [M]&lt;[WEAK], bleeding and weakened (save ends)</tier1>
@@ -2431,9 +2452,9 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Hit and Run</name>
 			<notes type="formattedtext">
-				<p>
+				<p><i>
 					<i>Staying in constant motion helps you slip out of reach after a brutal assault.</i>
-				</p>
+				</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">2 + [M] damage</tier1>
@@ -2454,7 +2475,7 @@
 			<keywords type="string">Area, Psionic</keywords>
 			<name type="string">Null Field</name>
 			<notes type="formattedtext">
-				<p>You project an aura that dampens the power of your foes.</p>
+				<p><i>You project an aura that dampens the power of your foes.</i></p>
 			</notes>
 			<special type="string">Once as a free maneuver on each of your turns, you can spend 1\ndiscipline and give your Null Field one of the following additional\neffects until the start of your next turn:\n♦ Gravitic Disruption: The first time on a turn that a target takes damage, you can slide them up to 2 squares.\n♦ Inertial Anchor: Any target who starts their turn in the area can’t shift.\n♦Synaptic Break: Whenever you or any ally uses an ability against a target that has a potency effect, the potency is increased by 1.\n\nThis ability remains active even after an encounter ends. It ends only if you are dying or if you willingly end it (no action required).\n</special>
 			<target type="string">Each enemy in the area</target>
@@ -2471,7 +2492,7 @@
 			<keywords type="string">Psionic</keywords>
 			<name type="string">Inertial Shield</name>
 			<notes type="formattedtext">
-				<p>You intuit the course of an incoming attack, reducing its effects.</p>
+				<p><i>You intuit the course of an incoming attack, reducing its effects.</i></p>
 			</notes>
 			<special type="string">Spend 1 Discipline: The potency of one effect associated with the damage is reduced by 1 for you.</special>
 			<target type="string">Self</target>
@@ -2489,7 +2510,7 @@
 			<keywords type="string">Area, Psionic, Weapon</keywords>
 			<name type="string">Dance of Blows</name>
 			<notes type="formattedtext">
-				<p>You strike everywhere at once, tricking an enemy into moving out of position.</p>
+				<p><i>You strike everywhere at once, tricking an enemy into moving out of position.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<tier1 type="string">3 damage</tier1>
@@ -2512,7 +2533,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Pressure Points</name>
 			<notes type="formattedtext">
-				<p>You strike a key nerve cluster to leave your foe staggered.</p>
+				<p><i>You strike a key nerve cluster to leave your foe staggered.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">4 + [A] damage; [A]&lt;[WEAK] weakened (save ends)</tier1>
@@ -2531,7 +2552,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Phase Inversion Strike</name>
 			<notes type="formattedtext">
-				<p>You step momentarily out of phase as you pull an enemy through you.</p>
+				<p><i>You step momentarily out of phase as you pull an enemy through you.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">4 + [A] damage; push 2</tier1>
@@ -2554,7 +2575,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Magnetic Strike</name>
 			<notes type="formattedtext">
-				<p>The force of your blow extends past the limits of your body, pulling your enemy closer.</p>
+				<p><i>The force of your blow extends past the limits of your body, pulling your enemy closer.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">5 + [A] psychic damage; vertical pull 1</tier1>
@@ -2577,7 +2598,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Joint Lock</name>
 			<notes type="formattedtext">
-				<p>You contort your enemy's body into a stance they struggle to escape from.</p>
+				<p><i>You contort your enemy's body into a stance they struggle to escape from.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">4 + [A] damage; [A]&lt;[WEAK], grabbed</tier1>
@@ -2596,7 +2617,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Inertial Step</name>
 			<notes type="formattedtext">
-				<p>You flit about the battlefield and take an opportunistic strike.</p>
+				<p><i>You flit about the battlefield and take an opportunistic strike.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">5 + [A] damage</tier1>
@@ -2615,7 +2636,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Faster Than the Eye</name>
 			<notes type="formattedtext">
-				<p>You strike so quickly that your hands become a blur.</p>
+				<p><i>You strike so quickly that your hands become a blur.</i></p>
 			</notes>
 			<target type="string">Two creatures or objects</target>
 			<tier1 type="string">4 damage</tier1>
@@ -2638,7 +2659,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Stunning Blow (3 Discipline)</name>
 			<notes type="formattedtext">
-				<p>You focus your psionic technique into a concussive punch.</p>
+				<p><i>You focus your psionic technique into a concussive punch.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">4 + [A] damage; [I]&lt;[WEAK], dazed and slowed (save ends)</tier1>
@@ -2657,7 +2678,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Relentless Nemesis (3 Discipline)</name>
 			<notes type="formattedtext">
-				<p>You strike, and for the next few moments, your enemy can't escape you.</p>
+				<p><i>You strike, and for the next few moments, your enemy can't escape you.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">6 + [A] damage</tier1>
@@ -2676,7 +2697,7 @@
 			<keywords type="string">Area, Psionic</keywords>
 			<name type="string">Psychic Pulse (3 Discipline)</name>
 			<notes type="formattedtext">
-				<p>A burst of psionic energy interferes with your enemy's synapses.</p>
+				<p><i>A burst of psionic energy interferes with your enemy's synapses.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<type type="string">Maneuver</type>
@@ -2692,7 +2713,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Chronal Spike (3 Discipline)</name>
 			<notes type="formattedtext">
-				<p>You foresee the best moment to strike, then exploit it.</p>
+				<p><i>You foresee the best moment to strike, then exploit it.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">7 + [A] damage</tier1>
@@ -2711,7 +2732,7 @@
 			<keywords type="string">Area, Psionic, Weapon</keywords>
 			<name type="string">A Squad Unto Myself (5 Discipline)</name>
 			<notes type="formattedtext">
-				<p>You move so quickly, it seems as though an army assaulted your foes.</p>
+				<p><i>You move so quickly, it seems as though an army assaulted your foes.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<tier1 type="string">6 damage</tier1>
@@ -2730,7 +2751,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Phase Strike (5 Discipline)</name>
 			<notes type="formattedtext">
-				<p>For a moment, your foe slips out of phase with this manifold.</p>
+				<p><i>For a moment, your foe slips out of phase with this manifold.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">3 + [A] psychic damage; [I]&lt;[WEAK], the target goes out of phase (save ends)</tier1>
@@ -2749,7 +2770,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Impart Force ( 5 Discipline)</name>
 			<notes type="formattedtext">
-				<p>A single touch from you, and your enemy flies backwards.</p>
+				<p><i>A single touch from you, and your enemy flies backwards.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">Push 3</tier1>
@@ -2768,7 +2789,7 @@
 			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
 			<name type="string">Arcane Disruptor (5 Discipline)</name>
 			<notes type="formattedtext">
-				<p>Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.</p>
+				<p><i>Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">8 + [A] psychic damage; [M]&lt;[WEAK], weakened (save ends)</tier1>
@@ -2789,7 +2810,7 @@
 			<keywords type="string">Magic</keywords>
 			<name type="string">Black Ash Teleport</name>
 			<notes type="formattedtext">
-				<p>In a swirl of black ash, you step from one place to another.</p>
+				<p><i>In a swirl of black ash, you step from one place to another.</i></p>
 			</notes>
 			<special type="string">Spend 1+ Insight: You teleport 1 additional square for each insight spent.</special>
 			<target type="string">Self</target>
@@ -2805,7 +2826,7 @@
 			<effect type="string">You gain 2 surges. Additionally, whenever you use a surge before the end of the encounter, you can choose to have it deal poison damage</effect>
 			<name type="string">Coat the Blade</name>
 			<notes type="formattedtext">
-				<p>A little poison goes a long way.</p>
+				<p><i>A little poison goes a long way.</i></p>
 			</notes>
 			<special type="string">Spend 1+ Insight: For each insight you spend, you gain 1 additional surge</special>
 			<target type="string">Self</target>
@@ -2822,8 +2843,8 @@
 			<keywords type="string">Magic</keywords>
 			<name type="string">I’m No Threat</name>
 			<notes type="formattedtext">
-				<p>Taking on an illusory countenance gives you an advantage on</p>
-				<p>subterfuge.</p>
+				<p><i>Taking on an illusory countenance gives you an advantage on</i></p>
+				<p><i>subterfuge.</i></p>
 			</notes>
 			<special type="string">Spend 1 Insight: Choose a creature whose size is no more than 1 greater than yours and who is within 10 squares. This ability’s illusion makes you appear as that creature. This illusion covers your entire body, including clothing and armor, and alters your voice to sound like that of the creature. You gain an edge on tests made to convince the creature’s allies that you are the creature.</special>
 			<target type="string">Self</target>
@@ -2840,7 +2861,7 @@
 			<keywords type="string">Magic</keywords>
 			<name type="string">Clever Trick</name>
 			<notes type="formattedtext">
-				<p>You sow a moment of confusion in combat, to your enemy&#8217;s peril.</p>
+				<p><i>You sow a moment of confusion in combat, to your enemy&#8217;s peril.</i></p>
 			</notes>
 			<target type="string">Self</target>
 			<trigger type="string">An enemy targets you with a strike.</trigger>
@@ -2856,7 +2877,7 @@
 			<effect type="string">You take half the triggering damage, then can shift up to 2 squares after the triggering effect resolves. If you end this shift with concealment or cover, you can use the Hide maneuver even if you are observed.</effect>
 			<name type="string">Defensive Roll</name>
 			<notes type="formattedtext">
-				<p>When an enemy attacks, you roll with the impact to reduce the harm.</p>
+				<p><i>When an enemy attacks, you roll with the impact to reduce the harm.</i></p>
 			</notes>
 			<special type="string">Spend 1 Insight: The potency of any effects associated with the damage are reduced by 1 for you.</special>
 			<target type="string">Self</target>
@@ -2874,7 +2895,7 @@
 			<keywords type="string">Magic</keywords>
 			<name type="string">In All This Confusion</name>
 			<notes type="formattedtext">
-				<p>You vanish in a plume of black smoke to avoid danger.</p>
+				<p><i>You vanish in a plume of black smoke to avoid danger.</i></p>
 			</notes>
 			<special type="string">Spend 1+ Insight: You teleport 1 additional square for each insight spent.</special>
 			<target type="string">Self</target>
@@ -2891,7 +2912,7 @@
 			<effect type="string">You take your turn after the triggering hero.</effect>
 			<name type="string">Hesitation Is Weakness</name>
 			<notes type="formattedtext">
-				<p>Keep up the attack. Never give them a moment&#8217;s grace.</p>
+				<p><i>Keep up the attack. Never give them a moment&#8217;s grace.</i></p>
 			</notes>
 			<target type="string">Self</target>
 			<trigger type="string">Another hero ends their turn. That hero can’t have used this ability to start their turn.</trigger>
@@ -2908,7 +2929,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Gasping in Pain</name>
 			<notes type="formattedtext">
-				<p>Your precise strikes let your allies take advantage of a target&#8217;s agony.</p>
+				<p><i>Your precise strikes let your allies take advantage of a target&#8217;s agony.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">3 + [A] damage</tier1>
@@ -2927,7 +2948,7 @@
 			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
 			<name type="string">Teamwork Has Its Place</name>
 			<notes type="formattedtext">
-				<p>You attack an enemy as an ally exposes their weakness.</p>
+				<p><i>You attack an enemy as an ally exposes their weakness.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">3 + [A] damage</tier1>
@@ -2946,7 +2967,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">You Were Watching the Wrong One</name>
 			<notes type="formattedtext">
-				<p>They can&#8217;t watch both of you at once.</p>
+				<p><i>They can&#8217;t watch both of you at once.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">3 + [A] damage</tier1>
@@ -2965,7 +2986,7 @@
 			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
 			<name type="string">I Work Better Alone</name>
 			<notes type="formattedtext">
-				<p>&#8220;It&#8217;s better, just you and me. Isn&#8217;t it?&#8221;</p>
+				<p><i>&#8220;It&#8217;s better, just you and me. Isn&#8217;t it?&#8221;</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">3 + [A] damage</tier1>
@@ -2983,7 +3004,7 @@
 			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
 			<name type="string">Two Throats at Once (3 Insight)</name>
 			<notes type="formattedtext">
-				<p>A bargain.</p>
+				<p><i>A bargain.</i></p>
 			</notes>
 			<target type="string">Two creatures or objects</target>
 			<tier1 type="string">4 damage</tier1>
@@ -3002,7 +3023,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Disorienting Strike (3 Insight)</name>
 			<notes type="formattedtext">
-				<p>Your attack leaves them reeling, allowing you to follow up.</p>
+				<p><i>Your attack leaves them reeling, allowing you to follow up.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">4 + [A] damage; slide 2</tier1>
@@ -3021,7 +3042,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Get In Get Out (3 Insight)</name>
 			<notes type="formattedtext">
-				<p>Move unexpectedly, strike fast, and be gone!</p>
+				<p><i>Move unexpectedly, strike fast, and be gone!</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">5 + [A] damage</tier1>
@@ -3039,7 +3060,7 @@
 			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
 			<name type="string">Eviscerate (3 Insight)</name>
 			<notes type="formattedtext">
-				<p>You leave your foe bleeding out after a devastating attack.</p>
+				<p><i>You leave your foe bleeding out after a devastating attack.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">4 + [A] damage; [A] &lt; [WEAK] bleeding (save ends)</tier1>
@@ -3058,7 +3079,7 @@
 			<keywords type="string">Ranged, Strike, Weapon</keywords>
 			<name type="string">Setup (5 Insight)</name>
 			<notes type="formattedtext">
-				<p>Your friends will thank you.</p>
+				<p><i>Your friends will thank you.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">6 + [A] damage; [R] &lt; [WEAK], the target has damage weakness 5 (save ends)</tier1>
@@ -3077,7 +3098,7 @@
 			<keywords type="string">Magic, Melee, Ranged</keywords>
 			<name type="string">Shadowstrike (5 Insight)</name>
 			<notes type="formattedtext">
-				<p>They have no idea what the college taught you.</p>
+				<p><i>They have no idea what the college taught you.</i></p>
 			</notes>
 			<target type="string">Self</target>
 			<type type="string">Main Action</type>
@@ -3092,7 +3113,7 @@
 			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
 			<name type="string">Coup de Grace (5 Insight)</name>
 			<notes type="formattedtext">
-				<p>Your blade might be the last thing they see.</p>
+				<p><i>Your blade might be the last thing they see.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">2d6 + 7 + [A] damage</tier1>
@@ -3111,8 +3132,8 @@
 			<keywords type="string">Melee, Weapon</keywords>
 			<name type="string">One Hundred Throats (5 Insight)</name>
 			<notes type="formattedtext">
-				<p>As you move across the battlefield, every foe within reach feels your</p>
-				<p>wrath.</p>
+				<p><i>As you move across the battlefield, every foe within reach feels your</i></p>
+				<p><i>wrath.</i></p>
 			</notes>
 			<target type="string">Self</target>
 			<tier1 type="string">3 damage</tier1>
@@ -3132,7 +3153,7 @@
 			<keywords type="string">─</keywords>
 			<name type="string">Studied Commander (Encounter)</name>
 			<notes type="formattedtext">
-				<p>Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges.</p>
+				<p><i>Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges.</i></p>
 			</notes>
 			<special type="string">You can make this test only once for any encounter or negotiation.</special>
 			<subclass type="string">Mastermind</subclass>
@@ -3152,7 +3173,7 @@
 			<keywords type="string">─</keywords>
 			<name type="string">Studied Commander (Negotiation)</name>
 			<notes type="formattedtext">
-				<p>Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges.</p>
+				<p><i>Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges.</i></p>
 			</notes>
 			<special type="string">You can make this test only once for any encounter or negotiation.</special>
 			<subclass type="string">Mastermind</subclass>
@@ -3173,7 +3194,7 @@
 			<keywords type="string">Melee, Weapon</keywords>
 			<name type="string">Parry</name>
 			<notes type="formattedtext">
-				<p>Your quick reflexes cost an enemy the precision they seek.</p>
+				<p><i>Your quick reflexes cost an enemy the precision they seek.</i></p>
 			</notes>
 			<special type="string">Spend 1 Focus: This ability’s distance becomes Melee 1 + your Reason score, and you can shift up to a number of squares equal to your Reason score instead of 1 square.</special>
 			<subclass type="string">Vanguard</subclass>
@@ -3192,7 +3213,7 @@
 			<keywords type="string">Ranged</keywords>
 			<name type="string">Overwatch</name>
 			<notes type="formattedtext">
-				<p>Under your direction, an ally waits for just the right moment to strike.</p>
+				<p><i>Under your direction, an ally waits for just the right moment to strike.</i></p>
 			</notes>
 			<special type="string">Spend 1 Focus: If the target is [R]&lt;[AVERAGE], they are slowed (EoT)</special>
 			<subclass type="string">Mastermind</subclass>
@@ -3211,7 +3232,7 @@
 			<keywords type="string">Ranged</keywords>
 			<name type="string">Advanced Tactics</name>
 			<notes type="formattedtext">
-				<p>Your leadership aids an ally.</p>
+				<p><i>Your leadership aids an ally.</i></p>
 			</notes>
 			<special type="string">Spend 1 Focus: If the damage has any potency effect associated with it, the potency is increased by 1.</special>
 			<subclass type="string">Insurgent</subclass>
@@ -3230,7 +3251,7 @@
 			<keywords type="string">Ranged</keywords>
 			<name type="string">Mark</name>
 			<notes type="formattedtext">
-				<p>You draw your allies' attention to a specific foe&#9472; with devastating effect.</p>
+				<p><i>You draw your allies' attention to a specific foe&#9472; with devastating effect.</i></p>
 			</notes>
 			<special type="string">While a creature marked by you is within your line of effect, you and allies within your line of effect gain an edge on power rolls made against that creature. Additionally, whenever you or any ally uses an ability to deal rolled damage to a creature marked by you, you can spend 1 focus to gain one of the following benefits as a free triggered action:\n♦ The ability deals extra damage equal to twice your Reason score.\n♦ The creature dealing the damage can spend a Recovery.\n♦ The creature dealing the damage can shift up to a number of squares equal to your Reason score.\n♦ If you damage a creature marked by you with a melee ability, the creature is taunted by you until the end of their next turn. You can’t gain more than one benefit from the same trigger.</special>
 			<target type="string">One creature</target>
@@ -3247,7 +3268,7 @@
 			<keywords type="string">Ranged</keywords>
 			<name type="string">Strike Now!</name>
 			<notes type="formattedtext">
-				<p>Your foe left an opening. You point this out to an ally!</p>
+				<p><i>Your foe left an opening. You point this out to an ally!</i></p>
 			</notes>
 			<special type="string">Spend 5 Focus: You target two allies instead of one.</special>
 			<target type="string">One ally</target>
@@ -3263,7 +3284,7 @@
 			<keywords type="string">Ranged</keywords>
 			<name type="string">Squad! Forward! (3 Focus)</name>
 			<notes type="formattedtext">
-				<p>On your command, you and your allies force back the enemy line.</p>
+				<p><i>On your command, you and your allies force back the enemy line.</i></p>
 			</notes>
 			<target type="string">Self and two allies</target>
 			<type type="string">Maneuver</type>
@@ -3282,7 +3303,7 @@
 			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
 			<name type="string">Inspiring Strike (3 Focus)</name>
 			<notes type="formattedtext">
-				<p>Your attack gives an ally hope.</p>
+				<p><i>Your attack gives an ally hope.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">3 + [M] damage, you or one ally within 10 squares of you can spend a Recovery</tier1>
@@ -3304,7 +3325,7 @@
 			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
 			<name type="string">Concussive Strike (3 Focus)</name>
 			<notes type="formattedtext">
-				<p>Your precise strike leaves your foe struggling to respond.</p>
+				<p><i>Your precise strike leaves your foe struggling to respond.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">3 + [M] damage, [M]&lt;[WEAK], dazed (save ends)</tier1>
@@ -3326,7 +3347,7 @@
 			<keywords type="string">Ranged</keywords>
 			<name type="string">Battle Cry (3 Focus)</name>
 			<notes type="formattedtext">
-				<p>You shout a phrase that galvanizes your team.</p>
+				<p><i>You shout a phrase that galvanizes your team.</i></p>
 			</notes>
 			<target type="string">Three allies</target>
 			<tier1 type="string">Each target gains 1 surge.</tier1>
@@ -3345,7 +3366,7 @@
 			<keywords type="string">Ranged</keywords>
 			<name type="string">Now! (5 Focus)</name>
 			<notes type="formattedtext">
-				<p>Your allies wait for your command&#8212;then unleash death!</p>
+				<p><i>Your allies wait for your command&#8212;then unleash death!</i></p>
 			</notes>
 			<target type="string">Three allies</target>
 			<type type="string">Maneuver</type>
@@ -3360,7 +3381,7 @@
 			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
 			<name type="string">Mind Game (5 Focus)</name>
 			<notes type="formattedtext">
-				<p>Your attack demoralizes your foe. Your allies begin to think you can win.</p>
+				<p><i>Your attack demoralizes your foe. Your allies begin to think you can win.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">4 + [M] damage; [R]&lt;[WEAK], weakened (save ends)</tier1>
@@ -3378,7 +3399,7 @@
 			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
 			<name type="string">Hammer and Anvil (5 Focus)</name>
 			<notes type="formattedtext">
-				<p>&#34;Let's not argue about who's the hammer and who's the anvil!&#34;</p>
+				<p><i>&#34;Let's not argue about who's the hammer and who's the anvil!&#34;</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">5 + [M] damage; one ally within 10 squares of you can use a strike signature ability against the target as a free triggered action</tier1>
@@ -3396,7 +3417,7 @@
 			<keywords type="string">Ranged</keywords>
 			<name type="string">This is What We Planned For! (5 Focus)</name>
 			<notes type="formattedtext">
-				<p>All those coordination drills you made them do finally pay off.</p>
+				<p><i>All those coordination drills you made them do finally pay off.</i></p>
 			</notes>
 			<target type="string">Two allies</target>
 			<type type="string">Maneuver</type>
@@ -3412,7 +3433,7 @@
 			<keywords type="string">Psionic, Ranged, Strike, Telepathy</keywords>
 			<name type="string">Mind Spike</name>
 			<notes type="formattedtext">
-				<p>A telepathic bolt instantly zaps a creature&#8217;s brain.</p>
+				<p><i>A telepathic bolt instantly zaps a creature&#8217;s brain.</i></p>
 			</notes>
 			<special type="string">Strained: The target takes an extra 2 psychic damage. You also take 2 psychic damage that can’t be reduced in any way.</special>
 			<target type="string">One creature</target>
@@ -3432,7 +3453,7 @@
 			<keywords type="string">Psionic, Ranged</keywords>
 			<name type="string">Accelerate</name>
 			<notes type="formattedtext">
-				<p>To your ally, it seems as though the world has slowed down.</p>
+				<p><i>To your ally, it seems as though the world has slowed down.</i></p>
 			</notes>
 			<special type="string">Spend 2 Clarity: The target can use a maneuver.</special>
 			<target type="string">Self or one creature</target>
@@ -3449,7 +3470,7 @@
 			<keywords type="string">Psionic, Ranged</keywords>
 			<name type="string">Repel</name>
 			<notes type="formattedtext">
-				<p>They aren&#8217;t going anywhere, but you might!</p>
+				<p><i>They aren&#8217;t going anywhere, but you might!</i></p>
 			</notes>
 			<target type="string">Self or one ally</target>
 			<trigger type="string">The target takes damage or is force moved.</trigger>
@@ -3466,7 +3487,7 @@
 			<keywords type="string">Psionic, Ranged</keywords>
 			<name type="string">Feedback Loop</name>
 			<notes type="formattedtext">
-				<p>Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.</p>
+				<p><i>Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<trigger type="string">The target deals damage to an ally.</trigger>
@@ -3483,7 +3504,7 @@
 			<keywords type="string">Psionic, Ranged</keywords>
 			<name type="string">Minor Telekinesis</name>
 			<notes type="formattedtext">
-				<p>Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.</p>
+				<p><i>Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.</i></p>
 			</notes>
 			<special type="string">Spend 2+ Clarity: The size of the creature or object you can target increases by 1 for every 2 clarity spent.\n\nSpend 3 Clarity: You can vertical slide the target.</special>
 			<target type="string">Self or one size 1 creature or object</target>
@@ -3500,7 +3521,7 @@
 			<keywords type="string">Psionic, Ranged</keywords>
 			<name type="string">Again</name>
 			<notes type="formattedtext">
-				<p>You step back a split second to see if things play out a little differently.</p>
+				<p><i>You step back a split second to see if things play out a little differently.</i></p>
 			</notes>
 			<target type="string">Self or one creature</target>
 			<trigger type="string">The target makes an ability roll.</trigger>
@@ -3517,7 +3538,7 @@
 			<keywords type="string">Psionic, Ranged</keywords>
 			<name type="string">Remote Assistance</name>
 			<notes type="formattedtext">
-				<p>An ally gains the benefit of your intellect.</p>
+				<p><i>An ally gains the benefit of your intellect.</i></p>
 			</notes>
 			<special type="string">Spend 1 Clarity: You target one additional creature or object.</special>
 			<target type="string">One creature or object</target>
@@ -3534,7 +3555,7 @@
 			<keywords type="string">Chronopathy, Psionic, Ranged, Strike</keywords>
 			<name type="string">Entropic Bolt</name>
 			<notes type="formattedtext">
-				<p>You advance an enemy&#8217;s age for a moment.</p>
+				<p><i>You advance an enemy&#8217;s age for a moment.</i></p>
 			</notes>
 			<special type="string">Strained: You gain 1 clarity when you obtain a tier 2 or tier 3 out- come on the power roll.</special>
 			<target type="string">One creature or object</target>
@@ -3553,7 +3574,7 @@
 			<keywords type="string">Cryokinesis, Psionic, Ranged, Strike</keywords>
 			<name type="string">Hoarfrost</name>
 			<notes type="formattedtext">
-				<p>You blast a foe with a pulse of cold energy.</p>
+				<p><i>You blast a foe with a pulse of cold energy.</i></p>
 			</notes>
 			<special type="string">Strained: You are slowed until the end of your next turn. Additional- ly, a target slowed by this ability is restrained instead.</special>
 			<target type="string">One creature</target>
@@ -3573,7 +3594,7 @@
 			<keywords type="string">Animapathy, Melee, Psionic, Strike</keywords>
 			<name type="string">Spirit Sword</name>
 			<notes type="formattedtext">
-				<p>You form a blade of mind energy and stab your target, invigorating yourself.</p>
+				<p><i>You form a blade of mind energy and stab your target, invigorating yourself.</i></p>
 			</notes>
 			<special type="string">Strained: The target takes an extra 3 damage. You also take 3 damage that can’t be reduced in any way.</special>
 			<target type="string">One creature or object</target>
@@ -3593,7 +3614,7 @@
 			<keywords type="string">Area, Fire, Psionic, Pyrokinesis, Ranged</keywords>
 			<name type="string">Incinerate</name>
 			<notes type="formattedtext">
-				<p>The air erupts into a column of smokeless flame.</p>
+				<p><i>The air erupts into a column of smokeless flame.</i></p>
 			</notes>
 			<special type="string">Strained: The size of the cube increases by 2, but the fire disappears at the end of your turn.</special>
 			<target type="string">Each enemy in the area</target>
@@ -3613,7 +3634,7 @@
 			<keywords type="string">Metamorphosis, Psionic, Ranged, Strike</keywords>
 			<name type="string">Optic Blast</name>
 			<notes type="formattedtext">
-				<p>Your eyes emit rays of powerful enervating force.</p>
+				<p><i>Your eyes emit rays of powerful enervating force.</i></p>
 			</notes>
 			<special type="string">Strained: You gain 1 surge that you can use immediately, and you take damage equal to your Reason score that can’t be reduced in any way.</special>
 			<target type="string">One creature or object</target>
@@ -3633,7 +3654,7 @@
 			<keywords type="string">Psionic, Ranged, Resopathy, Strike</keywords>
 			<name type="string">Materialize</name>
 			<notes type="formattedtext">
-				<p>You picture an object in your mind and give it form&#8212;directly above your opponent&#8217;s head.</p>
+				<p><i>You picture an object in your mind and give it form&#8212;directly above your opponent&#8217;s head.</i></p>
 			</notes>
 			<special type="string">Strained: The object explodes after the damage is dealt, and each creature adjacent to the target takes damage equal to your Reason score. You also take damage equal to your Reason score that can’t be reduced in any way.</special>
 			<target type="string">One creature or object</target>
@@ -3652,7 +3673,7 @@
 			<keywords type="string">Area, Psionic, Telepathy</keywords>
 			<name type="string">Kinetic Pulse</name>
 			<notes type="formattedtext">
-				<p>The force of your mind hurls enemies backward.</p>
+				<p><i>The force of your mind hurls enemies backward.</i></p>
 			</notes>
 			<special type="string">Strained: The size of the burst increases by 2, and you are bleeding\nuntil the start of your next turn.</special>
 			<target type="string">Each enemy in the area</target>
@@ -3671,7 +3692,7 @@
 			<keywords type="string">Psionic, Ranged, Telekinesis</keywords>
 			<name type="string">Kinetic Grip</name>
 			<notes type="formattedtext">
-				<p>You lift and hurl your foe away from you.</p>
+				<p><i>You lift and hurl your foe away from you.</i></p>
 			</notes>
 			<special type="string">Strained: You must vertical push the target instead of sliding them.</special>
 			<target type="string">One creature or object</target>
@@ -3690,7 +3711,7 @@
 			<keywords type="string">Psionic, Ranged, Strike, Telepathy</keywords>
 			<name type="string">Awe (3 Clarity)</name>
 			<notes type="formattedtext">
-				<p>You project psionic energy out to a creature and take on a new visage in their mind.</p>
+				<p><i>You project psionic energy out to a creature and take on a new visage in their mind.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">3 + [P] psychic damage; [I] &lt; [WEAK], frightened (save ends)</tier1>
@@ -3709,7 +3730,7 @@
 			<keywords type="string">Psionic, Ranged, Strike, Telekinesis</keywords>
 			<name type="string">Choke (3 Clarity)</name>
 			<notes type="formattedtext">
-				<p>You crush a foe in a telekinetic grip.</p>
+				<p><i>You crush a foe in a telekinetic grip.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">3 + [R] damage; [M] &lt; [WEAK], slowed (save ends)</tier1>
@@ -3728,7 +3749,7 @@
 			<keywords type="string">Chronopathy, Melee, Psionic</keywords>
 			<name type="string">Precognition (3 Clarity)</name>
 			<notes type="formattedtext">
-				<p>You give a target a glimpse into the future so that they&#8217;re ready for what comes next.</p>
+				<p><i>You give a target a glimpse into the future so that they&#8217;re ready for what comes next.</i></p>
 			</notes>
 			<target type="string">Self or one ally</target>
 			<type type="string">Main Action</type>
@@ -3744,7 +3765,7 @@
 			<keywords type="string">Psionic, Pyrokinesis, Ranged, Strike</keywords>
 			<name type="string">Smolder (3 Clarity)</name>
 			<notes type="formattedtext">
-				<p>Smoke flows from your enemy like tears as their skin begins to black- en and flake.</p>
+				<p><i>Smoke flows from your enemy like tears as their skin begins to black- en and flake.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">3 + [R] damage; [R] &lt; [WEAK], the target has weakness 5 (save ends)</tier1>
@@ -3763,7 +3784,7 @@
 			<keywords type="string">Chronopathy, Psionic, Ranged</keywords>
 			<name type="string">Flashback (5 Clarity)</name>
 			<notes type="formattedtext">
-				<p>The target is thrown several seconds back through time and gets to do it all again.</p>
+				<p><i>The target is thrown several seconds back through time and gets to do it all again.</i></p>
 			</notes>
 			<special type="string">Strained: You take 1d6 damage and are slowed (save ends).</special>
 			<target type="string">Self or one ally</target>
@@ -3780,7 +3801,7 @@
 			<keywords type="string">Psionic, Ranged, Telekinesis</keywords>
 			<name type="string">Inertia Soak (5 Clarity)</name>
 			<notes type="formattedtext">
-				<p>Your psionic energy surrounds the target and pushes everything else away from them.</p>
+				<p><i>Your psionic energy surrounds the target and pushes everything else away from them.</i></p>
 			</notes>
 			<special type="string">Strained: You are weakened (save ends). While you are weakened this way, whenever you are force moved, the forced movement distance gains a +5 bonus.</special>
 			<target type="string">Self or one ally</target>
@@ -3797,7 +3818,7 @@
 			<keywords type="string">Metamorphosis, Psionic, Ranged</keywords>
 			<name type="string">Iron (5 Clarity)</name>
 			<notes type="formattedtext">
-				<p>The target&#8217;s skin turns to hard, dark metal, impenetrable and dense.</p>
+				<p><i>The target&#8217;s skin turns to hard, dark metal, impenetrable and dense.</i></p>
 			</notes>
 			<special type="string">Strained: You can’t use maneuvers (save ends).</special>
 			<target type="string">Self or one ally</target>
@@ -3814,7 +3835,7 @@
 			<keywords type="string">Psionic, Ranged, Telepathy</keywords>
 			<name type="string">Perfect Clarity (5 Clarity)</name>
 			<notes type="formattedtext">
-				<p>You clear the mind of nothing but the goal.</p>
+				<p><i>You clear the mind of nothing but the goal.</i></p>
 			</notes>
 			<special type="string">Strained: You take 1d6 damage, and you can’t use triggered actions (save ends).</special>
 			<target type="string">Self or one ally</target>
@@ -3832,7 +3853,7 @@
 			<keywords type="string">Area, Magic, Performance</keywords>
 			<name type="string">Revitalizing Limerick</name>
 			<notes type="formattedtext">
-				<p>There was once a man from Capital...</p>
+				<p><i>There was once a man from Capital...</i></p>
 			</notes>
 			<target type="string">Self and each ally in the area</target>
 			<type type="string">No Action</type>
@@ -3847,7 +3868,7 @@
 			<keywords type="string">Area, Magic, Performance</keywords>
 			<name type="string">Choreography</name>
 			<notes type="formattedtext">
-				<p>Taps, kicks, steps. It's all &#34;choreography.&#34;</p>
+				<p><i>Taps, kicks, steps. It's all &#34;choreography.&#34;</i></p>
 			</notes>
 			<target type="string">Self and each ally in the area</target>
 			<type type="string">No Action</type>
@@ -3862,7 +3883,7 @@
 			<keywords type="string">Ranged</keywords>
 			<name type="string">Turnabout Is Fair Play</name>
 			<notes type="formattedtext">
-				<p>All's fair in love and whatever.</p>
+				<p><i>All's fair in love and whatever.</i></p>
 			</notes>
 			<special type="string">Spend 3 Drama: An edge on the triggering roll becomes a double bane, or a double edge is negated. A bane becomes a double edge, or a double bane is negated.</special>
 			<subclass type="string">Auteur</subclass>
@@ -3881,7 +3902,7 @@
 			<keywords type="string">─</keywords>
 			<name type="string">Star Power (1 Drama)</name>
 			<notes type="formattedtext">
-				<p>Your years of practicing fencing and dancing pay off on the battlefield.</p>
+				<p><i>Your years of practicing fencing and dancing pay off on the battlefield.</i></p>
 			</notes>
 			<special type="string">Spend 1 Drama: You gain a +4 bonus to speed instead.</special>
 			<subclass type="string">Duelist</subclass>
@@ -3903,7 +3924,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Power Chord</name>
 			<notes type="formattedtext">
-				<p>Your instrument rings true and your music blows everyone away.</p>
+				<p><i>Your instrument rings true and your music blows everyone away.</i></p>
 			</notes>
 			<subclass type="string">Virtuoso</subclass>
 			<target type="string">Each enemy in the area</target>
@@ -3923,7 +3944,7 @@
 			<keywords type="string">Magic, Ranged</keywords>
 			<name type="string">Dramatic Monologue</name>
 			<notes type="formattedtext">
-				<p>It doesn't need to make sense. Just say it with emotion.</p>
+				<p><i>It doesn't need to make sense. Just say it with emotion.</i></p>
 			</notes>
 			<special type="string">Spend 1 Drama: You can choose two targets for the chosen effect.</special>
 			<subclass type="string">Auteur</subclass>
@@ -3942,7 +3963,7 @@
 			<keywords type="string">Area, Magic, Performance</keywords>
 			<name type="string">Blocking</name>
 			<notes type="formattedtext">
-				<p>No, no, no, you lose the audience that way. Try it like this...</p>
+				<p><i>No, no, no, you lose the audience that way. Try it like this...</i></p>
 			</notes>
 			<subclass type="string">Auteur</subclass>
 			<target type="string">Each creature in the area</target>
@@ -3959,7 +3980,7 @@
 			<keywords type="string">Area, Magic, Performance</keywords>
 			<name type="string">Acrobatics</name>
 			<notes type="formattedtext">
-				<p>Folks love a good tumble.</p>
+				<p><i>Folks love a good tumble.</i></p>
 			</notes>
 			<subclass type="string">Duelist</subclass>
 			<target type="string">Self and each ally in the area</target>
@@ -3976,7 +3997,7 @@
 			<keywords type="string">Area, Magic, Performance</keywords>
 			<name type="string">“Ballad of the Beast” (Virtuoso Performance)</name>
 			<notes type="formattedtext">
-				<p>Teeth are bare! &#9835; Eyes black! &#9835; &#9834; No escaping the beast!&#9835;</p>
+				<p><i>Teeth are bare! &#9835; Eyes black! &#9835; &#9834; No escaping the beast!&#9835;</i></p>
 			</notes>
 			<subclass type="string">Virtuoso</subclass>
 			<target type="string">Self and each ally in the area</target>
@@ -3993,7 +4014,7 @@
 			<keywords type="string">Magic, Performance, Ranged, Strike</keywords>
 			<name type="string">"Thunder Mother" (Virtuoso Performance)</name>
 			<notes type="formattedtext">
-				<p>All for thunder motherrr! &#9834; Run and hide for coverrr!&#9835;</p>
+				<p><i>All for thunder motherrr! &#9834; Run and hide for coverrr!&#9835;</i></p>
 			</notes>
 			<subclass type="string">Virtuoso</subclass>
 			<target type="string">One creature</target>
@@ -4012,7 +4033,7 @@
 			<keywords type="string">Melee</keywords>
 			<name type="string">Riposte</name>
 			<notes type="formattedtext">
-				<p>&#34;I&#8217;d have brought treats had I known I&#8217;d be fighting a dog.</p>
+				<p><i>&#34;I&#8217;d have brought treats had I known I&#8217;d be fighting a dog.</i></p>
 			</notes>
 			<subclass type="string">Duelist</subclass>
 			<target type="string">Self or one ally</target>
@@ -4029,7 +4050,7 @@
 			<keywords type="string">Ranged</keywords>
 			<name type="string">Harmonize (3 Drama)</name>
 			<notes type="formattedtext">
-				<p>Give the chorus a little punch.</p>
+				<p><i>Give the chorus a little punch.</i></p>
 			</notes>
 			<special type="string">Spend 1+ Drama: You can trigger this ability when a target uses an ability that has a Heroic Resource cost of 3 + each additional drama spent.</special>
 			<subclass type="string">Virtuoso</subclass>
@@ -4047,7 +4068,7 @@
 			<keywords type="string">Magic, Melee, Ranged, Strike</keywords>
 			<name type="string">Witty Banter</name>
 			<notes type="formattedtext">
-				<p>A lyrical (and physical) jab insults an enemy and inspires an ally.</p>
+				<p><i>A lyrical (and physical) jab insults an enemy and inspires an ally.</i></p>
 			</notes>
 			<special type="string">Spend 1 Drama: The chosen ally can spend a Recovery.</special>
 			<target type="string">One creature</target>
@@ -4066,7 +4087,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Instigator</name>
 			<notes type="formattedtext">
-				<p>I didn't do it! What?</p>
+				<p><i>I didn't do it! What?</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">3 + [P] damage</tier1>
@@ -4088,7 +4109,7 @@
 			<keywords type="string">Magic, Ranged, Strike, Weapon</keywords>
 			<name type="string">Cutting Sarcasm</name>
 			<notes type="formattedtext">
-				<p>There you are, radiating your usual charisma.</p>
+				<p><i>There you are, radiating your usual charisma.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">2 + [P] psychic damage; [P]&lt;[WEAK], bleeding (save ends)</tier1>
@@ -4106,7 +4127,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Artful Flourish</name>
 			<notes type="formattedtext">
-				<p>And they said practicing fencing was a waste!</p>
+				<p><i>And they said practicing fencing was a waste!</i></p>
 			</notes>
 			<special type="string">Spend 2+ Drama: You can target one additional creature or object for every 2 drama spent.</special>
 			<target type="string">Two creatures or objects</target>
@@ -4126,7 +4147,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Method Acting (5 Drama)</name>
 			<notes type="formattedtext">
-				<p>They're so hurt by your performance, you start to believe it yourself.</p>
+				<p><i>They're so hurt by your performance, you start to believe it yourself.</i></p>
 			</notes>
 			<target type="string">One creature</target>
 			<tier1 type="string">6 + [A] damage; [P]&lt;[WEAK], weakened (save ends)</tier1>
@@ -4144,7 +4165,7 @@
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Upstage (3 Drama)</name>
 			<notes type="formattedtext">
-				<p>As you bob and weave through the crowd, you can't help but leave the audience wanting more.</p>
+				<p><i>As you bob and weave through the crowd, you can't help but leave the audience wanting more.</i></p>
 			</notes>
 			<target type="string">Self</target>
 			<tier1 type="string">Taunted (EoT); [A]&lt;[WEAK], prone</tier1>
@@ -4162,7 +4183,7 @@
 			<keywords type="string">Area, Magic, Ranged</keywords>
 			<name type="string">Quick Rewrite (3 Drama)</name>
 			<notes type="formattedtext">
-				<p>You write something unexpected into the scene that hinders your enemy.</p>
+				<p><i>You write something unexpected into the scene that hinders your enemy.</i></p>
 			</notes>
 			<target type="string">Each enemy in the area</target>
 			<tier1 type="string">4 damage; [P]&lt;[WEAK], slowed (save ends)</tier1>
@@ -4184,7 +4205,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Hypnotic Overtones (3 Drama)</name>
 			<notes type="formattedtext">
-				<p>You produce an entrancing note that twists the senses in a spectacular fashion.</p>
+				<p><i>You produce an entrancing note that twists the senses in a spectacular fashion.</i></p>
 			</notes>
 			<special type="string">Spend 2+ Drama: The size of the burst increases by 1 for every 2 drama spent.</special>
 			<target type="string">Each enemy in the area</target>
@@ -4203,7 +4224,7 @@
 			<keywords type="string">Magic, Melee, Ranged, Strike</keywords>
 			<name type="string">Harsh Critic (3 Drama)</name>
 			<notes type="formattedtext">
-				<p>Just one bad review will ruin their day.</p>
+				<p><i>Just one bad review will ruin their day.</i></p>
 			</notes>
 			<target type="string">One creature or object</target>
 			<tier1 type="string">7 + [P] sonic damage</tier1>
@@ -4221,7 +4242,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Flip the Script (5 Drama)</name>
 			<notes type="formattedtext">
-				<p>You try a different take on events, justifying the new locations everyone ended up in.</p>
+				<p><i>You try a different take on events, justifying the new locations everyone ended up in.</i></p>
 			</notes>
 			<target type="string">Self and each ally in the area</target>
 			<type type="string">Main Action</type>
@@ -4236,7 +4257,7 @@
 			<keywords type="string">Magic</keywords>
 			<name type="string">Fake Your Death (5 Drama)</name>
 			<notes type="formattedtext">
-				<p>O happy dagger, this is thy sheath!</p>
+				<p><i>O happy dagger, this is thy sheath!</i></p>
 			</notes>
 			<target type="string">Self</target>
 			<type type="string">Maneuver</type>
@@ -4255,7 +4276,7 @@
 			<keywords type="string">Area, Magic</keywords>
 			<name type="string">Dramatic Reversal (5 Drama)</name>
 			<notes type="formattedtext">
-				<p>Give the audience a surprise.</p>
+				<p><i>Give the audience a surprise.</i></p>
 			</notes>
 			<target type="string">Self and each ally in the area</target>
 			<tier1 type="string">The target can shift 1 square and make a free strike.</tier1>
@@ -4309,7 +4330,8 @@
 			<choice3 type="number">0</choice3>
 			<classResource type="number">0</classResource>
 			<featurechoices>
-				<id-00001>
+								<id-00001>
+					<checkbox type="number">0</checkbox>
 					<choicetype type="string">Exorcist</choicetype>
 					<level type="number">1</level>
 					<name type="string">Censor Order: Exorcist</name>
@@ -4339,6 +4361,16 @@
 						<p>Without a strong example and a firm hand, the weak will be corrupted. You specialize in setting an example for your order. You have the Lead skill.</p>
 					</text>
 				</id-00003>
+				<id-00004>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Exorcist</choicetype>
+					<level type="number">2</level>
+					<name type="string">Saint’s Vigilance</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>You have honed your ability to detect sin and can use it to find those who hide from justice. Any creature judged by you can&#8217;t use the Hide maneuver. Additionally, you gain an edge when searching for hidden creatures. If you find a hidden creature, you can use your Judgment ability against them as a free triggered action.</p>
+					</text>
+				</id-00004>
 				<id-00005>
 					<choicetype type="string">Trickery Domain</choicetype>
 					<level type="number">1</level>
@@ -4389,6 +4421,7 @@
 					</text>
 				</id-00008>
 				<id-00009>
+					<checkbox type="number">0</checkbox>
 					<choicetype type="string">Nature Domain</choicetype>
 					<level type="number">1</level>
 					<name type="string">Faithful Friend</name>
@@ -4396,11 +4429,12 @@
 					<repeatable type="number">0</repeatable>
 					<text type="formattedtext">
 						<linklist>
-							<link class="ability" recordname="ability.id-01053">Ability: Faithful Friend</link>
+							<link class="ability" recordname="ability.id-00053@Classes for Draw Steel">Ability: Faithful Friend</link>
 						</linklist>
 					</text>
 				</id-00009>
 				<id-00010>
+					<checkbox type="number">0</checkbox>
 					<choicetype type="string">Love Domain</choicetype>
 					<level type="number">1</level>
 					<name type="string">Blessing of Compassion</name>
@@ -4412,6 +4446,7 @@
 					</text>
 				</id-00010>
 				<id-00011>
+					<checkbox type="number">0</checkbox>
 					<choicetype type="string">Life Domain</choicetype>
 					<level type="number">1</level>
 					<name type="string">Revitalizing Ritual</name>
@@ -4422,6 +4457,7 @@
 					</text>
 				</id-00011>
 				<id-00012>
+					<checkbox type="number">0</checkbox>
 					<choicetype type="string">Knowledge Domain</choicetype>
 					<level type="number">1</level>
 					<name type="string">Blessing of Comprehension</name>
@@ -4432,6 +4468,7 @@
 					</text>
 				</id-00012>
 				<id-00013>
+					<checkbox type="number">0</checkbox>
 					<choicetype type="string">Fate Domain</choicetype>
 					<level type="number">1</level>
 					<name type="string">Oracular Visions</name>
@@ -4442,6 +4479,7 @@
 					</text>
 				</id-00013>
 				<id-00014>
+					<checkbox type="number">0</checkbox>
 					<choicetype type="string">Death Domain</choicetype>
 					<level type="number">1</level>
 					<name type="string">Grave Speech</name>
@@ -4449,11 +4487,12 @@
 					<repeatable type="number">0</repeatable>
 					<text type="formattedtext">
 						<linklist>
-							<link class="ability" recordname="ability.id-01065">Ability: Grave Speech</link>
+							<link class="ability" recordname="ability.id-00065@Classes for Draw Steel">Ability: Grave Speech</link>
 						</linklist>
 					</text>
 				</id-00014>
 				<id-00015>
+					<checkbox type="number">0</checkbox>
 					<choicetype type="string">Creation Domain</choicetype>
 					<level type="number">1</level>
 					<name type="string">Hands of the Maker</name>
@@ -4461,7 +4500,7 @@
 					<repeatable type="number">0</repeatable>
 					<text type="formattedtext">
 						<linklist>
-							<link class="ability" recordname="ability.id-01072">Ability: Hands of the Maker</link>
+							<link class="ability" recordname="ability.id-00072@Classes for Draw Steel">Ability: Hands of the Maker</link>
 						</linklist>
 					</text>
 				</id-00015>
@@ -4475,6 +4514,506 @@
 						<p>As a respite activity, you can bless a weapon. Any creature who wields the weapon gains a +1 bonus to rolled damage with abilities that use the weapon. This benefit lasts until you finish another respite.</p>
 					</text>
 				</id-00016>
+				<id-00017>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Oracle</choicetype>
+					<level type="number">2</level>
+					<name type="string">Judge of Character </name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Your focus on your fragmentary visions grants divine insight into the world and its creatures beyond your usual senses. Whenever you would make an Intuition test, you can make a Presence test instead.</p>
+					</text>
+				</id-00017>
+				<id-00018>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Exorcist</choicetype>
+					<level type="number">2</level>
+					<name type="string">A Sense for Truth</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>You are trained in secret techniques from your order that allow you to discern the truth with supernatural precision. If a creature is of a lower level than you, you automatically know when they are lying, though you don&#8217;t necessarily know the actual truth behind their lie. Additionally, you gain an edge on tests made to detect lies or hidden motives.</p>
+					</text>
+				</id-00018>
+				<id-00019>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Oracle</choicetype>
+					<level type="number">2</level>
+					<name type="string">It Was Foretold</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Your order has trained you to understand fragments of the visions granted to you by your deity, giving you a momentary advantage in challenging situations. At the start of an encounter, you can take one main action before any other creature and before your first turn. Additionally, whenever the Director calls for a montage test, you can make one free test before the montage begins, which counts as an earned success or failure as usual.</p>
+					</text>
+				</id-00019>
+				<id-00020>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Paragon</choicetype>
+					<level type="number">2</level>
+					<name type="string">Stalwart Icon</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>You exhibit a small spark of your deity&#8217;s power, causing creatures to trust or fear you, depending on what you need. You gain an edge on tests made to intimidate or persuade others.</p>
+					</text>
+				</id-00020>
+				<id-00021>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Exorcist</choicetype>
+					<level type="number">2</level>
+					<name type="string">2nd-Level Exorcist Ability</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Your censor order grants your choice of one of two heroic abilities</p>
+						<p>
+							<b>2nd-Level Exorcist Ability</b>
+						</p>
+						<p>Choose one of the following abilities.</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00005">Ability: It Is Justice You Fear (5 Wrath)</link>
+							<link class="ability" recordname="ability.id-00003">Ability: Revelator (5 Wrath)</link>
+						</linklist>
+					</text>
+				</id-00021>
+				<id-00022>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Paragon</choicetype>
+					<level type="number">2</level>
+					<name type="string">Lead by Example</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Your devotion to your deity allows you to take command of the battlefield, letting your allies benefit from your wisdom. While you are adjacent to a creature, your allies gain the benefits of flanking against that creature. Additionally, your allies gain an edge on tests made to aid other creatures with their tests.</p>
+					</text>
+				</id-00022>
+				<id-00023>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Paragon</choicetype>
+					<level type="number">2</level>
+					<name type="string">2nd-Level Paragon Ability</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Choose one of the following abilities</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00008">Ability: Blessing of the Faithful (5 Wrath)</link>
+							<link class="ability" recordname="ability.id-00009">Ability: Sentenced (5 Wrath)</link>
+						</linklist>
+					</text>
+				</id-00023>
+				<id-00024>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Oracle</choicetype>
+					<level type="number">2</level>
+					<name type="string">2nd-Level Oracle Ability</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Choose one of the following abilities.</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00010">Ability: Prescient Grace (5 Wrath)</link>
+							<link class="ability" recordname="ability.id-00011">Ability: With My Blessing (5 Wrath)</link>
+						</linklist>
+					</text>
+				</id-00024>
+				<id-00025>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Life Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Blessing of Life</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Your divine presence causes those you deem worthy to recover quickly from a fight. Whenever an ally within distance of your My Life for Yours ability regains Stamina, they regain additional Stamina equal to your Presence score.</p>
+					</text>
+				</id-00025>
+				<id-00026>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Trickery Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Blessing of Secrets</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>You have the following ability.</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00016">Ability: Blessing of Secrets</link>
+						</linklist>
+					</text>
+				</id-00026>
+				<id-00027>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Protection Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Impervious Touch</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>As a maneuver, you can touch an object with a size equal to your Presence score or smaller and place a protective spell on it. The object has immunity all to untyped damage. You can maintain this spell on a number of objects equal to your Presence score, and you can end the spell on any object at any time (no action required).</p>
+						<p>Additionally, you can place this spell on a building or vehicle (or a similar structure with the Director&#8217;s approval) that is of a size larger than your Presence score. You can place the spell on only one such target at a time, and you can maintain the spell on a larger target and a number of objects equal to your Presence score simultaneously.</p>
+					</text>
+				</id-00027>
+				<id-00028>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Creation Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Improved Hands of the Maker</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>When you use your Hands of the Maker ability, you can create a mundane object that is size 2 or smaller.</p>
+					</text>
+				</id-00028>
+				<id-00029>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">War Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Improved Sanctified Weapon</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>The weapon improved by your Sanctified Weapon feature grants a +3 bonus to rolled damage instead of +1.</p>
+					</text>
+				</id-00029>
+				<id-00030>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Love Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Invocation of the Heart</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>As a main action, you forge a bond of love and friendship with one willing creature you touch. While this bond is active, you can telepathically speak with the creature over any distance, including across different worlds. Additionally, while this bond is active, you can attempt to assist the creature with any test they make regardless of their proximity to you. You can maintain only one bond at a time, and you can end a bond at any time (no action required).</p>
+					</text>
+				</id-00030>
+				<id-00031>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Sun Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Light of Revelation</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>As a maneuver, you make your body shine brightly, illuminating your space and each square within 5 squares until you dismiss the light (no action required). This light shines through any darkness. Hidden creatures in the area are automatically revealed, and creatures in the light, including you, can&#8217;t hide. While this feature is active, you gain an edge on tests made to notice hidden objects and entrances and to detect supernatural illusions.</p>
+					</text>
+				</id-00031>
+				<id-00032>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Fate Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Oracular Warning</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Each time you finish a respite, you can share the vague dreams of the future granted to you by the gods with allies who finished the respite with you. These premonitions help you and your allies stay alive, granting each of you temporary Stamina equal to 10 + your level that lasts until you finish another respite.</p>
+					</text>
+				</id-00032>
+				<id-00033>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Death Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Seance</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>You can commune with a network of spirits. As a respite activity, you speak the name of a creature who died and isn&#8217;t undead. If the creature&#8217;s spirit is free and willing to speak with you, they appear and you can have a conversation with them. During this time, the creature responds to you as they would have in life. If the creature isn&#8217;t free or willing to appear, you can speak another name or choose another respite activity.</p>
+					</text>
+				</id-00033>
+				<id-00034>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Knowledge Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Saint’s Epiphany</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>At the start of a respite, you can inspire yourself or another creature taking the same respite with divine knowledge. If the target makes a project roll during this respite, they can add 1d10 plus your Presence score to the roll.</p>
+					</text>
+				</id-00034>
+				<id-00035>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Storm Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Windwalk</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>While you have 5 or more Victories, you can fly. If you can already fly, you have a +2 bonus to speed while flying instead.</p>
+					</text>
+				</id-00035>
+				<id-00036>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Nature Domain</choicetype>
+					<level type="number">4</level>
+					<name type="string">Wode Road</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>As a main action, you touch a living tree and make it part of a divine transportation network. You can maintain a number of trees in your network equal to your Presence score. Whenever you touch any tree in your network, you can use a main action to teleport yourself and any willing creatures within 10 squares of you to a tree in your network on the same world. If a tree in your network dies, it is no longer part of the network. You can remove a tree from your network no matter your distance from it, including across different worlds (no action required).</p>
+					</text>
+				</id-00036>
+				<id-00037>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Exorcist</choicetype>
+					<level type="number">5</level>
+					<name type="string">Evil Revealed</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Your order has taught you methods to discern the disguises of both mortals and monsters. You automatically see through disguises and illusions created by creatures of your level or lower, and you gain an edge on tests made to see through the disguises and illusions of more powerful creatures. Whenever you see through a creature&#8217;s disguise or illusion, you can use your Judgment ability against them as a free triggered action.</p>
+					</text>
+				</id-00037>
+				<id-00038>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Oracle</choicetype>
+					<level type="number">5</level>
+					<name type="string">Prophecy</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>You can better sift through the constant fragmentary visions from your deity and act to make them manifest. Each time you earn 1 or more Victories, you can make a number of 2d10 rolls equal to the number of Victories you earned. Record each roll in order. Then whenever you or a creature within 10 squares makes a power roll, you can use a free triggered action to replace the total on the dice with your first recorded roll.</p>
+						<p>You discard each roll as it is used, and each time you earn Victories, you add new rolls to the bottom of the list. Any unused rolls are discarded when you finish a respite.</p>
+					</text>
+				</id-00038>
+				<id-00039>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Paragon</choicetype>
+					<level type="number">5</level>
+					<name type="string">Stand Fast!</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Your divine spark grows in power, allowing you and your allies to focus and endure. At the start of each of your turns, you can spend 1d6 Stamina to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Any ally who starts their turn within 5 squares of you can also spend Stamina to gain this benefit.</p>
+					</text>
+				</id-00039>
+				<id-00040>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Exorcist</choicetype>
+					<level type="number">6</level>
+					<name type="string">6th-Level Exorcist Abilities</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Choose one of the following abilities.</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00001">Ability: Begone! (9 Wrath)</link>
+							<link class="ability" recordname="ability.id-00002">Ability: Pain of Your Own Making (9 Wrath)</link>
+						</linklist>
+					</text>
+				</id-00040>
+				<id-00041>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Oracle</choicetype>
+					<level type="number">6</level>
+					<name type="string">6th-Level Oracle Abilities</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Choose one of the following abilities.</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00004">Ability: Burden of Evil (9 Wrath)</link>
+							<link class="ability" recordname="ability.id-00006">Ability: Edict of Peace (9 Wrath)</link>
+						</linklist>
+					</text>
+				</id-00041>
+				<id-00042>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Paragon</choicetype>
+					<level type="number">6</level>
+					<name type="string">6th-Level Paragon Abilities</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Choose one of the following abilities.</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00007">Ability: Congregation (9 Wrath)</link>
+							<link class="ability" recordname="ability.id-00021">Ability: Intercede (9 Wrath)</link>
+						</linklist>
+					</text>
+				</id-00042>
+				<id-00043>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Protection Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Blessing of Iron</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>The gods send divine favor to you and your allies. While you are not dying, enemies take a bane on strikes against you or any ally within 3 squares of you.</p>
+					</text>
+				</id-00043>
+				<id-00044>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Love Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Covenant of the Heart</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>You can maintain bonds with up to three willing creatures using your Invocation of the Heart feature. Additionally, you have the following ability.</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00022">Ability: Guided to Your Side</link>
+						</linklist>
+					</text>
+				</id-00044>
+				<id-00045>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Creation Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Divine Quartermaster</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Each time you finish a respite, you can choose a treasure with a project goal equal to 50 times your level or less. You gain a divine version of this treasure that lasts until you finish another respite or it is consumed.</p>
+					</text>
+				</id-00045>
+				<id-00046>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Life Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Font of Grace</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Each time you use your My Life for Yours ability, you gain 1 wrath that can be spent only on that ability during the same turn. If you don&#8217;t use this wrath, it is lost. Additionally, the target of My Life for Yours gains 10 temporary Stamina.</p>
+					</text>
+				</id-00046>
+				<id-00047>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Storm Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Ride the Lightning</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Lightning and thunder infuse your body. Whenever you use an ability to deal rolled damage to another creature, the ability deals extra lightning damage equal to your Presence score. Additionally, if you use an ability that force moves a creature, the forced movement distance gains a bonus equal to your Presence score. While you are under the effect of your Windwalk feature, lightning enhances your locomotion to grant you a bonus to speed equal to your Might score. If Windwalk already grants you a bonus to speed, this bonus adds to that.</p>
+					</text>
+				</id-00047>
+				<id-00048>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Trickery Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Trinity of Trickery</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>You have the following ability.</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00023">Ability: Trinity of Trickery (9 Wrath)</link>
+						</linklist>
+					</text>
+				</id-00048>
+				<id-00049>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Death Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Word of Death Deferred</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>You can stop death from taking your allies. When an ally within distance of your My Life for Yours ability dies and you are not dying, you can use a free triggered action to instead have that ally fall unconscious until they regain Stamina.</p>
+						<p>Additionally, your abilities deal an extra 5 damage to winded creatures.</p>
+					</text>
+				</id-00049>
+				<id-00050>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Fate Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Word of Fate Denied</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>When an ally within 10 squares takes damage that would leave them dying, you can use a free triggered action to make yourself or another willing creature within 10 squares of you the target of the triggering damage instead. The creature you choose takes the damage and suffers any effects associated with it, and that damage can&#8217;t be reduced in any way.</p>
+					</text>
+				</id-00050>
+				<id-00051>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">War Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Your Triumphs Are Remembered</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>The gods allow you and your companions to bask in the glory of past successes. Whenever you finish a respite, you and any other heroes who rested with you regain 1 Victory after your Victories are converted to XP. This Victory isn&#8217;t converted into XP at the end of a subsequent respite.</p>
+					</text>
+				</id-00051>
+				<id-00052>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Knowledge Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Gods’ Library</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>You can gain access to information you need through prayer, so that you no longer require research materials for crafting and research projects (see Chapter 12: Downtime Projects). Additionally, you add your level to project rolls you make for crafting and research projects. You also have any skills in the lore skill group you don&#8217;t already have, and you gain a number of skills from any other skill groups equal to the number of skills you had in the lore skill group before you gained this feature.</p>
+					</text>
+				</id-00052>
+				<id-00053>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Sun Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Light of the Burning Sun</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Sun infuses your body. Whenever you use an ability to deal rolled damage to another creature, that ability deals an extra 5 fire damage, or an extra 15 fire damage if the creature is undead. Additionally, you have fire immunity equal to your level, which is added to any other fire immunity you have.</p>
+					</text>
+				</id-00053>
+				<id-00054>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Nature Domain</choicetype>
+					<level type="number">7</level>
+					<name type="string">Nature’s Bounty</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>When you finish a respite, you can prepare a magic meal using local flora for any companions who rested with you. Choose two of the following benefits for creatures who consume the meal:</p>
+						<list>
+							<li>Each creature gains immunity to acid, cold, corruption, fire, lightning, poison, or sonic damage equal to your level. You can choose this benefit twice, choosing a different damage immunity each time.</li>
+							<li>Each creature gains 20 temporary Stamina.</li>
+							<li>Each creature gains a +1 bonus to speed.</li>
+							<li>Each creature gains a +1 bonus to saving throws.</li>
+							<li>Each creature gains an edge on tests made to influence other creatures.</li>
+						</list>
+						<p>Each benefit lasts until the creature who gains it finishes another respite</p>
+					</text>
+				</id-00054>
+				<id-00056>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Exorcist</choicetype>
+					<level type="number">8</level>
+					<name type="string">Demonologist</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>The most esoteric secrets of your order teach you that to defeat your enemy, you must understand them. You treat your Renown as 2 higher than usual when dealing with demons, devils, and other agents of chaos. If you successfully complete a negotiation with one of these creatures, you gain an edge on power rolls made against them and can use your Judgment ability against them as a free triggered action before an encounter begins.</p>
+					</text>
+				</id-00056>
+				<id-00057>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Oracle</choicetype>
+					<level type="number">8</level>
+					<name type="string">Their Past Revealed</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Your constant fragmentary visions become clearer, and can be honed to understand the past of creatures you interact with. While speaking with any creature, you can make a medium Presence test to see visions from their past. On a success, you see a clear view of any subject related to the creature&#8217;s past that you wish to understand. On a success with a consequence, you see two visions, one false and one true. On a failure, you lose 2d6 Stamina.</p>
+					</text>
+				</id-00057>
+				<id-00059>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Paragon</choicetype>
+					<level type="number">8</level>
+					<name type="string">Vow</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Your words take on the power of your deity, with all the authority that entails. If you convince a creature to take an oath, they can&#8217;t break it for 7 days. If you take an oath, you can&#8217;t break it for 7 days.</p>
+					</text>
+				</id-00059>
+				<id-00060>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Exorcist</choicetype>
+					<level type="number">9</level>
+					<name type="string">9th-Level Exorcist Abilities</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Choose one of the following abilities.</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00028">Ability: Banish (11 Wrath)</link>
+							<link class="ability" recordname="ability.id-00029">Ability: Terror Manifest (11 Wrath)</link>
+						</linklist>
+					</text>
+				</id-00060>
+				<id-00061>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Oracle</choicetype>
+					<level type="number">9</level>
+					<name type="string">9th-Level Oracle Abilities</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Choose one of the following abilities.</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00031">Ability: Blessing and a Curse (11 Wrath)</link>
+							<link class="ability" recordname="ability.id-00032">Ability: Fulfill Your Destiny (11 Wrath)</link>
+						</linklist>
+					</text>
+				</id-00061>
+				<id-00062>
+					<checkbox type="number">0</checkbox>
+					<choicetype type="string">Paragon</choicetype>
+					<level type="number">9</level>
+					<name type="string">9th-Level Paragon Abilities</name>
+					<prerequisite type="string">Censor</prerequisite>
+					<text type="formattedtext">
+						<p>Choose one of the following abilities.</p>
+						<linklist>
+							<link class="ability" recordname="ability.id-00033">Ability: Apostate (11 Wrath)</link>
+							<link class="ability" recordname="ability.id-00034">Ability: Edict of Unyielding Resolve (11 Wrath)</link>
+						</linklist>
+					</text>
+				</id-00062>
 			</featurechoices>
 			<features>
 				<id-00001>
@@ -4844,7 +5383,412 @@
 					<link class="ability" recordname="ability.id-01095">Ability: Behold the Face of Justice! (5 Wrath)</link>
 					<link class="ability" recordname="ability.id-01094">Ability: Censored (5 Wrath)</link>
 					<link class="ability" recordname="ability.id-01093">Ability: Purifying Fire (5 Wrath)</link>
-				</linklist><p>[Source: Draw Steel Heroes v1.0]</p>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;2nd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 2nd-level censor, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one interpersonal, lore, or supernatural perk of your choice.</p>
+				<p>See Chapter 7: Perks</p>
+				<h>2nd-Level Order Features</h>
+				<p>Your censor order grants you two features, as shown on the 2nd-Level Order Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 2nd-Level Order Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Order</b>
+						</td>
+						<td colspan="2">
+							<b>Features</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Exorcist</td>
+						<td colspan="2">Saint&#8217;s Vigilance, A Sense for Truth</td>
+					</tr>
+					<tr>
+						<td>Oracle</td>
+						<td colspan="2">It Was Foretold, Judge of Character</td>
+					</tr>
+					<tr>
+						<td>Paragon</td>
+						<td colspan="2">Lead by Example, Stalwart Icon</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00004">Saint&#8217;s Vigilance</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00018">A Sense for Truth</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00019">It Was Foretold</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00017">Judge of Character</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00022">Lead by Example</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00020">Stalwart Icon</link>
+				</linklist>
+				<h>2nd-Level Order Ability</h>
+				<p>Your censor order grants your choice of one of two heroic abilities.</p>
+				<h>2nd-Level Exorcist Ability</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00005">Ability: It Is Justice You Fear (5 Wrath)</link>
+					<link class="ability" recordname="ability.id-00003">Ability: Revelator (5 Wrath)</link>
+				</linklist>
+				<h>2nd-Level Oracle Ability</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00010">Ability: Prescient Grace (5 Wrath)</link>
+					<link class="ability" recordname="ability.id-00011">Ability: With My Blessing (5 Wrath)</link>
+				</linklist>
+				<h>2nd-Level Paragon Ability</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00008">Ability: Blessing of the Faithful (5 Wrath)</link>
+					<link class="ability" recordname="ability.id-00009">Ability: Sentenced (5 Wrath)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;3rd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 3rd-level censor, you gain the following features.</p>
+				<h>Look On My Work and Despair</h>
+				<p>Your judgment has grown in divine power, instilling fear in those you condemn. Whenever you use your Judgment ability, you can spend 1 wrath, and if the target has p&#60;Average , they are frightened of you (save ends). Additionally, whenever a creature judged by you is reduced to 0 Stamina and you use Judgment as a free triggered action, if the new target has p&#60;Strong , they are frightened of you (save ends). If the target is already frightened of you, they instead take holy damage equal to twice your Presence score.</p>
+				<h>7-Wrath Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 7 wrath to use.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00012">Ability: Edict of Disruptive Isolation (7 Wrath)</link>
+					<link class="ability" recordname="ability.id-00013">Ability: Edict of Perfect Order (7 Wrath)</link>
+					<link class="ability" recordname="ability.id-00014">Ability: Edict of Purifying Pacifism (7 Wrath)</link>
+					<link class="ability" recordname="ability.id-00015">Ability: Edict of Stillness (7 Wrath)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;4th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 4th-level censor, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Might and Presence scores each increase to 3.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice. See Skills in Chapter 9: Tests.</p>
+				<h>Wrath Beyond Wrath</h>
+				<p>The first time each combat round that you deal damage to a creature judged by you, you gain 2 wrath instead of 1.</p>
+				<h>4th-Level Domain Feature</h>
+				<p>You gain a domain feature from your domain, as shown on the 4th-Level Censor Domain Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 4th-Level Censor Domain Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Domain</b>
+						</td>
+						<td colspan="2">
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Creation</td>
+						<td colspan="2">Improved Hands of the Maker</td>
+					</tr>
+					<tr>
+						<td>Death</td>
+						<td colspan="2">Seance</td>
+					</tr>
+					<tr>
+						<td>Fate</td>
+						<td colspan="2">Oracular Warning</td>
+					</tr>
+					<tr>
+						<td>Knowledge</td>
+						<td colspan="2">Saint&#8217;s Epiphany</td>
+					</tr>
+					<tr>
+						<td>Life</td>
+						<td colspan="2">Blessing of Life</td>
+					</tr>
+					<tr>
+						<td>Love</td>
+						<td colspan="2">Invocation of the Heart</td>
+					</tr>
+					<tr>
+						<td>Nature</td>
+						<td colspan="2">Wode Road</td>
+					</tr>
+					<tr>
+						<td>Protection</td>
+						<td colspan="2">Impervious Touch</td>
+					</tr>
+					<tr>
+						<td>Storm</td>
+						<td colspan="2">Windwalk</td>
+					</tr>
+					<tr>
+						<td>Sun</td>
+						<td colspan="2">Light of Revelation</td>
+					</tr>
+					<tr>
+						<td>Trickery</td>
+						<td colspan="2">Blessing of Secrets</td>
+					</tr>
+					<tr>
+						<td>War</td>
+						<td colspan="2">Improved Sanctified Weapon</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00028">Improved Hands of the Maker</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00033">Seance</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00032">Oracular Warning</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00034">Saint&#8217;s Epiphany</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00025">Blessing of Life</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00030">Invocation of the Heart</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00036">Wode Road</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00027">Impervious Touch</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00035">Windwalk</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00031">Light of Revelation</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00026">Blessing of Secrets</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00029">Improved Sanctified Weapon</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;5th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 5th-level censor, you gain the following features.</p>
+				<h>5th-Level Order Feature</h>
+				<p>Your censor order grants you a feature, as shown on the 5th-Level Order Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 5th-Level Order Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Order</b>
+						</td>
+						<td colspan="2">
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Exorcist</td>
+						<td colspan="2">Evil Revealed</td>
+					</tr>
+					<tr>
+						<td>Oracle</td>
+						<td colspan="2">Prophecy</td>
+					</tr>
+					<tr>
+						<td>Paragon</td>
+						<td colspan="2">Stand Fast!</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00037">Evil Revealed</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00038">Prophecy</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00039">Stand Fast!</link>
+				</linklist>
+				<h>9-Wrath Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 9 wrath to use.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00017">Ability: Gods Grant Thee Strength (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-00018">Ability: Orison of Victory (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-00019">Ability: Righteous Judgment (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-00020">Ability: Shield of the Righteous (9 Wrath)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;6th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 6th-level censor, you gain the following features.</p>
+				<h>Implement of Wrath</h>
+				<p>Each time you finish a respite, you can choose one hero&#8217;s weapon, including your own, to channel supernatural power as an implement of your god&#8217;s wrath. The weapon becomes magic and gains the following benefits until your next respite:</p>
+				<list>
+					<li>Strikes with the weapon deal extra holy damage equal to the wielder&#8217;s highest characteristic score.</li>
+					<li>Any creature struck by the weapon who has holy weakness and has p&#60;Strong is frightened and weakened (save ends).</li>
+					<li>Any minion targeted by a strike using the weapon dies. That minion&#8217;s Stamina maximum is removed from the minion Stamina pool before any damage is applied to the rest of the squad.</li>
+					<li>The weapon&#8217;s wielder can&#8217;t be made frightened</li>
+				</list>
+				<h>Perk</h>
+				<p>You gain one interpersonal, lore, or supernatural perk of your choice.</p>
+				<h>6th-Level Order Ability</h>
+				<p>Your censor order grants your choice of one of two heroic abilities.</p>
+				<h>6th-Level Exorcist Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00001">Ability: Begone! (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-00002">Ability: Pain of Your Own Making (9 Wrath)</link>
+				</linklist>
+				<h>6th-Level Oracle Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00004">Ability: Burden of Evil (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-00006">Ability: Edict of Peace (9 Wrath)</link>
+				</linklist>
+				<h>6th-Level Paragon Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00007">Ability: Congregation (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-00021">Ability: Intercede (9 Wrath)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;7th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 7th-level censor, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Each of your characteristic scores increases by 1, to a maximum of 4.</p>
+				<h>7th-Level Domain Feature</h>
+				<p>You gain a domain feature from your domain, as shown on the 7th-Level Censor Domain Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 7th-Level Censor Domain Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Domain</b>
+						</td>
+						<td colspan="2">
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Creation</td>
+						<td colspan="2">Divine Quartermaster</td>
+					</tr>
+					<tr>
+						<td>Death</td>
+						<td colspan="2">Word of Death Deferred</td>
+					</tr>
+					<tr>
+						<td>Fate</td>
+						<td colspan="2">Word of Fate Denied</td>
+					</tr>
+					<tr>
+						<td>Knowledge</td>
+						<td colspan="2">Gods&#8217; Library</td>
+					</tr>
+					<tr>
+						<td>Life</td>
+						<td colspan="2">Font of Grace</td>
+					</tr>
+					<tr>
+						<td>Love</td>
+						<td colspan="2">Covenant of the Heart</td>
+					</tr>
+					<tr>
+						<td>Nature</td>
+						<td colspan="2">Nature&#8217;s Bounty</td>
+					</tr>
+					<tr>
+						<td>Protection</td>
+						<td colspan="2">Blessing of Iron</td>
+					</tr>
+					<tr>
+						<td>Storm</td>
+						<td colspan="2">Ride the Lightning</td>
+					</tr>
+					<tr>
+						<td>Sun</td>
+						<td colspan="2">Light of the Burning Sun</td>
+					</tr>
+					<tr>
+						<td>Trickery</td>
+						<td colspan="2">Trinity of Trickery</td>
+					</tr>
+					<tr>
+						<td>War</td>
+						<td colspan="2">Your Triumphs Are Remembered</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00045">Divine Quartermaster</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00049">Word of Death Deferred</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00050">Word of Fate Denied</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00052">Gods&#8217; Library</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00046">Font of Grace</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00044">Covenant of the Heart</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00054">Nature&#8217;s Bounty</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00043">Blessing of Iron</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00047">Ride the Lightning</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00053">Light of the Burning Sun</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00048">Trinity of Trickery</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00051">Your Triumphs Are Remembered</link>
+				</linklist>
+				<h>Focused Wrath</h>
+				<p>When you gain wrath at the start of each of your turns during combat, you gain 3 wrath instead of 2</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;8th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As an 8th-level censor, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>8th-Level Order Feature</h>
+				<p>Your censor order grants you a feature, as shown on the 8th-Level Order Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 8th-Level Order Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Order</b>
+						</td>
+						<td colspan="2">
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Exorcist</td>
+						<td colspan="2">Demonologist</td>
+					</tr>
+					<tr>
+						<td>Oracle</td>
+						<td colspan="2">Their Past Revealed</td>
+					</tr>
+					<tr>
+						<td>Paragon</td>
+						<td colspan="2">Vow</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00056">Demonologist</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00057">Their Past Revealed</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00059">Vow</link>
+				</linklist>
+				<h>11-Wrath Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 11 wrath to use.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00024">Ability: Excommunication (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-00025">Ability: Hand of the Gods (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-00026">Ability: Pillar of Holy Fire (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-00027">Ability: Your Allies Turn on You! (11 Wrath)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;9th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 9th-level censor, you gain the following features.</p>
+				<h>Improved Implement of Wrath</h>
+				<p>The weapon you target with your Implement of Wrath feature gains the following additional benefits:</p>
+				<list>
+					<li>The weapon&#8217;s wielder and each ally adjacent to them gain a +2 bonus to saving throws.</li>
+					<li>At the end of each of the weapon wielder&#8217;s turns, each ally adjacent to the wielder makes a saving throw against each effect on them that is ended by a saving throw.</li>
+					<li>The weapon&#8217;s wielder has corruption immunity 10</li>
+				</list>
+				<h>9th-Level Order Ability</h>
+				<p>Your censor order grants your choice of one of two heroic abilities.</p>
+				<h>9th-Level Exorcist Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00028">Ability: Banish (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-00029">Ability: Terror Manifest (11 Wrath)</link>
+				</linklist>
+				<h>9th-Level Oracle Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00031">Ability: Blessing and a Curse (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-00032">Ability: Fulfill Your Destiny (11 Wrath)</link>
+				</linklist>
+				<h>9th-Level Paragon Abilities</h>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-00033">Ability: Apostate (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-00034">Ability: Edict of Unyielding Resolve (11 Wrath)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;10th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 10th-level censor, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Might and Presence scores each increase to 5.</p>
+				<h>Perk</h>
+				<p>You gain one crafting, lore, or supernatural perk of your choice.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice</p>
+				<h>Templar</h>
+				<p>You are the ultimate representation of your god&#8217;s justice in the timescape. Whenever you use your Judgment ability, you can use a free triggered action to use a conduit domain effect (see Domain Piety and Effects in the Conduit section) associated with your chosen domain, or a domain you access with virtue (see below). If the effect calls for the use of your Intuition score, you use your Presence score instead. If the effect uses your conduit level, use your censor level instead.</p>
+				<p>Additionally, whenever you take a respite, you can open a portal to rest in the presence of your deity and bring along any allies. When you do, you can ask your deity three questions, which the Director must answer honestly if your deity knows the answers (though they might answer cryptically or incompletely). When you finish your respite, you and your allies can appear at any location in the timescape where someone worships your deity.</p>
+				<p>While you rest in their presence, your god might also give you priority targets to enact justice upon. You and your allies each have a double edge on power rolls made against such targets. If you attempt to open a portal to your deity again before you have defeated your priority targets, you suffer your god&#8217;s wrath, as determined by the Director.</p>
+				<h>Virtue</h>
+				<p>You have an epic resource called virtue. Each time you finish a respite, you gain virtue equal to the XP you gain. You can spend virtue on your abilities as if it were wrath.</p>
+				<p>Additionally, you can spend 3 virtue to access one of your deity&#8217;s domains that you usually don&#8217;t have access to. When you do, you can use that domain&#8217;s features until you finish another respite.</p>
+				<p>Virtue remains until you spend it.</p>
+				<h>Wrath of the Gods</h>
+				<p>When you gain wrath at the start of each of your turns during combat, you gain 4 wrath instead of 3.</p>
+				<p>[Source: Draw Steel Heroes v1.0]</p>
 			</notes>
 			<staminaPerLevel type="number">9</staminaPerLevel>
 			<startingAgility type="number">0</startingAgility>
@@ -5828,7 +6772,493 @@
 					<link class="ability" recordname="ability.id-02066">Ability: Curse of Terror (5 Piety)</link>
 					<link class="ability" recordname="ability.id-02064">Ability: Faith Is Our Armor (5 Piety)</link>
 					<link class="ability" recordname="ability.id-02063">Ability: Sermon of Grace (5 Piety)</link>
-				</linklist><p>[Source: Draw Steel Heroes v1.0]</p>
+				</linklist>
+				
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;2nd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 2nd-level conduit, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one interpersonal, lore, or supernatural perk of your choice. See Chapter 7: Perks.</p>
+				<h>The Lists of Heaven</h>
+				<p>Your deity is aware of your growing influence, making it easier to draw their attention and power when you heal your allies. Whenever you allow another creature to spend a Recovery, you can also spend a Recovery.</p>
+				<h>Perk</h>
+				<p>You gain one crafting, lore, or supernatural perk of your choice. See Chapter 7: Perks.</p>
+				<h>2nd-Level Domain Feature</h>
+				<p>You gain the 1st-level domain feature and ability to choose a skill for the domain you selected at 1st level but whose domain feature you didn&#8217;t take at that level (see 1st-Level Domain Feature).</p>
+				<h>2nd-Level Domain Ability</h>
+				<p>Choose one of your domains. You gain a heroic ability from that domain, as shown on the 2nd-Level Conduit Domain Abilities table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 2nd-Level Conduit Domain Abilities &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Domain</b>
+						</td>
+						<td colspan="2">
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Creation</td>
+						<td colspan="2">Statue of Power</td>
+					</tr>
+					<tr>
+						<td>Death</td>
+						<td colspan="2">Reap</td>
+					</tr>
+					<tr>
+						<td>Fate</td>
+						<td colspan="2">Blessing of Fate and Destiny</td>
+					</tr>
+					<tr>
+						<td>Knowledge</td>
+						<td colspan="2">The Gods Command You Obey</td>
+					</tr>
+					<tr>
+						<td>Life</td>
+						<td colspan="2">Wellspring of Grace</td>
+					</tr>
+					<tr>
+						<td>Love</td>
+						<td colspan="2">Our Hearts Your Strength</td>
+					</tr>
+					<tr>
+						<td>Nature</td>
+						<td colspan="2">Nature Judges Thee</td>
+					</tr>
+					<tr>
+						<td>Protection</td>
+						<td colspan="2">Sacred Bond</td>
+					</tr>
+					<tr>
+						<td>Storm</td>
+						<td colspan="2">Saint&#8217;s Tempest</td>
+					</tr>
+					<tr>
+						<td>Sun</td>
+						<td colspan="2">Morning Light</td>
+					</tr>
+					<tr>
+						<td>Trickery</td>
+						<td colspan="2">Divine Comedy</td>
+					</tr>
+					<tr>
+						<td>War</td>
+						<td colspan="2">Blessing of Insight</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="ability" recordname="ability.id-02044">Ability: Statue of Power (5 Piety)</link>
+					<link class="ability" recordname="ability.id-02041">Ability: Reap (5 Piety)</link>
+					<link class="ability" recordname="ability.id-02030">Ability: Blessing of Fate and Destiny (5 Piety)</link>
+					<link class="ability" recordname="ability.id-02037">Ability: The Gods Command You Obey (5 Piety)</link>
+					<link class="ability" recordname="ability.id-02045">Ability: Wellspring of Grace (5 Piety)</link>
+					<link class="ability" recordname="ability.id-02040">Ability: Our Hearts Your Strength (5 Piety)</link>
+					<link class="ability" recordname="ability.id-02039">Ability: Nature Judges Thee (5 Piety)</link>
+					<link class="ability" recordname="ability.id-02042">Ability: Sacred Bond (5 Piety)</link>
+					<link class="ability" recordname="ability.id-02043">Ability: Saint&#8217;s Tempest (5 Piety)</link>
+					<link class="ability" recordname="ability.id-02038">Ability: Morning Light (5 Piety)</link>
+					<link class="ability" recordname="ability.id-02036">Ability: Divine Comedy (5 Piety)</link>
+					<link class="ability" recordname="ability.id-02035">Ability: Blessing of Insight (5 Piety)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;3rd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 3rd-level conduit, you gain the following features.</p>
+				<h>Minor Miracle</h>
+				<p>As a respite activity, you can perform a religious ritual and beseech the gods to restore a dead creature to life. You must have at least half the creature&#8217;s remains, and they must have died within the last 24 hours from an effect that isn&#8217;t age related. The creature&#8217;s soul must be willing to return to life for the ritual to work. If they are not willing, you instinctively understand that as you start the respite activity and can cease it immediately.</p>
+				<p>A creature with a willing soul returns to life at the end of the respite with full Stamina and half their Recoveries. You regain only half your Recoveries at the end of the respite.</p>
+				<h>7-Piety Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 7 piety to use.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-02046">Ability: Fear of the Gods (7 Piety)</link>
+					<link class="ability" recordname="ability.id-02047">Ability: Saint&#8217;s Raiment (7 Piety)</link>
+					<link class="ability" recordname="ability.id-02048">Ability: Soul Siphon (7 Piety)</link>
+					<link class="ability" recordname="ability.id-02049">Ability: Words of Wrath and Grace (7 Piety)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;4th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 4th-level conduit, you gain the following features.</p>
+				<h>Blessed Domain</h>
+				<p>Whenever you gain piety from a domain feature, you gain 1 additional piety.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Intuition score increases to 3. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 3.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice. See Skills in Chapter 9: Tests</p>
+				<h>4th-Level Domain Feature</h>
+				<p>Choose one of your domains. You gain a domain feature for that domain, as shown on the 4th-Level Conduit Domain Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 4th-Level Conduit Domain Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Domain</b>
+						</td>
+						<td colspan="2">
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Creation</td>
+						<td colspan="2">Improved Hands of the Maker</td>
+					</tr>
+					<tr>
+						<td>Death</td>
+						<td colspan="2">S&#233;ance</td>
+					</tr>
+					<tr>
+						<td>Fate</td>
+						<td colspan="2">Oracular Warning</td>
+					</tr>
+					<tr>
+						<td>Knowledge</td>
+						<td colspan="2">Saint&#8217;s Epiphany</td>
+					</tr>
+					<tr>
+						<td>Life</td>
+						<td colspan="2">Blessing of Life</td>
+					</tr>
+					<tr>
+						<td>Love</td>
+						<td colspan="2">Invocation of the Heart</td>
+					</tr>
+					<tr>
+						<td>Nature</td>
+						<td colspan="2">Wode Road</td>
+					</tr>
+					<tr>
+						<td>Protection</td>
+						<td colspan="2">Impervious Touch</td>
+					</tr>
+					<tr>
+						<td>Storm</td>
+						<td colspan="2">Windwalk</td>
+					</tr>
+					<tr>
+						<td>Sun</td>
+						<td colspan="2">Light of Revelation</td>
+					</tr>
+					<tr>
+						<td>Trickery</td>
+						<td colspan="2">Blessing of Secrets</td>
+					</tr>
+					<tr>
+						<td>War</td>
+						<td colspan="2">Improved Sanctified Weapon</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00047">Improved Hands of the Maker</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00048">S&#233;ance</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00049">Oracular Warning</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00050">Saint&#8217;s Epiphany</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00051">Blessing of Life</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00052">Invocation of the Heart</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00054">Wode Road</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00055">Impervious Touch</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00056">Windwalk</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00053">Light of Revelation</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00057">Blessing of Secrets</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00058">Improved Sanctified Weapon</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;5th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 5th-level conduit, you gain the following features.</p>
+				<h>5th-Level Domain Feature</h>
+				<p>You gain the 4th-level domain feature for the domain whose feature you didn&#8217;t select at that level (see 4th-Level Domain Feature).</p>
+				<h>9-Piety Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 9 piety to use.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-02051">Ability: Beacon of Grace (9 Piety)</link>
+					<link class="ability" recordname="ability.id-02052">Ability: Penance (9 Piety)</link>
+					<link class="ability" recordname="ability.id-02053">Ability: Sanctuary (9 Piety)</link>
+					<link class="ability" recordname="ability.id-02054">Ability: Vessel of Retribution (9 Piety)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;6th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 6th-level conduit, you gain the following features.</p>
+				<h>Burgeoning Saint</h>
+				<p>You are infused with the power your deity reserves for their most worthy instruments. You have the following benefits:</p>
+				<list>
+					<li>You gain an edge on Presence tests made to interact with other creatures.</li>
+					<li>Whenever you deal damage to an enemy, you can spend a Recovery.</li>
+					<li>You have corruption immunity 10 or holy immunity 10 (your choice).</li>
+					<li>Your clothing and equipment changes in a way that reflects your status as your deity&#8217;s chosen champion, such as ordinary robes turning into gold vestments or a simple dagger becoming a wicked blade with intricate etching.</li>
+				</list>
+				<h>Perk</h>
+				<p>You gain one crafting, lore, or supernatural perk of your choice.</p>
+				<h>6th-Level Domain Ability</h>
+				<p>Choose one of your domains. You gain a heroic ability from that domain, as shown on the 6th-Level Conduit Domain Abilities table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 6th-Level Conduit Domain Abilities &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Domain</b>
+						</td>
+						<td colspan="2">
+							<b>Ability</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Creation</td>
+						<td colspan="2">Gods&#8217; Machine</td>
+					</tr>
+					<tr>
+						<td>Death</td>
+						<td colspan="2">Aura of Souls</td>
+					</tr>
+					<tr>
+						<td>Fate</td>
+						<td colspan="2">Your Story Ends Here</td>
+					</tr>
+					<tr>
+						<td>Knowledge</td>
+						<td colspan="2">Invocation of Undoing</td>
+					</tr>
+					<tr>
+						<td>Life</td>
+						<td colspan="2">Revitalizing Grace</td>
+					</tr>
+					<tr>
+						<td>Love</td>
+						<td colspan="2">Lauded by God</td>
+					</tr>
+					<tr>
+						<td>Nature</td>
+						<td colspan="2">Spirit Stampede</td>
+					</tr>
+					<tr>
+						<td>Protection</td>
+						<td colspan="2">Cuirass of the Gods</td>
+					</tr>
+					<tr>
+						<td>Storm</td>
+						<td colspan="2">Lightning Lord</td>
+					</tr>
+					<tr>
+						<td>Sun</td>
+						<td colspan="2">Blessing of the Midday Sun</td>
+					</tr>
+					<tr>
+						<td>Trickery</td>
+						<td colspan="2">Invocation of Mystery</td>
+					</tr>
+					<tr>
+						<td>War</td>
+						<td colspan="2">Blade of the Heavens</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00064">Gods&#8217; Machine (9 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00060">Aura of Souls (9 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00071">Your Story Ends Here (9 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00066">Invocation of Undoing (9 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00069">Revitalizing Grace (9 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00067">Lauded by God (9 Piety</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00070">Spirit Stampede (9 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00063">Cuirass of the Gods (9 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00068">Lightning Lord (9 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00062">Blessing of the Midday Sun (9 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00065">Invocation of Mystery (9 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00061">Blade of the Heavens (9 Piety)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;7th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 7th-level conduit, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Each of your characteristic scores increases by 1, to a maximum of 4.</p>
+				<h>Faithful&#8217;s Reward</h>
+				<p>When you roll for piety at the start of your turn in combat, you gain 1d3 + 1 piety.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice.</p>
+				<h>7th-Level Domain Feature</h>
+				<p>Choose one of your domains. You gain a domain feature for that domain, as shown on the 7th-Level Conduit Domain Features table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 7th-Level Conduit Domain Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Domain</b>
+						</td>
+						<td colspan="2">
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Creation</td>
+						<td colspan="2">Divine Quartermaster</td>
+					</tr>
+					<tr>
+						<td>Death</td>
+						<td colspan="2">Word of Death Deferred</td>
+					</tr>
+					<tr>
+						<td>Fate</td>
+						<td colspan="2">Word of Fate Denied</td>
+					</tr>
+					<tr>
+						<td>Knowledge</td>
+						<td colspan="2">Gods&#8217; Library</td>
+					</tr>
+					<tr>
+						<td>Life</td>
+						<td colspan="2">Font of Grace</td>
+					</tr>
+					<tr>
+						<td>Love</td>
+						<td colspan="2">Covenant of the Heart</td>
+					</tr>
+					<tr>
+						<td>Nature</td>
+						<td colspan="2">Nature&#8217;s Bounty</td>
+					</tr>
+					<tr>
+						<td>Protection</td>
+						<td colspan="2">Blessing of Iron</td>
+					</tr>
+					<tr>
+						<td>Storm</td>
+						<td colspan="2">Thunderstruck</td>
+					</tr>
+					<tr>
+						<td>Sun</td>
+						<td colspan="2">Light of the Burning Sun</td>
+					</tr>
+					<tr>
+						<td>Trickery</td>
+						<td colspan="2">Trinity of Trickery</td>
+					</tr>
+					<tr>
+						<td>War</td>
+						<td colspan="2">Your Triumphs are Remembered</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00072">Divine Quartermaster</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00073">Word of Death Deferred</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00074">Word of Fate Denied</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00075">Gods&#8217; Library</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00076">Font of Grace</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00077">Covenant of the Heart</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00078">Nature&#8217;s Bounty</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00092">Blessing of Iron</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00093">Thunderstruck</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00079">Light of the Burning Sun</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00080">Trinity of Trickery</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00081">Your Triumphs are Remembered</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;8th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As an 8th-level conduit, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>8th-Level Domain Feature</h>
+				<p>You gain the 7th-level domain feature for the domain whose feature you didn&#8217;t select at that level (see 7th-Level Domain Feature).</p>
+				<h>11-Piety Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 11 piety to use.</p>
+				<linklist>
+					<link class="ability" recordname="ability.id-02069">Ability: Arise! (11 Piety)</link>
+					<link class="ability" recordname="ability.id-02070">Ability: Blessing of Steel (11 Piety)</link>
+					<link class="ability" recordname="ability.id-02071">Ability: Blessing of the Blade (11 Piety)</link>
+					<link class="ability" recordname="ability.id-02072">Ability: Drag the Unworthy (11 Piety)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;9th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 9th-level conduit, you gain the following features.</p>
+				<h>Faith&#8217;s Sword</h>
+				<p>Each time you finish a respite, you can choose a willing hero ally who finished the respite with you. That ally gains the benefits of your Burgeoning Saint feature until you finish another respite. Additionally, you can spend piety as a free maneuver to give the hero 1 of their Heroic Resource for every 2 piety spent.</p>
+				<h>Ordained</h>
+				<p>Your god elevates the power flowing through you. Your characteristic scores are treated as 1 higher for the purpose of resisting potencies.</p>
+				<p>Additionally, while you have 5 or more Victories, you speak with the voice of your deity. You have a double edge on Presence tests made to influence other creatures.</p>
+				<h>9th-Level Domain Ability</h>
+				<p>Choose one of your domains. You gain a heroic ability from that domain, as shown on the 9th-Level Conduit Domain Abilities table.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 9th-Level Conduit Domain Abilities &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<table>
+					<tr>
+						<td>
+							<b>Domain</b>
+						</td>
+						<td colspan="2">
+							<b>Ability</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Creation</td>
+						<td colspan="2">Divine Dragon</td>
+					</tr>
+					<tr>
+						<td>Death</td>
+						<td colspan="2">Word of Final Redemption</td>
+					</tr>
+					<tr>
+						<td>Fate</td>
+						<td colspan="2">Bend Fate</td>
+					</tr>
+					<tr>
+						<td>Knowledge</td>
+						<td colspan="2">Word of Weakening</td>
+					</tr>
+					<tr>
+						<td>Life</td>
+						<td colspan="2">Radiance of Grace</td>
+					</tr>
+					<tr>
+						<td>Love</td>
+						<td colspan="2">Alacrity of the Heart</td>
+					</tr>
+					<tr>
+						<td>Nature</td>
+						<td colspan="2">Thorn Cage</td>
+					</tr>
+					<tr>
+						<td>Protection</td>
+						<td colspan="2">Blessing of the Fortress</td>
+					</tr>
+					<tr>
+						<td>Storm</td>
+						<td colspan="2">Godstorm</td>
+					</tr>
+					<tr>
+						<td>Sun</td>
+						<td colspan="2">Solar Flare</td>
+					</tr>
+					<tr>
+						<td>Trickery</td>
+						<td colspan="2">Night Falls</td>
+					</tr>
+					<tr>
+						<td>War</td>
+						<td colspan="2">Righteous Phalanx</td>
+					</tr>
+				</table>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<linklist>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00046">Divine Dragon (11 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00059">Word of Final Redemption (11 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00082">Bend Fate (11 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00083">Word of Weakening (11 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00084">Radiance of Grace (11 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00085">Alacrity of the Heart (11 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00086">Thorn Cage (11 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00088">Blessing of the Fortress (11 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00087">Godstorm (11 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00089">Solar Flare (11 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00090">Night Falls (11 Piety)</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00002.featurechoices.id-00091">Righteous Phalanx (11 Piety)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;10th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 10th-level conduit, you gain the following features.</p>
+				<h>Avatar</h>
+				<p>You are now an avatar of your god! When you use your Prayer feature, you can be affected by up to three prayers at once, and you can change all those prayers and your ward as a respite activity. You can also use a maneuver to activate one of your domain effects (see Domain Piety and Effects) without needing to pray.</p>
+				<p>Additionally, whenever you take a respite, you can open a portal to rest in the presence of your deity and bring along any allies. When you do, you can ask your deity three questions, which the Director must answer honestly if your deity knows the answers (though they might answer cryptically or incompletely). When you finish your respite, you and your allies can appear at any location in the timescape where someone worships your deity.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Intuition score increases to 5. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 5.</p>
+				<h>Divine Power</h>
+				<p>You have an epic resource called divine power. Each time you finish a respite, you gain divine power equal to the XP you gain. You can spend divine power on your abilities as if it were piety.</p>
+				<p>Additionally, you can spend divine power as if it were piety to use any conduit abilities you don&#8217;t have, as the gods answer your prayers with temporary and unique gifts. If you use a conduit ability you don&#8217;t have that usually costs no piety, you must spend 1 divine power to use it.</p>
+				<p>Divine power remains until you spend it.</p>
+				<h>Most Pious</h>
+				<p>When you roll for piety at the start of your turn in combat and you pray, you gain 1 additional piety.</p>
+				<h>Perk</h>
+				<p>You gain one crafting, lore, or supernatural perk of your choice.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice</p>
+				
+				<p>[Source: Draw Steel Heroes v1.0]</p>
 			</notes>
 			<staminaPerLevel type="number">6</staminaPerLevel>
 			<startingAgility type="number">1</startingAgility>
