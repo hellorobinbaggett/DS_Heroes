@@ -8259,7 +8259,303 @@
 					<link class="ability" recordname="ability.id-01004">Ability: Make Peace With Your God! (5 Ferocity)</link>
 					<link class="ability" recordname="ability.id-04078">Ability: Thunder Roar (5 Ferocity)</link>
 					<link class="ability" recordname="ability.id-04099">Ability: To the Uttermost End (5 Ferocity)</link>
-				</linklist><p>[Source: Draw Steel Heroes v1.0]</p>
+				</linklist>
+				
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;2nd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 2nd-level fury, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one crafting, exploration, or intrigue perk of your choice. See Chapter 7: Perks.</p>
+				<h>2nd-Level Aspect Feature</h>
+				<p>Your primordial aspect grants you a feature, as shown on the 2nd-Level Aspect Features table.</p>
+				<table>
+					<tr>
+						<td>
+							<b>Aspect</b>
+						</td>
+						<td>
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Berserker</td>
+						<td>Unstoppable Force</td>
+					</tr>
+					<tr>
+						<td>Reaver</td>
+						<td>Inescapable Wrath</td>
+					</tr>
+					<tr>
+						<td>Stormwight</td>
+						<td>Tooth and Claw</td>
+					</tr>
+				</table>
+				<linklist>
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+					<link class="" recordname="" />
+				</linklist>
+				<h>2nd-Level Aspect Ability</h>
+				<p>Your primordial aspect grants your choice of one of two heroic abilities.</p>
+				<p>
+					<b>2nd-Level Berserker Ability</b>
+				</p>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="">Special Delivery (5 Ferocity)</link>
+					<link class="" recordname="">Wrecking Ball (5 Ferocity)</link>
+				</linklist>
+				<p>
+					<b>2nd-Level Reaver Ability</b>
+				</p>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="">Death &#8230; Death! (5 Ferocity)</link>
+					<link class="" recordname="">Phalanx-Breaker (5 Ferocity)</link>
+				</linklist>
+				<p>
+					<b>2nd-Level Stormwight Ability</b>
+				</p>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="">Apex Predator (5 Ferocity)</link>
+					<link class="" recordname="">Visceral Roar (5 Ferocity)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;3rd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 3rd-level fury, you gain the following features.</p>
+				<h>3rd-Level Aspect Feature</h>
+				<p>Your primordial aspect grants you a feature, as shown on the 2nd-Level Aspect Features table.</p>
+				<table>
+					<tr>
+						<td>
+							<b>Aspect</b>
+						</td>
+						<td>
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Berserker</td>
+						<td>Immovable Object</td>
+					</tr>
+					<tr>
+						<td>Reaver</td>
+						<td>See Through Their Tricks</td>
+					</tr>
+					<tr>
+						<td>Stormwight</td>
+						<td>Nature's Knight</td>
+					</tr>
+				</table>
+				<linklist>
+					<link class="" recordname="">Immovable Object</link>
+					<link class="" recordname="">See Through Their Tricks</link>
+					<link class="" recordname="">Nature's Knight</link>
+				</linklist>
+				<h>7-Ferocity Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 7 ferocity to use.</p>
+				<linklist>
+					<link class="" recordname="">Demon Unleashed (7 Ferocity)</link>
+					<link class="" recordname="">Face the Storm! (7 Ferocity)</link>
+					<link class="" recordname="">Steelbreaker (7 Ferocity)</link>
+					<link class="" recordname="">You Are Already Dead (7 Ferocity)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;4th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 4th-level fury, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Might and Agility scores each increase to 3.</p>
+				<h>Damaging Ferocity</h>
+				<p>The first time you take damage each combat round, you gain 2 ferocity instead of 1.</p>
+				<h>Growing Ferocity Improvement</h>
+				<p>Your Growing Ferocity feature provides additional benefits when you have 8 or more ferocity.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>Primordial Attunement</h>
+				<p>As your ferocity manifests elemental forces created by the Primordial Chaos, you are aware of how elemental power interacts with those around you. You automatically sense whether any creature within 10 squares has damage immunity or damage weakness to acid, cold, corruption, fire, lightning, poison, or sonic damage, learning whether they have immunity or weakness, the value of that immunity or weakness, and the specific damage type. Additionally, you automatically sense any source of one of those damage types within 10 squares, such as a fire or a source of elemental power.</p>
+				<h>Primordial Strike</h>
+				<p>You can manifest your ferocity directly as an elemental force created by the Primordial Chaos. As part of any strike, you can spend 1 ferocity to gain 1 surge that must be used for that strike. The extra damage dealt by the surge can be acid, cold, corruption, fire, lightning, poison, or sonic (your choice).</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice. See Skills in Chapter 9: Tests.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;5th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 5th-level fury, you gain the following features.</p>
+				<h>5th-Level Aspect Feature</h>
+				<p>Your primordial aspect grants you a feature, as shown on the 5th-Level Aspect Features table.</p>
+				<table>
+					<tr>
+						<td>
+							<b>Aspect</b>
+						</td>
+						<td>
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Berserker</td>
+						<td>Bounder</td>
+					</tr>
+					<tr>
+						<td>Reaver</td>
+						<td>Unfettered</td>
+					</tr>
+					<tr>
+						<td>Stormwight</td>
+						<td>Stormborn</td>
+					</tr>
+				</table>
+				<linklist>
+					<link class="" recordname="">Feature: Bounder</link>
+					<link class="" recordname="">Feature: Unfettered</link>
+					<link class="" recordname="">Feature: Stormborn</link>
+				</linklist>
+				<h>9-Ferocity Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 9 ferocity to use.</p>
+				<linklist>
+					<link class="" recordname="">Ability: Debilitating Strike (9 Ferocity)</link>
+					<link class="" recordname="">Ability: My Turn! (9 Ferocity)</link>
+					<link class="" recordname="">Ability: Rebounding Storm (9 Ferocity)</link>
+					<link class="" recordname="">Ability: To Stone! (9 Ferocity)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;6th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 6th-level fury, you gain the following features.</p>
+				<h>Marauder of the Primordial Chaos</h>
+				<p>As your connection to the power of the Primordial Chaos grows ever stronger, you automatically sense any elemental creatures or magic sources of elemental power, such as a lava pool or a lake overlapping with Quintessence, within 1 mile of you.</p>
+				<p>Additionally, you can speak with elemental creatures, and when you are in a negotiation with an elemental, you treat your Renown as 1 higher than usual. This stacks with the increase to your effective Renown provided by the Nature&#8217;s Knight aspect feature (see 3rd-Level Features). When any elemental first becomes aware of you in combat, if they have [P]&#60;[AVERAGE], they are frightened of you (save ends).</p>
+				<h>Primordial Portal</h>
+				<p>As a main action, you can touch a magic source of elemental power and use it to create a portal to Quintessence. You can then use a main action to teleport yourself and any willing creatures within 10 squares of you through the portal and onto a safe island in Quintessence, or to teleport back again. You can maintain a number of portals equal to your Might score, each leading to the same safe island in Quintessence. If a portal in your network is destroyed, it is no longer part of the network. You can remove a portal from your network no matter your distance from it, including across different worlds (no action required).</p>
+				<p>(Exploring Quintessence is possible from your island, but continued safety is not guaranteed.)</p>
+				<h>Perk</h>
+				<p>You gain one crafting, exploration, or intrigue perk of your choice.</p>
+				<h>6th-Level Aspect Ability</h>
+				<p>Your primordial aspect grants your choice of one of two heroic abilities.</p>
+				<p>
+					<b>6th-Level Berserker Abilities</b>
+				</p>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="">Ability: Avalanche Impact (9 Ferocity)</link>
+					<link class="" recordname="">Ability: Force of Storms (9 Ferocity)</link>
+				</linklist>
+				<p>
+					<b>6th-Level Reaver Abilities</b>
+				</p>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="">Ability: Death Strike (9 Ferocity)</link>
+					<link class="" recordname="">Ability: Seek and Destroy (9 Ferocity)</link>
+				</linklist>
+				<p>
+					<b>6th-Level Stormwight Abilities</b>
+				</p>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="">Ability: Pounce (9 Ferocity)</link>
+					<link class="" recordname="">Ability: Riders on the Storm (9 Ferocity)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;7th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 7th-level fury, you gain the following features.</p>
+				<h>Characteristic Increase</h>
+				<p>Each of your characteristic scores increases by 1, to a maximum of 4.</p>
+				<h>Elemental Form</h>
+				<p>You exhibit ever-stronger signs of how the force of the Primordial Chaos flows within you. Whenever you show strong emotion or increase your ferocity, elemental motes attuned to your mood flit around you, and your skin changes in appearance to reflect an element of your choice.</p>
+				<p>Additionally, if you are a berserker or reaver, you have immunity to acid, cold, corruption, fire, lightning, poison, and sonic damage equal to your Might score. If you are a stormwight, you have immunity to the damage type of your Primordial Storm feature equal to twice your Might score.</p>
+				<h>Greater Ferocity</h>
+				<p>When you gain ferocity at the start of each of your turns during combat, you gain 1d3 + 1 ferocity instead of 1d3.</p>
+				<h>Growing Ferocity Improvement</h>
+				<p>Your Growing Ferocity feature provides additional benefits when you have 10 or more ferocity.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice.</p>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;8th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As an 8th-level fury, you gain the following features.</p>
+				<h>Perk</h>
+				<p>You gain one perk of your choice.</p>
+				<h>8th-Level Aspect Feature</h>
+				<p>Your primordial aspect grants you a feature, as shown on the 8th-Level Aspect Features table.</p>
+				<table>
+					<tr>
+						<td>
+							<b>Aspect</b>
+						</td>
+						<td>
+							<b>Feature</b>
+						</td>
+					</tr>
+					<tr>
+						<td>Berserker</td>
+						<td>Strongest There Is</td>
+					</tr>
+					<tr>
+						<td>Reaver</td>
+						<td>A Step Ahead</td>
+					</tr>
+					<tr>
+						<td>Stormwight</td>
+						<td>Menagerie</td>
+					</tr>
+				</table>
+				<linklist>
+					<link class="" recordname="">Feature: Strongest There Is</link>
+					<link class="" recordname="">Feature: A Step Ahead</link>
+					<link class="" recordname="">Feature: Menagerie</link>
+				</linklist>
+				<h>11-Ferocity Ability</h>
+				<p>Choose one heroic ability from the following options, each of which costs 11 ferocity to use.</p>
+				<linklist>
+					<link class="" recordname="">Ability: Elemental Ferocity (11 Ferocity)</link>
+					<link class="" recordname="">Ability: Overkill (11 Ferocity)</link>
+					<link class="" recordname="">Ability: Primordial Rage (11 Ferocity)</link>
+					<link class="" recordname="">Ability: Relentless Death (11 Ferocity)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;9th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 9th-level fury, you gain the following features.</p>
+				<h>Harbinger of the Primordial Chaos</h>
+				<p>You can create a temporary source of elemental power as a respite activity. This source of elemental power lasts 24 hours after creation, and can be used to create a portal to Quintessence with your Primordial Portal feature. If you do so, the source of elemental power lasts as long as the portal is maintained in your network.</p>
+				<h>9th-Level Aspect Ability</h>
+				<p>Your primordial aspect grants your choice of one of two heroic abilities.</p>
+				<p>
+					<b>9th-Level Berserker Abilities</b>
+				</p>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="">Ability: Death Comes for You All! (11 Ferocity)</link>
+					<link class="" recordname="">Ability: Primordial Vortex (11 Ferocity)</link>
+				</linklist>
+				<p>
+					<b>9th-Level Reaver Abilities</b>
+				</p>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="">Ability: Primordial Bane (11 Ferocity)</link>
+					<link class="" recordname="">Ability: Shower of Blood (11 Ferocity)</link>
+				</linklist>
+				<p>
+					<b>9th-Level Stormwight Abilities</b>
+				</p>
+				<p>Choose one of the following abilities.</p>
+				<linklist>
+					<link class="" recordname="">Ability: Death Rattle (11 Ferocity)</link>
+					<link class="" recordname="">Ability: Deluge (11 Ferocity)</link>
+				</linklist>
+				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;10th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+				<p>As a 10th-level fury, you gain the following features.</p>
+				<h>Chaos Incarnate</h>
+				<p>Your mastery of elemental forces protects and emboldens you. If you are a berserker or reaver, you have immunity to acid, cold, corruption, fire, lightning, poison, and sonic damage equal to twice your Might score. If you are a stormwight, your damage immunity from your Primordial Storm feature (see Stormwight Kits) increases to three times your Might score.</p>
+				<p>When any elemental or any other creature whose abilities deal acid, cold, corruption, fire, lightning, poison, or sonic damage first becomes aware of you in combat, if they have p&#60;s , they are frightened of you (save ends).</p>
+				<p>Additionally, when you use Primordial Strike, you can spend up to 3 ferocity, gaining 1 surge per ferocity spent to use for that strike.</p>
+				<h>Characteristic Increase</h>
+				<p>Your Might and Agility scores each increase to 5.</p>
+				<h>Growing Ferocity Improvement</h>
+				<p>Your Growing Ferocity feature provides additional benefits when you have 12 or more ferocity.</p>
+				<h>Perk</h>
+				<p>You gain one crafting, exploration, or intrigue perk of your choice.</p>
+				<h>Primordial Ferocity</h>
+				<p>The first time you take damage each combat round, you gain 3 ferocity instead of 2.</p>
+				<h>Primordial Power</h>
+				<p>You have an epic resource called primordial power. Each time you finish a respite, you gain primordial power equal to the XP you gain. You can spend primordial power on your abilities as if it were ferocity.</p>
+				<p>Additionally, you can spend any amount of primordial power as a free maneuver, ending one effect on you for each primordial power spent.</p>
+				<p>You can also spend 3 primordial power to create a portal to Quintessence without needing a source of elemental power.</p>
+				<p>Primordial power remains until you spend it.</p>
+				<h>Skill</h>
+				<p>You gain one skill of your choice.</p>
+				<p>[Source: Draw Steel Heroes v1.0]</p>
 			</notes>
 			<size type="string">1M</size>
 			<staminaPerLevel type="number">9</staminaPerLevel>
