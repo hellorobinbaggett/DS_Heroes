@@ -3,6 +3,652 @@
 <!-- WIP: update classes to match Draw Steel Heroes Book v1.0 -->
 	<ability>
 		<!-- Censor Abilities -->
+		<id-01098>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">6</ability_level>
+			<abilitytype type="string">Order Ability</abilitytype>
+			<characteristic type="number">5</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">3 burst</distance>
+			<keywords type="string">Area, Magic</keywords>
+			<name type="string">Begone! (9 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You terrify your enemies into retreating, creating chaos in their ranks</p>
+			</notes>
+			<subclass type="string">Exorcist</subclass>
+			<target type="string">Each enemy in the area</target>
+			<tier1 type="string">4 psychic damage; slide 3</tier1>
+			<tier2 type="string">6 psychic damage; slide 5</tier2>
+			<tier3 type="string">8 psychic damage; slide 7</tier3>
+			<type type="string">Main action</type>
+		</id-01098>
+		<id-01099>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">6</ability_level>
+			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The effect ends on the target and is applied to the creature who imposed the effect on them. That creature also takes damage \nequal to three times your Presence score.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">Pain of Your Own Making (9 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You reverse the effects from an evildoer.</p>
+			</notes>
+			<subclass type="string">Exorcist</subclass>
+			<target type="string">Self or one ally</target>
+			<trigger type="string">The target gains a condition or effect that is ended by a saving throw or that ends at the end of their turn.</trigger>
+			<type type="string">Free triggered</type>
+		</id-01099>
+		<id-01100>
+			<ability_cost type="number">5</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">2</ability_level>
+			<abilitytype type="string">Order Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">3 burst</distance>
+			<effect type="string">Each target takes holy damage equal to twice your Presence score. Additionally, each hidden target is automatically revealed and can’t become hidden again until the start of your next turn. You can then use your Judgment ability against one target as a free triggered action. </effect>
+			<keywords type="string">Area, Magic </keywords>
+			<name type="string">Revelator (5 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You channel holy energy to harm unbelievers and reveal those hidden from your judgment.</p>
+			</notes>
+			<subclass type="string">Exorcist</subclass>
+			<target type="string">Each enemy in the area</target>
+			<type type="string">Maneuver</type>
+		</id-01100>
+		<id-01101>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">6</ability_level>
+			<abilitytype type="string">Order Ability</abilitytype>
+			<characteristic type="number">5</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10 </distance>
+			<keywords type="string">Magic, Ranged, Strike</keywords>
+			<name type="string">Burden of Evil (9 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You reveal a vision of your enemies&#8217; fate that causes them to scramble as it staggers them.</p>
+			</notes>
+			<subclass type="string">Oracle</subclass>
+			<target type="string">Three enemies</target>
+			<tier1 type="string">Slide 3; i&lt;Weak , dazed (save ends)</tier1>
+			<tier2 type="string">Slide 5; i&lt;Average , dazed (save ends)</tier2>
+			<tier3 type="string">Slide 7; i&lt;Strong , dazed (save ends)</tier3>
+			<type type="string">Maneuver</type>
+		</id-01101>
+		<id-01111>
+			<ability_cost type="number">7</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">3</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">2 aura</distance>
+			<effect type="string">Until the end of the encounter or until you are dying, \nwhenever a target makes a strike, they take holy damage equal to \ntwice your Presence score. A target judged by you takes an extra 2d6 \nholy damage.</effect>
+			<keywords type="string">Area, Magic</keywords>
+			<name type="string">Edict of Purifying Pacifism (7 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You shed a righteous energy that punishes enemies who would harm you or your allies.</p>
+			</notes>
+			<target type="string">Each enemy in the area</target>
+			<type type="string">Maneuver</type>
+		</id-01111>
+		<id-01112>
+			<ability_cost type="number">7</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">3</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">2 aura</distance>
+			<effect type="string">Until the end of the encounter or until you are dying, whenever a target moves or is force moved out of the area, they take holy damage equal to twice your Presence score. A target judged by you who moves willingly takes an extra 2d6 holy damage.</effect>
+			<keywords type="string">Area, Magic</keywords>
+			<name type="string">Edict of Stillness (7 Wrath)</name>
+			<notes type="formattedtext">
+				<p>The holy aura you project makes it painful for evil-doers to leave your reach.</p>
+			</notes>
+			<target type="string">Each enemy in the area</target>
+			<type type="string">Maneuver</type>
+		</id-01112>
+		<id-01114>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">5</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The target ends any condition or effect on them that is ended by a saving throw or that ends at the end of their turn, or a prone target can stand up. The target then gains 2 surges, can shift up to their speed while ignoring difficult terrain, and can use a strike signature ability as a free triggered action</effect>
+			<keywords type="string">Ranged</keywords>
+			<name type="string">Gods Grant Thee Strength (9 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You channel divine force for movement that cannot be stopped.</p>
+			</notes>
+			<target type="string">Self or one ally</target>
+			<type type="string">Main action</type>
+		</id-01114>
+		<id-01115>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">5</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">5</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">1 burst</distance>
+			<effect type="string">A target can end one effect on them that is ended by a saving throw or that ends at the end of their turn, or a prone target can \nstand up.</effect>
+			<keywords type="string">Area</keywords>
+			<name type="string">Orison of Victory (9 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You channel your god&#8217;s will to overcome hardship and inflict pain.</p>
+			</notes>
+			<target type="string">Self and each ally in the area</target>
+			<tier1 type="string">Each target gains 1 surge</tier1>
+			<tier2 type="string">Each target gains 2 surges.</tier2>
+			<tier3 type="string">Each target gains 3 surges</tier3>
+			<type type="string">Maneuver</type>
+		</id-01115>
+		<id-01116>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">5</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">Until the end of the encounter, whenever any ally deals damage to a target judged by you, that ally gains 1 surge.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Righteous Judgment (9 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You amplify the power of your judgment.</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">10 + M damage</tier1>
+			<tier2 type="string">14 + M damage</tier2>
+			<tier3 type="string">20 + M damage</tier3>
+			<type type="string">Main action</type>
+		</id-01116>
+		<id-01117>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">5</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Shield of the Righteous (9 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You strike a foe and create a fleet of divine shields that protect your allies.</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">10 + M damage; you and each ally adjacent to you gain 10 temporary Stamina</tier1>
+			<tier2 type="string">14 + M damage; you and each ally adjacent to you gain 15 temporary Stamina</tier2>
+			<tier3 type="string">20 + M damage; you and each ally adjacent to you gain 20 temporary Stamina</tier3>
+			<type type="string">Main action</type>
+		</id-01117>
+		<id-01128>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Order Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">This ability gains an edge against demons, devils, undead, and creatures not native to your current world. If you know the target’s true name, this ability has a double edge. While banished, the target is sent to another manifold in the timescape and removed from the encounter map. A banished target can do nothing but make saving throws, and takes 10 holy damage each time they do so. If the target is reduced to 0 Stamina while banished, they are lost to the timescape.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Banish (11 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You sever the target&#8217;s tenuous connection to the world.</p>
+			</notes>
+			<subclass type="string">Exorcist</subclass>
+			<target type="string">One creature</target>
+			<tier1 type="string">5 + M damage; p&lt;Weak , the target is banished (save ends)</tier1>
+			<tier2 type="string">8 + M damage; p&lt;Average , the target is banished (save ends)</tier2>
+			<tier3 type="string">11 + M damage; p&lt;Strong , the target is banished (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-01128>
+		<id-01129>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Order Ability</abilitytype>
+			<characteristic type="number">5</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">While frightened this way, if a target who is a leader or solo creature is winded, they take an extra 25 psychic damage. If a target frightened this way is not a leader or solo creature and is winded, they are reduced to 0 Stamina. </effect>
+			<keywords type="string">Magic, Ranged, Strike </keywords>
+			<name type="string">Terror Manifest (11 Wrath)</name>
+			<notes type="formattedtext">
+				<p>&#8220;I know what you fear.&#34;</p>
+			</notes>
+			<subclass type="string">Exorcist</subclass>
+			<target type="string">One creature</target>
+			<tier1 type="string">7 + P psychic damage; p&lt;Weak , frightened (save ends)</tier1>
+			<tier2 type="string">10 + P psychic damage; p&lt;Average , frightened (save ends)</tier2>
+			<tier3 type="string">13 + P psychic damage; p&lt;Strong , frightened (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-01129>
+		<id-02072>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The target obtains a tier 1 or tier 3 outcome on their power roll (your choice). You can then choose another target within distance, who obtains the opposite outcome on their next power roll.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">Blessing and a Curse (11 Wrath)</name>
+			<notes type="formattedtext">
+				<p>The gods bless and damn in equal measure.</p>
+			</notes>
+			<subclass type="string">Oracle</subclass>
+			<target type="string">One creature</target>
+			<trigger type="string">The target makes a power roll.</trigger>
+			<type type="string">Triggered</type>
+		</id-02072>
+		<id-02073>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double edge on power rolls.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">Fulfill Your Destiny (11 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You have looked at various futures, and only this one works.</p>
+			</notes>
+			<subclass type="string">Oracle</subclass>
+			<target type="string">One ally</target>
+			<trigger type="string">You or another hero ends their turn.</trigger>
+			<type type="string">Triggered</type>
+		</id-02073>
+		<id-02074>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Order Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">Until the end of the encounter or until you are dying, the target has damage weakness 10.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Apostate (11 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You channel holy energy to seal an enemy&#8217;s fate.</p>
+			</notes>
+			<subclass type="string">Paragon</subclass>
+			<target type="string">One creature</target>
+			<tier1 type="string">13 + M holy damage</tier1>
+			<tier2 type="string">19 + M holy damage</tier2>
+			<tier3 type="string">26 + M holy damage</tier3>
+			<type type="string">Main action</type>
+		</id-02074>
+		<id-02075>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Order Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">2 aura</distance>
+			<effect type="string">Until the end of the encounter or until you are dying, each target who starts their turn in the area gains 10 temporary Stamina.</effect>
+			<keywords type="string">Area, Magic</keywords>
+			<name type="string">Edict of Unyielding Resolve (11 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You and your allies are clad in shimmering armor.</p>
+			</notes>
+			<subclass type="string">Paragon</subclass>
+			<target type="string">Self and each ally in the area</target>
+			<type type="string">Maneuver</type>
+		</id-02075>
+		<id-01051>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.\n\nWhenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them.\n\nWhen a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target. Additionally, you can spend 1 wrath to take one of the following\nfree triggered actions:\n\n  • When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.\n\n  • When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.\n\n  • When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.\n\n  • If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn.\n\nYou can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">Judgement</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You utter a prayer that outlines your foe in holy energy.</i>
+				</p>
+			</notes>
+			<target type="string">One enemy</target>
+			<type type="string">Maneuver</type>
+		</id-01051>
+		<id-01052>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">You spend a Recovery and the target regains Stamina equal to your recovery value.</effect>
+			<keywords type="string">Magic, Ranged</keywords>
+			<name type="string">My Life for Yours</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You channel some of your vitality into more resilience for you or an ally.</i>
+				</p>
+			</notes>
+			<special type="string">Spend 1 Wrath: You can end one effect on the target that is ended by a saving throw or that ends at the end of their turn, or a prone target can stand up.</special>
+			<target type="string">Self or one ally</target>
+			<trigger type="string">The target starts their turn or takes damage.</trigger>
+			<type type="string">Triggered</type>
+		</id-01052>
+		<id-01053>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Self</distance>
+			<effect type="string">You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has speed 5 and can fly, but can’t physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can’t be reduced in any way.</effect>
+			<keywords type="string">Magic</keywords>
+			<name type="string">Faithful Friend</name>
+			<notes type="formattedtext">
+				<p>An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.</p>
+			</notes>
+			<subclass type="string">Nature Domain</subclass>
+			<target type="string">Self</target>
+			<type type="string">Main action</type>
+		</id-01053>
+		<id-01065>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<keywords type="string">Magic</keywords>
+			<name type="string">Grave Speech</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You commune with the lingering soul of the recently dead.</i>
+				</p>
+			</notes>
+			<special type="string">You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. The trauma of dying can make a creature’s memory of that event hazy, but the target otherwise\nknows all they knew in life. After 1 minute, the effect ends. You can’t use this ability on the same creature twice.</special>
+			<subclass type="string">Death Domain</subclass>
+			<target type="string">One dead creature</target>
+			<type type="string">Maneuver</type>
+		</id-01065>
+		<id-01072>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Self</distance>
+			<effect type="string">You create a mundane object of size 1S or smaller. You can maintain a number of objects created this way equal to your\nPresence score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).</effect>
+			<keywords type="string">Magic</keywords>
+			<name type="string">Hands of the Maker</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You craft objects with the power of your mind.</i>
+				</p>
+			</notes>
+			<subclass type="string">Creation Domain</subclass>
+			<target type="string">Self</target>
+			<type type="string">Maneuver</type>
+		</id-01072>
+		<id-01084>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string"> Melee 1</distance>
+			<effect type="string">Each enemy adjacent to the target is pushed away from the target up to a number of squares equal to your Presence score.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Your Allies Cannot Save You!</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Your magic strike turns your foe&#8217;s guilt into a burst of holy power.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">3 + M holy damage</tier1>
+			<tier2 type="string">5 + M holy damage</tier2>
+			<tier3 type="string">8 + M holy damage</tier3>
+			<type type="string">Main action</type>
+		</id-01084>
+		<id-01085>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Halt Miscreant!</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You infuse your weapon with holy magic that makes it difficult for your foe to get away.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">2 + M holy damage; P&lt;WEAK, slowed (save ends)</tier1>
+			<tier2 type="string">5 + M holy damage; P&lt;AVERAGE, slowed\n(save ends)</tier2>
+			<tier3 type="string">7 + M holy damage; P&lt;STRONG, slowed (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-01085>
+		<id-01086>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">5</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move.</effect>
+			<keywords type="string">Magic, Ranged, Strike</keywords>
+			<name type="string">Every Step … Death!</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You show your foe a glimpse of their fate after death.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">5 + P psychic damage</tier1>
+			<tier2 type="string">7 + P psychic damage</tier2>
+			<tier3 type="string">10+ P psychic damage</tier3>
+			<type type="string">Main action</type>
+		</id-01086>
+		<id-01087>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Signature Ability</abilitytype>
+			<characteristic type="number">5</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">2 cube within 1</distance>
+			<keywords type="string">Area, Magic, Melee, Weapon</keywords>
+			<name type="string">Back Blasphemer!</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You channel power through your weapon to repel foes.</i>
+				</p>
+			</notes>
+			<target type="string">Each enemy in the area</target>
+			<tier1 type="string">2 holy damage; push 1</tier1>
+			<tier2 type="string">4 holy damage; push 2</tier2>
+			<tier3 type="string">6 holy damage; push 3</tier3>
+			<type type="string">Main action</type>
+		</id-01087>
+		<id-01088>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">Until the start of your next turn, enemies take a bane on ability rolls made against you or any ally adjacent to you.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Behold a Shield of Faith! (3 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>A mighty blow turns your foe&#8217;s vitality into a holy light that envelops you and an ally, discouraging enemies who might attack you.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">3 + M holy damage</tier1>
+			<tier2 type="string">6 + M holy damage</tier2>
+			<tier3 type="string">9 + M holy damage</tier3>
+			<type type="string">Main action</type>
+		</id-01088>
+		<id-01089>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">5</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10</distance>
+			<keywords type="string">Magic, Ranged, Strike</keywords>
+			<name type="string">Repent! (3 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You conjure memories of their sins to harry your foes.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">5 + P holy damage; I&lt;WEAK, dazed (save ends)</tier1>
+			<tier2 type="string">8 + P holy damage; I&lt;AVERAGE, dazed (save ends)</tier2>
+			<tier3 type="string">11+ P holy damage; I&lt;STRONG, dazed (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-01089>
+		<id-01092>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">If the target makes a strike against a creature while grabbed this way, you can spend 3 wrath to deal holy damage to them equal to your Presence score, then change the target of the strike to another target within the strike’s distance.</effect>
+			<keywords type="string">Magic, Melee, Strike, Weapon</keywords>
+			<name type="string">Arrest (5 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>&#8220;I&#8217;ve got you, you son of a bitch.&#8221;</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">6 + M holy damage; grabbed</tier1>
+			<tier2 type="string">9 + M holy damage; grabbed</tier2>
+			<tier3 type="string">13 + M holy damage; grabbed</tier3>
+			<type type="string">Main action</type>
+		</id-01092>
+		<id-01093>
+			<ability_cost type="number">4</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1 or ranged 5</distance>
+			<effect type="string">While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage.</effect>
+			<keywords type="string">Magic, Melee, Ranged, Strike, Weapon</keywords>
+			<name type="string">Purifying Fire (5 Wrath)</name>
+			<notes type="formattedtext">
+				<p>The gods judge, fire cleanses.</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">5 + M holy damage; M&lt;WEAK, the target has fire weakness 3 (save ends)</tier1>
+			<tier2 type="string">9 + M holy damage; M&lt;AVERAGE, the target has fire weakness 5 (save ends)</tier2>
+			<tier3 type="string">12 + M holy damage; M&lt;STRONG, the target has fire weakness 7 (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-01093>
+		<id-01094>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">When a target who is not a leader or solo creature is made winded by this ability, they are reduced to 0 Stamina.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Censored (5 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Judged and sentenced.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">2 + M holy damage</tier1>
+			<tier2 type="string">3 + M holy damage</tier2>
+			<tier3 type="string">5 + M holy damage</tier3>
+			<type type="string">Main action</type>
+		</id-01094>
+		<id-01095>
+			<ability_cost type="number">5</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1 or ranged 5</distance>
+			<effect type="string">Each enemy frightened this way is pushed up to 2 squares away from the target and takes psychic damage equal to your Presence score.</effect>
+			<keywords type="string">Magic, Melee, Ranged, Strike, Weapon</keywords>
+			<name type="string">Behold the Face of Justice! (5 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You attack a foe and your enemies behold a vision of the true nature of your resolve.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">3 + M holy damage; if the target has P&lt;WEAK, each enemy within 2 squares of them is frightened of you (save ends)</tier1>
+			<tier2 type="string">5 + M holy damage; if the target has P&lt;AVERAGE, each enemy within 2 squares of them is frightened of you (save ends)</tier2>
+			<tier3 type="string">8 + M holy damage; if the target has P&lt;STRONG, each enemy within 2 squares of them is frightened of you (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-01095>
+		<id-01096>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You can spend a Recovery to allow yourself or one ally within 10 squares to regain Stamina equal to your recovery value.</effect>
+			<keywords type="string">Magic, Melee, Strike, Weapon</keywords>
+			<name type="string">The Gods Punish and Defend (3 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You channel holy energy to smite a foe and heal an ally.</i>
+				</p>
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">5 + M holy damage</tier1>
+			<tier2 type="string">8 + M holy damage</tier2>
+			<tier3 type="string">11 + M holy damage</tier3>
+			<type type="string">Main action</type>
+		</id-01096>
+		<id-01097>
+			<ability_cost type="number">3</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You can shift up to your speed. You must end this shift within distance of the target.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Driving Assault (3 Wrath)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>As you force your enemy back with your weapon, you use your faith to stay close.</i>
+				</p>
+			</notes>
+			<target type="string"> One creature or object</target>
+			<tier1 type="string">3 + M damage; push 1</tier1>
+			<tier2 type="string">6 + M damage; push 3</tier2>
+			<tier3 type="string">9 + M damage; push 5</tier3>
+			<type type="string">Main action</type>
+		</id-01097>
 		<id-01051>
 			<ability_cost type="number"></ability_cost>
 			<ability_cost_string type="string"></ability_cost_string>
@@ -24,6 +670,23 @@
 			<tier3 type="string"></tier3>
 			<type type="string">Maneuver</type>
 		</id-01051>
+		<id-01053>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Class Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Self</distance>
+			<effect type="string">You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has speed 5 and can fly, but can’t physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can’t be reduced in any way.</effect>
+			<keywords type="string">Magic</keywords>
+			<name type="string">Faithful Friend</name>
+			<notes type="formattedtext">
+				<p>An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.</p>
+			</notes>
+			<subclass type="string">Nature Domain</subclass>
+			<target type="string">Self</target>
+			<type type="string">Main action</type>
+		</id-01053>
 		<id-01098>
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
@@ -530,6 +1193,23 @@
 			<target type="string">Each ally in the area</target>
 			<type type="string">Maneuver</type>
 		</id-01127>
+		<id-01130>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Wrath</ability_cost_string>
+			<ability_level type="number">8</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">5</characteristic>
+			<class type="string">Censor</class>
+			<distance type="string">Ranged 10 </distance>
+			<effect type="string">While the target is slowed this way, each ally who starts their turn within 5 squares of them must use a free maneuver to make a free strike against the target. Additionally, while the target is slowed this way, each ally within 5 squares of them who can make a triggered free strike against a different creature must make the free strike against the target instead.</effect>
+			<keywords type="string">Ranged, Strike, Weapon</keywords>
+			<name type="string">Your Allies Turn on You! (11 Wrath)</name>
+			<notes type="formattedtext">
+				<p>You turn your enemies&#8217; ire to the target.</p>
+			</notes>
+			<target type="string">One creature</target>
+			<type type="string">Main action</type>
+		</id-01130>
 
 		<!-- Conduit Abilities -->
 		<id-02007>
@@ -5107,7 +5787,7 @@
 					<repeatable type="number">0</repeatable>
 					<text type="formattedtext">
 						<linklist>
-							<link class="ability" recordname="ability.id-00053@Classes for Draw Steel">Ability: Faithful Friend</link>
+							<link class="ability" recordname="ability.id-01053">Ability: Faithful Friend</link>
 						</linklist>
 					</text>
 				</id-00009>
@@ -5165,7 +5845,7 @@
 					<repeatable type="number">0</repeatable>
 					<text type="formattedtext">
 						<linklist>
-							<link class="ability" recordname="ability.id-00065@Classes for Draw Steel">Ability: Grave Speech</link>
+							<link class="ability" recordname="ability.id-01065">Ability: Grave Speech</link>
 						</linklist>
 					</text>
 				</id-00014>
@@ -5178,7 +5858,7 @@
 					<repeatable type="number">0</repeatable>
 					<text type="formattedtext">
 						<linklist>
-							<link class="ability" recordname="ability.id-00072@Classes for Draw Steel">Ability: Hands of the Maker</link>
+							<link class="ability" recordname="ability.id-01072">Ability: Hands of the Maker</link>
 						</linklist>
 					</text>
 				</id-00015>
@@ -5245,8 +5925,8 @@
 						</p>
 						<p>Choose one of the following abilities.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-00005">Ability: It Is Justice You Fear (5 Wrath)</link>
-							<link class="ability" recordname="ability.id-00003">Ability: Revelator (5 Wrath)</link>
+							<link class="ability" recordname="ability.id-01102">Ability: It Is Justice You Fear (5 Wrath)</link>
+							<link class="ability" recordname="ability.id-01100">Ability: Revelator (5 Wrath)</link>
 						</linklist>
 					</text>
 				</id-00021>
@@ -5269,8 +5949,8 @@
 					<text type="formattedtext">
 						<p>Choose one of the following abilities</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-00008">Ability: Blessing of the Faithful (5 Wrath)</link>
-							<link class="ability" recordname="ability.id-00009">Ability: Sentenced (5 Wrath)</link>
+							<link class="ability" recordname="ability.id-01105">Ability: Blessing of the Faithful (5 Wrath)</link>
+							<link class="ability" recordname="ability.id-01106">Ability: Sentenced (5 Wrath)</link>
 						</linklist>
 					</text>
 				</id-00023>
@@ -5283,8 +5963,8 @@
 					<text type="formattedtext">
 						<p>Choose one of the following abilities.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-00010">Ability: Prescient Grace (5 Wrath)</link>
-							<link class="ability" recordname="ability.id-00011">Ability: With My Blessing (5 Wrath)</link>
+							<link class="ability" recordname="ability.id-01107">Ability: Prescient Grace (5 Wrath)</link>
+							<link class="ability" recordname="ability.id-01108">Ability: With My Blessing (5 Wrath)</link>
 						</linklist>
 					</text>
 				</id-00024>
@@ -5452,8 +6132,8 @@
 					<text type="formattedtext">
 						<p>Choose one of the following abilities.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-00001">Ability: Begone! (9 Wrath)</link>
-							<link class="ability" recordname="ability.id-00002">Ability: Pain of Your Own Making (9 Wrath)</link>
+							<link class="ability" recordname="ability.id-01098">Ability: Begone! (9 Wrath)</link>
+							<link class="ability" recordname="ability.id-01099">Ability: Pain of Your Own Making (9 Wrath)</link>
 						</linklist>
 					</text>
 				</id-00040>
@@ -5480,8 +6160,8 @@
 					<text type="formattedtext">
 						<p>Choose one of the following abilities.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-00007">Ability: Congregation (9 Wrath)</link>
-							<link class="ability" recordname="ability.id-00021">Ability: Intercede (9 Wrath)</link>
+							<link class="ability" recordname="ability.id-01104">Ability: Congregation (9 Wrath)</link>
+							<link class="ability" recordname="ability.id-01118">Ability: Intercede (9 Wrath)</link>
 						</linklist>
 					</text>
 				</id-00042>
@@ -5659,8 +6339,8 @@
 					<text type="formattedtext">
 						<p>Choose one of the following abilities.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-00028">Ability: Banish (11 Wrath)</link>
-							<link class="ability" recordname="ability.id-00029">Ability: Terror Manifest (11 Wrath)</link>
+							<link class="ability" recordname="ability.id-01128">Ability: Banish (11 Wrath)</link>
+							<link class="ability" recordname="ability.id-01129">Ability: Terror Manifest (11 Wrath)</link>
 						</linklist>
 					</text>
 				</id-00060>
@@ -5673,8 +6353,8 @@
 					<text type="formattedtext">
 						<p>Choose one of the following abilities.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-00031">Ability: Blessing and a Curse (11 Wrath)</link>
-							<link class="ability" recordname="ability.id-00032">Ability: Fulfill Your Destiny (11 Wrath)</link>
+							<link class="ability" recordname="ability.id-02072">Ability: Blessing and a Curse (11 Wrath)</link>
+							<link class="ability" recordname="ability.id-02073">Ability: Fulfill Your Destiny (11 Wrath)</link>
 						</linklist>
 					</text>
 				</id-00061>
@@ -5687,8 +6367,8 @@
 					<text type="formattedtext">
 						<p>Choose one of the following abilities.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-00033">Ability: Apostate (11 Wrath)</link>
-							<link class="ability" recordname="ability.id-00034">Ability: Edict of Unyielding Resolve (11 Wrath)</link>
+							<link class="ability" recordname="ability.id-02074">Ability: Apostate (11 Wrath)</link>
+							<link class="ability" recordname="ability.id-02075">Ability: Edict of Unyielding Resolve (11 Wrath)</link>
 						</linklist>
 					</text>
 				</id-00062>
@@ -6107,20 +6787,20 @@
 				<h>2nd-Level Exorcist Ability</h>
 				<p>Choose one of the following abilities.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-01005">Ability: It Is Justice You Fear (5 Wrath)</link>
-					<link class="ability" recordname="ability.id-01003">Ability: Revelator (5 Wrath)</link>
+					<link class="ability" recordname="ability.id-01102">Ability: It Is Justice You Fear (5 Wrath)</link>
+					<link class="ability" recordname="ability.id-01100">Ability: Revelator (5 Wrath)</link>
 				</linklist>
 				<h>2nd-Level Oracle Ability</h>
 				<p>Choose one of the following abilities.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-01010">Ability: Prescient Grace (5 Wrath)</link>
-					<link class="ability" recordname="ability.id-01011">Ability: With My Blessing (5 Wrath)</link>
+					<link class="ability" recordname="ability.id-01107">Ability: Prescient Grace (5 Wrath)</link>
+					<link class="ability" recordname="ability.id-01108">Ability: With My Blessing (5 Wrath)</link>
 				</linklist>
 				<h>2nd-Level Paragon Ability</h>
 				<p>Choose one of the following abilities.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-01008">Ability: Blessing of the Faithful (5 Wrath)</link>
-					<link class="ability" recordname="ability.id-01009">Ability: Sentenced (5 Wrath)</link>
+					<link class="ability" recordname="ability.id-01105">Ability: Blessing of the Faithful (5 Wrath)</link>
+					<link class="ability" recordname="ability.id-01106">Ability: Sentenced (5 Wrath)</link>
 				</linklist>
 				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;3rd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 				<p>As a 3rd-level censor, you gain the following features.</p>
@@ -6129,10 +6809,10 @@
 				<h>7-Wrath Ability</h>
 				<p>Choose one heroic ability from the following options, each of which costs 7 wrath to use.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-01012">Ability: Edict of Disruptive Isolation (7 Wrath)</link>
-					<link class="ability" recordname="ability.id-01013">Ability: Edict of Perfect Order (7 Wrath)</link>
-					<link class="ability" recordname="ability.id-01014">Ability: Edict of Purifying Pacifism (7 Wrath)</link>
-					<link class="ability" recordname="ability.id-01015">Ability: Edict of Stillness (7 Wrath)</link>
+					<link class="ability" recordname="ability.id-01109">Ability: Edict of Disruptive Isolation (7 Wrath)</link>
+					<link class="ability" recordname="ability.id-01110">Ability: Edict of Perfect Order (7 Wrath)</link>
+					<link class="ability" recordname="ability.id-01111">Ability: Edict of Purifying Pacifism (7 Wrath)</link>
+					<link class="ability" recordname="ability.id-01112">Ability: Edict of Stillness (7 Wrath)</link>
 				</linklist>
 				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;4th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 				<p>As a 4th-level censor, you gain the following features.</p>
@@ -6256,10 +6936,10 @@
 				<h>9-Wrath Ability</h>
 				<p>Choose one heroic ability from the following options, each of which costs 9 wrath to use.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-01017">Ability: Gods Grant Thee Strength (9 Wrath)</link>
-					<link class="ability" recordname="ability.id-01018">Ability: Orison of Victory (9 Wrath)</link>
-					<link class="ability" recordname="ability.id-01019">Ability: Righteous Judgment (9 Wrath)</link>
-					<link class="ability" recordname="ability.id-01020">Ability: Shield of the Righteous (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-01114">Ability: Gods Grant Thee Strength (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-01115">Ability: Orison of Victory (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-01116">Ability: Righteous Judgment (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-01117">Ability: Shield of the Righteous (9 Wrath)</link>
 				</linklist>
 				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;6th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 				<p>As a 6th-level censor, you gain the following features.</p>
@@ -6278,20 +6958,20 @@
 				<h>6th-Level Exorcist Abilities</h>
 				<p>Choose one of the following abilities.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-01001">Ability: Begone! (9 Wrath)</link>
-					<link class="ability" recordname="ability.id-01002">Ability: Pain of Your Own Making (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-01098">Ability: Begone! (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-01099">Ability: Pain of Your Own Making (9 Wrath)</link>
 				</linklist>
 				<h>6th-Level Oracle Abilities</h>
 				<p>Choose one of the following abilities.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-01004">Ability: Burden of Evil (9 Wrath)</link>
-					<link class="ability" recordname="ability.id-01006">Ability: Edict of Peace (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-01101">Ability: Burden of Evil (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-01102">Ability: Edict of Peace (9 Wrath)</link>
 				</linklist>
 				<h>6th-Level Paragon Abilities</h>
 				<p>Choose one of the following abilities.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-00007">Ability: Congregation (9 Wrath)</link>
-					<link class="ability" recordname="ability.id-00021">Ability: Intercede (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-01104">Ability: Congregation (9 Wrath)</link>
+					<link class="ability" recordname="ability.id-01118">Ability: Intercede (9 Wrath)</link>
 				</linklist>
 				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;7th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 				<p>As a 7th-level censor, you gain the following features.</p>
@@ -6415,10 +7095,10 @@
 				<h>11-Wrath Ability</h>
 				<p>Choose one heroic ability from the following options, each of which costs 11 wrath to use.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-00024">Ability: Excommunication (11 Wrath)</link>
-					<link class="ability" recordname="ability.id-00025">Ability: Hand of the Gods (11 Wrath)</link>
-					<link class="ability" recordname="ability.id-00026">Ability: Pillar of Holy Fire (11 Wrath)</link>
-					<link class="ability" recordname="ability.id-00027">Ability: Your Allies Turn on You! (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-01121">Ability: Excommunication (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-01125">Ability: Hand of the Gods (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-01126">Ability: Pillar of Holy Fire (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-01130">Ability: Your Allies Turn on You! (11 Wrath)</link>
 				</linklist>
 				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;9th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 				<p>As a 9th-level censor, you gain the following features.</p>
@@ -6434,20 +7114,20 @@
 				<h>9th-Level Exorcist Abilities</h>
 				<p>Choose one of the following abilities.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-00028">Ability: Banish (11 Wrath)</link>
-					<link class="ability" recordname="ability.id-00029">Ability: Terror Manifest (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-01128">Ability: Banish (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-01129">Ability: Terror Manifest (11 Wrath)</link>
 				</linklist>
 				<h>9th-Level Oracle Abilities</h>
 				<p>Choose one of the following abilities.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-00031">Ability: Blessing and a Curse (11 Wrath)</link>
-					<link class="ability" recordname="ability.id-00032">Ability: Fulfill Your Destiny (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-02072">Ability: Blessing and a Curse (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-02073">Ability: Fulfill Your Destiny (11 Wrath)</link>
 				</linklist>
 				<h>9th-Level Paragon Abilities</h>
 				<p>Choose one of the following abilities.</p>
 				<linklist>
-					<link class="ability" recordname="ability.id-00033">Ability: Apostate (11 Wrath)</link>
-					<link class="ability" recordname="ability.id-00034">Ability: Edict of Unyielding Resolve (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-02074">Ability: Apostate (11 Wrath)</link>
+					<link class="ability" recordname="ability.id-02075">Ability: Edict of Unyielding Resolve (11 Wrath)</link>
 				</linklist>
 				<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;10th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 				<p>As a 10th-level censor, you gain the following features.</p>
@@ -7172,10 +7852,10 @@
 						</p>
 						<p>Choose one signature ability from the following options. Signature abilities can be used at will. <i>(Quick Build: To the Death!)</i></p>
 						<linklist>
-							<link class="ability" recordname="ability.id-01003@Classes for Draw Steel">Ability: Brutal Slam</link>
-							<link class="ability" recordname="ability.id-01009@Classes for Draw Steel">Ability: Hit and Run</link>
-							<link class="ability" recordname="ability.id-01007@Classes for Draw Steel">Ability: Impaled!</link>
-							<link class="ability" recordname="ability.id-01005@Classes for Draw Steel">Ability: To the Death!</link>
+							<link class="ability" recordname="ability.id-04003">Ability: Brutal Slam</link>
+							<link class="ability" recordname="ability.id-04009">Ability: Hit and Run</link>
+							<link class="ability" recordname="ability.id-04007">Ability: Impaled!</link>
+							<link class="ability" recordname="ability.id-04005">Ability: To the Death!</link>
 						</linklist>
 					</featureext>
 					<featurelevel type="number">1</featurelevel>
@@ -7189,20 +7869,20 @@
 						</p>
 						<p>Choose one heroic ability from the following options, each of which costs 3 ferocity to use. <i>(Quick Build: Back!)</i></p>
 						<linklist>
-							<link class="ability" recordname="ability.id-01000@Classes for Draw Steel">Ability: Back! (3 Ferocity)</link>
-							<link class="ability" recordname="ability.id-01006@Classes for Draw Steel">Ability: Out of the Way! (3 Ferocity)</link>
-							<link class="ability" recordname="ability.id-01002@Classes for Draw Steel">Ability: Tide of Death (3 Ferocity)</link>
-							<link class="ability" recordname="ability.id-01001@Classes for Draw Steel">Ability: Your Entrails Are Your Extrails! (3 Ferocity)</link>
+							<link class="ability" recordname="ability.id-04000">Ability: Back! (3 Ferocity)</link>
+							<link class="ability" recordname="ability.id-04006">Ability: Out of the Way! (3 Ferocity)</link>
+							<link class="ability" recordname="ability.id-04002">Ability: Tide of Death (3 Ferocity)</link>
+							<link class="ability" recordname="ability.id-04001">Ability: Your Entrails Are Your Extrails! (3 Ferocity)</link>
 						</linklist>
 						<p>
 							<b>5-Ferocity Ability</b>
 						</p>
 						<p>Choose one heroic ability from the following options, each of which costs 5 ferocity to use. <i>(Quick Build: Blood for Blood!)</i></p>
 						<linklist>
-							<link class="ability" recordname="ability.id-01008@Classes for Draw Steel">Ability: Blood for Blood! (5 Ferocity)</link>
-							<link class="ability" recordname="ability.id-01004@Classes for Draw Steel">Ability: Make Peace With Your God! (5 Ferocity)</link>
-							<link class="ability" recordname="ability.id-04078@Classes for Draw Steel">Ability: Thunder Roar (5 Ferocity)</link>
-							<link class="ability" recordname="ability.id-04099@Classes for Draw Steel">Ability: To the Uttermost End (5 Ferocity)</link>
+							<link class="ability" recordname="ability.id-04008">Ability: Blood for Blood! (5 Ferocity)</link>
+							<link class="ability" recordname="ability.id-04004">Ability: Make Peace With Your God! (5 Ferocity)</link>
+							<link class="ability" recordname="ability.id-04078">Ability: Thunder Roar (5 Ferocity)</link>
+							<link class="ability" recordname="ability.id-04099">Ability: To the Uttermost End (5 Ferocity)</link>
 						</linklist>
 					</featureext>
 					<featurelevel type="number">1</featurelevel>
@@ -8182,7 +8862,7 @@
 				<p>
 					<b>Skills: </b>You gain the Magic skill and can choose any three skills from the crafting or lore skill groups. (Quick Build: Magic, Alchemy, Blacksmithing, History.)</p>
 				<linklist>
-					<link class="referencemanualpage" recordname="reference.refmanualdata.id-00001@Classes for Draw Steel">Story: Skills</link>
+					<link class="referencemanualpage" recordname="reference.refmanualdata.id-00001">Story: Skills</link>
 				</linklist>
 			</basicnotes>
 			<choice1 type="number">0</choice1>
@@ -8235,7 +8915,7 @@
 					<text type="formattedtext">
 						<p>You harness the flow of earth magic to become harder to move. Whenever you use an ability that has the Earth and Magic keywords, your stability increases by 1 until the start of your next turn. This benefit is cumulative.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03012@Classes for Draw Steel">Ability: Skin Like Castle Walls</link>
+							<link class="ability" recordname="ability.id-03012">Ability: Skin Like Castle Walls</link>
 						</linklist>
 					</text>
 				</id-03004>
@@ -8248,7 +8928,7 @@
 					<text type="formattedtext">
 						<p>You harness the residual magic from your green spells to bolster yourself and your allies. Whenever you deal damage to one or more creatures using an ability that has the Green and Magic keywords and that costs essence to use (see below), you or one creature within 10 squares of you gains temporary Stamina equal to your Reason score.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03010@Classes for Draw Steel">Ability: Breath of Dawn Remembered</link>
+							<link class="ability" recordname="ability.id-03010">Ability: Breath of Dawn Remembered</link>
 						</linklist>
 					</text>
 				</id-03005>
@@ -8261,7 +8941,7 @@
 					<text type="formattedtext">
 						<p>You use your immersion in the mystery of void magic to expand the reach of that magic better than other mages. The distance of all your abilities that have the Magic, Ranged, and Void keywords increases by 2 squares.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03009@Classes for Draw Steel">Ability: Subtle Relocation</link>
+							<link class="ability" recordname="ability.id-03009">Ability: Subtle Relocation</link>
 						</linklist>
 					</text>
 				</id-03006>
@@ -8346,7 +9026,7 @@
 					<text type="formattedtext">
 						<p>You have the following ability.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03006@Classes for Draw Steel">Ability: Motivate Earth</link>
+							<link class="ability" recordname="ability.id-03006">Ability: Motivate Earth</link>
 						</linklist>
 					</text>
 				</id-03013>
@@ -8359,7 +9039,7 @@
 					<text type="formattedtext">
 						<p>You have the following ability.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03007@Classes for Draw Steel">Ability: Return to Formlessness</link>
+							<link class="ability" recordname="ability.id-03007">Ability: Return to Formlessness</link>
 						</linklist>
 					</text>
 				</id-03014>
@@ -8383,7 +9063,7 @@
 					<text type="formattedtext">
 						<p>You become an expert at wielding destructive flames. Your abilities that have the Fire and Magic keywords gain a +1 bonus to rolled damage. Your Hurl Element ability (see below) also gains this bonus when you use it to deal fire damage.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03011@Classes for Draw Steel">Ability: Explosive Assistance</link>
+							<link class="ability" recordname="ability.id-03011">Ability: Explosive Assistance</link>
 						</linklist>
 					</text>
 				</id-03016>
@@ -8397,7 +9077,7 @@
 						<p>You instantly recognize illusions for what they are, you can see invisible creatures, and supernatural effects can&#8217;t conceal creatures and objects from you. Additionally, you always know if an area or object you observe is magical or affected by magic, and you know the specifics of what that magic can do.</p>
 						<p>You also gain the following ability.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03003@Classes for Draw Steel">Ability: Shared Void Sense</link>
+							<link class="ability" recordname="ability.id-03003">Ability: Shared Void Sense</link>
 						</linklist>
 					</text>
 				</id-03017>
@@ -8428,7 +9108,7 @@
 					<featureext type="formattedtext">
 						<p>You have the following ability</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03002@Classes for Draw Steel">Ability: Practical Magic</link>
+							<link class="ability" recordname="ability.id-03002">Ability: Practical Magic</link>
 						</linklist>
 					</featureext>
 					<featurelevel type="number">1</featurelevel>
@@ -8444,7 +9124,7 @@
 					<featureext type="formattedtext">
 						<p>You have the following ability, which can be used as a ranged free strike.</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03001@Classes for Draw Steel">Ability: Hurl Element</link>
+							<link class="ability" recordname="ability.id-03001">Ability: Hurl Element</link>
 						</linklist>
 					</featureext>
 					<featurelevel type="number">1</featurelevel>
@@ -8455,14 +9135,14 @@
 						<h>Signature Abilities</h>
 						<p>Choose two signature abilities from the following options. Signature abilities can be used at will. (Quick Build: Bifurcated Incineration, Viscous Fire.)</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03015@Classes for Draw Steel">Afflict a Bountiful Decay</link>
-							<link class="ability" recordname="ability.id-03016@Classes for Draw Steel">Bifurcated Incineration</link>
-							<link class="ability" recordname="ability.id-03017@Classes for Draw Steel">Grasp of Beyond</link>
-							<link class="ability" recordname="ability.id-03018@Classes for Draw Steel">The Green Within, the Green Without</link>
-							<link class="ability" recordname="ability.id-03014@Classes for Draw Steel">Meteoric Introduction</link>
-							<link class="ability" recordname="ability.id-03013@Classes for Draw Steel">Ray of Agonizing Self-Reflection</link>
-							<link class="ability" recordname="ability.id-03019@Classes for Draw Steel">Unquiet Ground</link>
-							<link class="ability" recordname="ability.id-03020@Classes for Draw Steel">Viscous Fire</link>
+							<link class="ability" recordname="ability.id-03015">Afflict a Bountiful Decay</link>
+							<link class="ability" recordname="ability.id-03016">Bifurcated Incineration</link>
+							<link class="ability" recordname="ability.id-03017">Grasp of Beyond</link>
+							<link class="ability" recordname="ability.id-03018">The Green Within, the Green Without</link>
+							<link class="ability" recordname="ability.id-03014">Meteoric Introduction</link>
+							<link class="ability" recordname="ability.id-03013">Ray of Agonizing Self-Reflection</link>
+							<link class="ability" recordname="ability.id-03019">Unquiet Ground</link>
+							<link class="ability" recordname="ability.id-03020">Viscous Fire</link>
 						</linklist>
 					</featureext>
 					<featurelevel type="number">1</featurelevel>
@@ -8475,18 +9155,18 @@
 						<h>3-Essence Ability</h>
 						<p>Choose one heroic ability from the following options, each of which costs 3 essence to use. (Quick Build: The Flesh, a Crucible.)</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03021@Classes for Draw Steel">Behold the Mystery</link>
-							<link class="ability" recordname="ability.id-03022@Classes for Draw Steel">The Flesh, a Crucible</link>
-							<link class="ability" recordname="ability.id-03023@Classes for Draw Steel">Invigorating Growth</link>
-							<link class="ability" recordname="ability.id-03024@Classes for Draw Steel">Ripples in the Earth</link>
+							<link class="ability" recordname="ability.id-03021">Behold the Mystery</link>
+							<link class="ability" recordname="ability.id-03022">The Flesh, a Crucible</link>
+							<link class="ability" recordname="ability.id-03023">Invigorating Growth</link>
+							<link class="ability" recordname="ability.id-03024">Ripples in the Earth</link>
 						</linklist>
 						<h>5-Wrath Ability</h>
 						<p>Choose one heroic ability from the following options, each of which costs 5 essence to use. (Quick Build: Conflagration.)</p>
 						<linklist>
-							<link class="ability" recordname="ability.id-03025@Classes for Draw Steel">Conflagration</link>
-							<link class="ability" recordname="ability.id-03026@Classes for Draw Steel">Instantaneous Excavation</link>
-							<link class="ability" recordname="ability.id-03027@Classes for Draw Steel">No More Than a Breeze</link>
-							<link class="ability" recordname="ability.id-03028@Classes for Draw Steel">Test of Rain</link>
+							<link class="ability" recordname="ability.id-03025">Conflagration</link>
+							<link class="ability" recordname="ability.id-03026">Instantaneous Excavation</link>
+							<link class="ability" recordname="ability.id-03027">No More Than a Breeze</link>
+							<link class="ability" recordname="ability.id-03028">Test of Rain</link>
 						</linklist>
 					</featureext>
 					<featurelevel type="number">1</featurelevel>
@@ -9987,10 +10667,10 @@
 						</p>
 						<p>Choose one signature ability from the following options. Signature abilities can be used at will. <i>(Quick Build: To the Death!)</i></p>
 						<linklist>
-							<link class="ability" recordname="ability.id-01003@Classes for Draw Steel">Ability: Brutal Slam</link>
-							<link class="ability" recordname="ability.id-01009@Classes for Draw Steel">Ability: Hit and Run</link>
-							<link class="ability" recordname="ability.id-01007@Classes for Draw Steel">Ability: Impaled!</link>
-							<link class="ability" recordname="ability.id-01005@Classes for Draw Steel">Ability: To the Death!</link>
+							<link class="ability" recordname="ability.id-01003">Ability: Brutal Slam</link>
+							<link class="ability" recordname="ability.id-01009">Ability: Hit and Run</link>
+							<link class="ability" recordname="ability.id-01007">Ability: Impaled!</link>
+							<link class="ability" recordname="ability.id-01005">Ability: To the Death!</link>
 						</linklist>
 					</featureext>
 					<featurelevel type="number">1</featurelevel>
@@ -10004,20 +10684,20 @@
 						</p>
 						<p>Choose one heroic ability from the following options, each of which costs 3 ferocity to use. <i>(Quick Build: Back!)</i></p>
 						<linklist>
-							<link class="ability" recordname="ability.id-01000@Classes for Draw Steel">Ability: Back! (3 Ferocity)</link>
-							<link class="ability" recordname="ability.id-01006@Classes for Draw Steel">Ability: Out of the Way! (3 Ferocity)</link>
-							<link class="ability" recordname="ability.id-01002@Classes for Draw Steel">Ability: Tide of Death (3 Ferocity)</link>
-							<link class="ability" recordname="ability.id-01001@Classes for Draw Steel">Ability: Your Entrails Are Your Extrails! (3 Ferocity)</link>
+							<link class="ability" recordname="ability.id-01000">Ability: Back! (3 Ferocity)</link>
+							<link class="ability" recordname="ability.id-01006">Ability: Out of the Way! (3 Ferocity)</link>
+							<link class="ability" recordname="ability.id-01002">Ability: Tide of Death (3 Ferocity)</link>
+							<link class="ability" recordname="ability.id-01001">Ability: Your Entrails Are Your Extrails! (3 Ferocity)</link>
 						</linklist>
 						<p>
 							<b>5-Ferocity Ability</b>
 						</p>
 						<p>Choose one heroic ability from the following options, each of which costs 5 ferocity to use. <i>(Quick Build: Blood for Blood!)</i></p>
 						<linklist>
-							<link class="ability" recordname="ability.id-01008@Classes for Draw Steel">Ability: Blood for Blood! (5 Ferocity)</link>
-							<link class="ability" recordname="ability.id-01004@Classes for Draw Steel">Ability: Make Peace With Your God! (5 Ferocity)</link>
-							<link class="ability" recordname="ability.id-04078@Classes for Draw Steel">Ability: Thunder Roar (5 Ferocity)</link>
-							<link class="ability" recordname="ability.id-04099@Classes for Draw Steel">Ability: To the Uttermost End (5 Ferocity)</link>
+							<link class="ability" recordname="ability.id-01008">Ability: Blood for Blood! (5 Ferocity)</link>
+							<link class="ability" recordname="ability.id-01004">Ability: Make Peace With Your God! (5 Ferocity)</link>
+							<link class="ability" recordname="ability.id-04078">Ability: Thunder Roar (5 Ferocity)</link>
+							<link class="ability" recordname="ability.id-04099">Ability: To the Uttermost End (5 Ferocity)</link>
 						</linklist>
 					</featureext>
 					<featurelevel type="number">1</featurelevel>
@@ -10470,9 +11150,9 @@
 					</tr>
 				</table>
 				<linklist>
-					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00023@Classes for Draw Steel">Unstoppable Force</link>
-					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00022@Classes for Draw Steel">Inescapable Wrath</link>
-					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00024@Classes for Draw Steel">Tooth and Claw</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00023">Unstoppable Force</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00022">Inescapable Wrath</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00024">Tooth and Claw</link>
 				</linklist>
 				<h>2nd-Level Aspect Ability</h>
 				<p>Your primordial aspect grants your choice of one of two heroic abilities.</p>
@@ -10527,9 +11207,9 @@
 					</tr>
 				</table>
 				<linklist>
-					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00025@Classes for Draw Steel">Immovable Object</link>
-					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00026@Classes for Draw Steel">See Through Their Tricks</link>
-					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00027@Classes for Draw Steel">Nature's Knight</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00025">Immovable Object</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00026">See Through Their Tricks</link>
+					<link class="reference_classfeaturechoice" recordname="class.id-00004.featurechoices.id-00027">Nature's Knight</link>
 				</linklist>
 				<h>7-Ferocity Ability</h>
 				<p>Choose one heroic ability from the following options, each of which costs 7 ferocity to use.</p>
