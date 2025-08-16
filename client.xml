@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root version="4.7" dataversion="20241002" release="1|CoreRPG:7">
-<!-- DONE: Conduit, Censor, Elementalist, Fury -->
-<!-- WIP: Null -->
+<!-- DONE: Conduit, Censor, Elementalist, Fury, Null -->
+<!-- WIP: Talent -->
 	<ability>
 	<!-- Censor Abilities -->
 		<id-01098>
@@ -5669,338 +5669,1018 @@
 
 	<!-- Null Abilities -->
 		<id-05001>
-			<effect type="string">Each target reduces their potencies by 1.</effect>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">1 aura</distance>
-			<keywords type="string">Area, Psionic</keywords>
-			<name type="string">Null Field</name>
-			<notes type="formattedtext">
-				<p><i>You project an aura that dampens the power of your foes.</i></p>
-			</notes>
-			<special type="string">Once as a free maneuver on each of your turns, you can spend 1\ndiscipline and give your Null Field one of the following additional\neffects until the start of your next turn:\n♦ Gravitic Disruption: The first time on a turn that a target takes damage, you can slide them up to 2 squares.\n♦ Inertial Anchor: Any target who starts their turn in the area can’t shift.\n♦Synaptic Break: Whenever you or any ally uses an ability against a target that has a potency effect, the potency is increased by 1.\n\nThis ability remains active even after an encounter ends. It ends only if you are dying or if you willingly end it (no action required).\n</special>
-			<target type="string">Each enemy in the area</target>
-			<type type="string">Maneuver</type>
-		</id-05001>
-		<id-05003>
-			<effect type="string">You take half the damage</effect>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Self</distance>
-			<keywords type="string">Psionic</keywords>
-			<name type="string">Inertial Shield</name>
-			<notes type="formattedtext">
-				<p><i>You intuit the course of an incoming attack, reducing its effects.</i></p>
-			</notes>
-			<special type="string">Spend 1 Discipline: The potency of one effect associated with the damage is reduced by 1 for you.</special>
-			<target type="string">Self</target>
-			<trigger type="string">You take damage</trigger>
-			<type type="string">Triggered</type>
-		</id-05003>
-		<id-05004>
-			<effect type="string">You can slide one agjacent enemy up to a number of squares equal to your Intuition score.</effect>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">1 burst</distance>
-			<keywords type="string">Area, Psionic, Weapon</keywords>
-			<name type="string">Dance of Blows</name>
-			<notes type="formattedtext">
-				<p><i>You strike everywhere at once, tricking an enemy into moving out of position.</i></p>
-			</notes>
-			<target type="string">Each enemy in the area</target>
-			<tier1 type="string">3 damage</tier1>
-			<tier2 type="string">4 damage</tier2>
-			<tier3 type="string">5 damage</tier3>
-			<type type="string">Main Actgion</type>
-		</id-05004>
-		<id-05005>
-			<ability>
-				<characteristic>
-					<button type="number">1</button>
-				</characteristic>
-			</ability>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Pressure Points</name>
-			<notes type="formattedtext">
-				<p><i>You strike a key nerve cluster to leave your foe staggered.</i></p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">4 + [A] damage; [A]&lt;[WEAK] weakened (save ends)</tier1>
-			<tier2 type="string">7 + [A] damage; [A]&lt;[AVERAGE] weakened (save ends)</tier2>
-			<tier3 type="string">9 + [A] damage; [A]&lt;[STRONG] weakened (save ends)</tier3>
-			<type type="string">Main Action</type>
-		</id-05005>
-		<id-05006>
-			<effect type="string">Before the push is resolved, you teleport the target to a square adjacent to you and opposite the one they started in. If the target can’t be teleported this way, you can’t push them.</effect>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Phase Inversion Strike</name>
-			<notes type="formattedtext">
-				<p><i>You step momentarily out of phase as you pull an enemy through you.</i></p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">4 + [A] damage; push 2</tier1>
-			<tier2 type="string">6 + [A] damage; push 2</tier2>
-			<tier3 type="string">8 + [A] damage; push 2</tier3>
-			<type type="string">Main Action</type>
-		</id-05006>
-		<id-05007>
-			<ability>
-				<characteristic>
-					<button type="number">1</button>
-				</characteristic>
-			</ability>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 2</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Magnetic Strike</name>
-			<notes type="formattedtext">
-				<p><i>The force of your blow extends past the limits of your body, pulling your enemy closer.</i></p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">5 + [A] psychic damage; vertical pull 1</tier1>
-			<tier2 type="string">8 + [A] psychic damage; vertical pull 2</tier2>
-			<tier3 type="string">11 + [A] psychic damage; vertical pull 3</tier3>
-			<type type="string">Main Action</type>
-		</id-05007>
-		<id-05008>
-			<ability>
-				<characteristic>
-					<button type="number">1</button>
-				</characteristic>
-			</ability>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Joint Lock</name>
-			<notes type="formattedtext">
-				<p><i>You contort your enemy's body into a stance they struggle to escape from.</i></p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">4 + [A] damage; [A]&lt;[WEAK], grabbed</tier1>
-			<tier2 type="string">7+ [A] damage; [A]&lt;[AVERAGE], grabbed</tier2>
-			<tier3 type="string">9+ [A] damage; [A]&lt;[STRONG], grabbed</tier3>
-			<type type="string">Main Action</type>
-		</id-05008>
-		<id-05009>
-			<effect type="string">You can shift up to half your speed before or after you make this strike.</effect>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Inertial Step</name>
-			<notes type="formattedtext">
-				<p><i>You flit about the battlefield and take an opportunistic strike.</i></p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">5 + [A] damage</tier1>
-			<tier2 type="string">7 + [A] damage</tier2>
-			<tier3 type="string">10 + [A] damage</tier3>
-			<type type="string">Main Action</type>
-		</id-05009>
-		<id-05010>
-			<effect type="string">You can deal damage equal to your Agility score to one creature or object adjacent to you.</effect>
-			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Signature Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Faster Than the Eye</name>
-			<notes type="formattedtext">
-				<p><i>You strike so quickly that your hands become a blur.</i></p>
-			</notes>
-			<target type="string">Two creatures or objects</target>
-			<tier1 type="string">4 damage</tier1>
-			<tier2 type="string">5 damage</tier2>
-			<tier3 type="string">7 damage</tier3>
-			<type type="string">Main Action</type>
-		</id-05010>
-		<id-05011>
-			<ability>
-				<characteristic>
-					<button type="number">1</button>
-				</characteristic>
-			</ability>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Stunning Blow (3 Discipline)</name>
-			<notes type="formattedtext">
-				<p><i>You focus your psionic technique into a concussive punch.</i></p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">4 + [A] damage; [I]&lt;[WEAK], dazed and slowed (save ends)</tier1>
-			<tier2 type="string">5 + [A] damage; [I]&lt;[AVERAGE], dazed and slowed (save ends)</tier2>
-			<tier3 type="string">7 + [A] damage; [I]&lt;[STRONG], dazed and slowed (save ends)</tier3>
-			<type type="string">Main Action</type>
-		</id-05011>
-		<id-05012>
-			<effect type="string">Until the start of your next turn, whenever the target moves or is force moved, you can use a free triggered action to shift up to your speed. You must end this shift adjacent to the target.</effect>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Relentless Nemesis (3 Discipline)</name>
-			<notes type="formattedtext">
-				<p><i>You strike, and for the next few moments, your enemy can't escape you.</i></p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">6 + [A] damage</tier1>
-			<tier2 type="string">8 + [A] damage</tier2>
-			<tier3 type="string">12 + [A] damage</tier3>
-			<type type="string">Main Action</type>
-		</id-05012>
-		<id-05013>
-			<effect type="string">Each target takes psychic damage equal to twice your Intuition score. Until the start of your next turn, the size of your Null Field ability increases by 1. At the end of your current turn, each enemy in the area of your Null Field ability takes psychic damage equal to your Intuition score.</effect>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">2 burst</distance>
-			<keywords type="string">Area, Psionic</keywords>
-			<name type="string">Psychic Pulse (3 Discipline)</name>
-			<notes type="formattedtext">
-				<p><i>A burst of psionic energy interferes with your enemy's synapses.</i></p>
-			</notes>
-			<target type="string">Each enemy in the area</target>
-			<type type="string">Maneuver</type>
-		</id-05013>
-		<id-05014>
-			<effect type="string">You can shift up to half your speed before or after you make this strike. Additionally, whenever an effect lets you make a free strike or use a signature ability, you can use this ability instead, paying its discipline cost as usual.</effect>
-			<ability_cost type="number">3</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Chronal Spike (3 Discipline)</name>
-			<notes type="formattedtext">
-				<p><i>You foresee the best moment to strike, then exploit it.</i></p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">7 + [A] damage</tier1>
-			<tier2 type="string">10 + [A] damage</tier2>
-			<tier3 type="string">13 + [A] damage</tier3>
-			<type type="string">Main Action</type>
-		</id-05014>
-		<id-05015>
-			<effect type="string">You can take the Disengage move action as a free maneuver before or after you use this ability.</effect>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">2 burst</distance>
-			<keywords type="string">Area, Psionic, Weapon</keywords>
-			<name type="string">A Squad Unto Myself (5 Discipline)</name>
-			<notes type="formattedtext">
-				<p><i>You move so quickly, it seems as though an army assaulted your foes.</i></p>
-			</notes>
-			<target type="string">Each enemy in the area</target>
-			<tier1 type="string">6 damage</tier1>
-			<tier2 type="string">9 damage</tier2>
-			<tier3 type="string">13 damage</tier3>
-			<type type="string">Main Action</type>
-		</id-05015>
-		<id-05016>
-			<effect type="string">A target who goes out of phase is slowed, has their stability reduced by 2, and can’t obtain a tier 3 outcome on ability rolls.</effect>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Phase Strike (5 Discipline)</name>
-			<notes type="formattedtext">
-				<p><i>For a moment, your foe slips out of phase with this manifold.</i></p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">3 + [A] psychic damage; [I]&lt;[WEAK], the target goes out of phase (save ends)</tier1>
-			<tier2 type="string">4 + [A] psychic damage; [I]&lt;[AVERAGE], the target goes out of phase (save ends)</tier2>
-			<tier3 type="string">6 + [A] psychic damage; [I]&lt;[STRONG], the target goes out of phase (save ends)</tier3>
-			<type type="string">Main Action</type>
-		</id-05016>
-		<id-05017>
-			<effect type="string">An object you target must be your size or smaller. You gain an edge on this ability. Additionally, for each square you push the target, they take 1 psychic damage.</effect>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Impart Force ( 5 Discipline)</name>
-			<notes type="formattedtext">
-				<p><i>A single touch from you, and your enemy flies backwards.</i></p>
-			</notes>
-			<target type="string">One creature or object</target>
-			<tier1 type="string">Push 3</tier1>
-			<tier2 type="string">Push 5</tier2>
-			<tier3 type="string">Push 7</tier3>
-			<type type="string">Maneuver</type>
-		</id-05017>
-		<id-05018>
-			<effect type="string">While weakened this way, the target takes damage equal to your Intuition score whenever they use a supernatural ability that costs Malice.</effect>
-			<ability_cost type="number">5</ability_cost>
-			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Heroic Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Null</class>
-			<distance type="string">Melee 1</distance>
-			<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
-			<name type="string">Arcane Disruptor (5 Discipline)</name>
-			<notes type="formattedtext">
-				<p><i>Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.</i></p>
-			</notes>
-			<target type="string">One creature</target>
-			<tier1 type="string">8 + [A] psychic damage; [M]&lt;[WEAK], weakened (save ends)</tier1>
-			<tier2 type="string">12 + [A] psychic damage; [M]&lt;[AVERAGE], weakened (save ends)</tier2>
-			<tier3 type="string">16 + [A] psychic damage; [M]&lt;[STRONG], weakened (save ends)</tier3>
-			<type type="string">Main Action</type>
-		</id-05018>
+				<ability>
+					<characteristic>
+						<button type="number">1</button>
+					</characteristic>
+				</ability>
+				<ability_cost type="number">3</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Stunning Blow (3 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You focus your psionic technique into a concussive punch.</i>
+					</p>
+				</notes>
+				<target type="string">One creature or object</target>
+				<tier1 type="string">4 + [A] damage; [I]&lt;[WEAK], dazed and slowed (save ends)</tier1>
+				<tier2 type="string">5 + [A] damage; [I]&lt;[AVERAGE], dazed and slowed (save ends)</tier2>
+				<tier3 type="string">7 + [A] damage; [I]&lt;[STRONG], dazed and slowed (save ends)</tier3>
+				<type type="string">Main Action</type>
+			</id-05001>
+			<id-05002>
+				<ability_cost type="number">3</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">Until the start of your next turn, whenever the target moves or is force moved, you can use a free triggered action to shift up to your speed. You must end this shift adjacent to the target.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Relentless Nemesis (3 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You strike, and for the next few moments, your enemy can't escape you.</i>
+					</p>
+				</notes>
+				<target type="string">One creature or object</target>
+				<tier1 type="string">6 + [A] damage</tier1>
+				<tier2 type="string">8 + [A] damage</tier2>
+				<tier3 type="string">12 + [A] damage</tier3>
+				<type type="string">Main Action</type>
+			</id-05002>
+			<id-05003>
+				<ability_cost type="number">3</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">2 burst</distance>
+				<effect type="string">Each target takes psychic damage equal to twice your Intuition score. Until the start of your next turn, the size of your Null Field ability increases by 1. At the end of your current turn, each enemy in the area of your Null Field ability takes psychic damage equal to your Intuition score.</effect>
+				<keywords type="string">Area, Psionic</keywords>
+				<name type="string">Psychic Pulse (3 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>A burst of psionic energy interferes with your enemy's synapses.</i>
+					</p>
+				</notes>
+				<target type="string">Each enemy in the area</target>
+				<type type="string">Maneuver</type>
+			</id-05003>
+			<id-05004>
+				<ability>
+					<characteristic>
+						<button type="number">1</button>
+					</characteristic>
+				</ability>
+				<ability_cost type="number">0</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Signature Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Pressure Points</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You strike a key nerve cluster to leave your foe staggered.</i>
+					</p>
+				</notes>
+				<target type="string">One creature or object</target>
+				<tier1 type="string">4 + [A] damage; [A]&lt;[WEAK] weakened (save ends)</tier1>
+				<tier2 type="string">7 + [A] damage; [A]&lt;[AVERAGE] weakened (save ends)</tier2>
+				<tier3 type="string">9 + [A] damage; [A]&lt;[STRONG] weakened (save ends)</tier3>
+				<type type="string">Main Action</type>
+			</id-05004>
+			<id-05005>
+				<ability_cost type="number">5</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">A target who goes out of phase is slowed, has their stability reduced by 2, and can’t obtain a tier 3 outcome on ability rolls.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Phase Strike (5 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>For a moment, your foe slips out of phase with this manifold.</i>
+					</p>
+				</notes>
+				<target type="string">One creature</target>
+				<tier1 type="string">3 + [A] psychic damage; [I]&lt;[WEAK], the target goes out of phase (save ends)</tier1>
+				<tier2 type="string">4 + [A] psychic damage; [I]&lt;[AVERAGE], the target goes out of phase (save ends)</tier2>
+				<tier3 type="string">6 + [A] psychic damage; [I]&lt;[STRONG], the target goes out of phase (save ends)</tier3>
+				<type type="string">Main Action</type>
+			</id-05005>
+			<id-05006>
+				<ability_cost type="number">0</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Signature Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">Before the push is resolved, you teleport the target to a square adjacent to you and opposite the one they started in. If the target can’t be teleported this way, you can’t push them.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Phase Inversion Strike</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You step momentarily out of phase as you pull an enemy through you.</i>
+					</p>
+				</notes>
+				<target type="string">One creature or object</target>
+				<tier1 type="string">4 + [A] damage; push 2</tier1>
+				<tier2 type="string">6 + [A] damage; push 2</tier2>
+				<tier3 type="string">8 + [A] damage; push 2</tier3>
+				<type type="string">Main Action</type>
+			</id-05006>
+			<id-05007>
+				<ability_cost type="number">0</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Class Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">1 aura</distance>
+				<effect type="string">Each target reduces their potencies by 1.</effect>
+				<keywords type="string">Area, Psionic</keywords>
+				<name type="string">Null Field</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You project an aura that dampens the power of your foes.</i>
+					</p>
+				</notes>
+				<special type="string">Once as a free maneuver on each of your turns, you can spend 1\ndiscipline and give your Null Field one of the following additional\neffects until the start of your next turn:\n♦ Gravitic Disruption: The first time on a turn that a target takes damage, you can slide them up to 2 squares.\n♦ Inertial Anchor: Any target who starts their turn in the area can’t shift.\n♦Synaptic Break: Whenever you or any ally uses an ability against a target that has a potency effect, the potency is increased by 1.\n\nThis ability remains active even after an encounter ends. It ends only if you are dying or if you willingly end it (no action required).\n</special>
+				<target type="string">Each enemy in the area</target>
+				<type type="string">Maneuver</type>
+			</id-05007>
+			<id-05008>
+				<ability>
+					<characteristic>
+						<button type="number">1</button>
+					</characteristic>
+				</ability>
+				<ability_cost type="number">0</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Signature Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 2</distance>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Magnetic Strike</name>
+				<notes type="formattedtext">
+					<p>
+						<i>The force of your blow extends past the limits of your body, pulling your enemy closer.</i>
+					</p>
+				</notes>
+				<target type="string">One creature</target>
+				<tier1 type="string">5 + [A] psychic damage; vertical pull 1</tier1>
+				<tier2 type="string">8 + [A] psychic damage; vertical pull 2</tier2>
+				<tier3 type="string">11 + [A] psychic damage; vertical pull 3</tier3>
+				<type type="string">Main Action</type>
+			</id-05008>
+			<id-05009>
+				<ability>
+					<characteristic>
+						<button type="number">1</button>
+					</characteristic>
+				</ability>
+				<ability_cost type="number">0</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Signature Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Joint Lock</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You contort your enemy's body into a stance they struggle to escape from.</i>
+					</p>
+				</notes>
+				<target type="string">One creature or object</target>
+				<tier1 type="string">4 + [A] damage; [A]&lt;[WEAK], grabbed</tier1>
+				<tier2 type="string">7+ [A] damage; [A]&lt;[AVERAGE], grabbed</tier2>
+				<tier3 type="string">9+ [A] damage; [A]&lt;[STRONG], grabbed</tier3>
+				<type type="string">Main Action</type>
+			</id-05009>
+			<id-05010>
+				<ability_cost type="number">0</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Signature Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">You can shift up to half your speed before or after you make this strike.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Inertial Step</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You flit about the battlefield and take an opportunistic strike.</i>
+					</p>
+				</notes>
+				<target type="string">One creature or object</target>
+				<tier1 type="string">5 + [A] damage</tier1>
+				<tier2 type="string">7 + [A] damage</tier2>
+				<tier3 type="string">10 + [A] damage</tier3>
+				<type type="string">Main Action</type>
+			</id-05010>
+			<id-05011>
+				<ability_cost type="number">0</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Class Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">You take half the damage</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Inertial Shield</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You intuit the course of an incoming attack, reducing its effects.</i>
+					</p>
+				</notes>
+				<special type="string">Spend 1 Discipline: The potency of one effect associated with the damage is reduced by 1 for you.</special>
+				<target type="string">Self</target>
+				<trigger type="string">You take damage</trigger>
+				<type type="string">Triggered</type>
+			</id-05011>
+			<id-05012>
+				<ability_cost type="number">5</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">An object you target must be your size or smaller. You gain an edge on this ability. Additionally, for each square you push the target, they take 1 psychic damage.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Impart Force ( 5 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>A single touch from you, and your enemy flies backwards.</i>
+					</p>
+				</notes>
+				<target type="string">One creature or object</target>
+				<tier1 type="string">Push 3</tier1>
+				<tier2 type="string">Push 5</tier2>
+				<tier3 type="string">Push 7</tier3>
+				<type type="string">Maneuver</type>
+			</id-05012>
+			<id-05013>
+				<ability_cost type="number">0</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Signature Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">You can deal damage equal to your Agility score to one creature or object adjacent to you.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Faster Than the Eye (Copy)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You strike so quickly that your hands become a blur.</i>
+					</p>
+				</notes>
+				<target type="string">Two creatures or objects</target>
+				<tier1 type="string">4 damage</tier1>
+				<tier2 type="string">5 damage</tier2>
+				<tier3 type="string">7 damage</tier3>
+				<type type="string">Main Action</type>
+			</id-05013>
+			<id-05014>
+				<ability_cost type="number">0</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Signature Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">1 burst</distance>
+				<effect type="string">You can slide one agjacent enemy up to a number of squares equal to your Intuition score.</effect>
+				<keywords type="string">Area, Psionic, Weapon</keywords>
+				<name type="string">Dance of Blows (Copy)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You strike everywhere at once, tricking an enemy into moving out of position.</i>
+					</p>
+				</notes>
+				<target type="string">Each enemy in the area</target>
+				<tier1 type="string">3 damage</tier1>
+				<tier2 type="string">4 damage</tier2>
+				<tier3 type="string">5 damage</tier3>
+				<type type="string">Main Actgion</type>
+			</id-05014>
+			<id-05015>
+				<ability_cost type="number">3</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">You can shift up to half your speed before or after you make this strike. Additionally, whenever an effect lets you make a free strike or use a signature ability, you can use this ability instead, paying its discipline cost as usual.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Chronal Spike (3 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You foresee the best moment to strike, then exploit it.</i>
+					</p>
+				</notes>
+				<target type="string">One creature or object</target>
+				<tier1 type="string">7 + [A] damage</tier1>
+				<tier2 type="string">10 + [A] damage</tier2>
+				<tier3 type="string">13 + [A] damage</tier3>
+				<type type="string">Main Action</type>
+			</id-05015>
+			<id-05016>
+				<ability_cost type="number">5</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">While weakened this way, the target takes damage equal to your Intuition score whenever they use a supernatural ability that costs Malice.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Arcane Disruptor (5 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.</i>
+					</p>
+				</notes>
+				<target type="string">One creature</target>
+				<tier1 type="string">8 + [A] psychic damage; [M]&lt;[WEAK], weakened (save ends)</tier1>
+				<tier2 type="string">12 + [A] psychic damage; [M]&lt;[AVERAGE], weakened (save ends)</tier2>
+				<tier3 type="string">16 + [A] psychic damage; [M]&lt;[STRONG], weakened (save ends)</tier3>
+				<type type="string">Main Action</type>
+			</id-05016>
+			<id-05017>
+				<ability_cost type="number">5</ability_cost>
+				<ability_level type="number">1</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">2 burst</distance>
+				<effect type="string">You can take the Disengage move action as a free maneuver before or after you use this ability.</effect>
+				<keywords type="string">Area, Psionic, Weapon</keywords>
+				<name type="string">A Squad Unto Myself (5 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You move so quickly, it seems as though an army assaulted your foes.</i>
+					</p>
+				</notes>
+				<target type="string">Each enemy in the area</target>
+				<tier1 type="string">6 damage</tier1>
+				<tier2 type="string">9 damage</tier2>
+				<tier3 type="string">13 damage</tier3>
+				<type type="string">Main Action</type>
+			</id-05017>
+			<id-05018>
+				<ability_cost type="number">5</ability_cost>
+				<ability_cost_string type="string">Disciple</ability_cost_string>
+				<ability_level type="number">2</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">4</characteristic>
+				<characteristicoption type="string">Intuition</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">While you have temporary Stamina from this ability, you can’t be made bleeding even while dying.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Kinetic Shield (5 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You manifest a force barrier that absorbs incoming kinetic energy.</i>
+					</p>
+				</notes>
+				<subclass type="string">Metakinetic</subclass>
+				<target type="string">Self</target>
+				<tier1 type="string">You gain 10 temporary Stamina.</tier1>
+				<tier2 type="string">You gain 15 temporary Stamina.</tier2>
+				<tier3 type="string">You gain 20 temporary Stamina.</tier3>
+				<type type="string">Maneuver</type>
+			</id-05018>
+			<id-05019>
+				<ability_cost type="number">5</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">2</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">1</characteristic>
+				<characteristicoption type="string">Agility</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Melee 3</distance>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Gravitic Strike (5 Discipline)</name>
+				<notes type="formattedtext">
+					<p>Your fist emanates gravitic force that pulls a distant enemy closer.</p>
+				</notes>
+				<subclass type="string">Metakinetic</subclass>
+				<target type="string">One creature</target>
+				<tier1 type="string">8 + [A] psychic damage; vertical pull 3</tier1>
+				<tier2 type="string">12 + [A] psychic damage; vertical pull 5</tier2>
+				<tier3 type="string">16 + [A] psychic damage; vertical pull 7</tier3>
+				<type type="string">Main action</type>
+			</id-05019>
+			<id-05020>
+				<ability_cost type="number">5</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">2</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">Until the start of your next turn, the size of your Null Field ability increases by 1, and you and any ally benefit from concealment while in the area. At the end of this turn, each enemy in the\narea takes cold damage equal to your Intuition score.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Heat Sink (5 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You absorb ambient heat, coating the ground in frost and precipitating snow from the air.</i>
+					</p>
+				</notes>
+				<subclass type="string">Cryokinetic</subclass>
+				<target type="string">Self</target>
+				<type type="string">Maneuver</type>
+			</id-05020>
+			<id-05021>
+				<ability_cost type="number">5</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">2</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">2</characteristic>
+				<characteristicoption type="string">Agility</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">3 cube within 1</distance>
+				<keywords type="string">Area, Psionic, Weapon</keywords>
+				<name type="string">Entropic Field (5 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You drastically increase the local entropy.</i>
+					</p>
+				</notes>
+				<subclass type="string">Cryokinetic</subclass>
+				<target type="string">Each enemy in the area</target>
+				<tier1 type="string">6 cold damage; [A]&lt;[WEAK] , slowed (save ends)</tier1>
+				<tier2 type="string">9 cold damage; [A]&lt;[AVERAGE], slowed (save ends)</tier2>
+				<tier3 type="string">13 cold damage; [A]&lt;[SLOWED] , slowed (save ends)</tier3>
+				<type type="string">Main action</type>
+			</id-05021>
+			<id-05022>
+				<ability_cost type="number">5</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">2</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">2</characteristic>
+				<characteristicoption type="string">Agility</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Melee 3</distance>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Force Redirected (5 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>The force of your strike moves your target in a surprising direction.</i>
+					</p>
+				</notes>
+				<subclass type="string">Chronokinetic</subclass>
+				<target type="string">One creature</target>
+				<tier1 type="string">8 + [A] damage; slide 1</tier1>
+				<tier2 type="string">12 + [A] damage; slide 3</tier2>
+				<tier3 type="string">16 + [A] damage; slide 5</tier3>
+				<type type="string">Main action</type>
+			</id-05022>
+			<id-05023>
+				<ability_cost type="number">5</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">2</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">You can use a signature or heroic ability. You gain an edge on that ability’s power rolls.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Blur (5 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You release stored time, allowing you to act twice.</i>
+					</p>
+				</notes>
+				<subclass type="string">Chronokinetic</subclass>
+				<target type="string">Self</target>
+				<type type="string">Maneuver</type>
+			</id-05023>
+			<id-05024>
+				<ability_cost type="number">7</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">3</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Fury</class>
+				<distance type="string">Self</distance>
+				<effect type="string">Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way, each enemy in the area takes a bane on ability rolls.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Absorption Field (7 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>Your null field absorbs kinetic energy.</i>
+					</p>
+				</notes>
+				<target type="string">Self</target>
+				<type type="string">Maneuver</type>
+			</id-05024>
+			<id-05025>
+				<ability_cost type="number">7</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">3</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way, each enemy who has [I]&lt;[AVERAGE] and enters the area for the first time in a combat round or starts their turn there is bleeding (save ends). Each ally who enters the area for the first time in a combat round or starts their turn there gains temporary Stamina equal to your Intuition score.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Molecular Rearrangement Field (7 Discipline)</name>
+				<notes type="formattedtext">
+					<p>Your enemies&#8217; wounds open, your allies&#8217; wounds close.</p>
+				</notes>
+				<target type="string">Self</target>
+				<type type="string">Maneuver</type>
+			</id-05025>
+			<id-05026>
+				<ability_cost type="number">7</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">3</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way, you ignore difficult terrain and \nreduce the potency of enemy effects targeting you by 1 for you. You can also use a free triggered action at the start of each of your turns to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Each ally in the area also gains these benefits.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Stabilizing Field (7 Discipline)</name>
+				<notes type="formattedtext">
+					<p>You project order, making it harder for your enemies to interfere with you and your allies.</p>
+				</notes>
+				<target type="string">Self</target>
+				<type type="string">Maneuver</type>
+			</id-05026>
+			<id-05027>
+				<ability_cost type="number">7</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">3</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way, whenever an enemy in the area takes rolled damage, they take extra psychic damage equal to twice your Intuition score.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Synapse Field (7 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>Attacks made by allies in your null field disrupt your enemies&#8217; thoughts, causing psychic pain.</i>
+					</p>
+				</notes>
+				<target type="string">Self</target>
+				<type type="string">Maneuver</type>
+			</id-05027>
+			<id-05028>
+				<ability_cost type="number">9</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">5</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">2</characteristic>
+				<characteristicoption type="string">Agility</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">This strike resolves before the triggering movement or main action.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Anticipating Strike (9 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You suddenly strike an enemy, then grab them in a psionically enhanced grip.</i>
+					</p>
+				</notes>
+				<target type="string">One creature</target>
+				<tier1 type="string">7 + [A] damage; [I]&lt;[WEAK] , restrained (save ends)</tier1>
+				<tier2 type="string">10 + [A] damage; [I]&lt;[AVERAGE] , restrained (save ends)</tier2>
+				<tier3 type="string">13 + [A] damage; [I]&lt;[STRONG] , restrained (save ends)</tier3>
+				<trigger type="string">The target moves or uses a main action.</trigger>
+				<type type="string">Free triggered</type>
+			</id-05028>
+			<id-05029>
+				<ability_cost type="number">9</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">9</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">2</characteristic>
+				<characteristicoption type="string">Agility</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">While grabbed this way, the target takes a bane on the Escape Grab maneuver. Each time they use that maneuver, they take damage equal to twice your Agility score.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Iron Grip (9 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You grab the target with supernatural force.</i>
+					</p>
+				</notes>
+				<target type="string">One creature</target>
+				<tier1 type="string">10 + [A] damage; [A]&lt;[WEAK] , grabbed</tier1>
+				<tier2 type="string">14 + [A] damage; [A]&lt;[AVERAGE] , grabbed</tier2>
+				<tier3 type="string">18 + [A] damage; [A]&lt;[STRONG] , grabbed</tier3>
+				<type type="string">Main action</type>
+			</id-05029>
+			<id-05030>
+				<ability_cost type="number">9</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">5</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">You jump up to your speed without provoking opportunity attacks. Until the end of your next turn, a static afterimage of you remains in the space you left, and any enemy adjacent to your afterimage takes a bane on ability rolls. You can use your abilities from your own space or from the space of your afterimage as if you were still there. Additionally, if your Null Field ability is active, your afterimage also projects the aura from that ability, which you control as if you were in the afterimage’s space.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Phase Leap (9 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You leap beyond reality, leaving an afterimage of yourself.</i>
+					</p>
+				</notes>
+				<target type="string">Self</target>
+				<type type="string">Move</type>
+			</id-05030>
+			<id-05031>
+				<ability_cost type="number">9</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">5</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">3 burst</distance>
+				<effect type="string">Each target can end any conditions or effects on themself, and gains 5 temporary Stamina for each condition or effect removed.</effect>
+				<keywords type="string">Area, Psionic</keywords>
+				<name type="string">Synaptic Reset (9 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You expand your nullifying power to mitigate harmful effects.</i>
+					</p>
+				</notes>
+				<target type="string">Self and each ally in the area</target>
+				<type type="string">Maneuver</type>
+			</id-05031>
+			<id-05032>
+				<ability_cost type="number">9</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">6</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">You can use up to three signature abilities, each of which gains an edge.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Interphase (9 Disciple)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You slip into a faster timestream to act more quickly.</i>
+					</p>
+				</notes>
+				<subclass type="string">Chronokinetic</subclass>
+				<target type="string">Self</target>
+				<type type="string">Main action</type>
+			</id-05032>
+			<id-05033>
+				<ability_cost type="number">9</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">6</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">2</characteristic>
+				<characteristicoption type="string">Agility</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Self; see below</distance>
+				<effect type="string">You can shift up to your speed, and squares occupied by enemies or objects are not difficult terrain for this shift. You make one power roll that targets each enemy you moved through during\nthis shift.</effect>
+				<keywords type="string">Melee, Psionic, Weapon</keywords>
+				<name type="string">Phase Step (9 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You weaken your connection to this manifold, allowing you to move through and damage enemies.</i>
+					</p>
+				</notes>
+				<subclass type="string">Chronokinetic</subclass>
+				<target type="string">Self</target>
+				<tier1 type="string">6 damage; [M]&lt;[WEAK], dazed</tier1>
+				<tier2 type="string">8 damage; [M]&lt;[AVERAGE], dazed</tier2>
+				<tier3 type="string">12 damage; [M]&lt;[STRONG], dazed</tier3>
+				<type type="string">Main action</type>
+			</id-05033>
+			<id-05034>
+				<ability_cost type="number">9</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">6</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">3</characteristic>
+				<characteristicoption type="string">Reason</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Ranged 10</distance>
+				<effect type="string">The pillars vanish as soon as the effects of the forced movement are resolved.</effect>
+				<keywords type="string">Psionic Ranged</keywords>
+				<name type="string">Ice Pillars (9 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>Pillars of ice erupt from the ground and launch your foes into the air.</i>
+					</p>
+				</notes>
+				<subclass type="string">Cryokinetic</subclass>
+				<target type="string">Three creatures or objects</target>
+				<tier1 type="string">Vertical slide 6</tier1>
+				<tier2 type="string">Vertical slide 8</tier2>
+				<tier3 type="string">Vertical slide 10</tier3>
+				<type type="string">Main action</type>
+			</id-05034>
+			<id-05035>
+				<ability_cost type="number">9</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">6</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">10 wall within 10</distance>
+				<effect type="string">You can place this wall in occupied squares, sliding each creature in the area into the nearest unoccupied space of your choice. The wall remains until the end of the encounter or until you are dying. The wall’s squares are treated as stone squares for the purpose of damage, and you and allies can move freely through the wall. Each enemy who enters a square adjacent to the wall and has [M]&lt;[AVERAGE] is slowed (save ends). Each enemy who is force moved into the wall and has [M]&lt;[AVERAGE] is restrained (save ends).</effect>
+				<keywords type="string">Area, Psionic, Ranged</keywords>
+				<name type="string">Wall of Ice (9 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You create a wall of ice.</i>
+					</p>
+				</notes>
+				<subclass type="string">Cryokinetic</subclass>
+				<target type="string">Special</target>
+				<type type="string">Main action</type>
+			</id-05035>
+			<id-05036>
+				<ability_cost type="number">9</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">6</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">4</characteristic>
+				<characteristicoption type="string">Intuition</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">This movement ignores stability. If you slide into another creature, you resolve damage to both of you as if your force movement had ended, but you keep moving through that creature’s space.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Gravitic Charge (9 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You channel your discipline into momentum that defies gravity.</i>
+					</p>
+				</notes>
+				<subclass type="string">Metakinetic</subclass>
+				<target type="string">Self</target>
+				<tier1 type="string">Vertical slide 5</tier1>
+				<tier2 type="string">Vertical slide 7</tier2>
+				<tier3 type="string">Vertical slide 9</tier3>
+				<type type="string">Maneuver</type>
+			</id-05036>
+			<id-05037>
+				<ability_cost type="number">9</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">6</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">You gain 20 temporary Stamina. Additionally, until the end of the encounter, your stability gains a bonus equal to your Intuition score.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Iron Body (9 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You focus until your body becomes as hard as iron.</i>
+					</p>
+				</notes>
+				<subclass type="string">Metakinetic</subclass>
+				<target type="string">Self</target>
+				<type type="string">Maneuver</type>
+			</id-05037>
+			<id-05038>
+				<ability_cost type="number">11</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">8</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">2</characteristic>
+				<characteristicoption type="string">Agility</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">While suppressed, a target takes psychic damage equal to twice your Intuition score at the start of their turns, whenever they use a supernatural ability, or whenever they use an ability that costs Malice.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Arcane Purge (11 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You focus your null field into a pressure point strike that prevents your foe from channeling sorcery.</i>
+					</p>
+				</notes>
+				<target type="string">One creature</target>
+				<tier1 type="string">13 + [A] damage; [M]&lt;[WEAK] , the target is suppressed (save ends)</tier1>
+				<tier2 type="string">19 + [A] damage; [M]&lt;[AVERAGE] , the target is suppressed (save ends)</tier2>
+				<tier3 type="string">24 + [A] damage; [M]&lt;[STRONG] , the target is suppressed (save ends)</tier3>
+				<type type="string">Main action</type>
+			</id-05038>
+			<id-05039>
+				<ability_cost type="number">11</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">8</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">2</characteristic>
+				<characteristicoption type="string">Agility</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">The target and each creature or object they collide with from this forced movement takes psychic damage equal to the total number of squares the target was force moved. While the target is dazed this way, they see glimpses of creatures from other parts of the timescape.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Phase Hurl (11 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You throw your foe out of phase with this manifold, causing them to harm other enemies as they return.</i>
+					</p>
+				</notes>
+				<target type="string">One creature</target>
+				<tier1 type="string">9 + [A] damage; push 5; [I]&lt;[WEAK] , dazed (save ends)</tier1>
+				<tier2 type="string">13 + [A] damage; push 7; [I]&lt;[AVERAGE] , dazed (save ends)</tier2>
+				<tier3 type="string">18 + [A] damage; push 5; [I]&lt;[STRONG] , dazed (save ends)</tier3>
+				<type type="string">Main action</type>
+			</id-05039>
+			<id-05040>
+				<ability_cost type="number">11</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">8</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">2</characteristic>
+				<characteristicoption type="string">Agility</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">3 cube within 1</distance>
+				<keywords type="string">Area, Psionic</keywords>
+				<name type="string">Scalar Assault (11 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You warp reality to grow a limb for just a moment and make a single devastating attack.</i>
+					</p>
+				</notes>
+				<target type="string">Each enemy in the area</target>
+				<tier1 type="string">12 psychic damage; push 3</tier1>
+				<tier2 type="string">17 psychic damage; push 5</tier2>
+				<tier3 type="string">23 psychic damage; push 7</tier3>
+				<type type="string">Main action</type>
+			</id-05040>
+			<id-05041>
+				<ability_cost type="number">11</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">8</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Sekf; see below</distance>
+				<effect type="string">The target takes half the damage, and if the triggering creature has [I]&lt;[AVERAGE] , they are dazed (save ends). While the triggering creature is dazed this way, they take psychic damage equal to your Intuition score whenever they use a main action.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Synaptic Anchor (11 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You disrupt an enemy&#8217;s strike and create a feedback loop in their mind, preventing them from focusing on future attacks.</i>
+					</p>
+				</notes>
+				<target type="string">Self or one creature</target>
+				<trigger type="string">The target takes damage from another creature’s ability while in the area of your Null Field ability.</trigger>
+				<type type="string">Free triggered</type>
+			</id-05041>
+			<id-05042>
+				<ability_cost type="number">11</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">9</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">4</characteristic>
+				<characteristicoption type="string">Intuition</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Ranged 10</distance>
+				<effect type="string">If the target loses their turn, the round continues as if they had acted. A target who doesn’t lose their turn takes psychic damage equal to twice your Intuition score for each main action they take until the end of their next turn.</effect>
+				<keywords type="string">Psionic, Ranged</keywords>
+				<name type="string">Arrestor Cycle (11 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You trap your foe in a looping cycle of time, where they relive the last few seconds over and over again.</i>
+					</p>
+				</notes>
+				<subclass type="string">Chronokinetic</subclass>
+				<target type="string">One creature</target>
+				<tier1 type="string">[I]&lt;[WEAK], the target loses their turn</tier1>
+				<tier2 type="string">[I]&lt;[AVERAGE], the target loses their turn</tier2>
+				<tier3 type="string">[I]&lt;[STRONG], the target loses their turn</tier3>
+				<type type="string">Free triggered</type>
+			</id-05042>
+			<id-05043>
+				<ability_cost type="number">11</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">9</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">You take a bonus turn immediately after the triggering creature. This ability can be used only once per combat round.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Time Loop (11 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You show shadows what true speed is.</i>
+					</p>
+				</notes>
+				<subclass type="string">Chronokinetic</subclass>
+				<target type="string">Self</target>
+				<trigger type="string">Another creature on the encounter map ends their turn.</trigger>
+				<type type="string">Free triggered</type>
+			</id-05043>
+			<id-05044>
+				<ability_cost type="number">11</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">9</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">4</characteristic>
+				<characteristicoption type="string">Intuition</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">Until the end of the encounter or until you are dead, you become an avatar of uttermost cold. You gain immunity to all\ndamage equal to the cold damage immunity granted by your Entropic Adaptability trait, you ignore the negative effects of dying, and you have a +2 bonus to potencies.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Absolute Zero (11 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You become the coldest thing in the timescape.</i>
+					</p>
+				</notes>
+				<subclass type="string">Cryokinetic</subclass>
+				<target type="string">Self</target>
+				<tier1 type="string">You gain 20 temporary Stamina.</tier1>
+				<tier2 type="string">You gain 30 temporary Stamina.</tier2>
+				<tier3 type="string">You gain 40 temporary Stamina.</tier3>
+				<type type="string">Maneuver</type>
+			</id-05044>
+			<id-05045>
+				<ability_cost type="number">11</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">9</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">4</characteristic>
+				<characteristicoption type="string">Intuition</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">While restrained this way, the target takes cold damage equal to your Intuition score at the start of each of your turns. Additionally, whenever the target damages another creature while restrained this way, any potency associated with the damage is reduced by 2.</effect>
+				<keywords type="string">Melee, Psionic, Strike</keywords>
+				<name type="string">Heat Drain (11 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You drain all the heat from the target.</i>
+					</p>
+				</notes>
+				<subclass type="string">Cryokinetic</subclass>
+				<target type="string">One creature</target>
+				<tier1 type="string">8 + [I] cold damage; [M]&lt;[WEAK], restrained (save ends)</tier1>
+				<tier2 type="string">11 + [I] cold damage; [M]&lt;[AVERAGE], restrained (save ends)</tier2>
+				<tier3 type="string">15 + [I] cold damage; [M]&lt;[STRONG], restrained (save ends)</tier3>
+				<type type="string">Maneuver</type>
+			</id-05045>
+			<id-05046>
+				<ability_cost type="number">11</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">9</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">0</characteristic>
+				<class type="string">Null</class>
+				<distance type="string">Self</distance>
+				<effect type="string">You take half the damage, negate any effects associated with the damage for you, and gain 3 surges.</effect>
+				<keywords type="string">Psionic</keywords>
+				<name type="string">Inertial Absorption (11 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>You absorb an attack to empower your body.</i>
+					</p>
+				</notes>
+				<subclass type="string">Metakinetic</subclass>
+				<target type="string">Self</target>
+				<trigger type="string">Another creature damages you using an ability.</trigger>
+				<type type="string">Free triggered</type>
+			</id-05046>
+			<id-05047>
+				<ability_cost type="number">11</ability_cost>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
+				<ability_level type="number">9</ability_level>
+				<abilitytype type="string">Heroic Ability</abilitytype>
+				<characteristic type="number">2</characteristic>
+				<characteristicoption type="string">Agility</characteristicoption>
+				<class type="string">Null</class>
+				<distance type="string">Melee 1</distance>
+				<effect type="string">While dazed this way, the target takes psychic damage equal to twice your Intuition score at the start of each of your turns. If this ability causes a creature who is not a leader or solo creature to become winded, they are instead reduced to 0 Stamina. Any creature reduced to 0 Stamina by this ability is forgotten by all creatures of your level or lower in the timescape who are not present in the encounter. Loved ones of the forgotten creature retain a faint sense of melancholy. This effect can be reversed only at the Director’s discretion.</effect>
+				<keywords type="string">Melee, Psionic, Strike, Weapon</keywords>
+				<name type="string">Realitas (11 Discipline)</name>
+				<notes type="formattedtext">
+					<p>
+						<i>Your essential hyperreality disrupts your enemy&#8217;s connection to existence.</i>
+					</p>
+				</notes>
+				<subclass type="string">Metakinetic</subclass>
+				<target type="string">One creature</target>
+				<tier1 type="string">7 + A psychic damage; [I]&lt;[WEAK], dazed</tier1>
+				<tier2 type="string">10 + A psychic damage; [I]&lt;[AVERAGE], dazed</tier2>
+				<tier3 type="string">13 + A psychic damage; [I]&lt;[STRONG], dazed</tier3>
+				<type type="string">Main action</type>
+			</id-05047>
 
 	<!-- Shadow Abilities -->
 		<id-06001>
@@ -13809,7 +14489,7 @@
 						<b>Skills: </b>Nature, plus choose any two skills from the exploration or intrigue skill groups.</p>
 				</text>
 			</id-00004>
-		<!-- WIP -->
+		<!-- Null -->
 			<id-00005>
 				<basicnotes type="formattedtext">
 					<p>
@@ -13826,11 +14506,11 @@
 					<p>
 						<b>Skills: </b>You have the Psionics skill (see Skills in Chapter 9: Tests). Then choose any two skills from the interpersonal or lore skill groups. <i>(Quick Build: Psionics, Read Person, Timescape.)</i></p>
 					<linklist>
-						<link class="referencemanualpage" recordname="reference.refmanualdata.id-00001">Story: Skills</link>
+						<link class="referencemanualpage" recordname="reference.refmanualdata.id-00001@Classes for Draw Steel">Story: Skills</link>
 					</linklist>
 				</basicnotes>
 				<featurechoices>
-					<id-00001>
+					<id-05001>
 						<choicetype type="string">Discipline Mastery</choicetype>
 						<level type="number">1</level>
 						<name type="string">Chronokinetic Mastery</name>
@@ -13880,8 +14560,8 @@
 								</tr>
 							</table>
 						</text>
-					</id-00001>
-					<id-00002>
+					</id-05001>
+					<id-05002>
 						<choicetype type="string">Discipline Mastery</choicetype>
 						<level type="number">1</level>
 						<name type="string">Cryokinetic Mastery</name>
@@ -13932,8 +14612,9 @@
 								</tr>
 							</table>
 						</text>
-					</id-00002>
-					<id-00003>
+					</id-05002>
+					<id-05003>
+						<checkbox type="number">0</checkbox>
 						<choicetype type="string">Discipline Mastery</choicetype>
 						<level type="number">1</level>
 						<name type="string">Metakinetic Mastery</name>
@@ -13983,8 +14664,8 @@
 								</tr>
 							</table>
 						</text>
-					</id-00003>
-					<id-00004>
+					</id-05003>
+					<id-05004>
 						<choicetype type="string">Psionic Augmentation</choicetype>
 						<level type="number">1</level>
 						<name type="string">Density Augmentation</name>
@@ -13993,8 +14674,8 @@
 						<text type="formattedtext">
 							<p>You gain a +6 bonus to Stamina, and this bonus increases by 6 at 4th, 7th, and 10th levels. Additionally, you gain a +1 bonus to stability.</p>
 						</text>
-					</id-00004>
-					<id-00005>
+					</id-05004>
+					<id-05005>
 						<choicetype type="string">Psionic Augmentation</choicetype>
 						<level type="number">1</level>
 						<name type="string">Force Augmentation</name>
@@ -14003,8 +14684,8 @@
 						<text type="formattedtext">
 							<p>Your damage-dealing psionic abilities gain a +1 bonus to rolled damage.</p>
 						</text>
-					</id-00005>
-					<id-00006>
+					</id-05005>
+					<id-05006>
 						<choicetype type="string">Psionic Augmentation</choicetype>
 						<level type="number">1</level>
 						<name type="string">Speed Augmentation</name>
@@ -14013,8 +14694,9 @@
 						<text type="formattedtext">
 							<p>You gain a +1 bonus to speed and to the distance you can shift when you take the Disengage move action.</p>
 						</text>
-					</id-00006>
-					<id-00007>
+					</id-05006>
+					<id-05007>
+						<checkbox type="number">0</checkbox>
 						<choicetype type="string">Null Tradition</choicetype>
 						<level type="number">1</level>
 						<name type="string">Chronokinetic</name>
@@ -14023,8 +14705,8 @@
 						<text type="formattedtext">
 							<p>Your training unmoors you from temporal reality, allowing you to use the flow of time as another dimension that all things move through. You gain one skill from the lore group.</p>
 						</text>
-					</id-00007>
-					<id-00008>
+					</id-05007>
+					<id-05008>
 						<choicetype type="string">Null Tradition</choicetype>
 						<level type="number">1</level>
 						<name type="string">Cryokinetic</name>
@@ -14033,8 +14715,8 @@
 						<text type="formattedtext">
 							<p>You can tap into absolute cold, the most essential energy of myriad manifolds, and manifest its effects in your body. You gain one skill from the crafting group.</p>
 						</text>
-					</id-00008>
-					<id-00009>
+					</id-05008>
+					<id-05009>
 						<choicetype type="string">Null Tradition</choicetype>
 						<level type="number">1</level>
 						<name type="string">Metakinetic</name>
@@ -14043,10 +14725,295 @@
 						<text type="formattedtext">
 							<p>You learn to see through the illusions of the universe to more fully understand your body and its psionic potential. You gain one skill from the exploration group.</p>
 						</text>
-					</id-00009>
+					</id-05009>
+					<id-05010>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Metakinetic</choicetype>
+						<level type="number">2</level>
+						<name type="string">Inertial Sink</name>
+						<text type="formattedtext">
+							<p>You add your Intuition score to your effective size for the purpose of interacting with creatures and objects, such as for determining whether you can lift an object, whether you are affected by forced movement, and so forth. This has no effect on whether you can be grabbed.</p>
+							<p>Additionally, when you fall, you reduce the effective height of the fall by 5 squares in addition to any other reductions. Whenever you take damage from being force moved, you reduce that damage by an amount equal to your level.</p>
+						</text>
+					</id-05010>
+					<id-05011>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Chronokinetic</choicetype>
+						<level type="number">2</level>
+						<name type="string">Rapid Processing</name>
+						<prerequisite type="string">As a maneuver, you can read an entire book or process a similar amount of information. Additionally, during any respite, you can take an additional respite activity.</prerequisite>
+						<text type="formattedtext">
+							<p />
+						</text>
+					</id-05011>
+					<id-05012>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Cryokinetic</choicetype>
+						<level type="number">2</level>
+						<name type="string">Entropic Adaptability</name>
+						<text type="formattedtext">
+							<p>You have cold immunity equal to twice your Intuition score. Additionally, you ignore difficult terrain related to cold and ice, and you can automatically climb at full speed while moving.</p>
+						</text>
+					</id-05012>
+					<id-05013>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Chronokinetic</choicetype>
+						<level type="number">5</level>
+						<name type="string">Instant Action</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>If you&#8217;re not surprised at the start of your first turn in combat, you gain an edge on ability rolls and gain 2 surges. If you are surprised, you can spend 3 discipline to no longer be surprised and gain the benefits of this feature.</p>
+						</text>
+					</id-05013>
+					<id-05014>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Cryokinetic</choicetype>
+						<level type="number">5</level>
+						<name type="string">Chilling Readiness</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>You steel yourself for imminent danger by tapping into your body&#8217;s cold energy. At the start of any combat, you gain a number of surges equal to your Victories.</p>
+						</text>
+					</id-05014>
+					<id-05015>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Metakinetic</choicetype>
+						<level type="number">5</level>
+						<name type="string">Inertial Fulcrum</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>Whenever you use an ability to reduce damage dealt to you or to reduce the distance of forced movement imposed upon you, you can deal damage to one enemy in the area of your Null Field ability equal to your Intuition score.</p>
+						</text>
+					</id-05015>
+					<id-05016>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Chronokinetic</choicetype>
+						<level type="number">8</level>
+						<name type="string">Shared Momentum</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>When you take the Disengage move action, one ally in the area of your Null Field ability can also take the Disengage move action as a free triggered action, using your distance for that move action.</p>
+						</text>
+					</id-05016>
+					<id-05017>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Metakinetic</choicetype>
+						<level type="number">8</level>
+						<name type="string">Inertial Dampener</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>You and each creature or object of your choice in the area of your Null Field ability gain a bonus to stability equal to your Intuition score. A creature who attempts to force move a target with this bonus takes psychic damage equal to your Intuition score.</p>
+						</text>
+					</id-05017>
+					<id-05018>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Cryokinetic</choicetype>
+						<level type="number">8</level>
+						<name type="string">Synaptic Triage</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>As a free maneuver, you can spend 1d6 Stamina to remove one effect on you. Each creature of your choice in the area of your Null Field ability also gains this benefit.</p>
+						</text>
+					</id-05018>
+					<id-05022>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Cryokinetic</choicetype>
+						<level type="number">2</level>
+						<name type="string">Tradition Ability</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following heroic abilities.</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05021">Ability: Entropic Field (5 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05020">Ability: Heat Sink (5 Discipline)</link>
+							</linklist>
+						</text>
+					</id-05022>
+					<id-05023>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Metakinetic</choicetype>
+						<level type="number">2</level>
+						<name type="string">Tradition Ability</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05019">Ability: Gravitic Strike (5 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05018">Ability: Kinetic Shield (5 Discipline)</link>
+							</linklist>
+						</text>
+					</id-05023>
+					<id-05024>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Chronokinetic</choicetype>
+						<level type="number">2</level>
+						<name type="string">Tradition Ability</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05023">Ability: Blur (5 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05022">Ability: Force Redirected (5 Discipline)</link>
+							</linklist>
+						</text>
+					</id-05024>
+					<id-05025>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Metakinetic</choicetype>
+						<level type="number">6</level>
+						<name type="string">Tradition Ability</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05036">Ability: Gravitic Charge (9 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05037">Ability: Iron Body (9 Discipline)</link>
+							</linklist>
+						</text>
+					</id-05025>
+					<id-05026>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Chronokinetic</choicetype>
+						<level type="number">6</level>
+						<name type="string">Tradition Ability</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05032">Ability: Interphase (9 Disciple)</link>
+								<link class="ability" recordname="reference.abilities.id-05033">Ability: Phase Step (9 Discipline)</link>
+							</linklist>
+						</text>
+					</id-05026>
+					<id-05027>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Cryokinetic</choicetype>
+						<level type="number">6</level>
+						<name type="string">Tradition Ability</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05034">Ability: Ice Pillars (9 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05035">Ability: Wall of Ice (9 Discipline)</link>
+							</linklist>
+						</text>
+					</id-05027>
+					<id-05028>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Chronokinetic</choicetype>
+						<level type="number">9</level>
+						<name type="string">Tradition Ability</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05042">Ability: Arrestor Cycle (11 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05043">Ability: Time Loop (11 Discipline)</link>
+							</linklist>
+						</text>
+					</id-05028>
+					<id-05029>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Cryokinetic</choicetype>
+						<level type="number">9</level>
+						<name type="string">Tradition Ability</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05044">Ability: Absolute Zero (11 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05045">Ability: Heat Drain (11 Discipline)</link>
+							</linklist>
+						</text>
+					</id-05029>
+					<id-05030>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Metakinetic</choicetype>
+						<level type="number">9</level>
+						<name type="string">Tradition Ability</name>
+						<prerequisite type="string">Null</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05046">Ability: Inertial Absorption (11 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05047">Ability: Realitas (11 Discipline)</link>
+							</linklist>
+						</text>
+					</id-05030>
 				</featurechoices>
 				<features>
-					<id-00010>
+					<id-05001>
+						<featureext type="formattedtext">
+							<p>You gain one exploration, interpersonal, or intrigue perk of your choice. See Chapter 7: Perks.</p>
+						</featureext>
+						<featurelevel type="number">2</featurelevel>
+						<name type="string">Perk</name>
+					</id-05001>
+					<id-05002>
+						<featureext type="formattedtext">
+							<p>You can long jump and high jump a distance equal to twice your Agility score without needing to make a test.</p>
+						</featureext>
+						<featurelevel type="number">3</featurelevel>
+						<name type="string">Psionic Leap</name>
+					</id-05002>
+					<id-05003>
+						<featureext type="formattedtext">
+							<p>At the start of each of your turns, you can use a free triggered action to end one effect on you that is ended by a saving throw or that ends at the end of your turn.</p>
+							<p>Alternatively, you can grant this benefit to one creature in the area of your Null Field ability.</p>
+						</featureext>
+						<featurelevel type="number">3</featurelevel>
+						<name type="string">Reorder</name>
+					</id-05003>
+					<id-05004>
+						<featureext type="formattedtext">
+							<p>Choose one heroic ability from the following options, each of which costs 7 discipline to use.</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05024">Ability: Absorption Field (7 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05025">Ability: Molecular Rearrangement Field (7 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05026">Ability: Stabilizing Field (7 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05027">Ability: Synapse Field (7 Discipline)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">3</featurelevel>
+						<name type="string">Heroic Abilities (7-Discipline)</name>
+					</id-05004>
+					<id-05005>
+						<featureext type="formattedtext">
+							<p>Your Agility and Intuition scores each increase to 3.</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Characteristic Increase</name>
+					</id-05005>
+					<id-05006>
+						<featureext type="formattedtext">
+							<p>You gain one perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Perk</name>
+					</id-05006>
+					<id-05007>
+						<featureext type="formattedtext">
+							<p>You gain one skill of your choice. See Skills in Chapter 9: Tests.</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Skill</name>
+					</id-05007>
+					<id-05008>
+						<featureext type="formattedtext">
+							<p>The first time each combat round that an enemy in the area of yourNull Field ability uses a main action, you gain 2 discipline instead of 1.</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Regenerative Field</name>
+					</id-05008>
+					<id-05009>
+						<featureext type="formattedtext">
+							<p>While using your Null Field ability, you disrupt magic and psionicpower suffusing the area around you. During combat, any temporarysupernatural terrain effects of your level or lower are removed whenyour aura partially or fully overlaps with their location. Permanent supernatural terrain effects of your level or lower are temporarily negatedwhile your aura overlaps with their location, but return when the aurano longer overlaps with them.</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Enhanced Null Field</name>
+					</id-05009>
+					<id-05010>
 						<featureext type="formattedtext">
 							<p>As your mastery of your body and tradition grows, it imbues you with a Heroic Resource called discipline.</p>
 							<p>
@@ -14063,46 +15030,73 @@
 						<featurelevel type="number">1</featurelevel>
 						<level type="number">0</level>
 						<name type="string">Discipline</name>
-					</id-00010>
-					<id-00011>
+					</id-05010>
+					<id-05011>
 						<featureext type="formattedtext">
 							<p>You project a psionic field of order around your body, dampening the effects of supernatural abilities harmful to you and your allies.</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-05001">Ability: Null Field</link>
+								<link class="ability" recordname="ability.id-05001@Classes for Draw Steel">Ability: Null Field</link>
 							</linklist>
 						</featureext>
 						<featurelevel type="number">1</featurelevel>
 						<level type="number">0</level>
 						<name type="string">Null Field</name>
-					</id-00011>
-					<id-00012>
+					</id-05011>
+					<id-05012>
 						<featureext type="formattedtext">
 							<p>Your instinct for danger let you predict attacks before they happen.</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-05003">Ability: Inertial Shield</link>
+								<link class="ability" recordname="ability.id-05003@Classes for Draw Steel">Ability: Inertial Shield</link>
 							</linklist>
 						</featureext>
 						<featurelevel type="number">1</featurelevel>
 						<level type="number">0</level>
 						<name type="string">Inertial Shield</name>
-					</id-00012>
-					<id-00014>
+					</id-05012>
+					<id-05013>
+						<featureext type="formattedtext">
+							<p>Your Discipline Mastery feature provides additional benefits when you have 8 or more discipline.</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Discipline Mastery Improvement</name>
+					</id-05013>
+					<id-05014>
 						<featureext type="formattedtext">
 							<p>The flow of psionic power through you allows you to achieve high velocity. You gain a bonus to speed and to the number of squares you can shift when you take the Disengage move action equal to your Agility score.</p>
 						</featureext>
 						<featurelevel type="number">1</featurelevel>
 						<level type="number">0</level>
 						<name type="string">Null Speed</name>
-					</id-00014>
-					<id-00016>
+					</id-05014>
+					<id-05015>
+						<featureext type="formattedtext">
+							<p>Choose one heroic ability from the following options, each of which costs 9 discipline to use.</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05028">Ability: Anticipating Strike (9 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05029">Ability: Iron Grip (9 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05030">Ability: Phase Leap (9 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05031">Ability: Synaptic Reset (9 Discipline)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">5</featurelevel>
+						<name type="string">Heroic Abilities (9-Discipline)</name>
+					</id-05015>
+					<id-05016>
 						<featureext type="formattedtext">
 							<p>Whenever you use the Knockback or Grab maneuver, you use Intuition instead of Might for the power roll and for determining if you can target creatures larger than you. Additionally, whenever you use the Knockback maneuver, you can choose to slide the target instead of pushing them.</p>
 						</featureext>
 						<featurelevel type="number">1</featurelevel>
 						<level type="number">0</level>
 						<name type="string">Psionic Martial Arts</name>
-					</id-00016>
-					<id-00018>
+					</id-05016>
+					<id-05017>
+						<featureext type="formattedtext">
+							<p>Whenever you reduce acid, cold, corruption, fire, lightning, poison, or sonic damage with damage immunity, you gain 2 surges that can be used only to increase the damage of your next strike.</p>
+						</featureext>
+						<featurelevel type="number">6</featurelevel>
+						<name type="string">Elemental Buffer</name>
+					</id-05017>
+					<id-05018>
 						<featureext type="formattedtext">
 							<p>You rely on a unique blend of martial techniques and psionic prowess to take down your foes and defend your allies.</p>
 							<p>
@@ -14110,20 +15104,20 @@
 							</p>
 							<p>Choose two signature abilities from the following options. Signature abilities can be used at will. ( <i>Quick Build: </i>Faster Than the Eye, Inertial Step.)</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-05004">Ability: Dance of Blows</link>
-								<link class="ability" recordname="ability.id-05010">Ability: Faster Than the Eye</link>
-								<link class="ability" recordname="ability.id-05009">Ability: Inertial Step</link>
-								<link class="ability" recordname="ability.id-05008">Ability: Joint Lock</link>
-								<link class="ability" recordname="ability.id-05007">Ability: Magnetic Strike</link>
-								<link class="ability" recordname="ability.id-05006">Ability: Phase Inversion Strike</link>
-								<link class="ability" recordname="ability.id-05005">Ability: Pressure Points</link>
+								<link class="ability" recordname="reference.abilities.id-05014">Ability: Dance of Blows</link>
+								<link class="ability" recordname="reference.abilities.id-05013">Ability: Faster Than the Eye</link>
+								<link class="ability" recordname="reference.abilities.id-05010">Ability: Inertial Step</link>
+								<link class="ability" recordname="reference.abilities.id-05009">Ability: Joint Lock</link>
+								<link class="ability" recordname="reference.abilities.id-05008">Ability: Magnetic Strike</link>
+								<link class="ability" recordname="reference.abilities.id-05006">Ability: Phase Inversion Strike</link>
+								<link class="ability" recordname="reference.abilities.id-05004">Ability: Pressure Points</link>
 							</linklist>
 						</featureext>
 						<featurelevel type="number">1</featurelevel>
 						<level type="number">0</level>
 						<name type="string">Signature Abilities</name>
-					</id-00018>
-					<id-00019>
+					</id-05018>
+					<id-05019>
 						<featureext type="formattedtext">
 							<p>You have mastered a range of heroic abilities, all of them channeled through your discipline.</p>
 							<p>
@@ -14131,26 +15125,183 @@
 							</p>
 							<p>Choose one heroic ability from the following options, each of which costs 3 discipline to use. ( <i>Quick Build: </i>Chronal Spike.)</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-05014">Ability: Chronal Spike (3 Discipline)</link>
-								<link class="ability" recordname="ability.id-05013">Ability: Psychic Pulse (3 Discipline)</link>
-								<link class="ability" recordname="ability.id-05012">Ability: Relentless Nemesis (3 Discipline)</link>
-								<link class="ability" recordname="ability.id-05011">Ability: Stunning Blow (3 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05015">Ability: Chronal Spike (3 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05003">Ability: Psychic Pulse (3 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05002">Ability: Relentless Nemesis (3 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05001">Ability: Stunning Blow (3 Discipline)</link>
 							</linklist>
 							<p>
 								<b>5-Discipline Ability</b>
 							</p>
 							<p>Choose one heroic ability fromt he following options, each of which costs 5 discipline to use. ( <i>Quick Build: </i>A Squad Unto Myself.)</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-05018">Ability: Arcane Disruptor (5 Discipline)</link>
-								<link class="ability" recordname="ability.id-05017">Ability: Impart Force ( 5 Discipline)</link>
-								<link class="ability" recordname="ability.id-05016">Ability: Phase Strike (5 Discipline)</link>
-								<link class="ability" recordname="ability.id-05015">Ability: A Squad Unto Myself (5 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05016">Ability: Arcane Disruptor (5 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05012">Ability: Impart Force ( 5 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05005">Ability: Phase Strike (5 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05017">Ability: A Squad Unto Myself (5 Discipline)</link>
 							</linklist>
 						</featureext>
 						<featurelevel type="number">1</featurelevel>
 						<level type="number">0</level>
-						<name type="string">Heroic Abilities</name>
-					</id-00019>
+						<name type="string">Heroic Abilities (3 &amp; 5 Discipline)</name>
+					</id-05019>
+					<id-05020>
+						<featureext type="formattedtext">
+							<p>Whenever you use your Inertial Shield triggered action, you gain immunity to acid, cold, corruption, fire, lightning, poison, and sonic damage equal to your Intuition score against the triggering damage.</p>
+						</featureext>
+						<featurelevel type="number">6</featurelevel>
+						<name type="string">Elemental Absorption</name>
+					</id-05020>
+					<id-05021>
+						<featureext type="formattedtext">
+							<p>You gain one exploration, interpersonal, or intrigue perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">6</featurelevel>
+						<name type="string">Perk</name>
+					</id-05021>
+					<id-05022>
+						<featureext type="formattedtext">
+							<p>Each of your characteristic scores increases by 1, to a maximum of 4.</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">Characteristic Increase</name>
+					</id-05022>
+					<id-05023>
+						<featureext type="formattedtext">
+							<p>You gain one skill of your choice</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">Skill</name>
+					</id-05023>
+					<id-05024>
+						<featureext type="formattedtext">
+							<p>Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a psi boost to it and enhance its effects. A psi boost&#8217;s effects only last until the end of the turn which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.</p>
+							<p>
+								<b>Dynamic Power (1 Discipline)</b>
+							</p>
+							<p>If the ability force moves a target, the forced movement distance gains a bonus equal to your Intuition score.</p>
+							<p>
+								<b>Expanded Power (3 Discipline)</b>
+							</p>
+							<p>If the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.</p>
+							<p>
+								<b>Extended Power (1 Discipline)</b>
+							</p>
+							<p>If the ability is ranged, the distance gains a bonus equal to your Intuition score. If the ability is melee, the distance gains a +2 bonus.</p>
+							<p>
+								<b>Heightened Power (1 Discipline)</b>
+							</p>
+							<p>If the ability deals rolled damage, it deals extra damage equal to your Intuition score.</p>
+							<p>
+								<b>Magnified Power (5 Discipline)</b>
+							</p>
+							<p>If the ability has a potency, you increase that potency by an amount equal to your Intuition score.</p>
+							<p>
+								<b>Shared Power (5 Discipline)</b>
+							</p>
+							<p>If the ability targets individual creatures or objects, you target one additional creature or object within distance.</p>
+							<p>
+								<b>Sharpened Power (1 Discipline)</b>
+							</p>
+							<p>If the ability has any power roll, that roll gains an edge.</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">Psi Boost</name>
+					</id-05024>
+					<id-05025>
+						<featureext type="formattedtext">
+							<p>When you gain discipline at the start of each of your turns during combat, you gain 3 discipline instead of 2.</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">Improved Body</name>
+					</id-05025>
+					<id-05026>
+						<featureext type="formattedtext">
+							<p>Your Discipline Mastery feature provides additional benefits when you have 10 or more discipline.</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">Discipline Mastery Improvement</name>
+					</id-05026>
+					<id-05027>
+						<featureext type="formattedtext">
+							<p>You gain one perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">8</featurelevel>
+						<name type="string">Perk</name>
+					</id-05027>
+					<id-05028>
+						<featureext type="formattedtext">
+							<p>Choose one heroic ability from the following options, each of which costs 11 discipline to use.</p>
+							<linklist>
+								<link class="ability" recordname="reference.abilities.id-05038">Ability: Arcane Purge (11 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05039">Ability: Phase Hurl (11 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05040">Ability: Scalar Assault (11 Discipline)</link>
+								<link class="ability" recordname="reference.abilities.id-05041">Ability: Synaptic Anchor (11 Discipline)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">8</featurelevel>
+						<name type="string">Heroic Abilities (11-Discipline)</name>
+					</id-05028>
+					<id-05029>
+						<featureext type="formattedtext">
+							<p>Your Stamina increases by 21 and you can&#8217;t be made bleeding even while dying. You no longer age or have need of food. Additionally, you can use Intuition instead of another characteristic when resisting potencies.</p>
+						</featureext>
+						<featurelevel type="number">9</featurelevel>
+						<name type="string">I Am the Weapon</name>
+					</id-05029>
+					<id-05030>
+						<featureext type="formattedtext">
+							<p>Your Agility and Intuition scores each increase to 5.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Characteristic Increase</name>
+					</id-05030>
+					<id-05031>
+						<featureext type="formattedtext">
+							<p>Your Discipline Mastery feature provides additional benefits when you have 12 or more discipline.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Discipline Mastery Improvement</name>
+					</id-05031>
+					<id-05032>
+						<featureext type="formattedtext">
+							<p>When you gain discipline at the start of each of your turns during combat, you gain 4 discipline instead of 3.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Manifold Body</name>
+					</id-05032>
+					<id-05033>
+						<featureext type="formattedtext">
+							<p>Your body becomes perfected matter, beyond the whims and chaos of the timescape and the restrictions of the manifolds. Each time you finish a respite, you can shift yourself and any creatures in the area of your Null Field ability to any location in the timescape known to you, known to any other creature in the area, or where any supernatural treasure in the area has been before.</p>
+							<p>Whenever you use an ability, you gain 1 discipline that can be used only to apply a benefit from your Psi Boost feature to that ability.</p>
+							<p>Additionally, you and allies in the area of your Null Field ability ignore banes and double banes on your power rolls</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Manifold Resonance</name>
+					</id-05033>
+					<id-05034>
+						<featureext type="formattedtext">
+							<p>You have an epic resource called order. Each time you finish a respite, you gain order equal to the XP you gain. You can spend order on your abilities as if it were discipline.</p>
+							<p>At the start of a combat encounter, you can spend 1 order to increase the size of your Null Field by 1 until the end of the encounter.</p>
+							<p>Order remains until you spend it.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Order</name>
+					</id-05034>
+					<id-05035>
+						<featureext type="formattedtext">
+							<p>You gain one exploration, interpersonal, or intrigue perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Perk</name>
+					</id-05035>
+					<id-05036>
+						<featureext type="formattedtext">
+							<p>You gain one skill of your choice.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Skill</name>
+					</id-05036>
 				</features>
 				<name type="string">Null</name>
 				<notes type="formattedtext">
@@ -14263,12 +15414,12 @@
 					<h>Null Field</h>
 					<p>You project a psionic field of order around your body, dampening the effects of supernatural abilities harmful to you and your allies.</p>
 					<linklist>
-						<link class="ability" recordname="ability.id-05001">Ability: Null Field</link>
+						<link class="ability" recordname="reference.abilities.id-05007">Ability: Null Field</link>
 					</linklist>
 					<h>Inertial Shield</h>
 					<p>Your instinct for danger lets you predict attacks before they happen.</p>
 					<linklist>
-						<link class="ability" recordname="ability.id-05003">Ability: Inertial Shield</link>
+						<link class="ability" recordname="reference.abilities.id-05011">Ability: Inertial Shield</link>
 					</linklist>
 					<h>Discipline Mastery</h>
 					<p>As you advance in your chosen null tradition, you gain certain benefits in combat, including benefits based on the amount of discipline you have. Benefits based on how much discipline you have last until the end of your turn, even if a benefit would become unavailable to you because of the amount of discipline you spend during your turn.</p>
@@ -14278,9 +15429,9 @@
 					<h>Psionic Augmentation</h>
 					<p>Your training has turned your body into the perfect psionic weapon, shaping pathways in your mind that enhance your physical form. Choose one of the following augmentations. You can change your augmentation by undergoing a psionic meditation as a respite activity. ( <i>Quick Build: </i>Speed Augmentation.)</p>
 					<linklist>
-						<link class="reference_classfeaturechoice" recordname="class.id-00005.featurechoices.id-00004">Density Augmentation</link>
-						<link class="reference_classfeaturechoice" recordname="class.id-00005.featurechoices.id-00005">Force Augmentation</link>
-						<link class="reference_classfeaturechoice" recordname="class.id-00005.featurechoices.id-00006">Speed Augmentation</link>
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05004">Density Augmentation</link>
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05005">Force Augmentation</link>
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05006">Speed Augmentation</link>
 					</linklist>
 					<h>Psionic Martial Art</h>
 					<p>Whenever you use the Knockback or Grab maneuver, you use Intuition instead of Might for the power roll and for determining if you can target creatures larger than you. Additionally, whenever you use the Knockback maneuver, you can choose to slide the target instead of pushing them.</p>
@@ -14291,13 +15442,13 @@
 					</p>
 					<p>Choose two signature abilities from the following options. Signature abilities can be used at will. ( <i>Quick Build: </i>Faster Than the Eye, Inertial Step.)</p>
 					<linklist>
-						<link class="ability" recordname="ability.id-05004">Ability: Dance of Blows</link>
-						<link class="ability" recordname="ability.id-05010">Ability: Faster Than the Eye</link>
-						<link class="ability" recordname="ability.id-05009">Ability: Inertial Step</link>
-						<link class="ability" recordname="ability.id-05008">Ability: Joint Lock</link>
-						<link class="ability" recordname="ability.id-05007">Ability: Magnetic Strike</link>
-						<link class="ability" recordname="ability.id-05006">Ability: Phase Inversion Strike</link>
-						<link class="ability" recordname="ability.id-05005">Ability: Pressure Points</link>
+						<link class="ability" recordname="reference.abilities.id-05014">Ability: Dance of Blows</link>
+						<link class="ability" recordname="reference.abilities.id-05013">Ability: Faster Than the Eye</link>
+						<link class="ability" recordname="reference.abilities.id-05010">Ability: Inertial Step</link>
+						<link class="ability" recordname="reference.abilities.id-05009">Ability: Joint Lock</link>
+						<link class="ability" recordname="reference.abilities.id-05008">Ability: Magnetic Strike</link>
+						<link class="ability" recordname="reference.abilities.id-05006">Ability: Phase Inversion Strike</link>
+						<link class="ability" recordname="reference.abilities.id-05004">Ability: Pressure Points</link>
 					</linklist>
 					<h>Heroic Abilities</h>
 					<p>You have mastered a range of heroic abilities, all of them channeled through your discipline.</p>
@@ -14306,23 +15457,21 @@
 					</p>
 					<p>Choose one heroic ability from the following options, each of which costs 3 discipline to use. ( <i>Quick Build: </i>Chronal Spike.)</p>
 					<linklist>
-						<link class="ability" recordname="ability.id-05014">Ability: Chronal Spike (3 Discipline)</link>
-						<link class="ability" recordname="ability.id-05013">Ability: Psychic Pulse (3 Discipline)</link>
-						<link class="ability" recordname="ability.id-05012">Ability: Relentless Nemesis (3 Discipline)</link>
-						<link class="ability" recordname="ability.id-05011">Ability: Stunning Blow (3 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05015">Ability: Chronal Spike (3 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05003">Ability: Psychic Pulse (3 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05002">Ability: Relentless Nemesis (3 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05001">Ability: Stunning Blow (3 Discipline)</link>
 					</linklist>
 					<p>
 						<b>5-Discipline Ability</b>
 					</p>
 					<p>Choose one heroic ability fromt he following options, each of which costs 5 discipline to use. ( <i>Quick Build: </i>A Squad Unto Myself.)</p>
 					<linklist>
-						<link class="ability" recordname="ability.id-05018">Ability: Arcane Disruptor (5 Discipline)</link>
-						<link class="ability" recordname="ability.id-05017">Ability: Impart Force ( 5 Discipline)</link>
-						<link class="ability" recordname="ability.id-05016">Ability: Phase Strike (5 Discipline)</link>
-						<link class="ability" recordname="ability.id-05015">Ability: A Squad Unto Myself (5 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05016">Ability: Arcane Disruptor (5 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05012">Ability: Impart Force ( 5 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05005">Ability: Phase Strike (5 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05017">Ability: A Squad Unto Myself (5 Discipline)</link>
 					</linklist>
-					
-					
 					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;2nd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 					<p>As a 2nd-level null, you gain the following features.</p>
 					<h>Perk</h>
@@ -14352,29 +15501,29 @@
 						</tr>
 					</table>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05012">Entropic Adaptability</link>
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05010">Inertial Sink</link>
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05011">Rapid Processing</link>
 					</linklist>
 					<h>2nd-Level Tradition Ability</h>
 					<p>Your null tradition grants your choice of one of two abilities.</p>
 					<h>2nd-Level Chronokinetic Ability</h>
 					<p>Choose one of the following abilities</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05023">Ability: Blur (5 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05022">Ability: Force Redirected (5 Discipline)</link>
 					</linklist>
 					<h>2nd-Level Cryokinetic Ability</h>
 					<p>Choose one of the following heroic abilities.</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05021">Ability: Entropic Field (5 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05020">Ability: Heat Sink (5 Discipline)</link>
 					</linklist>
 					<h>2nd-Level Metakinetic Ability</h>
 					<p>Choose one of the following abilities.</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05019">Ability: Gravitic Strike (5 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05018">Ability: Kinetic Shield (5 Discipline)</link>
 					</linklist>
 					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;3rd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 					<p>As a 3rd-level null, you gain the following features.</p>
@@ -14386,10 +15535,10 @@
 					<h>7-Discipline Ability</h>
 					<p>Choose one heroic ability from the following options, each of which costs 7 discipline to use.</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05024">Ability: Absorption Field (7 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05025">Ability: Molecular Rearrangement Field (7 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05026">Ability: Stabilizing Field (7 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05027">Ability: Synapse Field (7 Discipline)</link>
 					</linklist>
 					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;4th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 					<p>As a 4th-level null, you gain the following features.</p>
@@ -14434,17 +15583,17 @@
 					</table>
 					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05014">Chilling Readiness</link>
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05015">Inertial Fulcrum</link>
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05013">Instant Action</link>
 					</linklist>
 					<h>9-Discipline Ability</h>
 					<p>Choose one heroic ability from the following options, each of which costs 9 discipline to use.</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05028">Ability: Anticipating Strike (9 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05029">Ability: Iron Grip (9 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05030">Ability: Phase Leap (9 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05031">Ability: Synaptic Reset (9 Discipline)</link>
 					</linklist>
 					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;6th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 					<p>As a 6th-level null, you gain the following features.</p>
@@ -14459,20 +15608,20 @@
 					<h>6th-Level Chronokinetic Abilities</h>
 					<p>Choose one of the following abilities.</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05032">Ability: Interphase (9 Disciple)</link>
+						<link class="ability" recordname="reference.abilities.id-05033">Ability: Phase Step (9 Discipline)</link>
 					</linklist>
 					<h>6th-Level Cryokinetic Abilities</h>
 					<p>Choose one of the following abilities.</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05034">Ability: Ice Pillars (9 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05035">Ability: Wall of Ice (9 Discipline)</link>
 					</linklist>
 					<h>6th-Level Metakinetic Abilities</h>
 					<p>Choose one of the following abilities.</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05036">Ability: Gravitic Charge (9 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05037">Ability: Iron Body (9 Discipline)</link>
 					</linklist>
 					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;7th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 					<h>Characteristic Increase</h>
@@ -14481,19 +15630,33 @@
 					<p>Your Discipline Mastery feature provides additional benefits when you have 10 or more discipline.</p>
 					<h>Psi Boost</h>
 					<p>Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a psi boost to it and enhance its effects. A psi boost&#8217;s effects only last until the end of the turn which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.</p>
-					<h>Dynamic Power (1 Discipline)</h>
+					<p>
+						<b>Dynamic Power (1 Discipline)</b>
+					</p>
 					<p>If the ability force moves a target, the forced movement distance gains a bonus equal to your Intuition score.</p>
-					<h>Expanded Power (3 Discipline)</h>
+					<p>
+						<b>Expanded Power (3 Discipline)</b>
+					</p>
 					<p>If the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.</p>
-					<h>Extended Power (1 Discipline)</h>
+					<p>
+						<b>Extended Power (1 Discipline)</b>
+					</p>
 					<p>If the ability is ranged, the distance gains a bonus equal to your Intuition score. If the ability is melee, the distance gains a +2 bonus.</p>
-					<h>Heightened Power (1 Discipline)</h>
+					<p>
+						<b>Heightened Power (1 Discipline)</b>
+					</p>
 					<p>If the ability deals rolled damage, it deals extra damage equal to your Intuition score.</p>
-					<h>Magnified Power (5 Discipline)</h>
+					<p>
+						<b>Magnified Power (5 Discipline)</b>
+					</p>
 					<p>If the ability has a potency, you increase that potency by an amount equal to your Intuition score.</p>
-					<h>Shared Power (5 Discipline)</h>
+					<p>
+						<b>Shared Power (5 Discipline)</b>
+					</p>
 					<p>If the ability targets individual creatures or objects, you target one additional creature or object within distance.</p>
-					<h>Sharpened Power (1 Discipline)</h>
+					<p>
+						<b>Sharpened Power (1 Discipline)</b>
+					</p>
 					<p>If the ability has any power roll, that roll gains an edge.</p>
 					<h>Improved Body</h>
 					<p>When you gain discipline at the start of each of your turns during combat, you gain 3 discipline instead of 2.</p>
@@ -14528,17 +15691,17 @@
 						</tr>
 					</table>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05017">Inertial Dampener</link>
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05016">Shared Momentum</link>
+						<link class="reference_classfeaturechoice" recordname="..featurechoices.id-05018">Synaptic Triage</link>
 					</linklist>
 					<h>11-Discipline Ability</h>
 					<p>Choose one heroic ability from the following options, each of which costs 11 discipline to use.</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05038">Ability: Arcane Purge (11 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05039">Ability: Phase Hurl (11 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05040">Ability: Scalar Assault (11 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05041">Ability: Synaptic Anchor (11 Discipline)</link>
 					</linklist>
 					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;9th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 					<p>As a 9th-level null, you gain the following features.</p>
@@ -14549,20 +15712,20 @@
 					<h>9th-Level Chronokinetic Abilities</h>
 					<p>Choose one of the following abilities</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05042">Ability: Arrestor Cycle (11 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05043">Ability: Time Loop (11 Discipline)</link>
 					</linklist>
 					<h>9th-Level Cryokinetic Abilities</h>
 					<p>Choose one of the following abilities.</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05044">Ability: Absolute Zero (11 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05045">Ability: Heat Drain (11 Discipline)</link>
 					</linklist>
-					<h>9th-Level Cryokinetic Abilities</h>
+					<h>9th-Level Metakinetic Abilities</h>
 					<p>Choose one of the following abilities.</p>
 					<linklist>
-						<link class="" recordname="" />
-						<link class="" recordname="" />
+						<link class="ability" recordname="reference.abilities.id-05046">Ability: Inertial Absorption (11 Discipline)</link>
+						<link class="ability" recordname="reference.abilities.id-05047">Ability: Realitas (11 Discipline)</link>
 					</linklist>
 					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;10th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 					<p>As a 10th-level null, you gain the following features.</p>
@@ -14574,18 +15737,16 @@
 					<p>When you gain discipline at the start of each of your turns during combat, you gain 4 discipline instead of 3.</p>
 					<h>Manifold Resonance</h>
 					<p>Your body becomes perfected matter, beyond the whims and chaos of the timescape and the restrictions of the manifolds. Each time you finish a respite, you can shift yourself and any creatures in the area of your Null Field ability to any location in the timescape known to you, known to any other creature in the area, or where any supernatural treasure in the area has been before.</p>
-					<p>Whenever you use an ability, you gain 1 discipline that can be used only to apply a benefit from your Psi Boost feature to that ability. </p>
+					<p>Whenever you use an ability, you gain 1 discipline that can be used only to apply a benefit from your Psi Boost feature to that ability.</p>
 					<p>Additionally, you and allies in the area of your Null Field ability ignore banes and double banes on your power rolls</p>
 					<h>Order</h>
-					<p>You have an epic resource called order. Each time you finish a respite, you gain order equal to the XP you gain. You can spend order on your abilities as if it were discipline. </p>
+					<p>You have an epic resource called order. Each time you finish a respite, you gain order equal to the XP you gain. You can spend order on your abilities as if it were discipline.</p>
 					<p>At the start of a combat encounter, you can spend 1 order to increase the size of your Null Field by 1 until the end of the encounter.</p>
 					<p>Order remains until you spend it.</p>
 					<h>Perk</h>
 					<p>You gain one exploration, interpersonal, or intrigue perk of your choice.</p>
 					<h>Skill</h>
 					<p>You gain one skill of your choice.</p>
-					
-					
 					<p>[Source: Draw Steel Heroes v1.0]</p>
 				</notes>
 				<staminaPerLevel type="number">9</staminaPerLevel>
