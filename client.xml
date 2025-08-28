@@ -22302,9 +22302,6 @@
 					<id-09002>
 						<featureext type="formattedtext">
 							<p>You can use and gain the benefits of a kit. See Chapter 6: Kits for more information. <i>(Quick Build: Swashbuckler.)</i></p>
-							<linklist>
-								<link class="masterindex" recordname="kit@Classes for Draw Steel">Kits</link>
-							</linklist>
 						</featureext>
 						<featurelevel type="number">1</featurelevel>
 						<name type="string">Kit</name>
@@ -22729,9 +22726,6 @@
 					<p>When you use an ability outside of combat that lets you spend unlimited drama on its effect, such as Artful Flourish, you can use it as if you had spent an amount of drama equal to your Victories.</p>
 					<h>Kit</h>
 					<p>You can use and gain the benefits of a kit. See Chapter 6: Kits for more information. <i>(Quick Build: Swashbuckler.)</i></p>
-					<linklist>
-						<link class="masterindex" recordname="kit@Classes for Draw Steel">Kits</link>
-					</linklist>
 					<h>Scene Partner</h>
 					<p>Whenever you obtain a success on a test to interact with an NPC using a skill from the interpersonal group, you can form a bond with that NPC. When you enter into a negotiation with a bonded NPC, their patience increases by 1 (to a maximum of 5). Additionally, the first time during a negotiation that you personally make an argument that would increase a bonded NPC's interest by 1, you instead increase their interest by 2 (to a maximum of 5).</p>
 					<p>You can have a number of bonds active equal to your level. When you form a bond with a new NPC that would exceed the limit, you must choose which of your active bonds to lose.</p>
@@ -23379,13 +23373,6 @@
 					<name type="string">Abilities</name>
 					<recordtype type="string">ability</recordtype>
 				</ability>
-				<ability_byclass>
-					<librarylink type="windowreference">
-						<class>reference_groupedlist</class>
-						<recordname>list.ability.byclass</recordname>
-					</librarylink>
-					<name type="string">Abilities - By Class</name>
-				</ability_byclass>
 				<class>
 					<librarylink type="windowreference">
 						<class>reference_list</class>
