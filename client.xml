@@ -19161,7 +19161,7 @@
 					<id-06002>
 						<featureext type="formattedtext">
 							<linklist>
-								<link class="ability" recordname="ability.id-06044">Ability: Hesitation Is Weakness</link>
+								<link class="ability" recordname="ability.id-06002">Ability: Hesitation Is Weakness</link>
 							</linklist>
 						</featureext>
 						<featurelevel type="number">1</featurelevel>
@@ -19519,7 +19519,7 @@
 					<h>Hesitation is Weakness</h>
 					<p>You have the following ability</p>
 					<linklist>
-						<link class="reference_classfeatures" recordname="class.id-00006.features.id-06044">Hesitation is Weakness</link>
+						<link class="reference_classfeatures" recordname="class.id-00006.features.id-06002">Hesitation is Weakness</link>
 					</linklist>
 					<h>Kit</h>
 					<p>You can use and gain the benefits of a kit. See Chapter 6: Kits for more information. (Quick Build: Cloak and Dagger.)</p>
