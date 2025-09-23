@@ -2,7 +2,7 @@
 <root version="4.7" dataversion="20241002" release="1|CoreRPG:7">
 <!-- DONE: Conduit, Censor, Elementalist, Fury, Null, Shadow, Troubadour, Tactician, Talent -->
 	<ability>
-	<!-- Censor Abilities -->
+		<!-- Censor Abilities -->
 		<id-01098>
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
@@ -1176,7 +1176,7 @@
 			<type type="string">Main action</type>
 		</id-01130>
 
-	<!-- Conduit Abilities -->
+		<!-- Conduit Abilities -->
 		<id-02307>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
@@ -3576,7 +3576,7 @@
 			<type type="string">Main action</type>
 		</id-02008>
 
-	<!-- Elementalist Abilities -->
+		<!-- Elementalist Abilities -->
 		<id-03101>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
@@ -4579,7 +4579,7 @@
 			<type type="string">Main action</type>
 		</id-03904>
 
-	<!-- Fury Abilities -->
+		<!-- Fury Abilities -->
 		<id-04071>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">0</ability_level>
@@ -5648,7 +5648,7 @@
 			<type type="string">Main action</type>
 		</id-04055>
 
-	<!-- Null Abilities -->
+		<!-- Null Abilities -->
 		<id-05001>
 				<ability>
 					<characteristic>
@@ -6663,7 +6663,7 @@
 				<type type="string">Main action</type>
 			</id-05047>
 
-	<!-- Shadow Abilities -->
+		<!-- Shadow Abilities -->
 		<id-06002>
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Insight</ability_cost_string>
@@ -8128,7 +8128,7 @@
 			<type type="string">Main Action</type>
 		</id-06020> -->
 
-	<!-- Tactician Abilities -->
+		<!-- Tactician Abilities -->
 		<id-07019>
 			<effect type="string">Additionally, if you have 24 hours or more before a combat encounter or negotiation, and you have one or more clues or rumors regarding the encounter or negotiation, you can make a Reason test as a respite activity.</effect>
 			<ability_cost type="number">0</ability_cost>
@@ -9079,7 +9079,7 @@
 
 		
 
-	<!-- Talent Abilities -->
+		<!-- Talent Abilities -->
 		<id-08121>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">0</ability_level>
@@ -10225,7 +10225,7 @@
 			<tier3 type="string">[R]&lt;[STRONG], frightened (save ends)</tier3>
 		</id-08032>
 
-	<!-- Troubadour Abilities -->
+		<!-- Troubadour Abilities -->
 		<id-09101>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
@@ -11801,7 +11801,7 @@
 				<type type="string">Main Action</type>
 			</id-09057> -->
 
-	<!-- MISC Abilities -->
+		<!-- MISC Abilities -->
 		<id-00001>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">0</ability_level>
@@ -12649,6 +12649,317 @@
 						<level />
 						<name type="string">Heroic Abilities</name>
 					</id-00008>
+					<id-00009>
+						<featureext type="formattedtext">
+							<p>You gain one interpersonal, lore, or supernatural perk of your choice.</p>
+							<p>See Chapter 7: Perks..</p>
+						</featureext>
+						<featurelevel type="number">2</featurelevel>
+						<name type="string">Perk</name>
+					</id-00009>
+					<id-00010>
+						<featureext type="formattedtext">
+							<p>Choose one heroic ability from the following options, each of which costs 7 wrath to use.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-01109">Ability: Edict of Disruptive Isolation (7 Wrath)</link>
+								<link class="ability" recordname="ability.id-01110">Ability: Edict of Perfect Order (7 Wrath)</link>
+								<link class="ability" recordname="ability.id-01111">Ability: Edict of Purifying Pacifism (7 Wrath)</link>
+								<link class="ability" recordname="ability.id-01112">Ability: Edict of Stillness (7 Wrath)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">3</featurelevel>
+						<name type="string">7-Wrath Ability</name>
+					</id-00010>
+					<id-00011>
+						<featureext type="formattedtext">
+							<p>Your Might and Presence scores each increase to 3.</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Characteristic Increase</name>
+					</id-00011>
+					<id-00012>
+						<featureext type="formattedtext">
+							<p>You gain one perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Perk</name>
+					</id-00012>
+					<id-00013>
+						<featureext type="formattedtext">
+							<p>Each time you finish a respite, you can choose one hero&#8217;s weapon, including your own, to channel supernatural power as an implement of your god&#8217;s wrath. The weapon becomes magic and gains the following benefits until your next respite:</p>
+							<list>
+								<li>Strikes with the weapon deal extra holy damage equal to the wielder&#8217;s highest characteristic score.</li>
+								<li>Any creature struck by the weapon who has holy weakness and has P&#60;Strong is frightened and weakened (save ends).</li>
+								<li>Any minion targeted by a strike using the weapon dies. That minion&#8217;s Stamina maximum is removed from the minion Stamina pool before any damage is applied to the rest of the squad.</li>
+								<li>The weapon&#8217;s wielder can&#8217;t be made frightened.</li>
+							</list>
+						</featureext>
+						<featurelevel type="number">6</featurelevel>
+						<name type="string">Implement of Wrath</name>
+					</id-00013>
+					<id-00014>
+						<featureext type="formattedtext">
+							<p>You gain one interpersonal, lore, or supernatural perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">6</featurelevel>
+						<name type="string">Perk</name>
+					</id-00014>
+					<id-00015>
+						<featureext type="formattedtext">
+							<p>You gain one skill of your choice. See Skills in Chapter 9: Tests.</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Skill</name>
+					</id-00015>
+					<id-00016>
+						<featureext type="formattedtext">
+							<p>The first time each combat round that you deal damage to a creature judged by you, you gain 2 wrath instead of 1</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Wrath Beyond Wrath</name>
+					</id-00016>
+					<id-00017>
+						<featureext type="formattedtext">
+							<p>You gain a domain feature from your domain, as shown on the 4th-Level Censor Domain Features table.</p>
+							<table>
+								<tr>
+									<td>
+										<b>Domain</b>
+									</td>
+									<td colspan="2">
+										<b>Feature</b>
+									</td>
+								</tr>
+								<tr>
+									<td>Creation</td>
+									<td colspan="2">Improved Hands of the Maker</td>
+								</tr>
+								<tr>
+									<td>Death</td>
+									<td colspan="2">Seance</td>
+								</tr>
+								<tr>
+									<td>Fate</td>
+									<td colspan="2">Oracular Warning</td>
+								</tr>
+								<tr>
+									<td>Knowledge</td>
+									<td colspan="2">Saint&#8217;s Epiphany</td>
+								</tr>
+								<tr>
+									<td>Life</td>
+									<td colspan="2">Blessing of Life</td>
+								</tr>
+								<tr>
+									<td>Love</td>
+									<td colspan="2">Invocation of the Heart</td>
+								</tr>
+								<tr>
+									<td>Nature</td>
+									<td colspan="2">Wode Road</td>
+								</tr>
+								<tr>
+									<td>Protection</td>
+									<td colspan="2">Impervious Touch</td>
+								</tr>
+								<tr>
+									<td>Storm</td>
+									<td colspan="2">Windwalk</td>
+								</tr>
+								<tr>
+									<td>Sun</td>
+									<td colspan="2">Light of Revelation</td>
+								</tr>
+								<tr>
+									<td>Trickery</td>
+									<td colspan="2">Blessing of Secrets</td>
+								</tr>
+								<tr>
+									<td>War</td>
+									<td colspan="2">Improved Sanctified Weapon</td>
+								</tr>
+							</table>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">4th-Level Censor Domain Feature</name>
+					</id-00017>
+					<id-00018>
+						<featureext type="formattedtext">
+							<p>Choose one heroic ability from the following options, each of which costs 9 wrath to use.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-01114">Ability: Gods Grant Thee Strength (9 Wrath)</link>
+								<link class="ability" recordname="ability.id-01115">Ability: Orison of Victory (9 Wrath)</link>
+								<link class="ability" recordname="ability.id-01116">Ability: Righteous Judgment (9 Wrath)</link>
+								<link class="ability" recordname="ability.id-01117">Ability: Shield of the Righteous (9 Wrath)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">5</featurelevel>
+						<name type="string">9-Wrath Ability</name>
+					</id-00018>
+					<id-00019>
+						<featureext type="formattedtext">
+							<p>Each of your characteristic scores increases by 1, to a maximum of 4</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">Characteristic Increase</name>
+					</id-00019>
+					<id-00020>
+						<featureext type="formattedtext">
+							<p>You gain a domain feature from your domain, as shown on the 7th-Level Censor Domain Features table.</p>
+							<table>
+								<tr>
+									<td>
+										<b>Domain</b>
+									</td>
+									<td colspan="2">
+										<b>Feature</b>
+									</td>
+								</tr>
+								<tr>
+									<td>Creation</td>
+									<td colspan="2">Divine Quartermaster</td>
+								</tr>
+								<tr>
+									<td>Death</td>
+									<td colspan="2">Word of Death Deferred</td>
+								</tr>
+								<tr>
+									<td>Fate</td>
+									<td colspan="2">Word of Fate Denied</td>
+								</tr>
+								<tr>
+									<td>Knowledge</td>
+									<td colspan="2">Gods&#8217; Library</td>
+								</tr>
+								<tr>
+									<td>Life</td>
+									<td colspan="2">Font of Grace</td>
+								</tr>
+								<tr>
+									<td>Love</td>
+									<td colspan="2">Covenant of the Heart</td>
+								</tr>
+								<tr>
+									<td>Nature</td>
+									<td colspan="2">Nature&#8217;s Bounty</td>
+								</tr>
+								<tr>
+									<td>Protection</td>
+									<td colspan="2">Blessing of Iron</td>
+								</tr>
+								<tr>
+									<td>Storm</td>
+									<td colspan="2">Ride the Lightning</td>
+								</tr>
+								<tr>
+									<td>Sun</td>
+									<td colspan="2">Light of the Burning Sun</td>
+								</tr>
+								<tr>
+									<td>Trickery</td>
+									<td colspan="2">Trinity of Trickery</td>
+								</tr>
+								<tr>
+									<td>War</td>
+									<td colspan="2">Your Triumphs Are Remembered</td>
+								</tr>
+							</table>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">7th-Level Censor Domain Feature</name>
+					</id-00020>
+					<id-00021>
+						<featureext type="formattedtext">
+							<p>When you gain wrath at the start of each of your turns during combat, you gain 3 wrath instead of 2.</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">Focused Wrath</name>
+					</id-00021>
+					<id-00022>
+						<featureext type="formattedtext">
+							<p>You gain one skill of your choice.</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">Skill</name>
+					</id-00022>
+					<id-00023>
+						<featureext type="formattedtext">
+							<p>You gain one perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">8</featurelevel>
+						<name type="string">Perk</name>
+					</id-00023>
+					<id-00024>
+						<featureext type="formattedtext">
+							<p>Choose one heroic ability from the following options, each of which costs 11 wrath to use.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-01121">Ability: Excommunication (11 Wrath)</link>
+								<link class="ability" recordname="ability.id-01125">Ability: Hand of the Gods (11 Wrath)</link>
+								<link class="ability" recordname="ability.id-01126">Ability: Pillar of Holy Fire (11 Wrath)</link>
+								<link class="ability" recordname="ability.id-01130">Ability: Your Allies Turn on You! (11 Wrath)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">8</featurelevel>
+						<name type="string">11-Wrath Ability</name>
+					</id-00024>
+					<id-00025>
+						<featureext type="formattedtext">
+							<p>The weapon you target with your Implement of Wrath feature gains the following additional benefits:</p>
+							<list>
+								<li>The weapon&#8217;s wielder and each ally adjacent to them gain a +2 bonus to saving throws.</li>
+								<li>At the end of each of the weapon wielder&#8217;s turns, each ally adjacent to the wielder makes a saving throw against each effect on them that is ended by a saving throw.</li>
+								<li>The weapon&#8217;s wielder has corruption immunity 10.</li>
+							</list>
+						</featureext>
+						<featurelevel type="number">9</featurelevel>
+						<name type="string">Improved Implement of Wrath</name>
+					</id-00025>
+					<id-00026>
+						<featureext type="formattedtext">
+							<p>Your Might and Presence scores each increase to 5.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Characteristic Increase</name>
+					</id-00026>
+					<id-00027>
+						<featureext type="formattedtext">
+							<p>You gain one crafting, lore, or supernatural perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Perk</name>
+					</id-00027>
+					<id-00028>
+						<featureext type="formattedtext">
+							<p>You gain one skill of your choice.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Skill</name>
+					</id-00028>
+					<id-00029>
+						<featureext type="formattedtext">
+							<p>You are the ultimate representation of your god&#8217;s justice in the timescape. Whenever you use your Judgment ability, you can use a free triggered action to use a conduit domain effect (see Domain Piety and Effects in the Conduit section) associated with your chosen domain, or a domain you access with virtue (see below). If the effect calls for the use of your Intuition score, you use your Presence score instead. If the effect uses your conduit level, use your censor level instead.</p>
+							<p>Additionally, whenever you take a respite, you can open a portal to rest in the presence of your deity and bring along any allies. When you do, you can ask your deity three questions, which the Director must answer honestly if your deity knows the answers (though they might answer cryptically or incompletely). When you finish your respite, you and your allies can appear at any location in the timescape where someone worships your deity.</p>
+							<p>While you rest in their presence, your god might also give you priority targets to enact justice upon. You and your allies each have a double edge on power rolls made against such targets. If you attempt to open a portal to your deity again before you have defeated your priority targets, you suffer your god&#8217;s wrath, as determined by the Director.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Templar</name>
+					</id-00029>
+					<id-00030>
+						<featureext type="formattedtext">
+							<p>You have an epic resource called virtue. Each time you finish a respite, you gain virtue equal to the XP you gain. You can spend virtue on your abilities as if it were wrath.</p>
+							<p>Additionally, you can spend 3 virtue to access one of your deity&#8217;s domains that you usually don&#8217;t have access to. When you do, you can use that domain&#8217;s features until you finish another respite.</p>
+							<p>Virtue remains until you spend it.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Virtue</name>
+					</id-00030>
+					<id-00031>
+						<featureext type="formattedtext">
+							<p>When you gain wrath at the start of each of your turns during combat, you gain 4 wrath instead of 3.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Wrath of the Gods</name>
+					</id-00031>
 				</features>
 				<name type="string">Censor</name>
 				<notes type="formattedtext">
@@ -13748,6 +14059,686 @@
 							<p>You can change your prayer along with your ward (see Conduit Ward below) by praying to your god as a respite activity. (Quick Build: Prayer of Distance.)</p>
 						</text>
 					</id-00034>
+					<id-00035>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">War Domain</choicetype>
+						<level type="number">2</level>
+						<name type="string">Blessing of Insight (5 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02076">Ability: Blessing of Insight (5 Piety)</link>
+							</linklist>
+						</text>
+					</id-00035>
+					<id-00036>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Trickery Domain</choicetype>
+						<level type="number">2</level>
+						<name type="string">Divine Comedy (5 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02077">Ability: Divine Comedy (5 Piety)</link>
+							</linklist>
+						</text>
+					</id-00036>
+					<id-00037>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Knowledge Domain</choicetype>
+						<level type="number">2</level>
+						<name type="string">The Gods Command You Obey (5 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02078">Ability: The Gods Command You Obey (5 Piety)</link>
+							</linklist>
+						</text>
+					</id-00037>
+					<id-00038>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Sun Domain</choicetype>
+						<level type="number">2</level>
+						<name type="string">Morning Light (5 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02079">Ability: Morning Light (5 Piety)</link>
+							</linklist>
+						</text>
+					</id-00038>
+					<id-00039>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Nature Domain</choicetype>
+						<level type="number">2</level>
+						<name type="string">Nature Judges Thee (5 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02080">Ability: Nature Judges Thee (5 Piety)</link>
+							</linklist>
+						</text>
+					</id-00039>
+					<id-00040>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Love Domain</choicetype>
+						<level type="number">2</level>
+						<name type="string">Our Hearts Your Strength (5 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02081">Ability: Our Hearts Your Strength (5 Piety)</link>
+							</linklist>
+						</text>
+					</id-00040>
+					<id-00041>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Death Domain</choicetype>
+						<level type="number">2</level>
+						<name type="string">Reap (5 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02082">Ability: Reap (5 Piety)</link>
+							</linklist>
+						</text>
+					</id-00041>
+					<id-00042>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Protection Domain</choicetype>
+						<level type="number">2</level>
+						<name type="string">Sacred Bond (5 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02083">Ability: Sacred Bond (5 Piety)</link>
+							</linklist>
+						</text>
+					</id-00042>
+					<id-00043>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Storm Domain</choicetype>
+						<level type="number">2</level>
+						<name type="string">Saint’s Tempest (5 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02084">Ability: Saint&#8217;s Tempest (5 Piety)</link>
+							</linklist>
+						</text>
+					</id-00043>
+					<id-00044>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Creation Domain</choicetype>
+						<level type="number">2</level>
+						<name type="string">Statue of Power (5 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02085">Ability: Statue of Power (5 Piety)</link>
+							</linklist>
+						</text>
+					</id-00044>
+					<id-00045>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Life Domain</choicetype>
+						<level type="number">2</level>
+						<name type="string">Wellspring of Grace (5 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02086">Ability: Wellspring of Grace (5 Piety)</link>
+							</linklist>
+						</text>
+					</id-00045>
+					<id-00046>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Creation Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Divine Dragon (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02115">Ability: Divine Dragon (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00046>
+					<id-00047>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Creation Domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Improved Hands of the Maker</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>When you use your Hands of the Maker ability, you can create a mundane object that is size 2 or smaller.</p>
+						</text>
+					</id-00047>
+					<id-00048>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Death Domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Séance</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>You can commune with a network of spirits. As a respite activity, you speak the name of a creature who died and isn&#8217;t undead. If the creature&#8217;s spirit is free and willing to speak with you, they appear and you can have a conversation with them. During this time, the creature responds to you as they would have in life. If the creature isn&#8217;t free or willing to appear, you can speak another name or choose another respite activity.</p>
+						</text>
+					</id-00048>
+					<id-00049>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Fate Domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Oracular Warning</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>Each time you finish a respite, you can share the vague dreams of the future granted to you by the gods with allies who finished the respite with you. These premonitions help you and your allies stay alive, granting each of you temporary Stamina equal to 10 + your level that lasts until you finish a respite.</p>
+						</text>
+					</id-00049>
+					<id-00050>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Knowledge Domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Saint’s Epiphany</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>At the start of a respite, you can inspire yourself or another creature taking the same respite with divine knowledge. If the target makes a project roll during this respite, they can add 1d10 plus your Intuition score to the roll.</p>
+						</text>
+					</id-00050>
+					<id-00051>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Life Domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Blessing of Life</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>Your divine presence causes those you deem worthy to recover quickly from a fight. Whenever an ally within distance of your Healing Grace ability regains Stamina, they regain additional Stamina equal to your Intuition score.</p>
+						</text>
+					</id-00051>
+					<id-00052>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Love domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Invocation of the Heart</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>As a main action, you forge a bond of love and friendship with a willing creature you touch. While this bond is active, you can telepathically speak with the creature over any distance, including across different worlds. Additionally, while this bond is active, you can attempt to assist the creature with any test they make regardless of their proximity to you. You can maintain only one bond at a time, and you can end a bond at any time (no action required).</p>
+						</text>
+					</id-00052>
+					<id-00053>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Sun Domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Light of Revelation</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>As a maneuver, you make your body shine brightly, illuminating your space and each square within 5 squares. This light shines through any darkness. Hidden creatures in the area are automatically revealed, and creatures in the light, including you, can&#8217;t hide. While this feature is active, you gain an edge on tests made to notice hidden objects and entrances and to detect supernatural illusions.</p>
+						</text>
+					</id-00053>
+					<id-00054>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Nature Domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Wode Road</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>As a main action, you touch a living tree and make it part of a divine transportation network. You can maintain a number of trees in your network equal to your Intuition score. Whenever you touch any tree in your network, you can use a main action to teleport yourself and any willing creatures within 10 squares of you to a tree in your network on the same world. If a tree in your network dies, it is no longer part of the network. You can remove a tree from your network no matter your distance from it, including across different worlds (no action required).</p>
+						</text>
+					</id-00054>
+					<id-00055>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Protection Domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Impervious Touch</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>As a maneuver, you can touch an object with a size equal to your Intuition score or smaller and place a protective spell on it. The object has immunity all to untyped damage. You can maintain this spell on a number of objects equal to your Intuition score, and you can end the spell on any object at any time (no action required).</p>
+							<p>Additionally, you can place this spell on a building or vehicle (or a similar structure with the Director&#8217;s approval) that is of a size larger than your Intuition score. You can place the spell on only one such target at a time, and you can maintain the spell on a larger target and a number of objects equal to your Intuition score simultaneously.</p>
+						</text>
+					</id-00055>
+					<id-00056>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Storm Domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Windwalk</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>While you have 5 or more Victories, you can fly. If you can already fly, you have a +2 bonus to speed while flying instead.</p>
+						</text>
+					</id-00056>
+					<id-00057>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Trickery Domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Blessing of Secrets</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>You have the following ability</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-02091">Ability: Blessing of Secrets</link>
+							</linklist>
+						</text>
+					</id-00057>
+					<id-00058>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">War Domain</choicetype>
+						<level type="number">4</level>
+						<name type="string">Improved Sanctified Weapon</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>The weapon improved by your Sanctified Weapon feature grants a +3 bonus to rolled damage instead of +1.</p>
+						</text>
+					</id-00058>
+					<id-00059>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Death Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Word of Final Redemption (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02117">Ability: Word of Final Redemption (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00059>
+					<id-00060>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Death Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Aura of Souls (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02055">Ability: Aura of Souls (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00060>
+					<id-00061>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">War Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Blade of the Heavens (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02056">Ability: Blade of the Heavens (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00061>
+					<id-00062>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Sun Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Blessing of the Midday Sun (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02057">Ability: Blessing of the Midday Sun (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00062>
+					<id-00063>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Protection Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Cuirass of the Gods (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02058">Ability: Cuirass of the Gods (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00063>
+					<id-00064>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Creation Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Gods’ Machine (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02059">Ability: Gods&#8217; Machine (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00064>
+					<id-00065>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Trickery Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Invocation of Mystery (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02060">Ability: Invocation of Mystery (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00065>
+					<id-00066>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Knowledge Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Invocation of Undoing (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02061">Ability: Invocation of Undoing (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00066>
+					<id-00067>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Love Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Lauded by God (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02062">Ability: Lauded by God (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00067>
+					<id-00068>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Storm Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Lightning Lord (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02063">Ability: Lightning Lord (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00068>
+					<id-00069>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Life Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Revitalizing Grace (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02064">Ability: Revitalizing Grace (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00069>
+					<id-00070>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Nature Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Spirit Stampede (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02065">Ability: Spirit Stampede (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00070>
+					<id-00071>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Fate Domain</choicetype>
+						<level type="number">6</level>
+						<name type="string">Your Story Ends Here (9 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02066">Ability: Your Story Ends Here (9 Piety)</link>
+							</linklist>
+						</text>
+					</id-00071>
+					<id-00072>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Creation Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Divine Quartermaster</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>Each time you finish a respite, you can choose a treasure with a project goal equal to 50 times your level or less. You gain a divine version of this treasure that lasts until you finish another respite or it is consumed.</p>
+						</text>
+					</id-00072>
+					<id-00073>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Death Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Word of Death Deferred</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>You can stop death from taking your allies. When an ally within distance of your Healing Grace ability dies and you are not dying, you can use a free triggered action to instead have that ally fall unconscious until they regain Stamina.</p>
+							<p>Additionally, your abilities deal an extra 5 damage to winded creatures.</p>
+						</text>
+					</id-00073>
+					<id-00074>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Fate Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Word of Fate Denied</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>When an ally within 10 squares takes damage that would leave them dying, you can use a free triggered action to make yourself or another willing creature within 10 squares of you the target of the triggering damage instead. The creature you choose takes the damage and suffers any effects associated with it, and that damage can&#8217;t be reduced in any way.</p>
+						</text>
+					</id-00074>
+					<id-00075>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Knowledge Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Gods’ Library</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>You can gain access to information you need through prayer, so that you no longer require research materials for crafting and research projects (see Chapter 12: Downtime Projects). Additionally, you add your level to project rolls you make for crafting and research projects. You also have any skills in the lore skill group you don&#8217;t already have, and you gain a number of skills from any other skill groups equal to the number of skills you had in the lore skill group before you gained this feature.</p>
+						</text>
+					</id-00075>
+					<id-00076>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Life Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Font of Grace</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>Each time you use your Healing Grace ability, you gain 1 piety that can be spent only on that ability during the same turn. If you don&#8217;t use this piety, it is lost. Additionally, you can use your Minor Miracle feature to return a creature to life even if you don&#8217;t have their remains.</p>
+						</text>
+					</id-00076>
+					<id-00077>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Love Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Covenant of the Heart</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>You can maintain bonds with up to three willing creatures using your Invocation of the Heart feature. Additionally, you have the following ability.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-02108">Ability: Guided to Your Side (Conduit)</link>
+							</linklist>
+						</text>
+					</id-00077>
+					<id-00078>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Nature Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Nature’s Bounty</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>When you finish a respite, you can prepare a magic meal using local flora for any companions who rested with you. Choose two of the following benefits for creatures who consume the meal:</p>
+							<list>
+								<li>Each creature gains immunity to acid, cold, corruption, fire, lightning, poison, or sonic damage equal to your level. You can choose this benefit twice, choosing a different damage immunity each time.</li>
+								<li>Each creature gains 20 temporary Stamina.</li>
+								<li>Each creature gains a +1 bonus to speed.</li>
+								<li>Each creature gains a +1 bonus to saving throws.</li>
+								<li>Each creature gains an edge on tests made to influence other creatures.</li>
+							</list>
+							<p>Each benefit lasts until the creature who gains it finishes another respite.</p>
+						</text>
+					</id-00078>
+					<id-00079>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Sun Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Light of the Burning Sun</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>Sun infuses your body. Whenever you use an ability to deal rolled damage to another creature, that ability deals an extra 5 fire damage, or an extra 15 fire damage if the creature is undead. Additionally, you have fire immunity equal to your level, which is added to any other fire immunity you have.</p>
+						</text>
+					</id-00079>
+					<id-00080>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Trickery Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Trinity of Trickery</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>You have the following ability.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-02109">Ability: Trinity of Trickery (9 Piety) (Conduit)</link>
+							</linklist>
+						</text>
+					</id-00080>
+					<id-00081>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">War Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Your Triumphs are Remembered</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>The gods allow you and your companions to bask in the glory of past successes. Whenever you finish a respite, you and any other heroes who rested with you regain 1 Victory after your Victories are converted to XP. This Victory isn&#8217;t converted into XP at the end of a subsequent respite.</p>
+						</text>
+					</id-00081>
+					<id-00082>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Fate Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Bend Fate (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02118">Ability: Bend Fate (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00082>
+					<id-00083>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Knowledge Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Word of Weakening (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02001">Ability: Word of Weakening (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00083>
+					<id-00084>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Life Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Radiance of Grace (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02002">Ability: Radiance of Grace (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00084>
+					<id-00085>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Love Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Alacrity of the Heart (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02003">Ability: Alacrity of the Heart (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00085>
+					<id-00086>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Nature Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Thorn Cage (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02004">Ability: Thorn Cage (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00086>
+					<id-00087>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Storm Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Godstorm (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02006">Ability: Godstorm (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00087>
+					<id-00088>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Protection Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Blessing of the Fortress (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02005">Ability: Blessing of the Fortress (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00088>
+					<id-00089>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Sun Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Solar Flare (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02007">Ability: Solar Flare (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00089>
+					<id-00090>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Trickery Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Night Falls (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02008">Ability: Night Falls (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00090>
+					<id-00091>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">War Domain</choicetype>
+						<level type="number">9</level>
+						<name type="string">Righteous Phalanx (11 Piety)</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<linklist>
+								<link class="ability" recordname="ability.id-02009">Ability: Righteous Phalanx (11 Piety)</link>
+							</linklist>
+						</text>
+					</id-00091>
+					<id-00092>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Protection Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Blessing of Iron</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>The gods send divine favor to you and your allies. While you are not dying, enemies take a bane on strikes against you or any ally within 3 squares of you.</p>
+						</text>
+					</id-00092>
+					<id-00093>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Storm Domain</choicetype>
+						<level type="number">7</level>
+						<name type="string">Thunderstruck</name>
+						<prerequisite type="string">Conduit</prerequisite>
+						<text type="formattedtext">
+							<p>Lightning and thunder infuse your body. Whenever you use an ability to deal lightning or sonic damage to another creature, you gain 1 surge. </p>
+							<p>Additionally, if you use an ability that force moves a creature, the forced movement distance gains a bonus equal to your Intuition score. </p>
+						</text>
+					</id-00093>
 				</featurechoices>
 				<features>
 					<id-00001>
@@ -13967,6 +14958,543 @@
 						<featurelevel type="number">1</featurelevel>
 						<name type="string">Heroic Abilities</name>
 					</id-00012>
+					<id-00013>
+						<featureext type="formattedtext">
+							<p>You gain one crafting, lore, or supernatural perk of your choice. See Chapter 7: Perks.</p>
+						</featureext>
+						<featurelevel type="number">2</featurelevel>
+						<name type="string">Perk</name>
+					</id-00013>
+					<id-00014>
+						<featureext type="formattedtext">
+							<p>You gain the 1st-level domain feature and ability to choose a skill for the domain you selected at 1st level but whose domain feature you didn&#8217;t take at that level (see 1st-Level Domain Feature).</p>
+						</featureext>
+						<featurelevel type="number">2</featurelevel>
+						<name type="string">2nd-Level Domain Feature</name>
+					</id-00014>
+					<id-00015>
+						<featureext type="formattedtext">
+							<p>Choose one of your domains. You gain a heroic ability from that domain, as shown on the 2nd-Level Conduit Domain Abilities table.</p>
+							<table>
+								<tr>
+									<td>
+										<b>Domain</b>
+									</td>
+									<td colspan="2">
+										<b>Feature</b>
+									</td>
+								</tr>
+								<tr>
+									<td>Creation</td>
+									<td colspan="2">Statue of Power</td>
+								</tr>
+								<tr>
+									<td>Death</td>
+									<td colspan="2">Reap</td>
+								</tr>
+								<tr>
+									<td>Fate</td>
+									<td colspan="2">Blessing of Fate and Destiny</td>
+								</tr>
+								<tr>
+									<td>Knowledge</td>
+									<td colspan="2">The Gods Command You Obey</td>
+								</tr>
+								<tr>
+									<td>Life</td>
+									<td colspan="2">Wellspring of Grace</td>
+								</tr>
+								<tr>
+									<td>Love</td>
+									<td colspan="2">Our Hearts Your Strength</td>
+								</tr>
+								<tr>
+									<td>Nature</td>
+									<td colspan="2">Nature Judges Thee</td>
+								</tr>
+								<tr>
+									<td>Protection</td>
+									<td colspan="2">Sacred Bond</td>
+								</tr>
+								<tr>
+									<td>Storm</td>
+									<td colspan="2">Saint&#8217;s Tempest</td>
+								</tr>
+								<tr>
+									<td>Sun</td>
+									<td colspan="2">Morning Light</td>
+								</tr>
+								<tr>
+									<td>Trickery</td>
+									<td colspan="2">Divine Comedy</td>
+								</tr>
+								<tr>
+									<td>War</td>
+									<td colspan="2">Blessing of Insight</td>
+								</tr>
+							</table>
+						</featureext>
+						<featurelevel type="number">2</featurelevel>
+						<name type="string">2nd-Level Domain Ability</name>
+					</id-00015>
+					<id-00016>
+						<featureext type="formattedtext">
+							<p>As a respite activity, you can perform a religious ritual and beseech the gods to restore a dead creature to life. You must have at least half the creature&#8217;s remains, and they must have died within the last 24 hours from an effect that isn&#8217;t age related. The creature&#8217;s soul must be willing to return to life for the ritual to work. If they are not willing, you instinctively understand that as you start the respite activity and can cease it immediately.</p>
+							<p>A creature with a willing soul returns to life at the end of the respite with full Stamina and half their Recoveries. You regain only half your Recoveries at the end of the respite.</p>
+						</featureext>
+						<featurelevel type="number">3</featurelevel>
+						<name type="string">Minor Miracle</name>
+					</id-00016>
+					<id-00017>
+						<featureext type="formattedtext">
+							<p>Choose one heroic ability from the following options, each of which costs 7 piety to use.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-02087">Ability: Fear of the Gods (7 Piety)</link>
+								<link class="ability" recordname="ability.id-02088">Ability: Saint&#8217;s Raiment (7 Piety)</link>
+								<link class="ability" recordname="ability.id-02089">Ability: Soul Siphon (7 Piety)</link>
+								<link class="ability" recordname="ability.id-02090">Ability: Words of Wrath and Grace (7 Piety)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">3</featurelevel>
+						<name type="string">7-Piety Ability</name>
+					</id-00017>
+					<id-00018>
+						<featureext type="formattedtext">
+							<p>Whenever you gain piety from a domain feature, you gain 1 additional piety.</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Blessed Domain</name>
+					</id-00018>
+					<id-00019>
+						<featureext type="formattedtext">
+							<p>Your Intuition score increases to 3. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 3.</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Characteristic Increase</name>
+					</id-00019>
+					<id-00020>
+						<featureext type="formattedtext">
+							<p>You gain one perk of your choice</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Perk</name>
+					</id-00020>
+					<id-00021>
+						<featureext type="formattedtext">
+							<p>You gain one skill of your choice. See Skills in Chapter 9: Tests</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">Skill</name>
+					</id-00021>
+					<id-00022>
+						<featureext type="formattedtext">
+							<p>Choose one of your domains. You gain a domain feature for that domain, as shown on the 4th-Level Conduit Domain Features table.</p>
+							<table>
+								<tr>
+									<td>
+										<b>Domain</b>
+									</td>
+									<td colspan="2">
+										<b>Feature</b>
+									</td>
+								</tr>
+								<tr>
+									<td>Creation</td>
+									<td colspan="2">Improved Hands of the Maker</td>
+								</tr>
+								<tr>
+									<td>Death</td>
+									<td colspan="2">S&#233;ance</td>
+								</tr>
+								<tr>
+									<td>Fate</td>
+									<td colspan="2">Oracular Warning</td>
+								</tr>
+								<tr>
+									<td>Knowledge</td>
+									<td colspan="2">Saint&#8217;s Epiphany</td>
+								</tr>
+								<tr>
+									<td>Life</td>
+									<td colspan="2">Blessing of Life</td>
+								</tr>
+								<tr>
+									<td>Love</td>
+									<td colspan="2">Invocation of the Heart</td>
+								</tr>
+								<tr>
+									<td>Nature</td>
+									<td colspan="2">Wode Road</td>
+								</tr>
+								<tr>
+									<td>Protection</td>
+									<td colspan="2">Impervious Touch</td>
+								</tr>
+								<tr>
+									<td>Storm</td>
+									<td colspan="2">Windwalk</td>
+								</tr>
+								<tr>
+									<td>Sun</td>
+									<td colspan="2">Light of Revelation</td>
+								</tr>
+								<tr>
+									<td>Trickery</td>
+									<td colspan="2">Blessing of Secrets</td>
+								</tr>
+								<tr>
+									<td>War</td>
+									<td colspan="2">Improved Sanctified Weapon</td>
+								</tr>
+							</table>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">4th-Level Domain Feature</name>
+					</id-00022>
+					<id-00023>
+						<featureext type="formattedtext">
+							<p>You gain the 4th-level domain feature for the domain whose feature you didn&#8217;t select at that level (see 4th-Level Domain Feature).</p>
+						</featureext>
+						<featurelevel type="number">5</featurelevel>
+						<name type="string">5th-Level Domain Feature</name>
+					</id-00023>
+					<id-00024>
+						<featureext type="formattedtext">
+							<p>Choose one heroic ability from the following options, each of which costs 9 piety to use.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-02092">Ability: Beacon of Grace (9 Piety)</link>
+								<link class="ability" recordname="ability.id-02093">Ability: Penance (9 Piety)</link>
+								<link class="ability" recordname="ability.id-02094">Ability: Sanctuary (9 Piety)</link>
+								<link class="ability" recordname="ability.id-02095">Ability: Vessel of Retribution (9 Piety)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">5</featurelevel>
+						<name type="string">9-Piety Ability</name>
+					</id-00024>
+					<id-00025>
+						<featureext type="formattedtext">
+							<p>You are infused with the power your deity reserves for their most worthy instruments. You have the following benefits:</p>
+							<list>
+								<li>You gain an edge on Presence tests made to interact with other creatures.</li>
+								<li>Whenever you deal damage to an enemy, you can spend a Recovery.</li>
+								<li>You have corruption immunity 10 or holy immunity 10 (your choice).</li>
+								<li>Your clothing and equipment changes in a way that reflects your status as your deity&#8217;s chosen champion, such as ordinary robes turning into gold vestments or a simple dagger becoming a wicked blade with intricate etching</li>
+							</list>
+						</featureext>
+						<featurelevel type="number">6</featurelevel>
+						<name type="string">Burgeoning Saint</name>
+					</id-00025>
+					<id-00026>
+						<featureext type="formattedtext">
+							<p>You gain one crafting, lore, or supernatural perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">6</featurelevel>
+						<name type="string">Perk</name>
+					</id-00026>
+					<id-00027>
+						<featureext type="formattedtext">
+							<p>Choose one of your domains. You gain a heroic ability from that domain, as shown on the 6th-Level Conduit Domain Abilities table.</p>
+							<table>
+								<tr>
+									<td>
+										<b>Domain</b>
+									</td>
+									<td colspan="2">
+										<b>Ability</b>
+									</td>
+								</tr>
+								<tr>
+									<td>Creation</td>
+									<td colspan="2">Gods&#8217; Machine</td>
+								</tr>
+								<tr>
+									<td>Death</td>
+									<td colspan="2">Aura of Souls</td>
+								</tr>
+								<tr>
+									<td>Fate</td>
+									<td colspan="2">Your Story Ends Here</td>
+								</tr>
+								<tr>
+									<td>Knowledge</td>
+									<td colspan="2">Invocation of Undoing</td>
+								</tr>
+								<tr>
+									<td>Life</td>
+									<td colspan="2">Revitalizing Grace</td>
+								</tr>
+								<tr>
+									<td>Love</td>
+									<td colspan="2">Lauded by God</td>
+								</tr>
+								<tr>
+									<td>Nature</td>
+									<td colspan="2">Spirit Stampede</td>
+								</tr>
+								<tr>
+									<td>Protection</td>
+									<td colspan="2">Cuirass of the Gods</td>
+								</tr>
+								<tr>
+									<td>Storm</td>
+									<td colspan="2">Lightning Lord</td>
+								</tr>
+								<tr>
+									<td>Sun</td>
+									<td colspan="2">Blessing of the Midday Sun</td>
+								</tr>
+								<tr>
+									<td>Trickery</td>
+									<td colspan="2">Invocation of Mystery</td>
+								</tr>
+								<tr>
+									<td>War</td>
+									<td colspan="2">Blade of the Heavens</td>
+								</tr>
+							</table>
+						</featureext>
+						<featurelevel type="number">6</featurelevel>
+						<name type="string">6th-Level Domain Ability</name>
+					</id-00027>
+					<id-00028>
+						<featureext type="formattedtext">
+							<p>Each of your characteristic scores increases by 1, to a maximum of 4.</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">Characteristic Increase</name>
+					</id-00028>
+					<id-00029>
+						<featureext type="formattedtext">
+							<p>When you roll for piety at the start of your turn in combat, you gain 1d3 + 1 piety.</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">Faithful’s Reward</name>
+					</id-00029>
+					<id-00030>
+						<featureext type="formattedtext">
+							<p>You gain one skill of your choice.</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">Skill</name>
+					</id-00030>
+					<id-00031>
+						<featureext type="formattedtext">
+							<p>Choose one of your domains. You gain a domain feature for that domain, as shown on the 7th-Level Conduit Domain Features table.</p>
+							<table>
+								<tr>
+									<td>
+										<b>Domain</b>
+									</td>
+									<td colspan="2">
+										<b>Feature</b>
+									</td>
+								</tr>
+								<tr>
+									<td>Creation</td>
+									<td colspan="2">Divine Quartermaster</td>
+								</tr>
+								<tr>
+									<td>Death</td>
+									<td colspan="2">Word of Death Deferred</td>
+								</tr>
+								<tr>
+									<td>Fate</td>
+									<td colspan="2">Word of Fate Denied</td>
+								</tr>
+								<tr>
+									<td>Knowledge</td>
+									<td colspan="2">Gods&#8217; Library</td>
+								</tr>
+								<tr>
+									<td>Life</td>
+									<td colspan="2">Font of Grace</td>
+								</tr>
+								<tr>
+									<td>Love</td>
+									<td colspan="2">Covenant of the Heart</td>
+								</tr>
+								<tr>
+									<td>Nature</td>
+									<td colspan="2">Nature&#8217;s Bounty</td>
+								</tr>
+								<tr>
+									<td>Protection</td>
+									<td colspan="2">Blessing of Iron</td>
+								</tr>
+								<tr>
+									<td>Storm</td>
+									<td colspan="2">Thunderstruck</td>
+								</tr>
+								<tr>
+									<td>Sun</td>
+									<td colspan="2">Light of the Burning Sun</td>
+								</tr>
+								<tr>
+									<td>Trickery</td>
+									<td colspan="2">Trinity of Trickery</td>
+								</tr>
+								<tr>
+									<td>War</td>
+									<td colspan="2">Your Triumphs are Remembered</td>
+								</tr>
+							</table>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">7th-Level Domain Feature</name>
+					</id-00031>
+					<id-00032>
+						<featureext type="formattedtext">
+							<p>You gain one perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">8</featurelevel>
+						<name type="string">Perk</name>
+					</id-00032>
+					<id-00033>
+						<featureext type="formattedtext">
+							<p>You gain the 7th-level domain feature for the domain whose feature you didn&#8217;t select at that level (see 7th-Level Domain Feature).</p>
+						</featureext>
+						<featurelevel type="number">8</featurelevel>
+						<name type="string">8th-Level Domain Feature</name>
+					</id-00033>
+					<id-00034>
+						<featureext type="formattedtext">
+							<p>Choose one heroic ability from the following options, each of which costs 11 piety to use.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-02110">Ability: Arise! (11 Piety)</link>
+								<link class="ability" recordname="ability.id-02111">Ability: Blessing of Steel (11 Piety)</link>
+								<link class="ability" recordname="ability.id-02113">Ability: Blessing of the Blade (11 Piety)</link>
+								<link class="ability" recordname="ability.id-02114">Ability: Drag the Unworthy (11 Piety)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">8</featurelevel>
+						<name type="string">11-Piety Ability</name>
+					</id-00034>
+					<id-00035>
+						<featureext type="formattedtext">
+							<p>Each time you finish a respite, you can choose a willing hero ally who finished the respite with you. That ally gains the benefits of your Burgeoning Saint feature until you finish another respite.</p>
+							<p>Additionally, you can spend piety as a free maneuver to give the hero 1 of their Heroic Resource for every 2 piety spent.</p>
+						</featureext>
+						<featurelevel type="number">9</featurelevel>
+						<name type="string">Faith’s Sword</name>
+					</id-00035>
+					<id-00036>
+						<featureext type="formattedtext">
+							<p>Your god elevates the power flowing through you. Your characteristic scores are treated as 1 higher for the purpose of resisting potencies.</p>
+							<p>Additionally, while you have 5 or more Victories, you speak with the voice of your deity. You have a double edge on Presence tests made to influence other creatures.</p>
+						</featureext>
+						<featurelevel type="number">9</featurelevel>
+						<name type="string">Ordained</name>
+					</id-00036>
+					<id-00037>
+						<featureext type="formattedtext">
+							<p>Choose one of your domains. You gain a heroic ability from that domain, as shown on the 9th-Level Conduit Domain Abilities table.</p>
+							<table>
+								<tr>
+									<td>
+										<b>Domain</b>
+									</td>
+									<td colspan="2">
+										<b>Ability</b>
+									</td>
+								</tr>
+								<tr>
+									<td>Creation</td>
+									<td colspan="2">Divine Dragon</td>
+								</tr>
+								<tr>
+									<td>Death</td>
+									<td colspan="2">Word of Final Redemption</td>
+								</tr>
+								<tr>
+									<td>Fate</td>
+									<td colspan="2">Bend Fate</td>
+								</tr>
+								<tr>
+									<td>Knowledge</td>
+									<td colspan="2">Word of Weakening</td>
+								</tr>
+								<tr>
+									<td>Life</td>
+									<td colspan="2">Radiance of Grace</td>
+								</tr>
+								<tr>
+									<td>Love</td>
+									<td colspan="2">Alacrity of the Heart</td>
+								</tr>
+								<tr>
+									<td>Nature</td>
+									<td colspan="2">Thorn Cage</td>
+								</tr>
+								<tr>
+									<td>Protection</td>
+									<td colspan="2">Blessing of the Fortress</td>
+								</tr>
+								<tr>
+									<td>Storm</td>
+									<td colspan="2">Godstorm</td>
+								</tr>
+								<tr>
+									<td>Sun</td>
+									<td colspan="2">Solar Flare</td>
+								</tr>
+								<tr>
+									<td>Trickery</td>
+									<td colspan="2">Night Falls</td>
+								</tr>
+								<tr>
+									<td>War</td>
+									<td colspan="2">Righteous Phalanx</td>
+								</tr>
+							</table>
+						</featureext>
+						<featurelevel type="number">9</featurelevel>
+						<name type="string">9th-Level Domain Ability</name>
+					</id-00037>
+					<id-00038>
+						<featureext type="formattedtext">
+							<p>You are now an avatar of your god! When you use your Prayer feature, you can be affected by up to three prayers at once, and you can change all those prayers and your ward as a respite activity. You can also use a maneuver to activate one of your domain effects (see Domain Piety and Effects) without needing to pray.</p>
+							<p>Additionally, whenever you take a respite, you can open a portal to rest in the presence of your deity and bring along any allies. When you do, you can ask your deity three questions, which the Director must answer honestly if your deity knows the answers (though they might answer cryptically or incompletely). When you finish your respite, you and your allies can appear at any location in the timescape where someone worships your deity.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Avatar</name>
+					</id-00038>
+					<id-00039>
+						<featureext type="formattedtext">
+							<p>Your Intuition score increases to 5. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 5.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Characteristic Increase</name>
+					</id-00039>
+					<id-00040>
+						<featureext type="formattedtext">
+							<p>You have an epic resource called divine power. Each time you finish a respite, you gain divine power equal to the XP you gain. You can spend divine power on your abilities as if it were piety.</p>
+							<p> Additionally, you can spend divine power as if it were piety to use any conduit abilities you don&#8217;t have, as the gods answer your prayers with temporary and unique gifts. If you use a conduit ability you don&#8217;t have that usually costs no piety, you must spend 1 divine power to use it.</p>
+							<p>Divine power remains until you spend it.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Divine Power</name>
+					</id-00040>
+					<id-00041>
+						<featureext type="formattedtext">
+							<p>When you roll for piety at the start of your turn in combat and you pray, you gain 1 additional piety.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Most Pious</name>
+					</id-00041>
+					<id-00042>
+						<featureext type="formattedtext">
+							<p>You gain one crafting, lore, or supernatural perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Perk</name>
+					</id-00042>
+					<id-00043>
+						<featureext type="formattedtext">
+							<p>You gain one skill of your choice.</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">Skill</name>
+					</id-00043>
 				</features>
 				<name type="string">Conduit</name>
 				<notes type="formattedtext">
