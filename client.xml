@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root version="4.7" dataversion="20241002" release="1|CoreRPG:7">
-<!-- DONE: Conduit, Censor, Elementalist, Fury, Null, Shadow, Troubadour -->
-<!-- Waiting for Tactician -->
+<!-- DONE: Conduit, Censor, Elementalist, Fury, Null, Shadow, Troubadour, Tactician, Talent -->
 	<ability>
 	<!-- Censor Abilities -->
 		<id-01098>
@@ -1159,24 +1158,6 @@
 			<tier3 type="string">18 + M damage; i&lt;Strong , dazed (save ends)</tier3>
 			<type type="string">Main action</type>
 		</id-01126>
-		<id-01127>
-			<ability_cost type="number">11</ability_cost>
-			<ability_cost_string type="string">Wrath</ability_cost_string>
-			<ability_level type="number">8</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
-			<characteristic type="number">0</characteristic>
-			<class type="string">Censor</class>
-			<distance type="string">3 burst</distance>
-			<effect type="string">Each ally is hidden from each enemy until the start of your next turn, and each ally can move up to 2 squares.</effect>
-			<keywords type="string">Area, Magic </keywords>
-			<name type="string">Miraculous Veil (11 Wrath) (Censor)</name>
-			<notes type="formattedtext">
-				<p><i>A veil of holy energy protects you and your allies from enemy eyes.</i></p>
-			</notes>
-			<subclass type="string">Trickery Domain</subclass>
-			<target type="string">Each ally in the area</target>
-			<type type="string">Maneuver</type>
-		</id-01127>
 		<id-01130>
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
@@ -8427,6 +8408,676 @@
 			<target type="string">Two allies</target>
 			<type type="string">Maneuver</type>
 		</id-07033>
+		<id-07034>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<ancestry type="string">Kobold</ancestry>
+			<characteristic type="number">0</characteristic>
+			<characteristicoption type="string">Reason, Intuition, or Presence</characteristicoption>
+			<distance type="string">Ranged 7</distance>
+			<name type="string">Diversion Tactics</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You're just so puntable!</i>
+				</p>
+			</notes>
+			<target type="string">1 enemy</target>
+			<tier1 type="string">Taunted (EoT)</tier1>
+			<tier2 type="string">Taunted (EoT); one ally within distance can move 1 square</tier2>
+			<tier3 type="string">Taunted (EoT); one ally within distance can shift 2</tier3>
+			<type type="string">Maneuver</type>
+		</id-07034>
+		<id-07035>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<characteristic type="number">3</characteristic>
+			<characteristicoption type="string">Reason</characteristicoption>
+			<distance type="string">Self; see below</distance>
+			<effect type="string"> You shift up to your speed directly toward an ally, ending adjacent to them, then swapping locations with that ally as long as you can fit into each other’s spaces. The ally can spend a Recovery, and you can make the following weapon strike with a distance of melee 1 against a creature.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Try Me Instead (5 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>&#8220;Try picking on someone my size.&#8221;</i>
+				</p>
+			</notes>
+			<target type="string">Self</target>
+			<tier1 type="string">6 damage; [R]&lt;[WEAK], frightened (save ends)</tier1>
+			<tier2 type="string">7 damage; [R]&lt;[AVERAGE], frightened (save ends)</tier2>
+			<tier3 type="string">8 damage; [R]&lt;[STRONG], frightened (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-07035>
+		<id-07036>
+			<ability_cost type="number">5</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">2</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">Each target is marked by you, and must immediately make a free strike against a creature of your choice within 5 squares of\nthem.\n\nMark Benefit: Until the end of the encounter, whenever you or any ally makes a strike against a creature marked by you, you can spend 2 focus to force that target to make a free strike against a creature of your choice within 5 squares of them.</effect>
+			<keywords type="string">Ranged</keywords>
+			<name type="string">Fog of War (5 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.</i>
+				</p>
+			</notes>
+			<subclass type="string">Insurgent</subclass>
+			<target type="string">Two creatures</target>
+			<type type="string">Maneuver</type>
+		</id-07036>
+		<id-07037>
+			<ability_cost type="number">5</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">2</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">3</characteristic>
+			<characteristicoption type="string">Reason</characteristicoption>
+			<class type="string">Tactician</class>
+			<distance type="string">Self; see below</distance>
+			<effect type="string">You shift up to your speed directly toward an ally, ending adjacent to them, then swapping locations with that ally as long as you can fit into each other’s spaces. The ally can spend a Recovery, and you can make the following weapon strike with a distance of melee 1 against a creature.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Try Me Instead (5 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>&#8220;Try picking on someone my size.&#8221;</i>
+				</p>
+			</notes>
+			<subclass type="string">Insurgent</subclass>
+			<target type="string">Self</target>
+			<tier1 type="string">2 + R damage; [R]&lt;[WEAK] , frightened (save ends)</tier1>
+			<tier2 type="string">3 + R damage; [R]&lt;[AVERAGE] , frightened (save ends)</tier2>
+			<tier3 type="string">4 + R damage; [R]&lt;[STRONG] , frightened (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-07037>
+		<id-07038>
+			<ability_cost type="number">6</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">2</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">3</characteristic>
+			<characteristicoption type="string">Reason</characteristicoption>
+			<class type="string">Tactician</class>
+			<distance type="string">Ranged 5</distance>
+			<effect type="string">One ally adjacent to the target can spend a Recovery.</effect>
+			<keywords type="string">Ranged, Strike, Weapon</keywords>
+			<name type="string">I've Got Your Back (5 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Your enemy will think twice about attacking your friend.</i>
+				</p>
+			</notes>
+			<subclass type="string">Mastermind</subclass>
+			<target type="string">One creature</target>
+			<tier1 type="string">5 + [R] damage; taunted (EoT)</tier1>
+			<tier2 type="string">9 + [R] damage; taunted (EoT)</tier2>
+			<tier3 type="string">12 + [R] damage; taunted (EoT)</tier3>
+			<type type="string">Main action</type>
+		</id-07038>
+		<id-07039>
+			<ability_cost type="number">5</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">2</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Ranged 5</distance>
+			<effect type="string">Each target is marked by you, and you gain two surges.\n\nMark Benefit: Until the end of the encounter, whenever you or any ally makes a strike against a creature marked by you, you can spend 2 focus to add one additional target to the strike.</effect>
+			<keywords type="string">Ranged</keywords>
+			<name type="string">Targets of Opportunity (5 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You point out easy targets to your friends, allowing them to include more enemies in their attacks.</i>
+				</p>
+			</notes>
+			<subclass type="string">Mastermind</subclass>
+			<target type="string">Two creatures</target>
+			<type type="string">Maneuver</type>
+		</id-07039>
+		<id-07040>
+			<ability_cost type="number">5</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">2</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might</characteristicoption>
+			<class type="string">Tactician</class>
+			<distance type="string">Ranged 5</distance>
+			<effect type="string">You move up to your speed toward the triggering ally, ending this movement adjacent to them or in the nearest square if you can’t reach an adjacent square. The triggering ally can spend a Recovery and gains 5 temporary Stamina for each enemy you came adjacent to during the move. You then make a power roll against the target.</effect>
+			<keywords type="string">Ranged, Strike, Weapon</keywords>
+			<name type="string">No Dying on My Watch (5 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You prioritize saving an ally over your own safety.</i>
+				</p>
+			</notes>
+			<subclass type="string">Vanguard</subclass>
+			<target type="string">One enemy</target>
+			<tier1 type="string">[R]&lt;[WEAK] , the target is frightened of the triggering ally (save ends)</tier1>
+			<tier2 type="string">[R]&lt;[AVERAGE] , the target is frightened of the triggering ally (save ends)</tier2>
+			<tier3 type="string">[R]&lt;[STRONG] , the target is frightened of the triggering ally (save ends)</tier3>
+			<trigger type="string">The target deals damage to an ally.</trigger>
+			<type type="string">Triggered</type>
+		</id-07040>
+		<id-07041>
+			<ability_cost type="number">5</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">2</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string"> 1 burst</distance>
+			<effect type="string">Until the start of your next turn, each target has a bonus to stability equal to your Might score. Additionally, each target gains 2 surges.</effect>
+			<keywords type="string">Area</keywords>
+			<name type="string">Squad! On Me! (5 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Together we are invincible!</i>
+				</p>
+			</notes>
+			<subclass type="string">Vanguard</subclass>
+			<target type="string">Self and each ally in the area</target>
+			<type type="string">Maneuver</type>
+		</id-07041>
+		<id-07042>
+			<ability_cost type="number">7</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">3</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Self</distance>
+			<effect type="string">Until the end of the encounter or until you are dying, the first time on a turn that you or any ally deals damage to a target marked by you, the creature who dealt the damage can push the target up to 2 squares and then shift up to 2 squares. Additionally, any ally using the Charge main action to target a creature marked by you can use a melee strike signature ability or a melee strike heroic ability instead of a melee free strike.</effect>
+			<name type="string">Frontal Assault (7 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>The purpose of a charge is to break their morale and force a retreat.</i>
+				</p>
+			</notes>
+			<target type="string">Self</target>
+			<type type="string">Maneuver</type>
+		</id-07042>
+		<id-07043>
+			<ability_cost type="number">7</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">3</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Self</distance>
+			<effect type="string">Until the end of the encounter or until you are dying, whenever you or any ally deals damage to a target marked by you, that creature gains 2 surges, which they can use immediately.</effect>
+			<name type="string">Hit ’Em Hard! (7 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Your allies see the advantages in attacking the targets you select.</i>
+				</p>
+			</notes>
+			<target type="string">Self</target>
+			<type type="string">Maneuver</type>
+		</id-07043>
+		<id-07044>
+			<ability_cost type="number">7</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">3</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Self</distance>
+			<effect type="string">Until the end of the encounter or until you are dying, whenever you or any ally deals damage to a target marked by you who has [R]&lt;[AVERAGE] , the target is frightened of the creature who dealt the damage (save ends).</effect>
+			<name type="string">Rout (7 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>The tide begins to turn.</i>
+				</p>
+			</notes>
+			<target type="string">Self</target>
+			<type type="string">Maneuver</type>
+		</id-07044>
+		<id-07045>
+			<ability_cost type="number">7</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">3</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Self</distance>
+			<effect type="string">Until the end of the encounter or until you are dying, whenever you or any ally deals damage to a target marked by you, the creature who dealt the damage can spend a Recovery.</effect>
+			<name type="string">Stay Strong and Focus! (7 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>We can do this! Keep faith and hold fast!&#8221;</i>
+				</p>
+			</notes>
+			<target type="string">Self</target>
+			<type type="string">Maneuver</type>
+		</id-07045>
+		<id-07046>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">5</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might</characteristicoption>
+			<class type="string">Tactician</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You and each ally adjacent to the target gain 10 temporary Stamina.</effect>
+			<keywords type="string">Melee, Strike, Weapon</keywords>
+			<name type="string">Squad! Gear Check! (9 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You distract a foe while your allies secure their defensive gear.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">9 + [M] damage</tier1>
+			<tier2 type="string">13 + [M] damage</tier2>
+			<tier3 type="string">18 + [M] damage</tier3>
+			<type type="string">Main action</type>
+		</id-07046>
+		<id-07047>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">5</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">Each target gains 1 surge and can use a signature ability that has a double edge.</effect>
+			<keywords type="string">Ranged</keywords>
+			<name type="string">Squad! Remember Your Training! (9 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You remind your allies how to best use their gear.</i>
+				</p>
+			</notes>
+			<target type="string">Self and two allies</target>
+			<type type="string">Main action</type>
+		</id-07047>
+		<id-07048>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">5</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">3 burst</distance>
+			<effect type="string">Each target gains 2 surges. Additionally, they can spend a Recovery, remove any conditions or effects on them, and stand up if they are prone.</effect>
+			<keywords type="string">Area</keywords>
+			<name type="string">Win This Day! (9 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You inspire your allies to recover and gather their strength.</i>
+				</p>
+			</notes>
+			<target type="string">Self and each ally in the area</target>
+			<type type="string">Main action</type>
+		</id-07048>
+		<id-07049>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">5</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The target uses a heroic ability with the Strike keyword as a free triggered action, and deals extra damage with that ability equal to your Reason score. The ability has its Heroic Resource cost reduced by 1 + your Reason score (minimum cost 0).</effect>
+			<keywords type="string">Ranged</keywords>
+			<name type="string">You’ve Still Got Something Left (9 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You push an ally to use a heroic ability sooner than they otherwise would.</i>
+				</p>
+			</notes>
+			<target type="string">One ally</target>
+			<type type="string">Main action</type>
+		</id-07049>
+		<id-07050>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">6</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string"> Ranged 10</distance>
+			<effect type="string">If the target of the triggering ability is not a leader or solo creature, they are reduced to 0 Stamina. If the target of the triggering ability is a minion, the entire squad is killed. If the target of the triggering ability is a leader or solo creature, the triggering ability’s power roll automatically obtains a tier 3 outcome.</effect>
+			<keywords type="string">Ranged</keywords>
+			<name type="string">Coordinated Execution (9 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You direct your ally to make a killing blow.</i>
+				</p>
+			</notes>
+			<subclass type="string">Insurgent</subclass>
+			<target type="string">One ally</target>
+			<trigger type="string">The target uses an ability to deal rolled damage to a creature while hidden.</trigger>
+			<type type="string">Free triggered</type>
+		</id-07050>
+		<id-07051>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">6</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might</characteristicoption>
+			<class type="string">Tactician</class>
+			<distance type="string">Melee 1 or ranged 5</distance>
+			<effect type="string">If a target is force moved into another creature, they must make a free strike against that creature.</effect>
+			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
+			<name type="string">Panic in Their Lines (9 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You confuse your foes, causing them to turn on each other.</i>
+				</p>
+			</notes>
+			<subclass type="string">Insurgent</subclass>
+			<target type="string">Two creatures</target>
+			<tier1 type="string">6 + [M] damage; slide 1</tier1>
+			<tier2 type="string">9 + [M] damage; slide 3</tier2>
+			<tier3 type="string">13 + [M] damage; slide 5</tier3>
+			<type type="string">Main action</type>
+		</id-07051>
+		<id-07052>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">6</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">Each target is marked by you. Immediately and until the end of the encounter, the Director tells you if any creatures marked by you have damage immunity or weakness and the value of that immunity or weakness. Additionally, you and each ally within 3 squares of you gains 2 surges.\n\nMark Benefit: Until the end of the encounter, whenever you or any ally makes a strike against a creature marked by you, you can spend 2 focus to make the strike ignore damage immunity and deal extra damage equal to three times your Reason score.</effect>
+			<keywords type="string">Ranged</keywords>
+			<name type="string">Battle Plan (9 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>With new understanding of your foes, you create the perfect plan to win the battle.</i>
+				</p>
+			</notes>
+			<subclass type="string">Mastermind</subclass>
+			<target type="string">Three creatures</target>
+			<type type="string">Maneuver</type>
+		</id-07052>
+		<id-07053>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">6</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">2 burst</distance>
+			<effect type="string">You mark two enemies within 10 squares of you. Each target can shift up to their speed. You and each target gain 2 surges.</effect>
+			<keywords type="string">Area</keywords>
+			<name type="string">Hustle! (9 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You and your allies coordinate to form a new battle line.</i>
+				</p>
+			</notes>
+			<subclass type="string">Mastermind</subclass>
+			<target type="string">Self and each ally in the area</target>
+			<type type="string">Maneuver</type>
+		</id-07053>
+		<id-07054>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">6</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might</characteristicoption>
+			<class type="string">Tactician</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">The target takes half the damage. You then make a power roll against the triggering creature.</effect>
+			<keywords type="string">Melee, Weapon</keywords>
+			<name type="string">Instant Retaliation (9 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You parry with almost supernatural speed.</i>
+				</p>
+			</notes>
+			<subclass type="string">Vanguard</subclass>
+			<target type="string">One ally</target>
+			<tier1 type="string">[A]&lt;[WEAK] , dazed (save ends)</tier1>
+			<tier2 type="string">[A]&lt;[AVERAGE] , dazed (save ends)</tier2>
+			<tier3 type="string">[A]&lt;[STRONG] , dazed (save ends)</tier3>
+			<trigger type="string">A creature deals damage to the target.</trigger>
+			<type type="string">Free triggered</type>
+		</id-07054>
+		<id-07055>
+			<ability_cost type="number">9</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">6</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might</characteristicoption>
+			<class type="string">Tactician</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">If the target is hit with two or more strikes as part of this ability and they have [R]&lt;[STRONG] , they are dazed (save ends). If the target is reduced to 0 Stamina before one or both allies has made their strike, the ally or allies can pick a different target.</effect>
+			<keywords type="string">Charge, Melee, Strike, Weapon</keywords>
+			<name type="string">To Me Squad! (9 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You lead your allies in a charge.</i>
+				</p>
+			</notes>
+			<subclass type="string">Vanguard</subclass>
+			<target type="string">One creature</target>
+			<tier1 type="string">6 + [M] damage; one ally within 10 squares can use the Charge main action as a free triggered action, and can use a melee strike signature ability instead of a free strike for the charge</tier1>
+			<tier2 type="string">9 + [M] damage; one ally within 10 squares can use the Charge main action as a free triggered action, and can use a melee strike signature ability that gains an edge instead of a free strike for the charge</tier2>
+			<tier3 type="string">13 + [M] damage; two allies within 10 squares can use the Charge main action as a free triggered action, and can use a melee strike signature ability that gains an edge instead of a free strike for the charge</tier3>
+			<type type="string">Main action</type>
+		</id-07055>
+		<id-07056>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">8</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The target gains 2 surges and can use a signature or heroic ability as a free triggered action. The ability has a double edge on the power roll, ignores damage immunity, and increases the potency of\nany potency effects by 1.</effect>
+			<keywords type="string">Ranged</keywords>
+			<name type="string">Go Now and Speed Well (11 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You direct an attack to strike true.</i>
+				</p>
+			</notes>
+			<target type="string">Self or one ally</target>
+			<type type="string">Main action</type>
+		</id-07056>
+		<id-07057>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">8</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">The target is killed. Additionally, the creature who caused the target to be winded can spend a Recovery.</effect>
+			<keywords type="string">Ranged</keywords>
+			<name type="string">Finish Them! (11 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You point out an opening to your ally so they can land a killing blow.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<trigger type="string">The target is not a leader or solo creature, and becomes winded.</trigger>
+			<type type="string">Free triggered</type>
+		</id-07057>
+		<id-07058>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">8</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string"> Ranged 10</distance>
+			<effect type="string">Each target gains 1 surge and can use a signature ability as a free triggered action. That ability gains an edge on the power roll and increases the potency of any potency effects by 1.</effect>
+			<keywords type="string">Ranged</keywords>
+			<name type="string">Floodgates Open (11 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You direct your squad to strike in unison and with devastating effect.</i>
+				</p>
+			</notes>
+			<target type="string">Three allies</target>
+			<type type="string">Main action</type>
+		</id-07058>
+		<id-07059>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">8</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might</characteristicoption>
+			<class type="string">Tactician</class>
+			<distance type="string">Melee 1 or ranged 5</distance>
+			<effect type="string">One ally within 10 squares of you can use a heroic ability against the target as a free triggered action without spending any of\ntheir Heroic Resource, as long as they have enough Heroic Resource to pay for the ability. If the target is reduced to 0 Stamina before the chosen ally has used their ability, the ally can pick a different target.</effect>
+			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
+			<name type="string">I’ll Open and You’ll Close (11 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You create an opening for an ally.</i>
+				</p>
+			</notes>
+			<target type="string">One creature</target>
+			<tier1 type="string">6 + [M] damage</tier1>
+			<tier2 type="string">10 + [M] damage</tier2>
+			<tier3 type="string">14 + [M] damage</tier3>
+			<type type="string">Main action</type>
+		</id-07059>
+		<id-07060>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">Each target gains 2 surges, and can use a free triggered action to use a signature ability that gains an edge. After resolving their ability, each target can shift up to 2 squares and become hidden even if they have no cover or concealment, or if they are observed.</effect>
+			<keywords type="string">Ranged</keywords>
+			<name type="string">Squad! Hit and Run! (11 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>I had to pry this secret from the shadow colleges.</i>
+				</p>
+			</notes>
+			<subclass type="string">Insurgent</subclass>
+			<target type="string">Self and two allies</target>
+			<type type="string">Main action</type>
+		</id-07060>
+		<id-07062>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might</characteristicoption>
+			<class type="string">Tactician</class>
+			<distance type="string">Ranged 10</distance>
+			<effect type="string">Each target uses a signature ability against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the power roll. After resolving the targets’ abilities, you make a power roll against each original target.</effect>
+			<keywords type="string">Magic, Ranged, Weapon</keywords>
+			<name type="string">Their Lack of Focus Is Their Undoing (11 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You trick your enemies into attacking each other and leave them confused by the aftermath.</i>
+				</p>
+			</notes>
+			<subclass type="string">Insurgent</subclass>
+			<target type="string">Three enemies</target>
+			<tier1 type="string">[R]&lt;[WEAK] , dazed (save ends)</tier1>
+			<tier2 type="string">[R]&lt;[AVERAGE] , dazed (save ends)</tier2>
+			<tier3 type="string">[R]&lt;[STRONG] , dazed (save ends)</tier3>
+			<type type="string">Main action</type>
+		</id-07062>
+		<id-07061>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string"> 3 burst</distance>
+			<effect type="string">Each target can make a ranged free strike that gains an edge against any enemy marked by you within distance of their ranged free strike. A target ignores banes and double banes when making this strike.</effect>
+			<keywords type="string">Area</keywords>
+			<name type="string">Blot Out the Sun! (11 Focus)</name>
+			<notes type="formattedtext">
+				<p>What makes a good soldier? The ability to fire four shots a minute in any weather.</p>
+			</notes>
+			<subclass type="string">Mastermind</subclass>
+			<target type="string">Self and each ally in the area</target>
+			<type type="string">Main action</type>
+		</id-07061>
+		<id-07063>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<class type="string">Tactician</class>
+			<distance type="string">Self</distance>
+			<effect type="string">You gain 6 surges. Until the end of the encounter or until you are dying, whenever the Director spends Malice (see Draw Steel: Monsters), choose yourself or one ally within 10 squares. The chosen character gains 2 of their Heroic Resource.</effect>
+			<name type="string">Counterstrategy (11 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>I&#8217;ve identified a way to negate their strengths.</i>
+				</p>
+			</notes>
+			<subclass type="string">Mastermind</subclass>
+			<target type="string">Self</target>
+			<type type="string">Main action</type>
+		</id-07063>
+		<id-07064>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might</characteristicoption>
+			<class type="string">Tactician</class>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You mark the target.\n\nIf you use this ability as part of the Charge main action, enemies’ spaces don’t count as difficult terrain for your movement. Additionally, if you move through any creature’s space, you can slide that creature 1 square out of the path of your charge.</effect>
+			<keywords type="string">Charge, Melee, Strike, Weapon</keywords>
+			<name type="string">No Escape (11 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>Nothing will stop you from reaching your foe.</i>
+				</p>
+			</notes>
+			<subclass type="string">Vanguard</subclass>
+			<target type="string">One creature</target>
+			<tier1 type="string">11 + [M] damage</tier1>
+			<tier2 type="string">16 + [M] damage</tier2>
+			<tier3 type="string">21 + [M] damage</tier3>
+			<type type="string">Main action</type>
+		</id-07064>
+		<id-07065>
+			<ability_cost type="number">11</ability_cost>
+			<ability_cost_string type="string">Focus</ability_cost_string>
+			<ability_level type="number">9</ability_level>
+			<abilitytype type="string">Heroic Ability</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might</characteristicoption>
+			<class type="string">Tactician</class>
+			<distance type="string">Melee 1 or ranged 5</distance>
+			<effect type="string">Until the end of the encounter or until you are dying, you can use a signature or heroic ability instead of a free strike against any target marked by you.</effect>
+			<keywords type="string">Melee, Ranged, Strike, Weapon</keywords>
+			<name type="string">That One Is Mine! (11 Focus)</name>
+			<notes type="formattedtext">
+				<p>
+					<i>You focus on making an enemy irrelevant.</i>
+				</p>
+			</notes>
+			<subclass type="string">Vanguard</subclass>
+			<target type="string">One creature</target>
+			<tier1 type="string">8 + [M] damage</tier1>
+			<tier2 type="string">13 + [M] damage</tier2>
+			<tier3 type="string">17 + [M] damage</tier3>
+			<type type="string">Main action</type>
+		</id-07065>
+
+		
 
 	<!-- Talent Abilities -->
 		<id-08121>
@@ -19631,8 +20282,1290 @@
 				<startingRecoveries type="number">8</startingRecoveries>
 				<startingStamina type="number">18</startingStamina>
 			</id-00006>
-		<!-- Tactician WIP -->
+		<!-- Tactician -->
 			<id-00007>
+				<basicnotes type="formattedtext">
+					<p>
+						<b>Starting Characteristics: </b>You start with a Might of 2 and a Reason of 2, and you can choose one of the following arrays for your other characteristic scores:</p>
+					<p>&#9830; 2, &#8722;1, &#8722;1</p>
+					<p>&#9830; 1, 1, &#8722;1</p>
+					<p>&#9830; 1, 0, 0</p>
+					<p>
+						<b>Weak Potency: </b>Reason &#8722; 2</p>
+					<p>
+						<b>Average Potency: </b>Reason &#8722; 1</p>
+					<p>
+						<b>Strong Potency: </b>Reason</p>
+					<p>
+						<b>Skills: </b>You have the Lead skill (see Skills in Chapter 9: Tests). Then choose any two skills from Alertness, Architecture, Blacksmithing, Brag, Culture, Empathize, Fletching, Mechanics, Monsters, Search, Strategy, or the skills of the exploration skill group. <i>(Quick Build: Lead, Monsters, Strategy.)</i></p>
+					<linklist>
+						<link class="referencemanualpage" recordname="reference.refmanualdata.id-00001">Story: Skills</link>
+					</linklist>
+				</basicnotes>
+				<featurechoices>
+					<id-00001>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Vanguard</choicetype>
+						<level type="number">1</level>
+						<name type="string">Commanding Presence</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<repeatable type="number">0</repeatable>
+						<text type="formattedtext">
+							<p>You command any room you walk into. While you are present during a negotiation, each hero with you treats their Renown as 2 higher than usual. Additionally, each hero with you during a combat encounter has a double edge on tests made to stop combat and start a negotiation.</p>
+						</text>
+					</id-00001>
+					<id-00002>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Insurgent</choicetype>
+						<level type="number">1</level>
+						<name type="string">Covert Operations</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<repeatable type="number">0</repeatable>
+						<text type="formattedtext">
+							<p>While in your presence or working according to your plans, each of your allies gains an edge on tests using any skill from the intrigue skill group. Additionally, you can use the Lead skill to assist another creature with any test made using a skill from the intrigue group.</p>
+							<p>At the Director&#8217;s discretion, you and your allies can use skills from the intrigue skill group to attempt research or reconnaissance during a negotiation instead of outside of a negotiation.</p>
+						</text>
+					</id-00002>
+					<id-00003>
+						<choicetype type="string">Mastermind</choicetype>
+						<level type="number">1</level>
+						<name type="string">Studied Commander</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<repeatable type="number">0</repeatable>
+						<text type="formattedtext">
+							<p>Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges. While you are present, each hero with you treats the Discover Lore project related to a war or battle as one category cheaper. This makes projects seeking common lore free, but such projects still require a respite activity to complete. (See <i>Chapter 12: Downtime Projects </i>for more information.)</p>
+							<p>Additionally, if you have 24 hours or more before a combat encounter or negotiation, and you have one or more clues or rumors regarding the encounter or negotiation, you can make a Reason test as a respite activity. The following test outcomes apply to a combat encounter:</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07019">Ability: Studied Commander (Encounter)</link>
+							</linklist>
+							<p>The following test outcomes apply to a negotiation:</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07020">Ability: Studied Commander (Negotiation)</link>
+							</linklist>
+							<p>You can make this test only once for any encounter or negotiation.</p>
+						</text>
+					</id-00003>
+					<id-00004>
+						<choicetype type="string">Tactician Doctrine</choicetype>
+						<level type="number">1</level>
+						<name type="string">Insurgent</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<repeatable type="number">0</repeatable>
+						<text type="formattedtext">
+							<p>Doing your duty, playing fair, and dying honorably in battle is your opponent&#8217;s job. You&#8217;ll do whatever it takes to keep your allies alive. You gain a skill from the intrigue skill group.</p>
+							<p>
+								<b>Doctrine Triggered Action</b>
+							</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07023">Ability: Advanced Tactics</link>
+							</linklist>
+						</text>
+					</id-00004>
+					<id-00005>
+						<choicetype type="string">Tactician Doctrine</choicetype>
+						<level type="number">1</level>
+						<name type="string">Mastermind</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<repeatable type="number">0</repeatable>
+						<text type="formattedtext">
+							<p>You have an encyclopedic knowledge of warfare, viewing the battlefield as a game board and seeking victory by thinking steps ahead of your opponents. You gain a skill from the lore skill group.</p>
+							<p>
+								<b>Doctrine Triggered Action</b>
+							</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07022">Ability: Overwatch</link>
+							</linklist>
+						</text>
+					</id-00005>
+					<id-00006>
+						<choicetype type="string">Tactician Doctrine</choicetype>
+						<level type="number">1</level>
+						<name type="string">Vanguard</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<repeatable type="number">0</repeatable>
+						<text type="formattedtext">
+							<p>You have learned the stratagems of ancient heroes, letting you lead from the front lines and seek victory through sheer force of will and personality. You gain a skill from the interpersonal skill group.</p>
+							<p>Your tactical doctrine is your subclass, and your choice of doctrine determines many of the features you&#8217;ll gain as you gain new levels.</p>
+							<p>
+								<b>Doctrine Triggered Action</b>
+							</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07021">Ability: Parry</link>
+							</linklist>
+						</text>
+					</id-00006>
+					<id-00007>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Insurgent Doctrine Feature</choicetype>
+						<level type="number">1</level>
+						<name type="string">Covert Operations</name>
+						<prerequisite type="string">Insurgent</prerequisite>
+						<repeatable type="number">0</repeatable>
+						<text type="formattedtext">
+							<p>While in your presence or working according to your plans, each of your allies gains an edge on tests using any skill from the intrigue skill group. Additionally, you can use the Lead skill to assist another creature with any test made using a skill from the intrigue group.</p>
+							<p>At the Director&#8217;s discretion, you and your allies can use skills from the intrigue skill group to attempt research or reconnaissance during a negotiation instead of outside of a negotiation.</p>
+						</text>
+					</id-00007>
+					<id-00008>
+						<choicetype type="string">Vanguard Doctrine Feature</choicetype>
+						<level type="number">1</level>
+						<name type="string">Commanding Presence</name>
+						<prerequisite type="string">Vanguard</prerequisite>
+						<repeatable type="number">0</repeatable>
+						<text type="formattedtext">
+							<p>You command any room you walk into. While you are present during a negotiation, each hero with you treats their Renown as 2 higher than usual. Additionally, each hero with you during a combat encounter has a double edge on tests made to stop combat and start a negotiation.</p>
+						</text>
+					</id-00008>
+					<id-00009>
+						<choicetype type="string">Mastermind Doctrine Feature</choicetype>
+						<level type="number">1</level>
+						<name type="string">Studied Commander</name>
+						<prerequisite type="string">Mastermind</prerequisite>
+						<repeatable type="number">0</repeatable>
+						<text type="formattedtext">
+							<p>Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges. While you are present, each hero with you treats the Discover Lore project related to a war or battle as one category cheaper. This makes projects seeking common lore free, but such projects still require a respite activity to complete. (See Chapter 12: Downtime Projects for more information.)</p>
+							<p>Additionally, if you have 24 hours or more before a combat encounter or negotiation, and you have one or more clues or rumors regarding the encounter or negotiation, you can make a Reason test as a respite activity. The following test outcomes apply to a combat encounter:</p>
+							<table>
+								<tr>
+									<td>&#60;12</td>
+									<td colspan="2">The Director tells you the number of creatures in the encounter.</td>
+								</tr>
+								<tr>
+									<td>12-16</td>
+									<td colspan="2">The Director tells you the number and level of the creatures in the encounter.</td>
+								</tr>
+								<tr>
+									<td>17+</td>
+									<td colspan="2">The Director tells you the tier 2 outcome information, and when the encounter begins, all enemies are surprised.</td>
+								</tr>
+							</table>
+							<p>The following test outcomes apply to a negotiation:</p>
+							<table>
+								<tr>
+									<td>&#60;12</td>
+									<td colspan="2">The Director gives you three motivations, one of which belongs to an NPC in the negotiation.</td>
+								</tr>
+								<tr>
+									<td>12-16</td>
+									<td colspan="2">The Director gives you one motivation for an NPC in the negotiation.</td>
+								</tr>
+								<tr>
+									<td>17+</td>
+									<td colspan="2">The Director tells you the tier 2 outcome information, and you and each of your allies gains an edge on tests made to influence NPCs during the negotiation.</td>
+								</tr>
+							</table>
+							<p>You can make this test only once for any encounter or negotiation.</p>
+						</text>
+					</id-00009>
+					<id-00010>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Insurgent</choicetype>
+						<level type="number">2</level>
+						<name type="string">Infiltration Tactics</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>You have trained your squad to work together, stay silent, and wait for the opportune time to strike. Whenever you or any ally within 10 squares of you becomes hidden, that creature gains 1 surge.</p>
+						</text>
+					</id-00010>
+					<id-00011>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Vanguard</choicetype>
+						<level type="number">2</level>
+						<name type="string">Melee Superiority</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>After constant drills, you can more accurately anticipate an enemy&#8217;s plan and thwart their attempts to move across the battlefield.</p>
+							<p>Whenever you make an opportunity attack, the target&#8217;s speed is reduced to 0 until the end of the current turn.</p>
+							<p>
+								<b>Mark Benefit: </b>When a creature marked by you attempts to move or shift within distance of your melee free strike, you can use a free triggered action and spend 2 focus to make a melee free strike against that creature.</p>
+						</text>
+					</id-00011>
+					<id-00012>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Mastermind</choicetype>
+						<level type="number">2</level>
+						<name type="string">Goaded</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>You have learned to leverage your marked foes&#8217; psychology and goad them into acting before they&#8217;re tactically ready. Whenever a creature marked by you uses a strike that targets you or any ally within your line of effect, you can use a free triggered action to change the target of the strike to you or another ally within your line of effect.</p>
+						</text>
+					</id-00012>
+					<id-00013>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Insurgent</choicetype>
+						<level type="number">5</level>
+						<name type="string">Distracted</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>You have mastered the ability to distract your foes, allowing you and your allies to take advantage of their gaps in attention. Whenever you or any ally attempts to hide, any creature marked by you doesn&#8217;t count as an observer. Additionally, you and your allies can use other allies as cover for the purpose of hiding.</p>
+						</text>
+					</id-00013>
+					<id-00014>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Insurgent</choicetype>
+						<level type="number">5</level>
+						<name type="string">Leave No Trace</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>You and any ally within 10 squares of you can move at full speed while sneaking. Additionally, enemies within 10 squares of you take a bane on tests made to search for you or your allies while any of you are hidden.</p>
+						</text>
+					</id-00014>
+					<id-00015>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Vanguard</choicetype>
+						<level type="number">5</level>
+						<name type="string">Shate It Off</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>As a free maneuver, you can spend 1d6 Stamina to ignore a consequence from a test, or to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Any ally adjacent to you can also spend Stamina as a free maneuver to gain this benefit.</p>
+						</text>
+					</id-00015>
+					<id-00016>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Vanguard</choicetype>
+						<level type="number">5</level>
+						<name type="string">Tactical Offensive</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>When you use the Charge main action to attack a creature marked by you, you can use a signature or heroic ability with the Melee and Strike keywords instead of a melee free strike.</p>
+						</text>
+					</id-00016>
+					<id-00017>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Mastermind</choicetype>
+						<level type="number">5</level>
+						<name type="string">Anticipation</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>You have learned to be more preemptive on the battlefield, thinking more steps ahead than your opponents. You can target two creatures with your Mark ability.</p>
+						</text>
+					</id-00017>
+					<id-00018>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Mastermind</choicetype>
+						<level type="number">5</level>
+						<name type="string">I Predicted That</name>
+						<text type="formattedtext">
+							<p>Your expertise in history and lore allows you and your allies to outthink rivals in the present day. You and any ally within 10 squares of you gain an edge on Reason tests.</p>
+						</text>
+					</id-00018>
+					<id-00019>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Insurgent</choicetype>
+						<level type="number">7</level>
+						<name type="string">Asymmetric Warfare</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>You have advanced your skills in subterfuge, now directing full battlefield strategy and logistics. During a montage test or negotiation, you can obtain one automatic success on a test made using a skill from the intrigue skill group. Additionally, you can use skills from the intrigue skill group to conceal large groups of people, such as escaping civilians and groups of guerilla warriors.</p>
+						</text>
+					</id-00019>
+					<id-00020>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Vanguard</choicetype>
+						<level type="number">7</level>
+						<name type="string">Shock and Awe</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>You have expanded your leadership skills, strengthening your followers&#8217; morale and providing logistical support. During a montage test or negotiation, you can obtain one automatic success on a test made using a skill from the interpersonal skill group. Additionally, you can convince a group of people to help you with a crafting project during a respite. If these people are available when you take a respite, you can make a project roll for a crafting project in addition to undertaking another respite activity.</p>
+						</text>
+					</id-00020>
+					<id-00021>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Mastermind</choicetype>
+						<level type="number">7</level>
+						<name type="string">Grand Strategy</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>You have grown your skills in strategy, wielding intricate battlefield tactics and plans. During a montage test or negotiation, you can obtain one automatic success on a test made using a skill from the lore skill group. Additionally, when you take a respite, you can make a project roll for a research project in addition to undertaking another respite activity.</p>
+						</text>
+					</id-00021>
+					<id-00022>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Insurgent</choicetype>
+						<level type="number">8</level>
+						<name type="string">Bait and Ambush</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>You have trained your squad to be silent ambushers.</p>
+							<p>
+								<b>Mark Benefit: </b>When you or any ally makes a strike against a creature marked by you, you can spend 2 focus to let the character making the strike shift up to a number of squares equal to your Reason score and use the Hide maneuver as a free maneuver once during the shift. The creature can shift before or after the strike is resolved.</p>
+						</text>
+					</id-00022>
+					<id-00023>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Mastermind</choicetype>
+						<level type="number">8</level>
+						<name type="string">Pincer Monvement</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>You have trained your squad to coordinate their movements to maximize combat impact.</p>
+							<p>
+								<b>Mark Benefit: </b>When you or any ally makes a strike against a creature marked by you, you can spend 2 focus to have the character making the strike shift up to a number of squares equal to your Reason score before the strike is resolved. If you didn&#8217;t make the strike, you can make this shift as well. If you did make the strike, one ally within 10 squares of you can make this shift as well.</p>
+						</text>
+					</id-00023>
+					<id-00024>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Vanguard</choicetype>
+						<level type="number">8</level>
+						<name type="string">See Your Enemies Driven Before You</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>You have trained your squad to maximize impact and break enemy lines when they attack.</p>
+							<p>
+								<b>Mark Benefit: </b>When you or any ally makes a melee strike against a creature marked by you, you can spend 2 focus to have the character making the strike push the target up to a number of squares equal to your Reason score. That character can then shift up to a number of squares equal to your Reason score, ending this shift adjacent to the target.</p>
+						</text>
+					</id-00024>
+					<id-00025>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Insurgent</choicetype>
+						<level type="number">2</level>
+						<name type="string">2nd-Level Doctrine Ability</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07036">Ability: Fog of War (5 Focus)</link>
+								<link class="ability" recordname="ability.id-00005">Ability: Try Me Instead (5 Focus)</link>
+							</linklist>
+						</text>
+					</id-00025>
+					<id-00026>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Mastermind</choicetype>
+						<level type="number">2</level>
+						<name type="string">2nd-Level Doctrine Ability</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-00006">Ability: I've Got Your Back (5 Focus)</link>
+								<link class="ability" recordname="ability.id-07039">Ability: Targets of Opportunity (5 Focus)</link>
+							</linklist>
+						</text>
+					</id-00026>
+					<id-00027>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Vanguard</choicetype>
+						<level type="number">2</level>
+						<name type="string">2nd-Level Doctrine Ability</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07040">Ability: No Dying on My Watch (5 Focus)</link>
+								<link class="ability" recordname="ability.id-07041">Ability: Squad! On Me! (5 Focus)</link>
+							</linklist>
+						</text>
+					</id-00027>
+					<id-00028>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Insurgent</choicetype>
+						<level type="number">6</level>
+						<name type="string">6th-Level Insurgent Abilities</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07050">Ability: Coordinated Execution (9 Focus)</link>
+								<link class="ability" recordname="ability.id-07051">Ability: Panic in Their Lines (9 Focus)</link>
+							</linklist>
+						</text>
+					</id-00028>
+					<id-00029>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Vanguard</choicetype>
+						<level type="number">6</level>
+						<name type="string">6th-Level Vanguard Abilities</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07054">Ability: Instant Retaliation (9 Focus)</link>
+								<link class="ability" recordname="ability.id-07055">Ability: To Me Squad! (9 Focus)</link>
+							</linklist>
+						</text>
+					</id-00029>
+					<id-00030>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Mastermind</choicetype>
+						<level type="number">6</level>
+						<name type="string">6th-Level Mastermind Abilities</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07052">Ability: Battle Plan (9 Focus)</link>
+								<link class="ability" recordname="ability.id-07053">Ability: Hustle! (9 Focus)</link>
+							</linklist>
+						</text>
+					</id-00030>
+					<id-00031>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Insurgent</choicetype>
+						<level type="number">9</level>
+						<name type="string">9th-Level Doctrine Abilitiy</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07060">Ability: Squad! Hit and Run! (11 Focus)</link>
+								<link class="ability" recordname="ability.id-07062">Ability: Their Lack of Focus Is Their Undoing (11 Focus)</link>
+							</linklist>
+						</text>
+					</id-00031>
+					<id-00032>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Mastermind</choicetype>
+						<level type="number">9</level>
+						<name type="string">9th-Level Doctrine Ability</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07061">Ability: Blot Out the Sun! (11 Focus)</link>
+								<link class="ability" recordname="ability.id-07063">Ability: Counterstrategy (11 Focus)</link>
+							</linklist>
+						</text>
+					</id-00032>
+					<id-00033>
+						<checkbox type="number">0</checkbox>
+						<choicetype type="string">Vanguard</choicetype>
+						<level type="number">9</level>
+						<name type="string">9th-Level Doctrine Ability</name>
+						<prerequisite type="string">Tactician</prerequisite>
+						<text type="formattedtext">
+							<p>Choose one of the following abilities.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07064">Ability: No Escape (11 Focus)</link>
+								<link class="ability" recordname="ability.id-07065">Ability: That One Is Mine! (11 Focus)</link>
+							</linklist>
+						</text>
+					</id-00033>
+				</featurechoices>
+				<features>
+					<id-00001>
+						<featureext type="formattedtext">
+							<p>The ring of steel panics others but brings order to your mind, granting you a Heroic Resource called focus.</p>
+							<p>
+								<b>Focus in Combat</b>
+							</p>
+							<p>At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain focus equal to your Victories. At the start of each of your turns during combat, you gain 2 focus.</p>
+							<p>Additionally, the first time each combat round that you or any ally damages a creature marked by you (see Mark below), you gain 1 focus. The first time in a combat round that any ally within 10 squares of you uses a heroic ability, you gain 1 focus.</p>
+							<p>You lose any remaining focus at the end of the encounter</p>
+							<p>
+								<b>Focus Outside of Combat</b>
+							</p>
+							<p>Though you can&#8217;t gain focus outside of combat, you can use your heroic abilities and effects that cost focus without spending it. Whenever you use an ability or effect outside of combat that costs focus, you can&#8217;t use that same ability or effect outside of combat again until you earn 1 or more Victories or finish a respite.</p>
+							<p>When you use an ability outside of combat that lets you spend unlimited focus on its effect, you can use it as if you had spent an amount of focus equal to your Victories. (Such abilities aren&#8217;t part of the core rules for the tactician, but they might appear in future products.)</p>
+						</featureext>
+						<featurelevel type="number">1</featurelevel>
+						<name type="string">Focus</name>
+					</id-00001>
+					<id-00002>
+						<featureext type="formattedtext">
+							<p>Each kit from your Field Arsenal feature grants you a signature ability. Signature abilities can be used at will.</p>
+						</featureext>
+						<featurelevel type="number">1</featurelevel>
+						<name type="string">Kit Signature Abilities</name>
+					</id-00002>
+					<id-00003>
+						<featureext type="formattedtext">
+							<p>Your heroic abilities cover a range of combat tactics, all of which require focus to use.</p>
+							<p>
+								<b>3-Focus Ability</b>
+							</p>
+							<p>Choose one heroic ability from the following options, each of which costs 3 focus to use. ( <i>Quick Build: </i>Inspiring Strike.)</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07029">Ability: Battle Cry (3 Focus)</link>
+								<link class="ability" recordname="ability.id-07028">Ability: Concussive Strike (3 Focus)</link>
+								<link class="ability" recordname="ability.id-07027">Ability: Inspiring Strike (3 Focus)</link>
+								<link class="ability" recordname="ability.id-07026">Ability: Squad! Forward! (3 Focus)</link>
+							</linklist>
+							<p>
+								<b>5-Focus Ability</b>
+							</p>
+							<p>Choose one heroic ability from the following options, each of which costs 5 focus to use. ( <i>Quick Build: </i>Hammer and Anvil.)</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07032">Ability: Hammer and Anvil (5 Focus)</link>
+								<link class="ability" recordname="ability.id-07031">Ability: Mind Game (5 Focus)</link>
+								<link class="ability" recordname="ability.id-07030">Ability: Now! (5 Focus)</link>
+								<link class="ability" recordname="ability.id-07033">Ability: This is What We Planned For! (5 Focus)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">1</featurelevel>
+						<name type="string">Heroic Abilities</name>
+					</id-00003>
+					<id-00004>
+						<featureext type="formattedtext">
+							<p>As a 2nd-level tactician, you gain the following features.</p>
+							<h>Perk</h>
+							<p>You gain one exploration, interpersonal, or intrigue perk of your choice. See Chapter 7: Perks.</p>
+							<h>2nd-Level Doctrine Feature</h>
+							<p>Your tactical doctrine grants you a feature, as shown on the 2nd-Level Doctrine Features table.</p>
+							<h> 2nd-Level Doctrine Features </h>
+							<table>
+								<tr>
+									<td>
+										<b>Doctrine</b>
+									</td>
+									<td>
+										<b>Triggered Action</b>
+									</td>
+								</tr>
+								<tr>
+									<td>Insurgent</td>
+									<td>Infiltration Tactics</td>
+								</tr>
+								<tr>
+									<td>Mastermind</td>
+									<td>Goaded</td>
+								</tr>
+								<tr>
+									<td>Vanguard</td>
+									<td>Melee Superiority</td>
+								</tr>
+							</table>
+							<linklist>
+								<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00012">Goaded</link>
+								<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00010">Infiltration Tactics</link>
+								<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00011">Melee Superiority</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">2</featurelevel>
+						<name type="string">2nd Level Features</name>
+					</id-00004>
+					<id-00005>
+						<featureext type="formattedtext">
+							<p>As a 3rd-level tactician, you gain the following features.</p>
+							<h>Out of Position</h>
+							<p>Even before battle begins, your enemies struggle to keep up with your tactics. At the start of an encounter, you can use a free triggered action to use your Mark ability against one enemy you have line of effect to, even if you are surprised. You can then slide the marked target up to 3 squares, ignoring stability. The target can&#8217;t be moved in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect.</p>
+							<h>7-Focus Ability</h>
+							<p>Choose one heroic ability from the following options, each of which costs 7 focus to use.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07042">Ability: Frontal Assault (7 Focus)</link>
+								<link class="ability" recordname="ability.id-07043">Ability: Hit &#8217;Em Hard! (7 Focus)</link>
+								<link class="ability" recordname="ability.id-07044">Ability: Rout (7 Focus)</link>
+								<link class="ability" recordname="ability.id-07045">Ability: Stay Strong and Focus! (7 Focus)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">3</featurelevel>
+						<name type="string">3rd Level Features</name>
+					</id-00005>
+					<id-00006>
+						<featureext type="formattedtext">
+							<p>As a 4th-level tactician, you gain the following features.</p>
+							<h>Characteristic Increase</h>
+							<p>Your Might and Reason scores each increase to 3.</p>
+							<h>Focus on Their Weaknesses</h>
+							<p>The first time each combat round that you or any ally damages a target marked by you, you gain 2 focus instead of 1.</p>
+							<h>Improved Field Arsenal</h>
+							<p>Your expertise with weapons has grown. Whenever you use a signature ability from one of your equipped kits or make a free strike using a weapon from one of your equipped kits, you gain an edge.</p>
+							<h>Perk</h>
+							<p>You gain one perk of your choice.</p>
+							<h>Skill</h>
+							<p>You gain one skill of your choice. See Skills in Chapter 9: Tests</p>
+						</featureext>
+						<featurelevel type="number">4</featurelevel>
+						<name type="string">4th Level Features</name>
+					</id-00006>
+					<id-00007>
+						<featureext type="formattedtext">
+							<p>Choose one heroic ability from the following options, each of which costs 9 focus to use.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07046">Ability: Squad! Gear Check! (9 Focus)</link>
+								<link class="ability" recordname="ability.id-07047">Ability: Squad! Remember Your Training! (9 Focus)</link>
+								<link class="ability" recordname="ability.id-07048">Ability: Win This Day! (9 Focus)</link>
+								<link class="ability" recordname="ability.id-07049">Ability: You&#8217;ve Still Got Something Left (9 Focus)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">5</featurelevel>
+						<name type="string">5th Level Features</name>
+					</id-00007>
+					<id-00008>
+						<featureext type="formattedtext">
+							<p>As a 6th-level tactician, you gain the following features.</p>
+							<h>Master of Arms</h>
+							<p>Your expertise with weapons has grown to true mastery. Whenever you use a signature ability from one of your equipped kits or make a free strike using a weapon from one of your equipped kits, you can negate a bane on the power roll or reduce a double bane to a bane.</p>
+							<h>Perk</h>
+							<p>You gain one exploration, interpersonal, or intrigue perk of your choice.</p>
+						</featureext>
+						<featurelevel type="number">6</featurelevel>
+						<name type="string">6th Level Features</name>
+					</id-00008>
+					<id-00009>
+						<featureext type="formattedtext">
+							<p>As a 7th-level tactician, you gain the following features.</p>
+							<h>Characteristic Increase</h>
+							<p>Each of your characteristic scores increases by 1, to a maximum of 4.</p>
+							<h>Heightened Focus</h>
+							<p>When you gain focus at the start of each of your turns during combat, you gain 3 focus instead of 2.</p>
+							<h>Seize the Initiative</h>
+							<p>If you are not surprised when combat begins, your side gets to go first. If an enemy has an ability that allows their side to go first, you roll as usual to determine who goes first.</p>
+							<h>Skill</h>
+							<p>You gain one skill of your choice.</p>
+							<h>7th-Level Doctrine Feature</h>
+							<p>Your tactical doctrine grants you a feature, as shown on the 7th-Level Doctrine Features table.</p>
+						</featureext>
+						<featurelevel type="number">7</featurelevel>
+						<name type="string">7th Level Features</name>
+					</id-00009>
+					<id-00010>
+						<featureext type="formattedtext">
+							<p>As an 8th-level tactician, you gain the following features.</p>
+							<h>Perk</h>
+							<p>You gain one perk of your choice.</p>
+							<h>8th-Level Doctrine Feature</h>
+							<p>Your tactical doctrine grants you a feature, as shown on the 8th-Level Doctrine Features table.</p>
+							<h> 8th-Level Doctrine Features </h>
+							<table>
+								<tr>
+									<td>
+										<b>Doctrine</b>
+									</td>
+									<td>
+										<b>Triggered Action</b>
+									</td>
+								</tr>
+								<tr>
+									<td>Insurgent</td>
+									<td>Bait and Ambush</td>
+								</tr>
+								<tr>
+									<td>Mastermind</td>
+									<td>Pincer Movement</td>
+								</tr>
+								<tr>
+									<td>Vanguard</td>
+									<td>See Your Enemies Driven Before You</td>
+								</tr>
+							</table>
+							<linklist>
+								<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00022">Bait and Ambush</link>
+								<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00023">Pincer Monvement</link>
+								<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00024">See Your Enemies Driven Before You</link>
+							</linklist>
+							<h>11-Focus Ability</h>
+							<p>Choose one heroic ability from the following options, each of which costs 11 focus to use.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07056">Ability: Go Now and Speed Well (11 Focus)</link>
+								<link class="ability" recordname="ability.id-07057">Ability: Finish Them! (11 Focus)</link>
+								<link class="ability" recordname="ability.id-07058">Ability: Floodgates Open (11 Focus)</link>
+								<link class="ability" recordname="ability.id-07059">Ability: I&#8217;ll Open and You&#8217;ll Close (11 Focus)</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">8</featurelevel>
+						<name type="string">8th Level Features</name>
+					</id-00010>
+					<id-00011>
+						<featureext type="formattedtext">
+							<p>As a 9th-level tactician, you gain the following features.</p>
+							<h>Grandmaster of Arms</h>
+							<p>Your expertise with weapons has grown to true mastery. Whenever you use a signature ability from one of your equipped kits or make a free strike using a weapon from one of your equipped kits, you automatically obtain a tier 3 outcome on the power roll. You can still roll to determine if you score a critical hit.</p>
+							<h>9th-Level Doctrine Ability</h>
+							<p>Your tactical doctrine grants your choice of one of two heroic abilities.</p>
+						</featureext>
+						<featurelevel type="number">9</featurelevel>
+						<name type="string">9th Level Features</name>
+					</id-00011>
+					<id-00012>
+						<featureext type="formattedtext">
+							<p>As a 10th-level tactician, you gain the following features.</p>
+							<h>Characteristic Increase</h>
+							<p>Your Might and Reason scores each increase to 5.</p>
+							<h>Command</h>
+							<p>You have an epic resource called command. Each time you finish a respite, you gain command equal to the XP you gain. You can spend command on your abilities as if it were focus.</p>
+							<p>Additionally, whenever you or any ally uses an ability to deal rolled damage to a creature marked by you, you can spend 1 command as a free triggered action to increase the power roll outcome for that target by one tier.</p>
+							<p>Whenever an enemy marked by you makes an ability roll, you can spend 1 command as a free triggered action to decrease the power roll outcome by one tier.</p>
+							<p>Command remains until you spend it.</p>
+							<h>Perk</h>
+							<p>You gain one exploration, interpersonal, or intrigue perk of your choice.</p>
+							<h>Skill</h>
+							<p>You gain one skill of your choice.</p>
+							<h>True Focus</h>
+							<p>When you gain focus at the start of each of your turns during combat, you gain 4 focus instead of 3.</p>
+							<h>Warmaster</h>
+							<p>You have mastered the entirety of possible strategies and tactics. Whenever you or any ally makes an ability roll against a target marked by you, the character making the roll can roll three dice and choose which two to use.</p>
+							<p>Additionally, whenever an ally uses a heroic ability that targets one or more creatures marked by you, they spend 2 fewer of their Heroic Resource on that ability (minimum 1)</p>
+						</featureext>
+						<featurelevel type="number">10</featurelevel>
+						<name type="string">10th Level Features</name>
+					</id-00012>
+					<id-00020>
+						<featureext type="formattedtext">
+							<p>You have drilled with a broad array of arms and armor, and have developed techniques to optimize their use. You can use and gain the benefits of two kits, including both their signature abilities. Whenever you would choose or change one kit, you can choose or change your second kit as well. See Chapter 6: Kits for more information. <i>(Quick Build: Shining Armor, Sniper.)</i></p>
+							<p>If both kits grant you the same benefit, you take one or the other and can&#8217;t change your choice until you finish a respite. (This usually means taking the higher of two bonuses.)</p>
+							<p>For example, if you take the Shining Armor and Sniper kits, you gain the following benefits overall:</p>
+							<p>&#9830; Stamina Bonus: +12 per echelon</p>
+							<p>&#9830; Stability Bonus: +1</p>
+							<p>&#9830; Melee Damage Bonus: +2/+2/+2</p>
+							<p>&#9830; Ranged Damage Bonus: +0/+0/+4</p>
+							<p>&#9830; Speed Bonus: +1</p>
+							<p>&#9830; Ranged Distance Bonus: +10</p>
+							<p>&#9830; Disengage Bonus: +1</p>
+							<p>&#9830; You can use the Patient Shot and Protective Attack signature abilities.</p>
+							<p>Kit signature abilities have their kit&#8217;s bonuses already applied, which might require you to adjust the bonuses of the signature abilities you gain from a kit. For example, you might take the Martial Artist kit, which gives a melee weapon damage bonus of +2/+2/+2, and the Mountain kit, which gives a melee weapon damage bonus of +0/+0/+4. If you choose to use the Mountain kit&#8217;s damage bonus, then the Battle Grace signature ability from the Martial Artist kit loses the +2/+2/+2 bonus from that kit, reducing its usual 5/8/11 damage for its tier 1, tier 2, and tier 3 outcomes to 3/6/9. It then gains the +0/+0/+4 of the Mountain kit to deal 3/6/13 damage.</p>
+						</featureext>
+						<featurelevel type="number">1</featurelevel>
+						<level type="number">0</level>
+						<name type="string">Field Arsenal</name>
+						<text type="string">You have drilled with a broad array of arms and armor, and have developed techniques to optimize their use. You can use and gain the benefits of two kits, including both their signature abilities. Whenever you would choose or change one kit, you can choose or change your second kit as well. See Chapter 6: Kits for more information. (Quick Build: Shining Armor, Sniper.)\n\nIf both kits grant you the same benefit, you take one or the other and can’t change your choice until you finish a respite. (This usually means taking the higher of two bonuses.)\n\nFor example, if you take the Shining Armor and Sniper kits, you gain the following benefits overall:\n♦ Stamina Bonus: +12 per echelon\n♦ Stability Bonus: +1\n♦ Melee Damage Bonus: +2+2/+2\n♦ Ranged Damage Bonus: +0/+0/+4\n♦ Speed Bonus: +1\n♦ Ranged Distance Bonus: +10\n♦ Disengage Bonus: +1\n♦ You can use the Patient Shot and Protective Attack signature abilities</text>
+					</id-00020>
+					<id-00021>
+						<featureext type="formattedtext">
+							<p>You have the following ability.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07025">Ability: Strike Now!</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">1</featurelevel>
+						<level type="number">0</level>
+						<name type="string">Strike Now</name>
+					</id-00021>
+					<id-00022>
+						<featureext type="formattedtext">
+							<p>You know how to focus the attention of your allies as you push them toward victory. You have the following ability.</p>
+							<linklist>
+								<link class="ability" recordname="ability.id-07024">Ability: Mark</link>
+							</linklist>
+						</featureext>
+						<featurelevel type="number">1</featurelevel>
+						<level type="number">0</level>
+						<name type="string">Mark</name>
+					</id-00022>
+				</features>
+				<name type="string">Tactician</name>
+				<notes type="formattedtext">
+					<h>Tactician</h>
+					<p>Strategist. Defender. Leader. With weapon in hand, you lead allies into the maw of battle, barking out commands that inspire your fellow heroes to move faster and strike more precisely. All the while, you stand between your compatriots and death, taunting the followers of evil to best you if they can.</p>
+					<p>As a tactician, you have abilities that heal your allies and grant them increased damage, movement, and attacks, even as you leave your enemies struggling to respond.</p>
+					<frame>
+						<frameid>Sir Jon of Tor</frameid>Your line is broken, Varrox! Your wizard is dead. Hahah! You should have negotiated!</frame>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; Tactician Advancement &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<table>
+						<tr>
+							<td>
+								<b>Level</b>
+							</td>
+							<td colspan="2">
+								<b>Features</b>
+							</td>
+							<td>
+								<b>Abilities</b>
+							</td>
+							<td>
+								<b>Tradition Abilities</b>
+							</td>
+						</tr>
+						<tr>
+							<td>1st</td>
+							<td colspan="2">Tactical Doctrine, Focus, Doctrine Feature, Doctrine Triggered Action, Field Arsenal, Mark, Strike Now, Tactician Abilities</td>
+							<td>3, 5</td>
+							<td>&#9472;</td>
+						</tr>
+						<tr>
+							<td>2nd</td>
+							<td colspan="2">Perk, Doctrine Feature, Doctrine Ability</td>
+							<td>3, 5</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>3rd</td>
+							<td colspan="2">Out of Position, 7-Focus Ability</td>
+							<td>3, 5, 7</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>4th</td>
+							<td colspan="2">Characteristic Increase, Focus on Their Weakness, Improved Field Arsenal, Perk, Skill</td>
+							<td>3, 5, 7</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>5th</td>
+							<td colspan="2">Doctrine Feature, 9-Focus Ability</td>
+							<td>3, 5, 7, 9</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>6th</td>
+							<td colspan="2">Master of Arms, Perk, Doctrine Ability</td>
+							<td>3, 5, 7, 9</td>
+							<td>5, 9</td>
+						</tr>
+						<tr>
+							<td>7th</td>
+							<td colspan="2">Characteristic Increase, Heightened Focus, Seize the Initiative, Skill, Doctrine Feature</td>
+							<td>3, 5, 7, 9</td>
+							<td>5, 9</td>
+						</tr>
+						<tr>
+							<td>8th</td>
+							<td colspan="2">Perk, Doctrine Feature, 11-Focus Ability</td>
+							<td>3, 5, 7, 9, 11</td>
+							<td>5, 9</td>
+						</tr>
+						<tr>
+							<td>9th</td>
+							<td colspan="2">Grandmaster of Arms, Doctrine Ability</td>
+							<td>3, 5, 7, 9, 11</td>
+							<td>5, 9, 11</td>
+						</tr>
+						<tr>
+							<td>10th</td>
+							<td colspan="2">Characteristic Increase, Command, Perk, Skill, True Focus, Warmaster</td>
+							<td>3, 5, 7, 9, 11</td>
+							<td>5, 9, 11</td>
+						</tr>
+					</table>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<h>1ST-LEVEL FEATURES</h>
+					<p>As a 1st-level tactician, you gain the following features.</p>
+					<h>Tactical Doctrine</h>
+					<p>Warfare is as old as civilization&#8212;and perhaps even older. As battle became ever more complex, military leaders invented tactical doctrine, outlining how combatants should be structured, used, and deployed. Doctrine can be learned at war colleges passing on ancient martial traditions, or directly through blood and sweat on the battlefield. Whatever path brought you to your mastery of historically proven tactics, you choose a tactical doctrine from the following options, each of which grants you a skill. (Quick Build: Vanguard and the Intimidate skill.)</p>
+					<p>
+						<b>Insurgent: </b>Doing your duty, playing fair, and dying honorably in battle is your opponent&#8217;s job. You&#8217;ll do whatever it takes to keep your allies alive. You gain a skill from the intrigue skill group.</p>
+					<p>
+						<b>Mastermind: </b>You have an encyclopedic knowledge of warfare, viewing the battlefield as a game board and seeking victory by thinking steps ahead of your opponents. You gain a skill from the lore skill group.</p>
+					<p>
+						<b>Vanguard: </b>You have learned the stratagems of ancient heroes, letting you lead from the front lines and seek victory through sheer force of will and personality. You gain a skill from the interpersonal skill group.</p>
+					<p>Your tactical doctrine is your subclass, and your choice of doctrine determines many of the features you&#8217;ll gain as you gain new levels.</p>
+					<h>Focus</h>
+					<p>The ring of steel panics others but brings order to your mind, granting you a Heroic Resource called focus.</p>
+					<p>
+						<b>Focus in Combat</b>
+					</p>
+					<p>At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain focus equal to your Victories. At the start of each of your turns during combat, you gain 2 focus.</p>
+					<p>Additionally, the first time each combat round that you or any ally damages a creature marked by you (see Mark below), you gain 1 focus. The first time in a combat round that any ally within 10 squares of you uses a heroic ability, you gain 1 focus.</p>
+					<p>You lose any remaining focus at the end of the encounter</p>
+					<p>
+						<b>Focus Outside of Combat</b>
+					</p>
+					<p>Though you can&#8217;t gain focus outside of combat, you can use your heroic abilities and effects that cost focus without spending it. Whenever you use an ability or effect outside of combat that costs focus, you can&#8217;t use that same ability or effect outside of combat again until you earn 1 or more Victories or finish a respite.</p>
+					<p>When you use an ability outside of combat that lets you spend unlimited focus on its effect, you can use it as if you had spent an amount of focus equal to your Victories. (Such abilities aren&#8217;t part of the core rules for the tactician, but they might appear in future products.)</p>
+					<h>1st-Level Doctrine Feature</h>
+					<p>Your tactical doctrine grants you a feature, as shown on the 1st-Level Doctrine Features table.</p>
+					<table>
+						<tr>
+							<td>
+								<b>Doctrine</b>
+							</td>
+							<td>
+								<b>Feature</b>
+							</td>
+						</tr>
+						<tr>
+							<td>Insurgent</td>
+							<td>Covert Operations</td>
+						</tr>
+						<tr>
+							<td>Mastermind</td>
+							<td>Studied Commander</td>
+						</tr>
+						<tr>
+							<td>Vanguard</td>
+							<td>Commanding Presence</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-07034">Covert Operations</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-07041">Studied Commander</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00001">Commanding Presence</link>
+					</linklist>
+					<table>
+						<tr>
+							<td>Many of the tactician&#8217;s abilities grant allies extra movement, damage, and actions. But what&#8217;s happening in the fiction to allow this? The tactician is an incredible strategist and inspiring leader who is quick to give commands and inspiration that causes their allies to act. The tactician can quickly read the battlefield, analyze enemies, and then bark orders and encouragement that pushes their allies to greatness. Many of the names of the tactician&#8217;s abilities are the actual commands they give their friends!</td>
+						</tr>
+					</table>
+					<h>Doctrine Triggered Action</h>
+					<p>Your tactical doctrine grants you a triggered action, as shown on the Doctrine Triggered Actions table.</p>
+					<table>
+						<tr>
+							<td>
+								<b>Doctrine</b>
+							</td>
+							<td>
+								<b>Triggered Action</b>
+							</td>
+						</tr>
+						<tr>
+							<td>Insurgent</td>
+							<td>Advanced Tactics</td>
+						</tr>
+						<tr>
+							<td>Mastermind</td>
+							<td>Overwatch</td>
+						</tr>
+						<tr>
+							<td>Vanguard</td>
+							<td>Parry</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="ability" recordname="ability.id-07023">Ability: Advanced Tactics</link>
+						<link class="ability" recordname="ability.id-07022">Ability: Overwatch</link>
+						<link class="ability" recordname="ability.id-07021">Ability: Parry</link>
+					</linklist>
+					<h>Field Arsenal</h>
+					<p>You have drilled with a broad array of arms and armor, and have developed techniques to optimize their use. You can use and gain the benefits of two kits, including both their signature abilities. Whenever you would choose or change one kit, you can choose or change your second kit as well. See Chapter 6: Kits for more information. <i>(Quick Build: Shining Armor, Sniper.)</i></p>
+					<p>If both kits grant you the same benefit, you take one or the other and can&#8217;t change your choice until you finish a respite. (This usually means taking the higher of two bonuses.)</p>
+					<p>For example, if you take the Shining Armor and Sniper kits, you gain the following benefits overall:</p>
+					<p>&#9830; Stamina Bonus: +12 per echelon</p>
+					<p>&#9830; Stability Bonus: +1</p>
+					<p>&#9830; Melee Damage Bonus: +2/+2/+2</p>
+					<p>&#9830; Ranged Damage Bonus: +0/+0/+4</p>
+					<p>&#9830; Speed Bonus: +1</p>
+					<p>&#9830; Ranged Distance Bonus: +10</p>
+					<p>&#9830; Disengage Bonus: +1</p>
+					<p>&#9830; You can use the Patient Shot and Protective Attack signature abilities.</p>
+					<p>Kit signature abilities have their kit&#8217;s bonuses already applied, which might require you to adjust the bonuses of the signature abilities you gain from a kit. For example, you might take the Martial Artist kit, which gives a melee weapon damage bonus of +2/+2/+2, and the Mountain kit, which gives a melee weapon damage bonus of +0/+0/+4. If you choose to use the Mountain kit&#8217;s damage bonus, then the Battle Grace signature ability from the Martial Artist kit loses the +2/+2/+2 bonus from that kit, reducing its usual 5/8/11 damage for its tier 1, tier 2, and tier 3 outcomes to 3/6/9. It then gains the +0/+0/+4 of the Mountain kit to deal 3/6/13 damage.</p>
+					<h>Mark</h>
+					<p>You know how to focus the attention of your allie as you push them toward victory. You have the following ability.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07024">Ability: Mark</link>
+					</linklist>
+					<h>Strike Now</h>
+					<p>You have the following ability.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07025">Ability: Strike Now!</link>
+					</linklist>
+					<h>Tactician Abilities</h>
+					<p>You are a formidable combatant in your own right, but your greatest strength is the abilities you wield that let you shape control of the battlefield.</p>
+					<p>
+						<b>Kit Signature Abilities</b>
+					</p>
+					<p>Each kit from your Field Arsenal feature grants you a signature ability. Signature abilities can be used at will.</p>
+					<h>Heroic Abilities</h>
+					<p>Your heroic abilities cover a range of combat tactics, all of which require focus to use.</p>
+					<p>
+						<b>3-Focus Ability</b>
+					</p>
+					<p>Choose one heroic ability from the following options, each of which costs 3 focus to use. ( <i>Quick Build: </i>Inspiring Strike.)</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07029">Ability: Battle Cry (3 Focus)</link>
+						<link class="ability" recordname="ability.id-07028">Ability: Concussive Strike (3 Focus)</link>
+						<link class="ability" recordname="ability.id-07027">Ability: Inspiring Strike (3 Focus)</link>
+						<link class="ability" recordname="ability.id-07026">Ability: Squad! Forward! (3 Focus)</link>
+					</linklist>
+					<p>
+						<b>5-Focus Ability</b>
+					</p>
+					<p>Choose one heroic ability from the following options, each of which costs 5 focus to use. ( <i>Quick Build: </i>Hammer and Anvil.)</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07032">Ability: Hammer and Anvil (5 Focus)</link>
+						<link class="ability" recordname="ability.id-07031">Ability: Mind Game (5 Focus)</link>
+						<link class="ability" recordname="ability.id-07030">Ability: Now! (5 Focus)</link>
+						<link class="ability" recordname="ability.id-07033">Ability: This is What We Planned For! (5 Focus)</link>
+					</linklist>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;2nd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<p>As a 2nd-level tactician, you gain the following features.</p>
+					<h>Perk</h>
+					<p>You gain one exploration, interpersonal, or intrigue perk of your choice. See Chapter 7: Perks.</p>
+					<h>2nd-Level Doctrine Feature</h>
+					<p>Your tactical doctrine grants you a feature, as shown on the 2nd-Level Doctrine Features table.</p>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 2nd-Level Doctrine Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<table>
+						<tr>
+							<td>
+								<b>Doctrine</b>
+							</td>
+							<td>
+								<b>Triggered Action</b>
+							</td>
+						</tr>
+						<tr>
+							<td>Insurgent</td>
+							<td>Infiltration Tactics</td>
+						</tr>
+						<tr>
+							<td>Mastermind</td>
+							<td>Goaded</td>
+						</tr>
+						<tr>
+							<td>Vanguard</td>
+							<td>Melee Superiority</td>
+						</tr>
+					</table>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<linklist>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00012">Goaded</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00010">Infiltration Tactics</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00011">Melee Superiority</link>
+					</linklist>
+					<h>2nd-Level Doctrine Ability</h>
+					<p>Your tactical doctrine grants your choice of one of two heroic abilities.</p>
+					<h>2nd-Level Insurgent Ability</h>
+					<p>Choose one of the following abilities.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07036">Ability: Fog of War (5 Focus)</link>
+						<link class="ability" recordname="ability.id-07037">Ability: Try Me Instead (5 Focus)</link>
+					</linklist>
+					<h>2nd-Level Mastermind Ability</h>
+					<p>Choose one of the following abilities.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-00006">Ability: I've Got Your Back (5 Focus)</link>
+						<link class="ability" recordname="ability.id-07039">Ability: Targets of Opportunity (5 Focus)</link>
+					</linklist>
+					<h>2nd-Level Vanguard Ability</h>
+					<p>Choose one of the following abilities.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07040">Ability: No Dying on My Watch (5 Focus)</link>
+						<link class="ability" recordname="ability.id-07041">Ability: Squad! On Me! (5 Focus)</link>
+					</linklist>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;3rd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<p>As a 3rd-level tactician, you gain the following features.</p>
+					<h>Out of Position</h>
+					<p>Even before battle begins, your enemies struggle to keep up with your tactics. At the start of an encounter, you can use a free triggered action to use your Mark ability against one enemy you have line of effect to, even if you are surprised. You can then slide the marked target up to 3 squares, ignoring stability. The target can&#8217;t be moved in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect.</p>
+					<h>7-Focus Ability</h>
+					<p>Choose one heroic ability from the following options, each of which costs 7 focus to use.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-00010">Ability: Frontal Assault (7 Focus)</link>
+						<link class="ability" recordname="ability.id-07043">Ability: Hit &#8217;Em Hard! (7 Focus)</link>
+						<link class="ability" recordname="ability.id-07044">Ability: Rout (7 Focus)</link>
+						<link class="ability" recordname="ability.id-07045">Ability: Stay Strong and Focus! (7 Focus)</link>
+					</linklist>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;4th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<p>As a 4th-level tactician, you gain the following features.</p>
+					<h>Characteristic Increase</h>
+					<p>Your Might and Reason scores each increase to 3.</p>
+					<h>Focus on Their Weaknesses</h>
+					<p>The first time each combat round that you or any ally damages a target marked by you, you gain 2 focus instead of 1.</p>
+					<h>Improved Field Arsenal</h>
+					<p>Your expertise with weapons has grown. Whenever you use a signature ability from one of your equipped kits or make a free strike using a weapon from one of your equipped kits, you gain an edge.</p>
+					<h>Perk</h>
+					<p>You gain one perk of your choice.</p>
+					<h>Skill</h>
+					<p>You gain one skill of your choice. See Skills in Chapter 9: Tests</p>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;5th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<p>As a 5th-level tactician, you gain the following features.</p>
+					<h>5th-Level Doctrine Features</h>
+					<p>Your tactical doctrine grants you two features, as shown on the 5th-Level Doctrine Features table.</p>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 5th-Level Doctrine Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<table>
+						<tr>
+							<td>
+								<b>Doctrine</b>
+							</td>
+							<td>
+								<b>Triggered Action</b>
+							</td>
+						</tr>
+						<tr>
+							<td>Insurgent</td>
+							<td>Distracted, Leave No Trace</td>
+						</tr>
+						<tr>
+							<td>Mastermind</td>
+							<td>Anticipation, I Predicted That</td>
+						</tr>
+						<tr>
+							<td>Vanguard</td>
+							<td>Shake It Off, Tactical Offensive</td>
+						</tr>
+					</table>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<linklist>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00017">Anticipation</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00013">Distracted</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00018">I Predicted That</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00014">Leave No Trace</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00015">Shate It Off</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00016">Tactical Offensive</link>
+					</linklist>
+					<h>9-Focus Ability</h>
+					<p>Choose one heroic ability from the following options, each of which costs 9 focus to use.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07046">Ability: Squad! Gear Check! (9 Focus)</link>
+						<link class="ability" recordname="ability.id-07047">Ability: Squad! Remember Your Training! (9 Focus)</link>
+						<link class="ability" recordname="ability.id-07048">Ability: Win This Day! (9 Focus)</link>
+						<link class="ability" recordname="ability.id-07049">Ability: You&#8217;ve Still Got Something Left (9 Focus)</link>
+					</linklist>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;6th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<p>As a 6th-level tactician, you gain the following features.</p>
+					<h>Master of Arms</h>
+					<p>Your expertise with weapons has grown to true mastery. Whenever you use a signature ability from one of your equipped kits or make a free strike using a weapon from one of your equipped kits, you can negate a bane on the power roll or reduce a double bane to a bane.</p>
+					<h>Perk</h>
+					<p>You gain one exploration, interpersonal, or intrigue perk of your choice.</p>
+					<h>6th-Level Doctrine Ability</h>
+					<p>Your tactical doctrine grants your choice of one of two heroic abilities.</p>
+					<h>6th-Level Insurgent Abilities</h>
+					<p>Choose one of the following abilities.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07050">Ability: Coordinated Execution (9 Focus)</link>
+						<link class="ability" recordname="ability.id-07051">Ability: Panic in Their Lines (9 Focus)</link>
+					</linklist>
+					<h>6th-Level Mastermind Abilities</h>
+					<p>Choose one of the following abilities.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07052">Ability: Battle Plan (9 Focus)</link>
+						<link class="ability" recordname="ability.id-07053">Ability: Hustle! (9 Focus)</link>
+					</linklist>
+					<h>6th-Level Vanguard Abilities</h>
+					<p>Choose one of the following abilities.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07054">Ability: Instant Retaliation (9 Focus)</link>
+						<link class="ability" recordname="ability.id-07055">Ability: To Me Squad! (9 Focus)</link>
+					</linklist>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;7th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<p>As a 7th-level tactician, you gain the following features.</p>
+					<h>Characteristic Increase</h>
+					<p>Each of your characteristic scores increases by 1, to a maximum of 4.</p>
+					<h>Heightened Focus</h>
+					<p>When you gain focus at the start of each of your turns during combat, you gain 3 focus instead of 2.</p>
+					<h>Seize the Initiative</h>
+					<p>If you are not surprised when combat begins, your side gets to go first. If an enemy has an ability that allows their side to go first, you roll as usual to determine who goes first.</p>
+					<h>Skill</h>
+					<p>You gain one skill of your choice.</p>
+					<h>7th-Level Doctrine Feature</h>
+					<p>Your tactical doctrine grants you a feature, as shown on the 7th-Level Doctrine Features table.</p>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 7th-Level Doctrine Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<table>
+						<tr>
+							<td>
+								<b>Doctrine</b>
+							</td>
+							<td>
+								<b>Triggered Action</b>
+							</td>
+						</tr>
+						<tr>
+							<td>Insurgent</td>
+							<td>Asymmetric Warfare</td>
+						</tr>
+						<tr>
+							<td>Mastermind</td>
+							<td>Grand Strategy</td>
+						</tr>
+						<tr>
+							<td>Vanguard</td>
+							<td>Shock and Awe</td>
+						</tr>
+					</table>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<linklist>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00019">Asymmetric Warfare</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00021">Grand Strategy</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00020">Shock and Awe</link>
+					</linklist>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;8th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<p>As an 8th-level tactician, you gain the following features.</p>
+					<h>Perk</h>
+					<p>You gain one perk of your choice.</p>
+					<h>8th-Level Doctrine Feature</h>
+					<p>Your tactical doctrine grants you a feature, as shown on the 8th-Level Doctrine Features table.</p>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; 8th-Level Doctrine Features &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<table>
+						<tr>
+							<td>
+								<b>Doctrine</b>
+							</td>
+							<td>
+								<b>Triggered Action</b>
+							</td>
+						</tr>
+						<tr>
+							<td>Insurgent</td>
+							<td>Bait and Ambush</td>
+						</tr>
+						<tr>
+							<td>Mastermind</td>
+							<td>Pincer Movement</td>
+						</tr>
+						<tr>
+							<td>Vanguard</td>
+							<td>See Your Enemies Driven Before You</td>
+						</tr>
+					</table>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9830;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<linklist>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00022">Bait and Ambush</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00023">Pincer Monvement</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-00001.featurechoices.id-00024">See Your Enemies Driven Before You</link>
+					</linklist>
+					<h>11-Focus Ability</h>
+					<p>Choose one heroic ability from the following options, each of which costs 11 focus to use.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07056">Ability: Go Now and Speed Well (11 Focus)</link>
+						<link class="ability" recordname="ability.id-07057">Ability: Finish Them! (11 Focus)</link>
+						<link class="ability" recordname="ability.id-07058">Ability: Floodgates Open (11 Focus)</link>
+						<link class="ability" recordname="ability.id-07059">Ability: I&#8217;ll Open and You&#8217;ll Close (11 Focus)</link>
+					</linklist>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;9th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<p>As a 9th-level tactician, you gain the following features.</p>
+					<h>Grandmaster of Arms</h>
+					<p>Your expertise with weapons has grown to true mastery. Whenever you use a signature ability from one of your equipped kits or make a free strike using a weapon from one of your equipped kits, you automatically obtain a tier 3 outcome on the power roll. You can still roll to determine if you score a critical hit.</p>
+					<h>9th-Level Doctrine Ability</h>
+					<p>Your tactical doctrine grants your choice of one of two heroic abilities.</p>
+					<h>9th-Level Insurgent Abilities</h>
+					<p>Choose one of the following abilities.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07060">Ability: Squad! Hit and Run! (11 Focus)</link>
+						<link class="ability" recordname="ability.id-07062">Ability: Their Lack of Focus Is Their Undoing (11 Focus)</link>
+					</linklist>
+					<h>9th-Level Mastermind Abilities</h>
+					<p>Choose one of the following abilities.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07061">Ability: Blot Out the Sun! (11 Focus)</link>
+						<link class="ability" recordname="ability.id-07063">Ability: Counterstrategy (11 Focus)</link>
+					</linklist>
+					<h>9th-Level Vanguard Abilities</h>
+					<p>Choose one of the following abilities.</p>
+					<linklist>
+						<link class="ability" recordname="ability.id-07064">Ability: No Escape (11 Focus)</link>
+						<link class="ability" recordname="ability.id-07065">Ability: That One Is Mine! (11 Focus)</link>
+					</linklist>
+					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;10th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
+					<p>As a 10th-level tactician, you gain the following features.</p>
+					<h>Characteristic Increase</h>
+					<p>Your Might and Reason scores each increase to 5.</p>
+					<h>Command</h>
+					<p>You have an epic resource called command. Each time you finish a respite, you gain command equal to the XP you gain. You can spend command on your abilities as if it were focus.</p>
+					<p>Additionally, whenever you or any ally uses an ability to deal rolled damage to a creature marked by you, you can spend 1 command as a free triggered action to increase the power roll outcome for that target by one tier.</p>
+					<p>Whenever an enemy marked by you makes an ability roll, you can spend 1 command as a free triggered action to decrease the power roll outcome by one tier.</p>
+					<p>Command remains until you spend it.</p>
+					<h>Perk</h>
+					<p>You gain one exploration, interpersonal, or intrigue perk of your choice.</p>
+					<h>Skill</h>
+					<p>You gain one skill of your choice.</p>
+					<h>True Focus</h>
+					<p>When you gain focus at the start of each of your turns during combat, you gain 4 focus instead of 3.</p>
+					<h>Warmaster</h>
+					<p>You have mastered the entirety of possible strategies and tactics. Whenever you or any ally makes an ability roll against a target marked by you, the character making the roll can roll three dice and choose which two to use.</p>
+					<p>Additionally, whenever an ally uses a heroic ability that targets one or more creatures marked by you, they spend 2 fewer of their Heroic Resource on that ability (minimum 1)</p>
+					<p>[Source: Draw Steel Heroes v1.0]</p>
+				</notes>
+				<staminaPerLevel type="number">9</staminaPerLevel>
+				<startingAgility type="number">0</startingAgility>
+				<startingIntuition type="number">0</startingIntuition>
+				<startingMight type="number">2</startingMight>
+				<startingPresence type="number">1</startingPresence>
+				<startingReason type="number">2</startingReason>
+				<startingRecoveries type="number">10</startingRecoveries>
+				<startingStamina type="number">21</startingStamina>
+				<text type="formattedtext">
+					<h>BASICS</h>
+					<p>Starting Characteristics: You start with a Might of 2 and a Reason of 2, and can choose one of the following arrays for your other characteristics scores:</p>
+					<list>
+						<li>2, &#8722;1, &#8722;1</li>
+						<li>1, 1, &#8722;1</li>
+						<li>1, 0, 0</li>
+					</list>
+					<p>
+						<b>Weak Potency: </b>Reason &#8722; 2</p>
+					<p>
+						<b>Average Potency: </b>Reason &#8722; 1</p>
+					<p>
+						<b>Strong Potency: </b>Reason</p>
+					<p>
+						<b>Starting Stamina at 1st Level: </b>21</p>
+					<p>
+						<b>Stamina Gained at 2nd and Higher Levels: </b>12</p>
+					<p>
+						<b>Recoveries: </b>10</p>
+					<p>
+						<b>Skills: </b>You have the Lead skill (see <i>Skills </i>in <i>Chapter 9: Tests </i>). Then choose any two skills from Alertness, Architecture, Blacksmithing, Brag, Culture, Empathize, Fletching, Mechanics, Monsters, Search, Strategy, or the skills of the exploration skill group. ( <i>Quick Build: </i>Lead, Monsters, Strategy.)</p>
+				</text>
+			</id-00007>
+			<!-- <id-00007>
 				<basicnotes type="formattedtext">
 					<p>
 						<b>Starting Characteristics: </b>You start with a Might of 2 and a Reason of 2, and you can choose one of the following arrays for your other characteristic scores:</p>
@@ -20441,7 +22374,7 @@
 					<p>
 						<b>Skills: </b>You have the Lead skill (see <i>Skills </i>in <i>Chapter 9: Tests </i>). Then choose any two skills from Alertness, Architecture, Blacksmithing, Brag, Culture, Empathize, Fletching, Mechanics, Monsters, Search, Strategy, or the skills of the exploration skill group. ( <i>Quick Build: </i>Lead, Monsters, Strategy.)</p>
 				</text>
-			</id-00007>
+			</id-00007> -->
 		<!-- Talent -->
 			<id-08002>
 				<basicnotes type="formattedtext">
