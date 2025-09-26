@@ -2,12 +2,335 @@
 <root version="4.7" dataversion="20241002" release="1|CoreRPG:7">
 <!-- DONE: Conduit, Censor, Elementalist, Fury, Null, Shadow, Troubadour, Tactician, Talent -->
 	<ability>
+		<!-- General Combat Actions -->
+		<id-00023>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">When a creature takes the Advance move action, they move a number of squares up to their speed. They can break up this movement with their maneuver and main action however they wish.</effect>
+			<name type="string">Advance</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Move</type>
+		</id-00023>
+		<id-00002>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">When a creature takes the Disengage move action, they can shift 1 square. Certain class features, kits, and other rules allow a creature to shift more than 1 square when they disengage. A creature who does so can break up their shift with their maneuver and main action however they wish.</effect>
+			<name type="string">Disengage</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Move</type>
+		</id-00002>
+		<id-00003>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">A creature can take the Ride move action only while mounted on another creature (see Mounted Combat below). When a creature takes the Ride move action, they cause their mount to move up to the mount’s speed, taking the rider with them. Alternatively, a creature can use the Ride move action to have their mount use the Disengage move action as a free triggered action. A creature can use the Ride move action only once per round. A mounted creature can only have this move action applied to them once per round. This movement can be broken up with the rider’s maneuver and main action however they wish.</effect>
+			<name type="string">Ride</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Move</type>
+		</id-00003>
+		<id-00004>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">A creature who uses the Aid Attack maneuver chooses an enemy adjacent to them. The next ability roll an ally makes against that enemy before the start of the aiding creature’s next turn gains an edge.</effect>
+			<name type="string">Aid Attack</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Maneuver</type>
+		</id-00004>
+		<id-00005>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">A creature who uses the Catch Breath maneuver spends a Recovery and regains Stamina equal to their recovery value. (See below for Stamina. See Recoveries in Chapter 1: The Basics.)\n\nA creature who is dying (see Dying and Death in Stamina below) can’t use the Catch Breath maneuver, but other creatures can help them spend Recoveries in other ways.</effect>
+			<name type="string">Catch Breath</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Maneuver</type>
+		</id-00005>
+		<id-00006>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<characteristicoption type="string">Might or Agility</characteristicoption>
+			<distance type="string">Self</distance>
+			<effect type="string">You take a bane on this maneuver if your size is smaller than the size of the creature, object, or effect that has you grabbed.</effect>
+			<name type="string">Escape Grab</name>
+			<notes type="formattedtext">
+				<p>A creature who is grabbed by another creature, an object, or an effect (see Grab below) can attempt to escape by using the following ability.</p>
+			</notes>
+			<special type="string">See Conditions in Chapter 5: Classes for information on the grabbed condition.</special>
+			<target type="string">Self</target>
+			<tier1 type="string">No effect.</tier1>
+			<tier2 type="string">You can escape the grab, but if you do, a creature who has you grabbed can make a melee free strike against you before you are no longer grabbed.</tier2>
+			<tier3 type="string">You are no longer grabbed.</tier3>
+			<type type="string">Maneuver</type>
+		</id-00006>
+		<id-00007>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might</characteristicoption>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You can usually target only creatures of your size or smaller. If your Might score is 2 or higher, you can target any creature with a size equal to or less than your Might score.</effect>
+			<keywords type="string">Melee, Weapon</keywords>
+			<name type="string">Grab</name>
+			<notes type="formattedtext">
+				<p>A creature seeking to keep a foe close and locked down can attempt to grab a creature using the following ability.</p>
+			</notes>
+			<special type="string">Unless otherwise indicated, a creature can grab only one creature at a time.\n\nSee Conditions in Chapter 5: Classes for information on the grabbed condition.</special>
+			<target type="string">One creature</target>
+			<tier1 type="string">No effect.</tier1>
+			<tier2 type="string">You can grab the target, but if you do, the target can make a melee free strike against you before they are grabbed.</tier2>
+			<tier3 type="string">The target is grabbed by you.</tier3>
+			<type type="string">Maneuver</type>
+		</id-00007>
+		<id-00008>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">Using the Hide maneuver, a creature attempts to hide from other creatures who aren’t observing them while they have cover or concealment. See Hide and Sneak in Chapter 9: Tests for full details.</effect>
+			<name type="string">Hide</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Maneuver</type>
+		</id-00008>
+		<id-00009>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might</characteristicoption>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">You can usually target only creatures of your size or smaller. If your Might score is 2 or higher, you can target any creature with a size equal to or less than your Might score.</effect>
+			<keywords type="string">Melee, Weapon</keywords>
+			<name type="string">Knockback</name>
+			<notes type="formattedtext">
+				<p>A creature wanting to push an adjacent creature away from them can attempt to shove that creature using the following ability.</p>
+			</notes>
+			<target type="string">1 creature</target>
+			<tier1 type="string">Push 1</tier1>
+			<tier2 type="string">Push 2</tier2>
+			<tier3 type="string">Push 3</tier3>
+			<type type="string">Maneuver</type>
+		</id-00009>
+		<id-00010>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">Many tests are maneuvers if made in combat. Searching a chest with a Reason test, picking a door’s lock with an Agility test, or lifting a portcullis with a Might test would all be maneuvers. Assisting a test is also a maneuver in combat (see Assist a Test in Chapter 9: Tests).\n\nComplex or time-consuming tests might require a main action if\nmade in combat—or could take so long that they can’t be made during combat at all. Other tests that take no time at all, such as a Reason test to recall lore about mummies, are usually free maneuvers in combat. The Director has the final say regarding which tests can be made as maneuvers.</effect>
+			<name type="string">Make or Assist a Test</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Maneuver</type>
+		</id-00010>
+		<id-00011>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">The Search for Hidden Creatures maneuver allows a creature to attempt to locate creatures hidden from them (see Hide and Sneak in Chapter 9: Tests).</effect>
+			<name type="string">Search for Hidden Creatures</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Maneuver</type>
+		</id-00011>
+		<id-00012>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">A creature can use the Stand Up maneuver to stand up if they are prone, ending that condition. Alternatively, they can use this maneuver to make a willing adjacent prone creature stand up.</effect>
+			<name type="string">Stand Up</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Maneuver</type>
+		</id-00012>
+		<id-00013>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">Unless otherwise noted in its description, a creature can activate a consumable treasure such as a potion with the Use Consumable maneuver. A creature can use this maneuver to administer a consumable treasure that benefits the user either to themself or to a willing adjacent creature. See Consumables in Chapter 13: Rewards.</effect>
+			<name type="string">Use Consumable</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Maneuver</type>
+		</id-00013>
+		<id-00014>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">When a creature takes the Charge main action, they move up to their\nspeed in a straight line, then make a melee free strike (see Free Strikes below) against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a free strike.\n\nA creature can’t move through difficult terrain or shift when they\ncharge. They can fly or burrow as part of the Charge main action if they have that movement available to them, but they can’t climb or swim while charging unless they can automatically use that movement at full speed.</effect>
+			<name type="string">Charge</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Main action</type>
+		</id-00014>
+		<id-00015>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">When a creature takes the Defend main action, ability rolls made against them have a double bane until the start of their next turn. Additionally, you have a double edge on tests when called for to resist environmental effects or a creature’s traits or abilities. A creature gains no benefit from this action while another creature is taunted by them (see Conditions in Chapter 5: Classes).</effect>
+			<name type="string">Defend</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Main action</type>
+		</id-00015>
+		<id-00016>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<characteristicoption type="string">Might or Agility:</characteristicoption>
+			<distance type="string">Melee 1</distance>
+			<effect type="string">A creature can use this main action to make a free strike (see Free Strikes below). Most of the time, you’ll want to use the more impactful General Actions granted by your class, kit, or other feature, just as the Director will use the General Actions in a creature’s stat block, but free strikes are available for when all else fails. For instance, a fury who has no other options for ranged strikes might use the Ranged Weapon Free Strike ability with an improvised weapon when battling a flying foe.</effect>
+			<keywords type="string">Charge, Melee, Strike, Weapon</keywords>
+			<name type="string">Melee Free Strike</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">2 + M or A damage</tier1>
+			<tier2 type="string">5 + M or A damage</tier2>
+			<tier3 type="string">7 + M or A damage</tier3>
+			<type type="string">Main action</type>
+		</id-00016>
+		<id-00017>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<effect type="string">A creature who uses the Heal main action employs medicine or inspiring words to make an adjacent creature feel better and stay in the fight. The target creature can spend a Recovery to regain Stamina, or can make a saving throw against one effect they are suffering that is ended by a saving throw.</effect>
+			<name type="string">Heal</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<type type="string">Main action</type>
+		</id-00017>
+		<id-00018>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<characteristicoption type="string">Might or Agility:</characteristicoption>
+			<distance type="string">Ranged 5</distance>
+			<effect type="string">A creature can use this main action to make a free strike (see Free Strikes below). Most of the time, you’ll want to use the more impactful General Actions granted by your class, kit, or other feature, just as the Director will use the General Actions in a creature’s stat block, but free strikes are available for when all else fails. For instance, a fury who has no other options for ranged strikes might use the Ranged Weapon Free Strike ability with an improvised weapon when battling a flying foe.</effect>
+			<keywords type="string">Ranged, Strike, Weapon</keywords>
+			<name type="string">Ranged Weapon Free Strike</name>
+			<notes type="formattedtext">
+				<p />
+			</notes>
+			<target type="string">One creature or object</target>
+			<tier1 type="string">2 + M or A damage</tier1>
+			<tier2 type="string">4 + M or A damage</tier2>
+			<tier3 type="string">6 + M or A damage</tier3>
+			<type type="string">Main action</type>
+		</id-00018>
+		<id-00019>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">1</characteristic>
+			<characteristicoption type="string">Might:</characteristicoption>
+			<distance type="string">Self</distance>
+			<name type="string">Claw Dirt</name>
+			<notes type="formattedtext">
+				<p>If a creature who can&#8217;t burrow wants to dig into the ground, they can use the following ability provided their speed is 2 or more.</p>
+			</notes>
+			<target type="string">Self</target>
+			<tier1 type="string">You can move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are slowed and weakened (EoT).</tier1>
+			<tier2 type="string">You can use your main action this turn to move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are slowed (EoT).</tier2>
+			<tier3 type="string">You can move 1 square into, out of, or through ground you are touching that can be burrowed through.</tier3>
+			<type type="string">Maneuver</type>
+		</id-00019>
+		<id-00020>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<characteristicoption type="string">Might or Agility:</characteristicoption>
+			<effect type="string">While you climb or ride a creature, you gain an edge on melee abilities used against them. The creature can use activate the "Not Letting Go" maneuver in an attempt to knock you off.</effect>
+			<name type="string">Climbing Other Creatures</name>
+			<notes type="formattedtext">
+				<p>You can attempt to climb a creature whose size is greater than yours. If the creature is willing, you can climb them without any trouble. If the creature is unwilling, you make the following test:</p>
+			</notes>
+			<tier1 type="string">You fail to climb the creature, and they can make a free strike against you.</tier1>
+			<tier2 type="string">You fail to climb the creature.</tier2>
+			<tier3 type="string">You climb the creature.</tier3>
+			<type type="string">Move action</type>
+		</id-00020>
+		<id-00021>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<characteristicoption type="string">Might or Agility:</characteristicoption>
+			<effect type="string">If you are knocked prone while climbing or riding a creature, you fall and land prone in an adjacent space of your choice, taking damage as usual from the fall.</effect>
+			<name type="string">Not Letting Go</name>
+			<notes type="formattedtext">
+				<p>While you climb or ride a creature, you gain an edge on melee abilities used against them. The creature can use the maneuver below to attempt to knock you off, forcing you to make the following test:</p>
+			</notes>
+			<tier1 type="string">You fall off the creature into an unoccupied adjacent space of your choice, taking falling damage and landing prone as usual (see Falling below).</tier1>
+			<tier2 type="string">You slide down the creature into an unoccupied adjacent space of your choice and don’t land prone.</tier2>
+			<tier3 type="string">You continue to hold on to the creature.</tier3>
+			<type type="string">Maneuver</type>
+		</id-00021>
+		<id-00022>
+			<ability_cost type="number">0</ability_cost>
+			<ability_level type="number">0</ability_level>
+			<abilitytype type="string">General Actions</abilitytype>
+			<characteristic type="number">0</characteristic>
+			<characteristicoption type="string">Might or Agility:</characteristicoption>
+			<effect type="string">You can’t jump farther or higher than the distance of the effect that allows you to move. You can’t jump out of difficult terrain or damaging terrain.</effect>
+			<name type="string">Jump</name>
+			<notes type="formattedtext">
+				<p>Whenever an effect allows you to move (including using the Advance</p>
+				<p>move action), you can automatically long jump a number of squares up</p>
+				<p>to your Might or Agility score (your choice; minimum 1 square) as part</p>
+				<p>of that movement. The height of your jump is automatically 1 square as part of that movement.</p>
+				<p>If you want to jump even longer or higher than your baseline jump allows, make a Might or Agility test:</p>
+			</notes>
+			<tier1 type="string">You don’t jump any farther than your baseline jump allows.</tier1>
+			<tier2 type="string">You jump 1 square longer and higher than your baseline jump allows.</tier2>
+			<tier3 type="string">You jump 2 squares longer and higher than your baseline jump allows.</tier3>
+			<type type="string">Move action</type>
+		</id-00022>
+
 		<!-- Censor Abilities -->
 		<id-01098>
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">3 burst</distance>
@@ -27,7 +350,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -46,7 +369,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">3 burst</distance>
@@ -64,7 +387,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10 </distance>
@@ -194,7 +517,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">1</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Melee 1</distance>
@@ -215,7 +538,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -236,7 +559,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -255,7 +578,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -274,7 +597,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">1</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Melee 1</distance>
@@ -295,7 +618,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">2 aura</distance>
@@ -691,7 +1014,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">3 burst</distance>
@@ -711,7 +1034,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -730,7 +1053,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">3 burst</distance>
@@ -748,7 +1071,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10 </distance>
@@ -768,7 +1091,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">1</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -789,7 +1112,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">3 aura</distance>
@@ -807,7 +1130,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">1</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Melee 1</distance>
@@ -828,7 +1151,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">3 aura</distance>
@@ -846,7 +1169,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Melee 1 </distance>
@@ -867,7 +1190,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -886,7 +1209,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -1048,7 +1371,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -1066,7 +1389,7 @@
 		<id-01119>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">7</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10 </distance>
@@ -1084,7 +1407,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">7</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -1406,7 +1729,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10 </distance>
@@ -1424,7 +1747,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -1443,7 +1766,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -1462,7 +1785,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">1</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Melee 1</distance>
@@ -1483,7 +1806,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">2 aura</distance>
@@ -1501,7 +1824,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10 </distance>
@@ -1519,7 +1842,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">5 burst </distance>
@@ -1537,7 +1860,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10 </distance>
@@ -1557,7 +1880,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">3 burst</distance>
@@ -1578,7 +1901,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">3 cube within 10</distance>
@@ -1598,7 +1921,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -1616,7 +1939,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10 </distance>
@@ -1634,7 +1957,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -1652,7 +1975,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">3 cube within 10</distance>
@@ -1672,7 +1995,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -1690,7 +2013,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">3 aura </distance>
@@ -1858,7 +2181,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 5</distance>
@@ -1878,7 +2201,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">4 aura</distance>
@@ -1896,7 +2219,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -1921,7 +2244,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">4 burst</distance>
@@ -1939,7 +2262,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">4 burst </distance>
@@ -1960,7 +2283,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -1978,7 +2301,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Three 10 × 1 lines within 1 </distance>
@@ -1999,7 +2322,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">4 burst </distance>
@@ -2017,7 +2340,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">10 × 2 line within 5</distance>
@@ -2037,7 +2360,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -2057,7 +2380,7 @@
 		<id-02108>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">7</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10 </distance>
@@ -2075,7 +2398,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">7</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -2164,7 +2487,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -2206,7 +2529,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Domain Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -2225,7 +2548,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<name type="string">Bend Fate (11 Piety)</name>
@@ -2238,7 +2561,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10 </distance>
@@ -2256,7 +2579,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -2275,7 +2598,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Ranged 10</distance>
@@ -2294,7 +2617,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">1</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">Melee 1</distance>
@@ -2315,7 +2638,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Wrath</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Order Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Censor</class>
 			<distance type="string">2 aura</distance>
@@ -2333,7 +2656,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10 </distance>
@@ -2351,7 +2674,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">5 burst </distance>
@@ -2369,7 +2692,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10 </distance>
@@ -2389,7 +2712,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">3 burst</distance>
@@ -2410,7 +2733,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">3 cube within 10</distance>
@@ -2430,7 +2753,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -2448,7 +2771,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10 </distance>
@@ -2466,7 +2789,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -2484,7 +2807,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">3 cube within 10</distance>
@@ -2504,7 +2827,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -2522,7 +2845,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">3 aura </distance>
@@ -2616,7 +2939,7 @@
 		<id-02091>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">0</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">3 aura</distance>
@@ -2707,7 +3030,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">4 aura</distance>
@@ -2725,7 +3048,7 @@
 				<ability_cost type="number">11</ability_cost>
 				<ability_cost_string type="string">Piety</ability_cost_string>
 				<ability_level type="number">9</ability_level>
-				<abilitytype type="string">Domain Ability</abilitytype>
+				<abilitytype type="string">Class Ability</abilitytype>
 				<characteristic type="number">0</characteristic>
 				<class type="string">Conduit</class>
 				<distance type="string">15 wall within 10</distance>
@@ -3193,7 +3516,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">4 aura</distance>
@@ -3211,7 +3534,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 5</distance>
@@ -3231,7 +3554,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">4 aura</distance>
@@ -3249,7 +3572,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -3267,7 +3590,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -3288,7 +3611,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">4 burst</distance>
@@ -3306,7 +3629,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">4 burst </distance>
@@ -3327,7 +3650,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -3345,7 +3668,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Three 10 × 1 lines within 1 </distance>
@@ -3366,7 +3689,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">4 burst </distance>
@@ -3384,7 +3707,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">10 × 2 line within 5</distance>
@@ -3404,7 +3727,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -3425,7 +3748,7 @@
 				<ability_cost type="number">11</ability_cost>
 				<ability_cost_string type="string">Piety</ability_cost_string>
 				<ability_level type="number">9</ability_level>
-				<abilitytype type="string">Domain Ability</abilitytype>
+				<abilitytype type="string">Class Ability</abilitytype>
 				<characteristic type="number">4</characteristic>
 				<class type="string">Conduit</class>
 				<distance type="string">Ranged 10</distance>
@@ -3445,7 +3768,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -3463,7 +3786,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -3481,7 +3804,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Ranged 10</distance>
@@ -3502,7 +3825,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">Self; see below</distance>
@@ -3520,7 +3843,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">5 cube within 5</distance>
@@ -3541,7 +3864,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">4</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">5 cube within 10</distance>
@@ -3561,7 +3884,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Piety</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Domain Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Conduit</class>
 			<distance type="string">5 cube within 10</distance>
@@ -3637,7 +3960,7 @@
 		<id-03104>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Element Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Elementalist</class>
 			<distance type="string">Ranged 10</distance>
@@ -3676,7 +3999,7 @@
 		<id-03106>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Element Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Elementalist</class>
 			<distance type="string">Ranged 10</distance>
@@ -3792,7 +4115,7 @@
 		<id-03112>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Element Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Elementalist</class>
 			<distance type="string">Melee 1</distance>
@@ -3861,7 +4184,7 @@
 		<id-03116>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Element Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Elementalist</class>
 			<distance type="string">Melee 1</distance>
@@ -3898,7 +4221,7 @@
 		<id-03118>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Element Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Elementalist</class>
 			<distance type="string">Ranged 10 </distance>
@@ -3915,7 +4238,7 @@
 		<id-03119>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Element Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Elementalist</class>
 			<distance type="string">Ranged 10</distance>
@@ -4066,7 +4389,7 @@
 		<id-03202>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Element Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Elementalist</class>
 			<distance type="string">Ranged 10</distance>
@@ -4142,7 +4465,7 @@
 		<id-03301>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">3</ability_level>
-			<abilitytype type="string">Element Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Elementalist</class>
 			<distance type="string">Self</distance>
@@ -4159,7 +4482,7 @@
 		<id-03302>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">3</ability_level>
-			<abilitytype type="string">Element Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Elementalist</class>
 			<distance type="string">Melee 1</distance>
@@ -4411,7 +4734,7 @@
 		<id-03801>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">8</ability_level>
-			<abilitytype type="string">Element Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Elementalist</class>
 			<distance type="string">Ranged 10</distance>
@@ -4600,7 +4923,7 @@
 		<id-04905>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Kit Ability</abilitytype>
+			<abilitytype type="string">Signature Ability</abilitytype>
 			<characteristic type="number">1</characteristic>
 			<class type="string">Fury</class>
 			<distance type="string">Melee 1</distance>
@@ -4621,7 +4944,7 @@
 		<id-04906>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Kit Ability</abilitytype>
+			<abilitytype type="string">Signature Ability</abilitytype>
 			<characteristic type="number">2</characteristic>
 			<class type="string">Fury</class>
 			<distance type="string">Melee 1</distance>
@@ -4643,7 +4966,7 @@
 		<id-04907>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Kit Ability</abilitytype>
+			<abilitytype type="string">Signature Ability</abilitytype>
 			<characteristic type="number">2</characteristic>
 			<class type="string">Fury</class>
 			<distance type="string">1 burst</distance>
@@ -4665,7 +4988,7 @@
 		<id-04908>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Kit Ability</abilitytype>
+			<abilitytype type="string">Signature Ability</abilitytype>
 			<characteristic type="number">1</characteristic>
 			<class type="string">Fury</class>
 			<distance type="string">Melee 1</distance>
@@ -6018,7 +6341,7 @@
 			</id-05017>
 			<id-05018>
 				<ability_cost type="number">5</ability_cost>
-				<ability_cost_string type="string">Disciple</ability_cost_string>
+				<ability_cost_string type="string">Discipline</ability_cost_string>
 				<ability_level type="number">2</ability_level>
 				<abilitytype type="string">Heroic Ability</abilitytype>
 				<characteristic type="number">4</characteristic>
@@ -6791,7 +7114,7 @@
 		<id-06009>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">3</ability_level>
-			<abilitytype type="string">Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Shadow</class>
 			<distance type="string">Ranged 20</distance>
@@ -9868,7 +10191,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Clarity</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Heroic Abilty</abilitytype>
+			<abilitytype type="string">Heroic Ability</abilitytype>
 			<characteristic type="number">3</characteristic>
 			<characteristicoption type="string">Reason</characteristicoption>
 			<class type="string">Talent</class>
@@ -10229,7 +10552,7 @@
 		<id-09101>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Routine Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 aura</distance>
@@ -10245,7 +10568,7 @@
 		<id-09102>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Routine Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 aura</distance>
@@ -10261,7 +10584,7 @@
 		<id-09103>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 aura</distance>
@@ -10278,7 +10601,7 @@
 		<id-09104>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">2 aura</distance>
@@ -10295,7 +10618,7 @@
 		<id-09105>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Ranged 10</distance>
@@ -10314,7 +10637,7 @@
 			<ability_cost type="number">1</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Self</distance>
@@ -10332,7 +10655,7 @@
 		<id-09107>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">2 burst</distance>
@@ -10351,7 +10674,7 @@
 		<id-09108>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Ranged 10</distance>
@@ -10371,7 +10694,7 @@
 		<id-09109>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 aura</distance>
@@ -10389,7 +10712,7 @@
 			<ability_cost type="number">3</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Act Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Ranged 5</distance>
@@ -10408,7 +10731,7 @@
 		<id-09111>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Act Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Melee 1</distance>
@@ -10426,7 +10749,7 @@
 		<id-09112>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">1</ability_level>
-			<abilitytype type="string">Class Act Triggered Action</abilitytype>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Ranged 10</distance>
@@ -10672,7 +10995,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Ranged 10</distance>
@@ -10690,7 +11013,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Ranged 10</distance>
@@ -10708,7 +11031,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Melee 1</distance>
@@ -10726,7 +11049,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Melee 1</distance>
@@ -10747,7 +11070,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Special</distance>
@@ -10765,7 +11088,7 @@
 			<ability_cost type="number">5</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">2</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">3 cube within 10</distance>
@@ -10785,7 +11108,7 @@
 		<id-09301>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">3</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 aura</distance>
@@ -10802,7 +11125,7 @@
 		<id-09302>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">3</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 aura</distance>
@@ -10896,7 +11219,7 @@
 		<id-09501>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">5</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 aura</distance>
@@ -10913,7 +11236,7 @@
 		<id-09502>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">5</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 aura</distance>
@@ -10968,7 +11291,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">5</ability_level>
-			<abilitytype type="string">Heroic</abilitytype>
+			<abilitytype type="string">Heroic Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Ranged 10 </distance>
@@ -11003,7 +11326,7 @@
 		<id-09601>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Routine Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 aura</distance>
@@ -11020,7 +11343,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 burst</distance>
@@ -11039,7 +11362,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 burst</distance>
@@ -11056,7 +11379,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">2</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Melee 1</distance>
@@ -11076,7 +11399,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Melee 1</distance>
@@ -11094,7 +11417,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Three 3 cubes within 1</distance>
@@ -11115,7 +11438,7 @@
 			<ability_cost type="number">9</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">6</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">4 burst</distance>
@@ -11132,7 +11455,7 @@
 		<id-09801>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">8</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 aura</distance>
@@ -11149,7 +11472,7 @@
 		<id-09802>
 			<ability_cost type="number">0</ability_cost>
 			<ability_level type="number">8</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 aura</distance>
@@ -11238,7 +11561,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Melee 1 or ranged 10</distance>
@@ -11259,7 +11582,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">0</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Ranged 10</distance>
@@ -11277,7 +11600,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">2</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Melee 3</distance>
@@ -11298,7 +11621,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Melee 1</distance>
@@ -11319,7 +11642,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">5 burst</distance>
@@ -11340,7 +11663,7 @@
 			<ability_cost type="number">11</ability_cost>
 			<ability_cost_string type="string">Drama</ability_cost_string>
 			<ability_level type="number">9</ability_level>
-			<abilitytype type="string">Class Act Ability</abilitytype>
+			<abilitytype type="string">Class Ability</abilitytype>
 			<characteristic type="number">5</characteristic>
 			<class type="string">Troubador</class>
 			<distance type="string">Melee 1 or ranged 10</distance>
@@ -25738,7 +26061,7 @@
 							<td>2</td>
 							<td colspan="2">+1</td>
 							<td colspan="2">+0/+0/+0</td>
-							<td colspan="6">You can use the Charge main action as a maneuver. You can&#8217;t use two Charge main actions on the same turn.</td>
+							<td colspan="6">You can use the Charge main action as a maneuver. You can&#8217;t use two Charge General Actions on the same turn.</td>
 						</tr>
 						<tr>
 							<td colspan="2">Mohler</td>
@@ -25998,6 +26321,153 @@
 				<type type="string">Main Action</type>
 			</id-03002>
 		</category>
+		<category name="Monsters">
+			<id-00003>
+				<agl type="number">0</agl>
+				<ev type="number">0</ev>
+				<freestrike type="number">0</freestrike>
+				<immunity_name type="string">poison immunity all, psychic immunity all</immunity_name>
+				<inu type="number">0</inu>
+				<keywords_name type="string">Mundane object</keywords_name>
+				<label_trait1 type="string">Object Stamina</label_trait1>
+				<level_name type="number">0</level_name>
+				<mgt type="number">0</mgt>
+				<name type="string">Glass Object</name>
+				<picture type="token">images/Glass_Texture.png</picture>
+				<prs type="number">0</prs>
+				<rea type="number">0</rea>
+				<space type="number">1</space>
+				<speed type="number">0</speed>
+				<stability type="number">0</stability>
+				<stamina>
+					<current type="number">1</current>
+					<max type="number">1</max>
+				</stamina>
+				<token type="token">images/Glass_Texture.png</token>
+				<traits_name1 type="string">Mundane objects in the game have Stamina based on the material they’re made of. When an object’s Stamina is reduced to 0, the object is destroyed. Objects have poison immunity all and psychic immunity all, though the Director can remove one or both of these immunities in the case of living objects, such as plants. A size 1 object or 1 square of a larger object made of common materials has Stamina as follows:\n\n- Glass: 1 Stamina\n- Wood: 3 Stamina\n- Stone: 6 Stamina\n- Metal: 9 Stamina\n\nThe Director can decide that a well-made or poorly made object has more or less Stamina. Destroying a supernatural object often (but not always) requires a specific quest, such as throwing a magic ring back into the volcano where it was forged.</traits_name1>
+			</id-00003>
+			<id-00005>
+				<agl type="number">0</agl>
+				<ev type="number">0</ev>
+				<freestrike type="number">0</freestrike>
+				<immunity_name type="string">poison immunity all, psychic immunity all</immunity_name>
+				<inu type="number">0</inu>
+				<keywords_name type="string">Mundane object</keywords_name>
+				<label_trait1 type="string">Object Stamina</label_trait1>
+				<level_name type="number">0</level_name>
+				<mgt type="number">0</mgt>
+				<name type="string">Wood Object</name>
+				<picture type="token">images/Floors/wooden_floor_a_01.jpg@Shockbolt GMW Kit 1</picture>
+				<prs type="number">0</prs>
+				<rea type="number">0</rea>
+				<space type="number">1</space>
+				<speed type="number">0</speed>
+				<stability type="number">0</stability>
+				<stamina>
+					<current type="number">3</current>
+					<max type="number">3</max>
+				</stamina>
+				<token type="token">images/Floors/wooden_floor_a_01.jpg@Shockbolt GMW Kit 1</token>
+				<traits_name1 type="string">Mundane objects in the game have Stamina based on the material they’re made of. When an object’s Stamina is reduced to 0, the object is destroyed. Objects have poison immunity all and psychic immunity all, though the Director can remove one or both of these immunities in the case of living objects, such as plants. A size 1 object or 1 square of a larger object made of common materials has Stamina as follows:\n\n- Glass: 1 Stamina\n- Wood: 3 Stamina\n- Stone: 6 Stamina\n- Metal: 9 Stamina\n\nThe Director can decide that a well-made or poorly made object has more or less Stamina. Destroying a supernatural object often (but not always) requires a specific quest, such as throwing a magic ring back into the volcano where it was forged.</traits_name1>
+			</id-00005>
+			<id-00011>
+				<agl type="number">0</agl>
+				<ev type="number">0</ev>
+				<freestrike type="number">0</freestrike>
+				<immunity_name type="string">poison immunity all, psychic immunity all</immunity_name>
+				<inu type="number">0</inu>
+				<keywords_name type="string">Mundane object</keywords_name>
+				<label_trait1 type="string">Object Stamina</label_trait1>
+				<level_name type="number">0</level_name>
+				<mgt type="number">0</mgt>
+				<name type="string">Stone Object</name>
+				<picture type="token">images/Stone_Texture.jpg</picture>
+				<prs type="number">0</prs>
+				<rea type="number">0</rea>
+				<space type="number">1</space>
+				<speed type="number">0</speed>
+				<stability type="number">0</stability>
+				<stamina>
+					<current type="number">6</current>
+					<max type="number">6</max>
+				</stamina>
+				<token type="token">images/Stone_Texture.jpg</token>
+				<traits_name1 type="string">Mundane objects in the game have Stamina based on the material they’re made of. When an object’s Stamina is reduced to 0, the object is destroyed. Objects have poison immunity all and psychic immunity all, though the Director can remove one or both of these immunities in the case of living objects, such as plants. A size 1 object or 1 square of a larger object made of common materials has Stamina as follows:\n\n- Glass: 1 Stamina\n- Wood: 3 Stamina\n- Stone: 6 Stamina\n- Metal: 9 Stamina\n\nThe Director can decide that a well-made or poorly made object has more or less Stamina. Destroying a supernatural object often (but not always) requires a specific quest, such as throwing a magic ring back into the volcano where it was forged.</traits_name1>
+			</id-00011>
+			<id-00013>
+				<ability_cost type="number">0</ability_cost>
+				<ability_cost_10 type="number">0</ability_cost_10>
+				<ability_cost_11 type="number">0</ability_cost_11>
+				<ability_cost_12 type="number">0</ability_cost_12>
+				<ability_cost_13 type="number">0</ability_cost_13>
+				<ability_cost_14 type="number">0</ability_cost_14>
+				<ability_cost_15 type="number">0</ability_cost_15>
+				<ability_cost_16 type="number">0</ability_cost_16>
+				<ability_cost_17 type="number">0</ability_cost_17>
+				<ability_cost_18 type="number">0</ability_cost_18>
+				<ability_cost_19 type="number">0</ability_cost_19>
+				<ability_cost_2 type="number">0</ability_cost_2>
+				<ability_cost_20 type="number">0</ability_cost_20>
+				<ability_cost_21 type="number">0</ability_cost_21>
+				<ability_cost_22 type="number">0</ability_cost_22>
+				<ability_cost_23 type="number">0</ability_cost_23>
+				<ability_cost_3 type="number">0</ability_cost_3>
+				<ability_cost_4 type="number">0</ability_cost_4>
+				<ability_cost_5 type="number">0</ability_cost_5>
+				<ability_cost_6 type="number">0</ability_cost_6>
+				<ability_cost_7 type="number">0</ability_cost_7>
+				<ability_cost_8 type="number">0</ability_cost_8>
+				<ability_cost_9 type="number">0</ability_cost_9>
+				<agl type="number">0</agl>
+				<ev type="number">0</ev>
+				<freestrike type="number">0</freestrike>
+				<immunity_name type="string">poison immunity all, psychic immunity all</immunity_name>
+				<inu type="number">0</inu>
+				<keywords_name type="string">Mundane object</keywords_name>
+				<label_trait1 type="string">Object Stamina</label_trait1>
+				<level_name type="number">0</level_name>
+				<mgt type="number">0</mgt>
+				<mod type="number">0</mod>
+				<mod_10 type="number">0</mod_10>
+				<mod_11 type="number">0</mod_11>
+				<mod_12 type="number">0</mod_12>
+				<mod_13 type="number">0</mod_13>
+				<mod_14 type="number">0</mod_14>
+				<mod_15 type="number">0</mod_15>
+				<mod_16 type="number">0</mod_16>
+				<mod_17 type="number">0</mod_17>
+				<mod_18 type="number">0</mod_18>
+				<mod_19 type="number">0</mod_19>
+				<mod_2 type="number">0</mod_2>
+				<mod_20 type="number">0</mod_20>
+				<mod_21 type="number">0</mod_21>
+				<mod_22 type="number">0</mod_22>
+				<mod_23 type="number">0</mod_23>
+				<mod_3 type="number">0</mod_3>
+				<mod_4 type="number">0</mod_4>
+				<mod_5 type="number">0</mod_5>
+				<mod_6 type="number">0</mod_6>
+				<mod_7 type="number">0</mod_7>
+				<mod_8 type="number">0</mod_8>
+				<mod_9 type="number">0</mod_9>
+				<name type="string">Metal Object</name>
+				<notes type="formattedtext">
+					<p />
+				</notes>
+				<picture type="token">images/Metal_Texture.jpg</picture>
+				<prs type="number">0</prs>
+				<rea type="number">0</rea>
+				<space type="number">1</space>
+				<speed type="number">0</speed>
+				<stability type="number">0</stability>
+				<stamina>
+					<current type="number">9</current>
+					<max type="number">9</max>
+				</stamina>
+				<token type="token">images/Metal_Texture.jpg</token>
+				<traits_name1 type="string">Mundane objects in the game have Stamina based on the material they’re made of. When an object’s Stamina is reduced to 0, the object is destroyed. Objects have poison immunity all and psychic immunity all, though the Director can remove one or both of these immunities in the case of living objects, such as plants. A size 1 object or 1 square of a larger object made of common materials has Stamina as follows:\n\n- Glass: 1 Stamina\n- Wood: 3 Stamina\n- Stone: 6 Stamina\n- Metal: 9 Stamina\n\nThe Director can decide that a well-made or poorly made object has more or less Stamina. Destroying a supernatural object often (but not always) requires a specific quest, such as throwing a magic ring back into the volcano where it was forged.</traits_name1>
+			</id-00013>
+		</category>	
 	</npc>
 	<list static="true">
 		<ability>
@@ -26026,7 +26496,7 @@
 				<id-00003>
 					<ability_cost type="number">0</ability_cost>
 					<ability_level type="number">1</ability_level>
-					<abilitytype type="string">Kit Ability</abilitytype>
+					<abilitytype type="string">Signature Ability</abilitytype>
 					<characteristic type="number">1</characteristic>
 					<class type="string">Fury</class>
 					<distance type="string">Melee 1</distance>
@@ -26067,7 +26537,7 @@
 				<id-00001>
 					<ability_cost type="number">0</ability_cost>
 					<ability_level type="number">1</ability_level>
-					<abilitytype type="string">Kit Ability</abilitytype>
+					<abilitytype type="string">Signature Ability</abilitytype>
 					<characteristic type="number">2</characteristic>
 					<class type="string">Fury</class>
 					<distance type="string">1 burst</distance>
@@ -26109,7 +26579,7 @@
 				<id-00001>
 					<ability_cost type="number">0</ability_cost>
 					<ability_level type="number">1</ability_level>
-					<abilitytype type="string">Kit Ability</abilitytype>
+					<abilitytype type="string">Signature Ability</abilitytype>
 					<characteristic type="number">2</characteristic>
 					<class type="string">Fury</class>
 					<distance type="string">Melee 1</distance>
@@ -26151,7 +26621,7 @@
 				<id-00001>
 					<ability_cost type="number">0</ability_cost>
 					<ability_level type="number">1</ability_level>
-					<abilitytype type="string">Kit Ability</abilitytype>
+					<abilitytype type="string">Signature Ability</abilitytype>
 					<characteristic type="number">1</characteristic>
 					<class type="string">Fury</class>
 					<distance type="string">Melee 1</distance>
