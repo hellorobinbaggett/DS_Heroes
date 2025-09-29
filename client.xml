@@ -12050,6 +12050,7 @@
 			<ability_level type="number">0</ability_level>
 			<abilitytype type="string">Kit Signature</abilitytype>
 			<distance type="string">Melee 1</distance>
+			<effect type="string">You can move up to 3 squares straight toward the target before this strike, which deals extra damage equal to the number of squares you move this way.</effect>
 			<keywords type="string">Melee, Strike, Weapon</keywords>
 			<name type="string">Devastating Rush</name>
 			<notes type="formattedtext">
