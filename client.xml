@@ -16633,6 +16633,7 @@
 					<p>When you gain wrath at the start of each of your turns during combat, you gain 4 wrath instead of 3.</p>
 					<p>[Source: Draw Steel Heroes v1.0]</p>
 				</notes>
+				<classResource type="string">Judgement</classResource>
 				<staminaPerLevel type="number">9</staminaPerLevel>
 				<startingAgility type="number">0</startingAgility>
 				<startingAgility2 type="number">-1</startingAgility2>
@@ -16655,6 +16656,7 @@
 		<!-- Conduit -->
 			<id-00002>
 				<!-- COMPLETE -->
+				<classResource type="string">Piety</classResource>
 				<basicnotes type="formattedtext">
 					<p>
 						<b>Starting Characteristics: </b>You start with an Intuition of 2, and can choose</p>
@@ -19343,6 +19345,7 @@
 			</id-00002>
 		<!-- Elementalist -->
 			<id-03001>
+				<classResource type="string">Essence</classResource>
 				<basicnotes type="formattedtext">
 					<p>
 						<b>Starting Characteristics: </b>You start with a Reason of 2, and can choose one of the following arrays for your other characteristics scores:</p>
@@ -20780,6 +20783,7 @@
 			</id-03001>
 		<!-- Fury -->
 			<id-00004>
+				<classResource type="string">Ferocity</classResource>
 				<ability>
 					<disengage>
 						<value type="number">0</value>
@@ -22457,6 +22461,7 @@
 			</id-00004>
 		<!-- Null -->
 			<id-00005>
+				<classResource type="string">Discipline</classResource>
 				<basicnotes type="formattedtext">
 					<p>
 						<b>Starting Characteristics: </b>You start with an Agility of 2 and an Intuition of 2, and you can choose one of the following arrays for your other characteristic scores:</p>
@@ -23749,6 +23754,7 @@
 			</id-00005>
 		<!-- Shadow -->
 			<id-00006>
+				<classResource type="string">Insight</classResource>
 				<basicnotes type="formattedtext">
 					<p>
 						<b>Starting Characteristics: </b>You start with an Agility of 2, and you can choose one of the following arrays for your other characteristic scores:</p>
@@ -24825,6 +24831,7 @@
 			</id-00006>
 		<!-- Tactician -->
 			<id-00007>
+				<classResource type="string">Focus</classResource>
 				<basicnotes type="formattedtext">
 					<p>
 						<b>Starting Characteristics: </b>You start with a Might of 2 and a Reason of 2, and you can choose one of the following arrays for your other characteristic scores:</p>
@@ -26108,6 +26115,7 @@
 			</id-00007>
 		<!-- Talent -->
 			<id-08002>
+				<classResource type="string">Clarity</classResource>
 				<basicnotes type="formattedtext">
 					<p>
 						<b>Starting Characteristics </b>: You start with a Reason of 2 and a Presence of 2, and you can choose one of the following arrays for your other characteristic scores:</p>
@@ -27421,6 +27429,7 @@
 			</id-08002>
 		<!-- Troubadour -->
 			<id-09001>
+				<classResource type="string">Drama</classResource>
 				<basicnotes type="formattedtext">
 					<p>Starting Characteristics: You start with an Agility of 2 and a Presence of 2, and you can choose one of the following arrays for your other characteristic scores:</p>
 					<p>&#9830; 2, &#8722;1, &#8722;1</p>
