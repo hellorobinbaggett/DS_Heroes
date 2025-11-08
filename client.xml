@@ -4905,15 +4905,19 @@
 	<!-- 04000s Fury Abilities -->
 		<id-04071>
 			<ability_cost type="number">0</ability_cost>
-			<ability_level type="number">0</ability_level>
+			<ability_cost_string type="string">Ferocity</ability_cost_string>
+			<ability_level type="number">1</ability_level>
+			<abilitytype type="string">Triggered Action</abilitytype>
 			<characteristic type="number">0</characteristic>
+			<class type="string">Fury</class>
 			<distance type="string">Self</distance>
 			<effect type="string">You take half the damage from the triggering effect and can shift up to a number of squares equal to your Agility score.</effect>
+			<locked type="number">1</locked>
 			<name type="string">Unearthly Reflexes</name>
 			<notes type="formattedtext">
-				<p><i>
+				<p>
 					<i>You are as elusive as a hummingbird.</i>
-				</i></p>
+				</p>
 			</notes>
 			<special type="string">Spend 1 Ferocity: If the damage has any potency effects associated with it, the potency is reduced by 1 for you.</special>
 			<target type="string">Self</target>
@@ -19521,7 +19525,7 @@
 						<text type="formattedtext">
 							<p>You have the following ability.</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-03040">Ability: Motivate Earth</link>
+								<link class="ability" recordname="ability.id-03112">Ability: Motivate Earth</link>
 							</linklist>
 						</text>
 					</id-03013>
@@ -19535,7 +19539,7 @@
 						<text type="formattedtext">
 							<p>You have the following ability.</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-03044">Ability: Return to Formlessness</link>
+								<link class="ability" recordname="ability.id-03116">Ability: Return to Formlessness</link>
 							</linklist>
 						</text>
 					</id-03014>
@@ -19576,7 +19580,7 @@
 							<p>You instantly recognize illusions for what they are, you can see invisible creatures, and supernatural effects can&#8217;t conceal creatures and objects from you. Additionally, you always know if an area or object you observe is magical or affected by magic, and you know the specifics of what that magic can do.</p>
 							<p>You also gain the following ability.</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-03046">Ability: Shared Void Sense</link>
+								<link class="ability" recordname="ability.id-03118">Ability: Shared Void Sense</link>
 							</linklist>
 						</text>
 					</id-03017>
@@ -19613,7 +19617,7 @@
 							<p>You choose a specific animal and appearance while in animal form. For example, if you become a rodent, you might become a mouse, a rat, a shrew, or any other size 1T animal who fits the rodent type. When you take on an animal form, your equipment either melds into your new form or falls undamaged to the ground (your choice). When you return to your true form, any melded gear reappears on your person.</p>
 							<p>You can revert back to your true form as a maneuver. You can&#8217;t enter an animal form unless you are in your true form. When you are dying, you revert to your true form and can&#8217;t turn back into an animal until you are no longer dying,</p>
 							<linklist>
-								<link class="encounter" recordname="encounter.id-03002">Table: Green Animal Forms</link>
+								<link class="encounter" recordname="encounter.id-03001">Table: Green Animal Forms</link>
 							</linklist>
 						</text>
 					</id-03020>
@@ -19626,7 +19630,7 @@
 						<text type="formattedtext">
 							<p>You have the following ability.</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-03002">Ability: There Is No Space Between</link>
+								<link class="ability" recordname="ability.id-03202">Ability: There Is No Space Between</link>
 							</linklist>
 						</text>
 					</id-03021>
@@ -19639,7 +19643,7 @@
 						<text type="formattedtext">
 							<p>You have the following ability.</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-03006">Ability: Earth Accepts Me</link>
+								<link class="ability" recordname="ability.id-03301">Ability: Earth Accepts Me</link>
 							</linklist>
 						</text>
 					</id-03022>
@@ -19811,7 +19815,7 @@
 						<text type="formattedtext">
 							<p>You have the following ability.</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-03020">Ability: Summon Source of Earth</link>
+								<link class="ability" recordname="ability.id-03801">Ability: Summon Source of Earth</link>
 							</linklist>
 						</text>
 					</id-03038>
@@ -19880,9 +19884,9 @@
 							<p>Choose one heroic ability from the following options, each of which costs 5 essence to use. Alternatively, you can choose one of the 5-essence abilities you didn&#8217;t select at 1st level (see 1st-Level Features)</p>
 							<linklist>
 								<link class="ability" recordname="ability.id-03201">Ability: O Flower Aid, O Earth Defend (5 Essence)</link>
-								<link class="ability" recordname="ability.id-03003">Ability: Subvert the Green Within (5 Essence)</link>
-								<link class="ability" recordname="ability.id-03004">Ability: Translated Through Flame (5 Essence)</link>
-								<link class="ability" recordname="ability.id-03005">Ability: Volcano&#8217;s Embrace (5 Essence)</link>
+								<link class="ability" recordname="ability.id-03203">Ability: Subvert the Green Within (5 Essence)</link>
+								<link class="ability" recordname="ability.id-03204">Ability: Translated Through Flame (5 Essence)</link>
+								<link class="ability" recordname="ability.id-03205">Ability: Volcano&#8217;s Embrace (5 Essence)</link>
 							</linklist>
 						</featureext>
 						<featurelevel type="number">2</featurelevel>
@@ -20299,7 +20303,7 @@
 					<h>Hurl Element</h>
 					<p>You have the following ability, which can be used as a ranged free strike.</p>
 					<linklist>
-						<link class="ability" recordname="ability.id-03036">Ability: Hurl Element</link>
+						<link class="ability" recordname="ability.id-03108">Ability: Hurl Element</link>
 					</linklist>
 					<h>Persistent Magic</h>
 					<p>Some of your heroic abilities have a persistent effect entry. For example, the Instantaneous Excavation ability has an effect noted as &#8220;Persistent 1.&#8221; Whenever you use a persistent ability, you decide whether you want to maintain it, and start doing so immediately after</p>
@@ -20406,7 +20410,7 @@
 					</p>
 					<p>Choose two signature abilities from the following options. Signature abilities can be used at will. (Quick Build: Bifurcated Incineration, Viscous Fire.)</p>
 					<linklist>
-						<link class="ability" recordname="ability.id-03029">Ability: Afflict a Bountiful Decay</link>
+						<link class="ability" recordname="ability.id-03101">Ability: Afflict a Bountiful Decay</link>
 						<link class="ability" recordname="ability.id-03103">Ability: Bifurcated Incineration</link>
 						<link class="ability" recordname="ability.id-03107">Ability: Grasp of Beyond</link>
 						<link class="ability" recordname="ability.id-03123">Ability: The Green Within, the Green Without</link>
@@ -20479,14 +20483,14 @@
 					</linklist>
 					<h>Green Animal Forms</h>
 					<linklist>
-						<link class="encounter" recordname="encounter.id-03002">Table: Green Animal Forms</link>
+						<link class="encounter" recordname="encounter.id-03001">Table: Green Animal Forms</link>
 					</linklist>
 					<h>New 5-Essence Ability</h>
 					<linklist>
 						<link class="ability" recordname="ability.id-03201">Ability: O Flower Aid, O Earth Defend (5 Essence)</link>
-						<link class="ability" recordname="ability.id-03003">Ability: Subvert the Green Within (5 Essence)</link>
-						<link class="ability" recordname="ability.id-03004">Ability: Translated Through Flame (5 Essence)</link>
-						<link class="ability" recordname="ability.id-03005">Ability: Volcano&#8217;s Embrace (5 Essence)</link>
+						<link class="ability" recordname="ability.id-03203">Ability: Subvert the Green Within (5 Essence)</link>
+						<link class="ability" recordname="ability.id-03204">Ability: Translated Through Flame (5 Essence)</link>
+						<link class="ability" recordname="ability.id-03205">Ability: Volcano&#8217;s Embrace (5 Essence)</link>
 					</linklist>
 					<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;3rd-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 					<p>As a 3rd-level elementalist, you gain the following features.</p>
@@ -20521,8 +20525,8 @@
 					<linklist>
 						<link class="reference_classfeaturechoice" recordname="class.id-03001.featurechoices.id-03022">Earth Accepts Me</link>
 						<link class="reference_classfeaturechoice" recordname="class.id-03001.featurechoices.id-03023">A Conversation With Fire</link>
-						<link class="reference_classfeaturechoice" recordname="class.id-03001.featurechoices.id-03025">Remember Growth and Sun and Rain</link>
-						<link class="reference_classfeaturechoice" recordname="class.id-03001.featurechoices.id-03024">Distance Is Only Memory</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-03001.featurechoices.id-03024">Remember Growth and Sun and Rain</link>
+						<link class="reference_classfeaturechoice" recordname="class.id-03001.featurechoices.id-03025">Distance Is Only Memory</link>
 					</linklist>
 					<h>7-Essence Ability</h>
 					<p>Choose one heroic ability from the following options, each of which costs 7 essence to use.</p>
@@ -34850,7 +34854,7 @@
 								</linklist>
 								<h>Green Animal Forms</h>
 								<linklist>
-									<link class="encounter" recordname="encounter.id-03002@Heroes for Draw Steel">Table: Green Animal Forms</link>
+									<link class="encounter" recordname="encounter.id-03001">Table: Green Animal Forms</link>
 								</linklist>
 								<h>New 5-Essence Ability</h>
 								<linklist>
@@ -34898,10 +34902,10 @@
 								<h>7-Essence Ability</h>
 								<p>Choose one heroic ability from the following options, each of which costs 7 essence to use.</p>
 								<linklist>
-									<link class="ability" recordname="ability.id-03008@Heroes for Draw Steel">Ability: Erase (7 Essence)</link>
-									<link class="ability" recordname="ability.id-03304@Heroes for Draw Steel">Ability: Maw of Earth (7 Essence)</link>
-									<link class="ability" recordname="ability.id-03305@Heroes for Draw Steel">Ability: Swarm of Spirits (7 Essence)</link>
-									<link class="ability" recordname="ability.id-03306@Heroes for Draw Steel">Ability: Wall of Fire (7 Essence)</link>
+									<link class="ability" recordname="ability.id-03303">Ability: Erase (7 Essence)</link>
+									<link class="ability" recordname="ability.id-03304">Ability: Maw of Earth (7 Essence)</link>
+									<link class="ability" recordname="ability.id-03305">Ability: Swarm of Spirits (7 Essence)</link>
+									<link class="ability" recordname="ability.id-03306">Ability: Wall of Fire (7 Essence)</link>
 								</linklist>
 								<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;4th-Level Features&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
 								<p>As a 4th-level elementalist, you gain the following features.</p>
