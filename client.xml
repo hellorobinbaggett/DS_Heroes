@@ -12540,7 +12540,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Relentless</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>Whenever a creature deals damage to you that leaves you dying, you can make a free strike against any creature. If the creature is reduced to 0 Stamina by your strike, you can spend a Recovery.</p>
 					</text>
@@ -12687,7 +12687,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Silver Tongue</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>Your innate magic allows you to twist how your words are perceived to get a better read on people and convince them to see things your way. You have one skill of your choice from the interpersonal skill group (see Skills in Chapter 9: Tests), and you gain an edge on tests when attempting to discover an NPC&#8217;s motivations and pitfalls during a negotiation (see Chapter 11: Negotiation).</p>
 					</text>
@@ -12869,7 +12869,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Wyrmplate</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>Your hardened scales grant you damage immunity equal to your level to one of the following damage types: acid, cold, corruption, fire, lightning, or poison. You can change your damage immunity type when you finish a respite.</p>
 					</text>
@@ -13047,7 +13047,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Runic Carving</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>You can carve a rune onto your skin with 10 uninterrupted minutes of work, which is activated by the magic within your body. The rune you carve determines the benefit you receive, chosen from among the following:</p>
 						<list>
@@ -13189,7 +13189,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Wode Elf Glamor</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>You can magically alter your appearance to better blend in with your surroundings. You gain an edge on tests made to hide and sneak, and tests made to search for you while you are hidden take a bane.</p>
 					</text>
@@ -13396,7 +13396,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: High Elf Glamor</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>A magic glamor makes others perceive you as interesting and engaging, granting you an edge on Presence tests using the Flirt or Persuade skills. This glamor makes you appear and sound slightly different to each creature you meet, since what is engaging to one might be different for another. However, you never appear to be anyone other than yourself.</p>
 					</text>
@@ -13525,7 +13525,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Big!</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>Your stature reflects your giant forebears. Your size is 1L.</p>
 					</text>
@@ -13647,7 +13647,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Detect the Supernatural</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>As a maneuver, you open your awareness to detect supernatural creatures and phenomena. Until the end of your next turn, you know the location of any supernatural object, or any undead, construct, or creature from another world within 5 squares, even if you don&#8217;t have line of effect to that object or creature. You know if you&#8217;re detecting an item or a creature, and you know the nature of any creature you detect.</p>
 					</text>
@@ -13790,7 +13790,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Lightweight</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>Your body is light for a creature of your height. Whenever another creature attempts to force move you, you treat your size as one size smaller than it is.</p>
 					</text>
@@ -13801,7 +13801,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Fall Lightly</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>Your silicone body is low in density. Whenever you fall, you reduce the distance of the fall by 2 squares.</p>
 					</text>
@@ -13952,7 +13952,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Small!</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>Your diminutive stature lets you easily get out of&#8212;or into&#8212;trouble. Your size is 1S.</p>
 					</text>
@@ -13963,7 +13963,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Shadowmeld</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>You have the following ability.</p>
 						<linklist>
@@ -14044,7 +14044,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Former Life</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>Choose the ancestry you were before you died. Your size is that ancestry&#8217;s size and your speed is 5. Unless you select one of the Previous Life traits (see below), you don&#8217;t receive any other ancestral traits from your original ancestry.</p>
 					</text>
@@ -14055,7 +14055,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Tough But Withered</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>Your undead body grants you immunity to cold, corruption, lightning, and poison damage equal to your level, but you have fire weakness 5. You can&#8217;t suffocate, and you don&#8217;t need to eat or drink to stay alive.</p>
 						<p>Additionally, when your Stamina reaches the negative of your winded value, you become inert instead of dying. You fall prone and can&#8217;t stand. You continue to observe your surroundings, but you can&#8217;t speak, take main actions, maneuvers, move actions, or triggered actions. While inert this way, if you take any fire damage, your body is destroyed and you die. Otherwise, after 12 hours, you regain Stamina equal to your recovery value.</p>
@@ -14261,7 +14261,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Psychic Scar</name>
-					<repeatable type="number">0</repeatable>
+					<repeatable type="number">1</repeatable>
 					<text type="formattedtext">
 						<p>Your mind is a formidable layer of defense. You have psychic immunity equal to your level.</p>
 					</text>
