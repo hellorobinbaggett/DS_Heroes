@@ -24133,7 +24133,7 @@
 					<id-06002>
 						<featureext type="formattedtext">
 							<linklist>
-								<link class="ability" recordname="ability.id-06002">Ability: Hesitation Is Weakness</link>
+								<link class="ability" recordname="ability.id-06044">Ability: Hesitation Is Weakness</link>
 							</linklist>
 						</featureext>
 						<featurelevel type="number">1</featurelevel>
@@ -41835,16 +41835,16 @@
 								<p>
 									<b>Benefit: </b>You have the following ability.</p>
 								<p>
-									<i>Share Hea </i>d</p>
+									<i>Share Head </i></p>
 								<p>
 									<i>You don&#8217;t have a head, but you can psionically borrow another.</i>
 								</p>
 								<p>
-									<b>Psionic, Range </b>d</p>
+									<b>Psionic, Ranged </b></p>
 								<p>
-									<b>Maneuve </b>r</p>
+									<b>Maneuver </b></p>
 								<p>&#55357;&#56527; <b>Ranged 1 </b>0</p>
-								<p>&#55356;&#57263; <b>One willing creatur </b>e</p>
+								<p>&#55356;&#57263; <b>One willing creature </b></p>
 								<p>
 									<b>Effect: </b>You can see, hear, and smell as if you were in the target&#8217;s space. Additionally, you can borrow their mouth to speak when you wish to do so, speaking in your own voice. This effect ends when you use Share Head on a different target, when the target moves more than 10 squares away from you, or when the target is no longer willing to share their head with you.</p>
 								<p>
