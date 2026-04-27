@@ -34254,12 +34254,12 @@
 								<p>
 									<b>Melee Weapon Free Strik </b>e</p>
 								<linklist>
-									<link class="ability" recordname="ability.id-00016@[WIP] Heroes for Draw Steel ">Ability: Melee Free Strike</link>
+									<link class="ability" recordname="ability.id-00016">Ability: Melee Free Strike</link>
 								</linklist>
 								<p>
 									<b>Ranged Weapon Free Strik </b>e</p>
 								<linklist>
-									<link class="ability" recordname="ability.id-00018@[WIP] Heroes for Draw Steel ">Ability: Ranged Weapon Free Strike</link>
+									<link class="ability" recordname="ability.id-00018">Ability: Ranged Weapon Free Strike</link>
 								</linklist>
 							</text>
 						</block_015>
@@ -40858,7 +40858,7 @@
 							<text type="formattedtext">
 								<p>You have the following ability.</p>
 								<linklist>
-									<link class="ability" recordname="ability.id-20005@[WIP] Heroes for Draw Steel ">Ability: Arcane Trick</link>
+									<link class="ability" recordname="ability.id-20005">Ability: Arcane Trick</link>
 								</linklist>
 							</text>
 						</block_003>
@@ -40887,7 +40887,7 @@
 								<p>If your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.</p>
 								<h>Familiar Statblock</h>
 								<linklist>
-									<link class="npc" recordname="npc.id-00002@[WIP] Heroes for Draw Steel ">Monster: Familiar</link>
+									<link class="npc" recordname="npc.id-00002">Monster: Familiar</link>
 								</linklist>
 							</text>
 						</block_007>
@@ -40904,7 +40904,7 @@
 									<b>Invisible Force</b>
 								</p>
 								<linklist>
-									<link class="ability" recordname="ability.id-20006@[WIP] Heroes for Draw Steel ">Ability: Invisible Force</link>
+									<link class="ability" recordname="ability.id-20006">Ability: Invisible Force</link>
 								</linklist>
 							</text>
 						</block_009>
@@ -40918,7 +40918,7 @@
 							<text type="formattedtext">
 								<p>You have the following ability.</p>
 								<linklist>
-									<link class="ability" recordname="ability.id-20007@[WIP] Heroes for Draw Steel ">Psychic Whisper</link>
+									<link class="ability" recordname="ability.id-20007">Psychic Whisper</link>
 								</linklist>
 							</text>
 						</block_011>
@@ -41039,7 +41039,7 @@
 								<p>Complications are presented in alphabetical order.</p>
 								<h>Complications Table</h>
 								<linklist>
-									<link class="table" recordname="tables.id-08002@[WIP] Heroes for Draw Steel ">Table: Complications Table</link>
+									<link class="table" recordname="tables.id-00100">Complications</link>
 								</linklist>
 							</text>
 						</block_001>
@@ -52198,7 +52198,7 @@
 								<p>
 									<b>Perk: </b>One intrigue perk ( <i>Quick Build: </i>Forgettable Face.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00003@[WIP] Heroes for Draw Steel ">Table: Agent Inciting Incident</link>
+									<link class="table" recordname="tables.id-00003">Table: Agent Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -52269,7 +52269,7 @@
 								<p>
 									<b>Perk: </b>One lore perk ( <i>Quick Build: </i>I&#8217;ve Read About This Place.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00027@[WIP] Heroes for Draw Steel ">Table: Aristocrat Inciting Incident</link>
+									<link class="table" recordname="tables.id-00027">Table: Aristocrat Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -52338,7 +52338,7 @@
 								<p>
 									<b>Perk: </b>One crafting perk ( <i>Quick Build: </i>Area of Expertise.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00028@[WIP] Heroes for Draw Steel ">Table: Artisan Inciting Incident</link>
+									<link class="table" recordname="tables.id-00028">Table: Artisan Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -52405,7 +52405,7 @@
 								<p>
 									<b>Perk: </b>One interpersonal perk ( <i>Quick Build: </i>Spot the Tell.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00021@[WIP] Heroes for Draw Steel ">Table: Begger Inciting Incident</link>
+									<link class="table" recordname="tables.id-00021">Table: Begger Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -52474,7 +52474,7 @@
 								<p>
 									<b>Perk: </b>One intrigue perk ( <i>Quick Build: </i>Criminal Contacts.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00030@[WIP] Heroes for Draw Steel ">Table: Criminal Inciting Incident</link>
+									<link class="table" recordname="tables.id-00030">Table: Criminal Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -52541,7 +52541,7 @@
 								<p>
 									<b>Perk: </b>One supernatural perk ( <i>Quick Build: </i>Ritualist.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00026@[WIP] Heroes for Draw Steel ">Table: Disciple Inciting Incident</link>
+									<link class="table" recordname="tables.id-00026">Table: Disciple Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -52609,7 +52609,7 @@
 								<p>
 									<b>Perk: </b>One exploration perk ( <i>Quick Build: </i>Wood Wise.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00024@[WIP] Heroes for Draw Steel ">Table: Explorer Inciting Incident</link>
+									<link class="table" recordname="tables.id-00024">Table: Explorer Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -52678,7 +52678,7 @@
 								<p>
 									<b>Perk: </b>One exploration perk ( <i>Quick Build: </i>Monster Whisperer.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00022@[WIP] Heroes for Draw Steel ">Table: Farmer Inciting Incident</link>
+									<link class="table" recordname="tables.id-00022">Table: Farmer Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -52747,7 +52747,7 @@
 								<p>
 									<b>Perk: </b>One exploration perk ( <i>Quick Build: </i>Friend Catapult.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00025@[WIP] Heroes for Draw Steel ">Table: Gladiator Inciting Incident</link>
+									<link class="table" recordname="tables.id-00025">Table: Gladiator Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -52816,7 +52816,7 @@
 								<p>
 									<b>Perk: </b>One exploration perk ( <i>Quick Build: </i>Brawny.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00029@[WIP] Heroes for Draw Steel ">Table: Laborer Inciting Incident</link>
+									<link class="table" recordname="tables.id-00029">Table: Laborer Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -52885,7 +52885,7 @@
 								<p>
 									<b>Perk: </b>One supernatural perk ( <i>Quick Build: </i>Arcane Trick.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00023@[WIP] Heroes for Draw Steel ">Table: Mage's Apprentice Inciting Incident</link>
+									<link class="table" recordname="tables.id-00023">Table: Mage's Apprentice Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -52952,7 +52952,7 @@
 								<p>
 									<b>Perk: </b>One interpersonal perk ( <i>Quick Build: </i>Harmonizer.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00032@[WIP] Heroes for Draw Steel ">Table: Performer Inciting Incident</link>
+									<link class="table" recordname="tables.id-00032">Table: Performer Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -53023,7 +53023,7 @@
 								<p>
 									<b>Perk: </b>One interpersonal perk ( <i>Quick Build: </i>Engrossing Monologue.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00033@[WIP] Heroes for Draw Steel ">Table: Politician Inciting Incident</link>
+									<link class="table" recordname="tables.id-00033">Table: Politician Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -53092,7 +53092,7 @@
 								<p>
 									<b>Perk: </b>One lore perk ( <i>Quick Build: </i>Expert Sage.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00031@[WIP] Heroes for Draw Steel ">Table: Sage Inciting Incident</link>
+									<link class="table" recordname="tables.id-00031">Table: Sage Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -53228,7 +53228,7 @@
 								<p>
 									<b>Perk: </b>One exploration perk ( <i>Quick Build: </i>Teamwork.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00017@[WIP] Heroes for Draw Steel ">Table: Soldier Inciting Incident</link>
+									<link class="table" recordname="tables.id-00017">Table: Soldier Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -53297,7 +53297,7 @@
 								<p>
 									<b>Perk: </b>One exploration perk ( <i>Quick Build: </i>Camouflage Hunter.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00038@[WIP] Heroes for Draw Steel ">Table: Warden Inciting Incident</link>
+									<link class="table" recordname="tables.id-00038">Table: Warden Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -53365,7 +53365,7 @@
 								<p>
 									<b>Perk: </b>One exploration perk ( <i>Quick Build: </i>Team Leader.)</p>
 								<linklist>
-									<link class="table" recordname="tables.id-00037@[WIP] Heroes for Draw Steel ">Table: Watch Officer Inciting Incident</link>
+									<link class="table" recordname="tables.id-00037">Table: Watch Officer Inciting Incident</link>
 								</linklist>
 								<table>
 									<tr>
@@ -53451,7 +53451,7 @@
 								<h>Signature Trait: Silver Tongue</h>
 								<p>Your innate magic allows you to twist how your words are perceived to get a better read on people and convince them to see things your way. You have one skill of your choice from the interpersonal skill group (see Skills in Chapter 9: Tests), and you gain an edge on tests when attempting to discover an NPC&#8217;s motivations and pitfalls during a negotiation (see Chapter 11: Negotiation).</p>
 								<linklist>
-									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00001@[WIP] Heroes for Draw Steel ">Signature Trait: Silver Tongue</link>
+									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00001">Signature Trait: Silver Tongue</link>
 								</linklist>
 								<h>Purchased Devil Traits</h>
 								<p>You have 3 ancestry points to spend on the following traits. (Quick Build: Beast Legs, Impressive Horns.)</p>
@@ -53460,49 +53460,49 @@
 								</p>
 								<p>Your pointy tail allows you to punctuate all your actions. Once per round when you make a melee strike, you can deal extra damage with the strike equal to your highest characteristic score.</p>
 								<linklist>
-									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00002@[WIP] Heroes for Draw Steel ">Barbed Tail</link>
+									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00002">Barbed Tail</link>
 								</linklist>
 								<p>
 									<b>Beast Legs (1 Point)</b>
 								</p>
 								<p>Your powerful legs improve your speed. You have speed 6.</p>
 								<linklist>
-									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00003@[WIP] Heroes for Draw Steel ">Beast Legs</link>
+									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00003">Beast Legs</link>
 								</linklist>
 								<p>
 									<b>Glowing Eyes (1 Point)</b>
 								</p>
 								<p>Your eyes are a solid, vibrant color that flares to show your excitement or rage. Whenever you take damage from a creature, you can use a triggered action to deal that creature psychic damage equal to 1d10 + your level.</p>
 								<linklist>
-									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00008@[WIP] Heroes for Draw Steel ">Glowing Eyes</link>
+									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00008">Glowing Eyes</link>
 								</linklist>
 								<p>
 									<b>Hellsight (1 Point)</b>
 								</p>
 								<p>Your eyes let you see through darkness, fog, and other obscuring effects. You don&#8217;t take a bane on strikes made against creatures with concealment.</p>
 								<linklist>
-									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00004@[WIP] Heroes for Draw Steel ">Hellsight</link>
+									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00004">Hellsight</link>
 								</linklist>
 								<p>
 									<b>Impressive Horns (2 Point)</b>
 								</p>
 								<p>Your cherished horns are larger than the average devil&#8217;s, and a hardened representation of your force of will. Whenever you make a saving throw, you succeed on a roll of 5 or higher.</p>
 								<linklist>
-									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00005@[WIP] Heroes for Draw Steel ">Impressive Horns</link>
+									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00005">Impressive Horns</link>
 								</linklist>
 								<p>
 									<b>Prehensile Tail (2 Points)</b>
 								</p>
 								<p>Your prehensile tail allows you to challenge foes on all sides. You can&#8217;t be flanked.</p>
 								<linklist>
-									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00006@[WIP] Heroes for Draw Steel ">Prehensile Tail</link>
+									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00006">Prehensile Tail</link>
 								</linklist>
 								<p>
 									<b>Wings (2 Points)</b>
 								</p>
 								<p>You possess wings powerful enough to take you airborne. While using your wings to fly, you can stay aloft for a number of rounds equal to your Might score (minimum 1 round) before you fall. While using your wings to fly at 3rd level or lower, you have damage weakness 5.</p>
 								<linklist>
-									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00007@[WIP] Heroes for Draw Steel ">Wings</link>
+									<link class="reference_ancestryfeaturechoice" recordname="ancestry.id-00003.features.id-00007">Wings</link>
 								</linklist>
 								<p>[Source: Draw Steel Heroes v1.0]</p>
 							</text>
@@ -54938,7 +54938,7 @@
 									</tr>
 								</table>
 								<linklist>
-									<link class="table" recordname="tables.id-00002@[WIP] Heroes for Draw Steel ">Table: Kit Equipments</link>
+									<link class="table" recordname="tables.id-00002">Table: Kit Equipments</link>
 								</linklist>
 							</text>
 						</id-00001>
@@ -55102,7 +55102,7 @@
 							<text type="formattedtext">
 								<p>The Arcane Archer kit allows you to combine magic and ranged weapon strikes. Your lack of armor keeps you mobile, and your magic makes your arrows explode to devastate your foes.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00022@[WIP] Heroes for Draw Steel ">Kit: Arcane Archer</link>
+									<link class="kit" recordname="kit.id-00022">Kit: Arcane Archer</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear no armor and wield a bow.</p>
@@ -55117,7 +55117,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30025@[WIP] Heroes for Draw Steel ">Ability: Exploding Arrow</link>
+									<link class="ability" recordname="ability.id-30025">Ability: Exploding Arrow</link>
 								</linklist>
 							</text>
 						</block_003>
@@ -55131,7 +55131,7 @@
 							<text type="formattedtext">
 								<p>Who says lightly armored heroes can&#8217;t also be hard to move? You just need to employ some psionics! The Battlemind kit harnesses the power of your mind to make you harder to move-and to make your foes easier to push around.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00020@[WIP] Heroes for Draw Steel ">Kit: Battlemind</link>
+									<link class="kit" recordname="kit.id-00020">Kit: Battlemind</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear light armor and wield a medium weapon.</p>
@@ -55146,7 +55146,7 @@
 									<b>Melee Damage Bonus: </b>+2/+2/+2</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30027@[WIP] Heroes for Draw Steel ">Ability: Unmooring</link>
+									<link class="ability" recordname="ability.id-30027">Ability: Unmooring</link>
 								</linklist>
 							</text>
 						</block_005>
@@ -55160,7 +55160,7 @@
 							<text type="formattedtext">
 								<p>Providing throwable light weapons and light armor easily concealed by a cloak to confuse your enemies, the Cloak and Dagger kit makes you more mobile while increasing the effectiveness of your short-range strikes.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00021@[WIP] Heroes for Draw Steel ">Kit: Cloak and Dagger</link>
+									<link class="kit" recordname="kit.id-00021">Kit: Cloak and Dagger</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear light armor and wield one or two light weapons.</p>
@@ -55179,7 +55179,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30026@[WIP] Heroes for Draw Steel ">Ability: Fade</link>
+									<link class="ability" recordname="ability.id-30026">Ability: Fade</link>
 								</linklist>
 							</text>
 						</block_007>
@@ -55193,7 +55193,7 @@
 							<text type="formattedtext">
 								<p>The Dual Wielder kit is for folks who want to excel at using two weapons at the same time. Your fighting style maximizes the power of each weapon you have in hand, making you a whirling dealer of death.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00019@[WIP] Heroes for Draw Steel ">Kit: Dual Wielder</link>
+									<link class="kit" recordname="kit.id-00019">Kit: Dual Wielder</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear medium armor and wield a light weapon and a medium weapon.</p>
@@ -55208,7 +55208,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30028@[WIP] Heroes for Draw Steel ">Ability: Double Strike</link>
+									<link class="ability" recordname="ability.id-30028">Ability: Double Strike</link>
 								</linklist>
 							</text>
 						</block_009>
@@ -55222,7 +55222,7 @@
 							<text type="formattedtext">
 								<p>The Guisarmier kit is for those who want to use a polearm for extended reach while remaining protected by sturdy armor. This is the kit that allows you to become the ultimate halberd, longspear, or glaive fighter.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00018@[WIP] Heroes for Draw Steel ">Kit: Guisarmier</link>
+									<link class="kit" recordname="kit.id-00018">Kit: Guisarmier</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear medium armor and wield a polearm.</p>
@@ -55237,7 +55237,7 @@
 									<b>Melee Distance Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30029@[WIP] Heroes for Draw Steel ">Ability: Forward Thrust, Backward Smash</link>
+									<link class="ability" recordname="ability.id-30029">Ability: Forward Thrust, Backward Smash</link>
 								</linklist>
 							</text>
 						</block_011>
@@ -55251,7 +55251,7 @@
 							<text type="formattedtext">
 								<p>If you want to be fast in a fight, then Martial Artist is the kit for you. Unencumbered by weapons or armor, this fighting style rewards quick, focused unarmed strikes against opponents, and allows you to be the ultimate skirmisher.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00017@[WIP] Heroes for Draw Steel ">Kit: Martial Artist</link>
+									<link class="kit" recordname="kit.id-00017">Kit: Martial Artist</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear no armor and wield only your unarmed strikes.</p>
@@ -55266,7 +55266,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30030@[WIP] Heroes for Draw Steel ">Ability: Battle Grace</link>
+									<link class="ability" recordname="ability.id-30030">Ability: Battle Grace</link>
 								</linklist>
 							</text>
 						</block_013>
@@ -55280,7 +55280,7 @@
 							<text type="formattedtext">
 								<p>The Mountain kit does exactly what it says on the tin. You don heavy armor and raise a heavy weapon to stand strong against your foes, quickly demolishing them when it&#8217;s your turn to strike.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00016@[WIP] Heroes for Draw Steel ">Kit: Mountain</link>
+									<link class="kit" recordname="kit.id-00016">Kit: Mountain</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear heavy armor and wield a heavy weapon.</p>
@@ -55293,7 +55293,7 @@
 									<b>Melee Damage Bonus: </b>+0/+0/+4</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30031@[WIP] Heroes for Draw Steel ">Ability: Pain for Pain</link>
+									<link class="ability" recordname="ability.id-30031">Ability: Pain for Pain</link>
 								</linklist>
 							</text>
 						</block_015>
@@ -55307,7 +55307,7 @@
 							<text type="formattedtext">
 								<p>If you want a good balance of protection, speed, and damage, the Panther kit is for you. This kit increases your Stamina not by wearing armor, but through the focused battle preparation of body and mind, letting you be fast and mobile while swinging a heavy weapon at your foes.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00001@[WIP] Heroes for Draw Steel ">Kit: Panther</link>
+									<link class="kit" recordname="kit.id-00001">Kit: Panther</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear no armor and wield a heavy weapon.</p>
@@ -55322,7 +55322,7 @@
 									<b>Melee Damage Bonus: </b>+0/+0/+4</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30009@[WIP] Heroes for Draw Steel ">Ability: Devastating Rush</link>
+									<link class="ability" recordname="ability.id-30009">Ability: Devastating Rush</link>
 								</linklist>
 							</text>
 						</block_017>
@@ -55336,7 +55336,7 @@
 							<text type="formattedtext">
 								<p>Meant for brawlers and boxers, the Pugilist kit gives you access to a melee fighting style that grants a boost to Stamina and damage while allowing you to float like a butterfly. If you want to be a tough, strong hero who doles out punishment with your fists, then this kit is for you.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00015@[WIP] Heroes for Draw Steel ">Kit: Pugilist</link>
+									<link class="kit" recordname="kit.id-00015">Kit: Pugilist</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear no armor and wield only your unarmed strikes.</p>
@@ -55351,7 +55351,7 @@
 									<b>Melee Damage Bonus: </b>+1/+1/+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30032@[WIP] Heroes for Draw Steel ">Ability: Let&#8217;s Dance</link>
+									<link class="ability" recordname="ability.id-30032">Ability: Let&#8217;s Dance</link>
 								</linklist>
 							</text>
 						</block_019>
@@ -55365,7 +55365,7 @@
 							<text type="formattedtext">
 								<p>The Raider kit keeps you protected while granting you full mobility, providing a boost to speed and distance that lets you run around the battlefield like a Viking warrior.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00014@[WIP] Heroes for Draw Steel ">Kit: Raider</link>
+									<link class="kit" recordname="kit.id-00014">Kit: Raider</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear light armor and wield a shield and a light weapon.</p>
@@ -55384,7 +55384,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30033@[WIP] Heroes for Draw Steel ">Ability: Shock and Awe</link>
+									<link class="ability" recordname="ability.id-30033">Ability: Shock and Awe</link>
 								</linklist>
 							</text>
 						</block_021>
@@ -55398,7 +55398,7 @@
 							<text type="formattedtext">
 								<p>The Ranger kit outfits you with light armor and weapons for every challenge, letting you easily switch between melee and ranged combat. This kit provides a good balance of bonuses to defense and offense to create a hero who is a jack-of-all-trades.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00013@[WIP] Heroes for Draw Steel ">Kit: Ranger</link>
+									<link class="kit" recordname="kit.id-00013">Kit: Ranger</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear medium armor and wield a bow and a medium weapon.</p>
@@ -55417,7 +55417,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30034@[WIP] Heroes for Draw Steel ">Ability: Hamstring Shot</link>
+									<link class="ability" recordname="ability.id-30034">Ability: Hamstring Shot</link>
 								</linklist>
 							</text>
 						</block_023>
@@ -55431,7 +55431,7 @@
 							<text type="formattedtext">
 								<p>The Rapid-Fire kit is for archers who want to deal maximum damage by shooting as many arrows as possible into nearby enemies. With this kit, your fighting technique focuses on peppering foes before they can get close enough to counterattack.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00012@[WIP] Heroes for Draw Steel ">Kit: Rapid-Fire</link>
+									<link class="kit" recordname="kit.id-00012">Kit: Rapid-Fire</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear light armor and wield a bow.</p>
@@ -55448,7 +55448,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30035@[WIP] Heroes for Draw Steel ">Ability: Two Shot</link>
+									<link class="ability" recordname="ability.id-30035">Ability: Two Shot</link>
 								</linklist>
 							</text>
 						</block_025>
@@ -55462,7 +55462,7 @@
 							<text type="formattedtext">
 								<p>The retiarius is often depicted as a lightly armored warrior with a net in one hand and a trident in the other, and this kit gives you the equipment and fighting technique to make that happen. Tie up your foe with a net and then poke them to death!</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00011@[WIP] Heroes for Draw Steel ">Kit: Retiarius</link>
+									<link class="kit" recordname="kit.id-00011">Kit: Retiarius</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear light armor and wield several ensnaring weapons and a polearm.</p>
@@ -55479,7 +55479,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30036@[WIP] Heroes for Draw Steel ">Ability: Net and Stab</link>
+									<link class="ability" recordname="ability.id-30036">Ability: Net and Stab</link>
 								</linklist>
 							</text>
 						</block_027>
@@ -55493,7 +55493,7 @@
 							<text type="formattedtext">
 								<p>The Shining Armor kit provides the most protection a kit can afford, providing you with the sword, shield, and armor necessary to play the prototypical knight.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00010@[WIP] Heroes for Draw Steel ">Kit: Shining Armor</link>
+									<link class="kit" recordname="kit.id-00010">Kit: Shining Armor</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear heavy armor and wield a shield and a medium weapon.</p>
@@ -55506,7 +55506,7 @@
 									<b>Melee Damage Bonus: </b>+2/+2/+2</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30037@[WIP] Heroes for Draw Steel ">Ability: Protective Attack</link>
+									<link class="ability" recordname="ability.id-30037">Ability: Protective Attack</link>
 								</linklist>
 							</text>
 						</block_029>
@@ -55520,7 +55520,7 @@
 							<text type="formattedtext">
 								<p>The Sniper kit gives you the tools and techniques to take down enemies from afar. This kit can help you become the archer who lurks behind trees or down tunnels, picking off enemies with a bow or crossbow as they approach.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00009@[WIP] Heroes for Draw Steel ">Kit: Sniper</link>
+									<link class="kit" recordname="kit.id-00009">Kit: Sniper</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear no armor and wield a bow.</p>
@@ -55535,7 +55535,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30038@[WIP] Heroes for Draw Steel ">Ability: Patient Shot</link>
+									<link class="ability" recordname="ability.id-30038">Ability: Patient Shot</link>
 								</linklist>
 							</text>
 						</block_031>
@@ -55549,7 +55549,7 @@
 							<text type="formattedtext">
 								<p>The Spellsword kit combines melee strikes and a little bit of magic, letting you create a warrior who doesn&#8217;t have to choose between the incantation and the blade.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00006@[WIP] Heroes for Draw Steel ">Kit: Swashbuckler</link>
+									<link class="kit" recordname="kit.id-00006">Kit: Swashbuckler</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear light armor and wield a shield and a medium weapon.</p>
@@ -55564,7 +55564,7 @@
 									<b>Melee Damage Bonus: </b>+2/+2/+2</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30039@[WIP] Heroes for Draw Steel ">Ability: Leaping Lightning</link>
+									<link class="ability" recordname="ability.id-30039">Ability: Leaping Lightning</link>
 								</linklist>
 							</text>
 						</block_033>
@@ -55578,7 +55578,7 @@
 							<text type="formattedtext">
 								<p>Armed with a simple reach weapon, often a quarterstaff, a character using the Stick and Robe kit is highly mobile thanks to their light armor. This allows your hero to make maximum use of their weapon&#8217;s length.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00007@[WIP] Heroes for Draw Steel ">Kit: Stick and Robe</link>
+									<link class="kit" recordname="kit.id-00007">Kit: Stick and Robe</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear light armor and wield a polearm.</p>
@@ -55595,7 +55595,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30040@[WIP] Heroes for Draw Steel ">Ability: Where I Want You</link>
+									<link class="ability" recordname="ability.id-30040">Ability: Where I Want You</link>
 								</linklist>
 							</text>
 						</block_035>
@@ -55609,7 +55609,7 @@
 							<text type="formattedtext">
 								<p>If you want to be mobile and deal a lot of damage with melee strikes, then you should reach for the Swashbuckler kit. This is a great kit for heroes who want to be master duelists.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00006@[WIP] Heroes for Draw Steel ">Kit: Swashbuckler</link>
+									<link class="kit" recordname="kit.id-00006">Kit: Swashbuckler</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear light armor and wield a medium weapon.</p>
@@ -55624,7 +55624,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30041@[WIP] Heroes for Draw Steel ">Ability: Fancy Footwork</link>
+									<link class="ability" recordname="ability.id-30041">Ability: Fancy Footwork</link>
 								</linklist>
 							</text>
 						</block_037>
@@ -55638,7 +55638,7 @@
 							<text type="formattedtext">
 								<p>The Sword and Board kit doesn&#8217;t just give you a shield&#8212;it makes the shield part of your offensive arsenal. With a medium weapon in one hand and a block of steel or solid oak in the other, you protect yourself while you control the battlefield.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00005@[WIP] Heroes for Draw Steel ">Kit: Sword and Board</link>
+									<link class="kit" recordname="kit.id-00005">Kit: Sword and Board</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear medium armor and wield a shield and a medium weapon.</p>
@@ -55653,7 +55653,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30042@[WIP] Heroes for Draw Steel ">Ability: Shield Bash</link>
+									<link class="ability" recordname="ability.id-30042">Ability: Shield Bash</link>
 								</linklist>
 							</text>
 						</block_039>
@@ -55667,7 +55667,7 @@
 							<text type="formattedtext">
 								<p>The Warrior Priest kit imbues the power of the gods into your weapon, making it a smiting instrument. You wade into the fray without fear, thanks to the power of the divine&#8230; and the heavy armor you wear.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00004@[WIP] Heroes for Draw Steel ">Kit: Warrior Priest</link>
+									<link class="kit" recordname="kit.id-00004">Kit: Warrior Priest</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear heavy armor and wield a light weapon.</p>
@@ -55682,7 +55682,7 @@
 									<b>Melee Damage Bonus: </b>+1/+1/+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30043@[WIP] Heroes for Draw Steel ">Ability: Weakening Brand</link>
+									<link class="ability" recordname="ability.id-30043">Ability: Weakening Brand</link>
 								</linklist>
 							</text>
 						</block_041>
@@ -55696,7 +55696,7 @@
 							<text type="formattedtext">
 								<p>The Whirlwind kit makes effective use of whips, granting you mobility, damage, and reach. If you want to be a fast-moving warrior who lashes foes with a chain or whip, then this is the kit for you.</p>
 								<linklist>
-									<link class="kit" recordname="kit.id-00003@[WIP] Heroes for Draw Steel ">Kit: Whirlwind</link>
+									<link class="kit" recordname="kit.id-00003">Kit: Whirlwind</link>
 								</linklist>
 								<h>Equipment</h>
 								<p>You wear no armor and wield a whip.</p>
@@ -55711,7 +55711,7 @@
 									<b>Disengage Bonus: </b>+1</p>
 								<h>Signature Ability</h>
 								<linklist>
-									<link class="ability" recordname="ability.id-30044@[WIP] Heroes for Draw Steel ">Ability: Extension of My Arm</link>
+									<link class="ability" recordname="ability.id-30044">Ability: Extension of My Arm</link>
 								</linklist>
 							</text>
 						</block_043>
@@ -59774,6 +59774,1317 @@
 		</refmanualindex>
 	</reference>
 	<tables>
+		<id-00100>
+			<dice type="dice">d100</dice>
+			<hiderollresults type="number">0</hiderollresults>
+			<locked type="number">1</locked>
+			<mod type="number">0</mod>
+			<name type="string">Complications</name>
+			<resultscols type="number">1</resultscols>
+			<table_positionoffset type="number">0</table_positionoffset>
+			<tablerows>
+				<id-00001>
+					<fromrange type="number">1</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Advanced Studies</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">2</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Amnesia</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00002>
+				<id-00003>
+					<fromrange type="number">3</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Animal Form</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00003>
+				<id-00004>
+					<fromrange type="number">65</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Prisoner of the Synlirii</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00004>
+				<id-00005>
+					<fromrange type="number">64</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Primordial Sickness</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00005>
+				<id-00006>
+					<fromrange type="number">63</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Preacher</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00006>
+				<id-00007>
+					<fromrange type="number">62</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Pirate</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00007>
+				<id-00008>
+					<fromrange type="number">61</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Outlaw</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00008>
+				<id-00009>
+					<fromrange type="number">60</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Mundane</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00009>
+				<id-00010>
+					<fromrange type="number">59</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Misunderstood</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00010>
+				<id-00011>
+					<fromrange type="number">58</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Medusa Blood</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00011>
+				<id-00012>
+					<fromrange type="number">57</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Medium</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00012>
+				<id-00013>
+					<fromrange type="number">56</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Meddling Butler</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00013>
+				<id-00014>
+					<fromrange type="number">55</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Master Chef</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00014>
+				<id-00015>
+					<fromrange type="number">54</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Lucky</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00015>
+				<id-00016>
+					<fromrange type="number">53</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Lost Your Head</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00016>
+				<id-00017>
+					<fromrange type="number">52</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Lost in Time</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00017>
+				<id-00018>
+					<fromrange type="number">51</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Loner</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00018>
+				<id-00019>
+					<fromrange type="number">50</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Lightning Soul</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00019>
+				<id-00020>
+					<fromrange type="number">49</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Lifebounded</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00020>
+				<id-00021>
+					<fromrange type="number">48</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Ivory Tower</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00021>
+				<id-00022>
+					<fromrange type="number">47</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Infernal Contract ... But, Like, Bad</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00022>
+				<id-00023>
+					<fromrange type="number">46</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Infernal Contract</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00023>
+				<id-00024>
+					<fromrange type="number">45</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Indebted</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00024>
+				<id-00025>
+					<fromrange type="number">44</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Hunter</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00025>
+				<id-00026>
+					<fromrange type="number">43</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Hunted</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00026>
+				<id-00027>
+					<fromrange type="number">42</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Host Body</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00027>
+				<id-00028>
+					<fromrange type="number">41</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Hawk Rider</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00028>
+				<id-00029>
+					<fromrange type="number">40</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Guilty Conscience</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00029>
+				<id-00030>
+					<fromrange type="number">39</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Grounded</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00030>
+				<id-00031>
+					<fromrange type="number">38</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Grifter</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00031>
+				<id-00032>
+					<fromrange type="number">37</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Greening</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00032>
+				<id-00033>
+					<fromrange type="number">36</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Gnoll-Mauled</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00033>
+				<id-00034>
+					<fromrange type="number">35</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Getting Too Old for This</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00034>
+				<id-00035>
+					<fromrange type="number">34</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Frostheart</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00035>
+				<id-00036>
+					<fromrange type="number">33</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Forbidden Love</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00036>
+				<id-00037>
+					<fromrange type="number">32</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Following in the Footsteps</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00037>
+				<id-00038>
+					<fromrange type="number">31</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Fire and Chaos</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00038>
+				<id-00039>
+					<fromrange type="number">30</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Fiery Ideal</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00039>
+				<id-00040>
+					<fromrange type="number">29</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Feytouched</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00040>
+				<id-00041>
+					<fromrange type="number">28</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Famous Relative</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00041>
+				<id-00042>
+					<fromrange type="number">27</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Fallen Immortal</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00042>
+				<id-00043>
+					<fromrange type="number">26</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Exile</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00043>
+				<id-00044>
+					<fromrange type="number">25</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Evanesceria</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00044>
+				<id-00045>
+					<fromrange type="number">24</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Elemental Inside</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00045>
+				<id-00046>
+					<fromrange type="number">23</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Dragon Dreams</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00046>
+				<id-00047>
+					<fromrange type="number">22</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Disgraced</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00047>
+				<id-00048>
+					<fromrange type="number">21</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Cursed Weapon</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00048>
+				<id-00049>
+					<fromrange type="number">20</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Curse of Stone</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00049>
+				<id-00050>
+					<fromrange type="number">19</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Curse of Punishment</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00050>
+				<id-00051>
+					<fromrange type="number">18</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Curse of Poverty</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00051>
+				<id-00052>
+					<fromrange type="number">17</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Curse of Misfortune</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00052>
+				<id-00053>
+					<fromrange type="number">16</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Curse of Immortality</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00053>
+				<id-00054>
+					<fromrange type="number">15</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Curse of Caution</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00054>
+				<id-00055>
+					<fromrange type="number">14</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Cult Victim</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00055>
+				<id-00056>
+					<fromrange type="number">13</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Crash Landed</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00056>
+				<id-00057>
+					<fromrange type="number">12</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Coward</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00057>
+				<id-00058>
+					<fromrange type="number">11</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Corrupted Mentor</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00058>
+				<id-00059>
+					<fromrange type="number">10</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Consuming Interest</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00059>
+				<id-00060>
+					<fromrange type="number">9</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Chosen One</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00060>
+				<id-00061>
+					<fromrange type="number">8</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Chaos Touches</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00061>
+				<id-00062>
+					<fromrange type="number">7</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Betrothed</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00062>
+				<id-00063>
+					<fromrange type="number">6</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Bereaved</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00063>
+				<id-00064>
+					<fromrange type="number">5</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Artifact Bonded</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00064>
+				<id-00065>
+					<fromrange type="number">4</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Antihero</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00065>
+				<id-00066>
+					<fromrange type="number">100</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Wrongly Imprisoned</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00066>
+				<id-00067>
+					<fromrange type="number">99</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Wrathful Spirit</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00067>
+				<id-00068>
+					<fromrange type="number">90</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Voice in Your Head</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00068>
+				<id-00069>
+					<fromrange type="number">89</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Vampire Scion</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00069>
+				<id-00070>
+					<fromrange type="number">88</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Thrill Seeker</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00070>
+				<id-00071>
+					<fromrange type="number">87</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Stripped of Rank</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00071>
+				<id-00072>
+					<fromrange type="number">86</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Strange Inheritance</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00072>
+				<id-00073>
+					<fromrange type="number">85</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Stolen Face</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00073>
+				<id-00074>
+					<fromrange type="number">84</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Slight Case of Lycanthropy</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00074>
+				<id-00075>
+					<fromrange type="number">83</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Silent Sentinel</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00075>
+				<id-00076>
+					<fromrange type="number">82</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Sibling's Shield</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00076>
+				<id-00077>
+					<fromrange type="number">81</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Shipwrecked</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00077>
+				<id-00078>
+					<fromrange type="number">80</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Shattered Legacy</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00078>
+				<id-00079>
+					<fromrange type="number">79</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Shared Spirit</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00079>
+				<id-00080>
+					<fromrange type="number">78</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Shadow Born</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00080>
+				<id-00081>
+					<fromrange type="number">77</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Sewer Folk</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00081>
+				<id-00082>
+					<fromrange type="number">76</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Self-Taught</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00082>
+				<id-00083>
+					<fromrange type="number">75</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Secret Twin</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00083>
+				<id-00084>
+					<fromrange type="number">74</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Secret Identity</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00084>
+				<id-00085>
+					<fromrange type="number">73</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Searching for a Cure</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00085>
+				<id-00086>
+					<fromrange type="number">72</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Runaway</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00086>
+				<id-00087>
+					<fromrange type="number">71</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Rogue Talent</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00087>
+				<id-00088>
+					<fromrange type="number">70</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Rival</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00088>
+				<id-00089>
+					<fromrange type="number">69</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Refugee</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00089>
+				<id-00090>
+					<fromrange type="number">68</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Raised by Beasts</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00090>
+				<id-00091>
+					<fromrange type="number">67</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Psychic Eruption</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00091>
+				<id-00092>
+					<fromrange type="number">66</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Promising Apprentice</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00092>
+				<id-00093>
+					<fromrange type="number">98</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Wodewalker</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00093>
+				<id-00094>
+					<fromrange type="number">97</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Waterborn</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00094>
+				<id-00095>
+					<fromrange type="number">96</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Ward</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00095>
+				<id-00096>
+					<fromrange type="number">95</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">War of Assassins</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00096>
+				<id-00097>
+					<fromrange type="number">94</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">War Dog Collar</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00097>
+				<id-00098>
+					<fromrange type="number">93</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Waking Dreams</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00098>
+				<id-00099>
+					<fromrange type="number">92</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Vow of Honesty</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00099>
+				<id-00100>
+					<fromrange type="number">91</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Vow of Duty</result>
+							<resultlink type="windowreference">
+								<class />
+								<recordname />
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00100>
+			</tablerows>
+		</id-00100>
 		<id-00002>
 			<dice type="dice"></dice>
 			<hiderollresults type="number">0</hiderollresults>
