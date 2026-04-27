@@ -19931,7 +19931,7 @@
 						<featureext type="formattedtext">
 							<p>You have the following ability, which can be used as a ranged free strike.</p>
 							<linklist>
-								<link class="ability" recordname="ability.id-03018">Ability: Hurl Element</link>
+								<link class="ability" recordname="ability.id-03108">Ability: Hurl Element</link>
 							</linklist>
 						</featureext>
 						<featurelevel type="number">1</featurelevel>
