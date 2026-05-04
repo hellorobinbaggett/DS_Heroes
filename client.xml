@@ -12521,7 +12521,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Relentless</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>Whenever a creature deals damage to you that leaves you dying, you can make a free strike against any creature. If the creature is reduced to 0 Stamina by your strike, you can spend a Recovery.</p>
 					</text>
@@ -12532,7 +12532,7 @@
 					<choicetype type="string">Purchased Orc Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Bloodfire Rush</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>The magic coursing through your veins makes you run faster in the heat of battle. The first time in any combat round that you take damage, you gain a +2 bonus to speed until the end of the round.</p>
 					</text>
@@ -12543,7 +12543,7 @@
 					<choicetype type="string">Purchased Orc Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Glowing Recovery</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your bloodfire allows you to regain your strength quicker than others. Whenever you use the Catch Breath maneuver, you can spend as many Recoveries as you like.</p>
 					</text>
@@ -12554,7 +12554,7 @@
 					<choicetype type="string">Purchased Orc Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Grounded</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>The magic in your blood makes it difficult for others to move you. You have a +1 bonus to stability.</p>
 					</text>
@@ -12565,7 +12565,7 @@
 					<choicetype type="string">Purchased Orc Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Nonstop</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your bloodfire supplies you with a constant rush of adrenaline. You can&#8217;t be made slowed.</p>
 					</text>
@@ -12576,7 +12576,7 @@
 					<choicetype type="string">Purchased Orc Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Passionate Artisan</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>When you are stirred by a passion for creation, your bloodfire allows you to work longer and harder. When you gain your initial skills from your career, culture, class, or other source, choose two skills from the crafting skill group, whether you have those skills or not. Whenever you make a project roll for a crafting project that uses these skills, you gain a +2 bonus to the roll.</p>
 					</text>
@@ -12668,7 +12668,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Silver Tongue</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>Your innate magic allows you to twist how your words are perceived to get a better read on people and convince them to see things your way. You have one skill of your choice from the interpersonal skill group (see Skills in Chapter 9: Tests), and you gain an edge on tests when attempting to discover an NPC&#8217;s motivations and pitfalls during a negotiation (see Chapter 11: Negotiation).</p>
 					</text>
@@ -12679,7 +12679,7 @@
 					<choicetype type="string">Purchased Devil Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Barbed Tail</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your pointy tail allows you to punctuate all your actions. Once per round when you make a melee strike, you can deal extra damage with the strike equal to your highest characteristic score.</p>
 					</text>
@@ -12690,7 +12690,7 @@
 					<choicetype type="string">Purchased Devil Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Beast Legs</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your powerful legs improve your speed. You have speed 6.</p>
 					</text>
@@ -12701,7 +12701,7 @@
 					<choicetype type="string">Purchased Devil Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Hellsight</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your eyes let you see through darkness, fog, and other obscuring effects. You don&#8217;t take a bane on strikes made against creatures with concealment.</p>
 					</text>
@@ -12712,7 +12712,7 @@
 					<choicetype type="string">Purchased Devil Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Impressive Horns</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your cherished horns are larger than the average devil&#8217;s, and a hardened representation of your force of will. Whenever you make a saving throw, you succeed on a roll of 5 or higher.</p>
 					</text>
@@ -12723,7 +12723,7 @@
 					<choicetype type="string">Purchased Devil Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Prehensile Tail</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your prehensile tail allows you to challenge foes on all sides. You can&#8217;t be flanked.</p>
 					</text>
@@ -12734,7 +12734,7 @@
 					<choicetype type="string">Purchased Devil Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Wings</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You possess wings powerful enough to take you airborne. While using your wings to fly, you can stay aloft for a number of rounds equal to your Might score (minimum 1 round) before you fall. While using your wings to fly at 3rd level or lower, you have damage weakness 5.</p>
 					</text>
@@ -12745,7 +12745,7 @@
 					<choicetype type="string">Purchased Devil Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Glowing Eyes</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your eyes are a solid, vibrant color that flares to show your excitement or rage. Whenever you take damage from a creature, you can use a triggered action to deal that creature psychic damage equal to 1d10 + your level.</p>
 					</text>
@@ -12850,7 +12850,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Wyrmplate</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>Your hardened scales grant you damage immunity equal to your level to one of the following damage types: acid, cold, corruption, fire, lightning, or poison. You can change your damage immunity type when you finish a respite.</p>
 					</text>
@@ -12861,7 +12861,7 @@
 					<choicetype type="string">Purchased Dragon Knight Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Draconian Guard</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>When you or a creature adjacent to you takes damage from a strike, you can use a triggered action to swing your wings around and guard against the blow, reducing any damage from the strike by an amount equal to your level.</p>
 					</text>
@@ -12872,7 +12872,7 @@
 					<choicetype type="string">Purchased Dragon Knight Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Draconian Pride</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You have the following signature ability.</p>
 						<linklist>
@@ -12886,7 +12886,7 @@
 					<choicetype type="string">Purchased Dragon Knight Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Dragon Breath</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You have the following signature ability.</p>
 						<linklist>
@@ -12900,7 +12900,7 @@
 					<choicetype type="string">Purchased Dragon Knight Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Prismatic Scales</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Select one damage immunity granted by your Wyrmplate trait. You always have this immunity, in addition to the immunity granted by Wyrmplate.</p>
 					</text>
@@ -12911,7 +12911,7 @@
 					<choicetype type="string">Purchased Dragon Knight Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Remember Your Oath</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>As a maneuver, you can recite the following oath. Until the start of your next turn, whenever you make a saving throw, you succeed on a 4 or higher.</p>
 						<p>
@@ -12952,7 +12952,7 @@
 					<choicetype type="string">Purchased Dragon Knight Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Wings</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You possess wings powerful enough to take you airborne. While using your wings to fly, you can stay aloft for a number of rounds equal to your Might score (minimum 1 round) before you fall. While using your wings to fly at 3rd level or lower, you have damage weakness 5.</p>
 					</text>
@@ -13028,7 +13028,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Runic Carving</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>You can carve a rune onto your skin with 10 uninterrupted minutes of work, which is activated by the magic within your body. The rune you carve determines the benefit you receive, chosen from among the following:</p>
 						<list>
@@ -13048,7 +13048,7 @@
 					<choicetype type="string">Purchased Dwarf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Great Fortitude</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your hearty constitution prevents you from losing strength. You can&#8217;t be made weakened.</p>
 					</text>
@@ -13059,7 +13059,7 @@
 					<choicetype type="string">Purchased Dwarf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Grounded</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your heavy stone body and connection to the earth make it difficult for others to move you. You have a +1 bonus to stability.</p>
 					</text>
@@ -13070,7 +13070,7 @@
 					<choicetype type="string">Purchased Dwarf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Spark Off Your Skin</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your stone skin affords you potent protection. You have a +6 bonus to Stamina, and that bonus increases by 3 each time you gain a new level.</p>
 					</text>
@@ -13081,7 +13081,7 @@
 					<choicetype type="string">Purchased Dwarf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Stand Tough</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your body is made to withstand the blows of your enemies. Your Might score is treated as 1 higher for the purpose of resisting potencies, and you gain an edge on Might tests when called for to resist environmental effects or a creature&#8217;s traits or abilities.</p>
 					</text>
@@ -13092,7 +13092,7 @@
 					<choicetype type="string">Purchased Dwarf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Stone Singer</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You have a magic connection to the earth. When you spend 1 uninterrupted hour singing, you can reshape any unworked mundane stone within 3 squares. You can&#8217;t destroy this stone, but you can move each square of it anywhere within 3 squares, piling it off to one side to dig a hole or building it up to create a wall.</p>
 					</text>
@@ -13170,7 +13170,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Wode Elf Glamor</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>You can magically alter your appearance to better blend in with your surroundings. You gain an edge on tests made to hide and sneak, and tests made to search for you while you are hidden take a bane.</p>
 					</text>
@@ -13181,7 +13181,7 @@
 					<choicetype type="string">Purchased Wode Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Forest Walk</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You can shift into and while within difficult terrain.</p>
 					</text>
@@ -13192,7 +13192,7 @@
 					<choicetype type="string">Purchased Wode Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Quick and Brutal</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Whenever you score a critical hit, you can take an additional main action and an additional move action instead of just a main action.</p>
 					</text>
@@ -13203,7 +13203,7 @@
 					<choicetype type="string">Purchased Wode Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Otherworldly Grace</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your elf body and mind can&#8217;t be contained for long. Whenever you make a saving throw, you succeed on a roll of 5 or higher.</p>
 					</text>
@@ -13214,7 +13214,7 @@
 					<choicetype type="string">Purchased Wode Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Revisit Memory</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Accessing memories is as easy as living in the present for you. You gain an edge on tests made to recall lore.</p>
 					</text>
@@ -13225,7 +13225,7 @@
 					<choicetype type="string">Purchased Wode Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Swift</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You have speed 6.</p>
 					</text>
@@ -13236,7 +13236,7 @@
 					<choicetype type="string">Purchased Wode Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">The Wode Defends</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You have the following signature ability. Signature abilities can be used at will.</p>
 						<linklist>
@@ -13311,7 +13311,7 @@
 					<choicetype type="string">Purhased High Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Glamor of Terror</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>When a foe strikes, you reverse the magic of your glamor to instill fear into their heart. Whenever you take damage from a creature, you can use a triggered action to make that creature frightened of you until the end of their next turn.</p>
 					</text>
@@ -13322,7 +13322,7 @@
 					<choicetype type="string">Purhased High Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Graceful Retreat</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You gain a +1 bonus to the distance you can shift when you take the Disengage move action.</p>
 					</text>
@@ -13333,7 +13333,7 @@
 					<choicetype type="string">Purhased High Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">High Senses</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your senses are especially keen and perceptive. You gain an edge on tests made to notice threats.</p>
 					</text>
@@ -13344,7 +13344,7 @@
 					<choicetype type="string">Purhased High Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Otherworldly Grace</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your elf body and mind can&#8217;t be contained for long. Whenever you make a saving throw, you succeed on a roll of 5 or higher.</p>
 					</text>
@@ -13355,7 +13355,7 @@
 					<choicetype type="string">Purhased High Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Unstoppable Mind</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your mind allows you to maintain your focus in any situation. You can&#8217;t become dazed.</p>
 					</text>
@@ -13366,7 +13366,7 @@
 					<choicetype type="string">Purhased High Elf Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Revisit Memory</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Accessing memories is as easy as living in the present for you. You gain an edge on tests made to recall lore.</p>
 					</text>
@@ -13377,7 +13377,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: High Elf Glamor</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>A magic glamor makes others perceive you as interesting and engaging, granting you an edge on Presence tests using the Flirt or Persuade skills. This glamor makes you appear and sound slightly different to each creature you meet, since what is engaging to one might be different for another. However, you never appear to be anyone other than yourself.</p>
 					</text>
@@ -13450,7 +13450,7 @@
 					<choicetype type="string">Purchased Hakaan Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Stand Tough</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your body is made to withstand the blows of your enemies. Your Might score is treated as 1 higher for the purpose of resisting potencies, and you gain an edge on Might tests when called for to resist environmental effects or a creature&#8217;s traits or abilities.</p>
 					</text>
@@ -13461,7 +13461,7 @@
 					<choicetype type="string">Purchased Hakaan Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Great Fortitude</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your hearty constitution prevents you from losing strength. You can&#8217;t be made weakened.</p>
 					</text>
@@ -13472,7 +13472,7 @@
 					<choicetype type="string">Purchased Hakaan Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Forceful</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Whenever you force move a creature or object, the forced movement distance gains a +1 bonus.</p>
 					</text>
@@ -13483,7 +13483,7 @@
 					<choicetype type="string">Purchased Hakaan Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Doomsight</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Working with your Director, you can predetermine an encounter in which you will die. When that encounter begins, you become doomed. While doomed, you automatically obtain a tier 3 outcome on tests and ability rolls, and you don&#8217;t die no matter how low your Stamina falls. You then die immediately at the end of the encounter, and can&#8217;t be returned to life by any means. If you don&#8217;t predetermine your death encounter, you can choose to become doomed while you are dying with the Director&#8217;s approval (no action required). Doing so should be reserved for encounters in which you are dying as a result of suitable heroism, such as making a last stand against a boss or saving civilians, or when the consequences of your actions have finally caught up to you&#8212;not because you&#8217;re playing a one-shot and have nothing to lose, Hacaarl.</p>
 						<p>Additionally, when your Stamina reaches the negative of your winded value and you are not doomed, you turn to rubble instead of experiencing death. You are unaware of your surroundings in this state, and you can&#8217;t regain Stamina or have this effect undone in any way. After 12 hours, you regain Stamina equal to your recovery value.</p>
@@ -13495,7 +13495,7 @@
 					<choicetype type="string">Purchased Hakaan Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">All Is a Feather</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You are exceptionally strong. You gain an edge on tests made to lift and haul heavy objects.</p>
 					</text>
@@ -13506,7 +13506,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Big!</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>Your stature reflects your giant forebears. Your size is 1L.</p>
 					</text>
@@ -13573,7 +13573,7 @@
 					<choicetype type="string">Purchased Human Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Staying Power</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your human physiology allows you to fight, run, and stay awake longer than others. You increase your number of Recoveries by 2.</p>
 					</text>
@@ -13584,7 +13584,7 @@
 					<choicetype type="string">Purchased Human Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Resist the Unnatural</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your instinctive resilience protects you from injuries beyond the routine. Whenever you take damage that isn&#8217;t untyped, you can use a triggered action to take half the damage.</p>
 					</text>
@@ -13595,7 +13595,7 @@
 					<choicetype type="string">Purchased Human Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Perseverance</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Giving up is for other people. You gain an edge on tests made using the Endurance skill. Additionally, when you are slowed, your speed is reduced to 3 instead of 2.</p>
 					</text>
@@ -13606,7 +13606,7 @@
 					<choicetype type="string">Purchased Human Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Determination</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>A tolerance for pain and distress allows you to push through difficult situations. If you are frightened, slowed, or weakened, you can use a maneuver to immediately end one of those conditions.</p>
 					</text>
@@ -13617,7 +13617,7 @@
 					<choicetype type="string">Purchased Human Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Can’t Take Hold</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your connection to the natural world allows you to resist certain supernatural effects. You ignore temporary difficult terrain created by magic and psionic abilities. Additionally, when you are force moved by a magic or psionic ability, you can reduce the forced movement distance by 1.</p>
 					</text>
@@ -13628,7 +13628,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Detect the Supernatural</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>As a maneuver, you open your awareness to detect supernatural creatures and phenomena. Until the end of your next turn, you know the location of any supernatural object, or any undead, construct, or creature from another world within 5 squares, even if you don&#8217;t have line of effect to that object or creature. You know if you&#8217;re detecting an item or a creature, and you know the nature of any creature you detect.</p>
 					</text>
@@ -13694,7 +13694,7 @@
 					<choicetype type="string">Purchased Memonek Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">I Am Law</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your lawful nature and quick reflexes mean you give no quarter to creatures trying to get past you. Enemies can&#8217;t move through your space unless you allow them to do so.</p>
 					</text>
@@ -13705,7 +13705,7 @@
 					<choicetype type="string">Purchased Memonek Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Keeper of Order</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your connection to Axiom, the plane of Uttermost Law, allows you to manage chaos around you. Once per round when you or an adjacent creature makes a power roll, you can use a free triggered action to remove an edge or a bane on the roll, to turn a double edge into an edge, or to turn a double bane into a bane.</p>
 					</text>
@@ -13716,7 +13716,7 @@
 					<choicetype type="string">Purchased Memonek Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Lightning Nimbleness</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You can push your body to move at incredible speeds. Your speed is 7.</p>
 					</text>
@@ -13727,7 +13727,7 @@
 					<choicetype type="string">Purchased Memonek Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Nonstop</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your connection to Axiom allows you to regulate your movement. You can&#8217;t be made slowed.</p>
 					</text>
@@ -13738,7 +13738,7 @@
 					<choicetype type="string">Purchased Memonek Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Systematic Mind</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You gain an edge on tests made to parse schematics, maps, and other systematic documents that aren&#8217;t inherently chaotic. In addition, you treat any language you don&#8217;t know as if you know a related language.</p>
 					</text>
@@ -13749,7 +13749,7 @@
 					<choicetype type="string">Purchased Memonek Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Unphased</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your ordered mind can&#8217;t be caught off guard. You can&#8217;t be made surprised.</p>
 					</text>
@@ -13760,7 +13760,7 @@
 					<choicetype type="string">Purchased Memonek Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Useful Emotion</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Velloparatha&#8212;the worldsickness&#8212;might hinder you, but you know how to turn your pain into something your enemies feel. At the start of any combat, you gain 1 surge.</p>
 					</text>
@@ -13771,7 +13771,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Lightweight</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>Your body is light for a creature of your height. Whenever another creature attempts to force move you, you treat your size as one size smaller than it is.</p>
 					</text>
@@ -13782,7 +13782,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Fall Lightly</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>Your silicone body is low in density. Whenever you fall, you reduce the distance of the fall by 2 squares.</p>
 					</text>
@@ -13867,7 +13867,7 @@
 					<choicetype type="string">Purchased Polder Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Corruption Immunity</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your innate shadow magic grants you resilience against the unnatural. You have corruption immunity equal to your level + 2.</p>
 					</text>
@@ -13878,7 +13878,7 @@
 					<choicetype type="string">Purchased Polder Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Fearless</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Courage is all you know. You can&#8217;t be made frightened.</p>
 					</text>
@@ -13889,7 +13889,7 @@
 					<choicetype type="string">Purchased Polder Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Graceful Retreat</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your small size makes it easier for you to slip away from the fray. You gain a +1 bonus to the distance you can shift when you take the Disengage move action.</p>
 					</text>
@@ -13900,7 +13900,7 @@
 					<choicetype type="string">Purchased Polder Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Nimblestep</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>A light step serves you well when speed is of the essence. You ignore the effects of difficult terrain and can move at full speed while sneaking.</p>
 					</text>
@@ -13911,7 +13911,7 @@
 					<choicetype type="string">Purchased Polder Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Polder Geist</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Evading others&#8217; notice gives you freedom to move. At the start of each of your turns during combat, if no enemy has line of effect to you or if you are hidden from or have concealment from any enemy with line of effect to you, you gain a +3 bonus to speed until the end of your turn.</p>
 					</text>
@@ -13922,7 +13922,7 @@
 					<choicetype type="string">Purchased Polder Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Reactive Tumble</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Staying light on your feet lets you quickly get back into position. Whenever you are force moved, you can use a free triggered action to shift 1 square after the forced movement is resolved.</p>
 					</text>
@@ -13933,7 +13933,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Small!</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>Your diminutive stature lets you easily get out of&#8212;or into&#8212;trouble. Your size is 1S.</p>
 					</text>
@@ -13944,7 +13944,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Shadowmeld</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>You have the following ability.</p>
 						<linklist>
@@ -14025,7 +14025,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Former Life</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>Choose the ancestry you were before you died. Your size is that ancestry&#8217;s size and your speed is 5. Unless you select one of the Previous Life traits (see below), you don&#8217;t receive any other ancestral traits from your original ancestry.</p>
 					</text>
@@ -14036,7 +14036,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Tough But Withered</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>Your undead body grants you immunity to cold, corruption, lightning, and poison damage equal to your level, but you have fire weakness 5. You can&#8217;t suffocate, and you don&#8217;t need to eat or drink to stay alive.</p>
 						<p>Additionally, when your Stamina reaches the negative of your winded value, you become inert instead of dying. You fall prone and can&#8217;t stand. You continue to observe your surroundings, but you can&#8217;t speak, take main actions, maneuvers, move actions, or triggered actions. While inert this way, if you take any fire damage, your body is destroyed and you die. Otherwise, after 12 hours, you regain Stamina equal to your recovery value.</p>
@@ -14048,7 +14048,7 @@
 					<choicetype type="string">Purchased Revenant Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Vengeance Mark</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>As a maneuver, you place a magic sigil on a creature within 10 squares. When you place a sigil, you decide where it appears on the creature&#8217;s body, and whether the sigil is visible to only you or to all creatures.</p>
 						<p>You always know the direction to the exact location of a creature who bears one of your sigils and is on the same world. You can have a number of active sigils equal to your level, and can remove a sigil from a creature at will (no action required). If you already have the maximum number of sigils activated and you place a new one, your oldest sigil disappears with no other effect.</p>
@@ -14064,7 +14064,7 @@
 					<choicetype type="string">Purchased Revenant Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Undead Influence</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your supernatural gifts allow you to influence other undead. You gain an edge on Reason, Intuition, and Presence tests made to interact with undead creatures.</p>
 					</text>
@@ -14075,7 +14075,7 @@
 					<choicetype type="string">Purchased Revenant Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Previous Life: 2 Points</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You select a purchased trait that costs 2 ancestry points from your previous ancestry.</p>
 					</text>
@@ -14086,7 +14086,7 @@
 					<choicetype type="string">Purchased Revenant Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Previous Life: 1 Point</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>You select a purchased trait that costs 1 ancestry point from your previous ancestry. You can take this trait multiple times, selecting a different 1 point trait from your previous ancestry each time.</p>
 					</text>
@@ -14097,7 +14097,7 @@
 					<choicetype type="string">Purchased Revenant Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Bloodless</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>For you, an open wound is indistinguishable from a scratch. You can&#8217;t be made bleeding even while dying.</p>
 					</text>
@@ -14171,7 +14171,7 @@
 					<choicetype type="string">Purchased Time Raider Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Beyondsight</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>As a maneuver, you can adjust your vision to allow you to see through mundane obstructions that are 1 square thick or less. While your vision is adjusted this way, you can&#8217;t see the area within 1 square of you and you don&#8217;t have line of effect to any creature or object in that area. You can restore your usual vision as a maneuver.</p>
 					</text>
@@ -14182,7 +14182,7 @@
 					<choicetype type="string">Purchased Time Raider Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Foresight</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your senses extend past mundane obscuration and the veil of the future alike. You automatically know the location of any creature with concealment who isn&#8217;t hidden from you within 20, and you negate the usual bane on strikes against such creatures. Additionally, whenever you are targeted by a strike, you can use a triggered action to impose a bane on the power roll.</p>
 					</text>
@@ -14193,7 +14193,7 @@
 					<choicetype type="string">Purchased Time Raider Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Four-Armed Athletics</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your unique physiology enhances your movement. You gain an edge on tests that use the Climb, Gymnastics, or Swim skills when you can use all your arms in the attempt.</p>
 					</text>
@@ -14204,7 +14204,7 @@
 					<choicetype type="string">Purchased Time Raider Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Four-Armed Martial Arts</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your multiple arms let you take on multiple tasks at the same time. Whenever you use the Grab or Knockback maneuver against an adjacent creature, you can target one additional adjacent creature, using the same power roll for both targets. Additionally, you can have up to two creatures grabbed at a time.</p>
 					</text>
@@ -14215,7 +14215,7 @@
 					<choicetype type="string">Purchased Time Raider Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Psionic Gift</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Choose one signature ability from the following options. Signature abilities can be used at will.</p>
 						<linklist>
@@ -14231,7 +14231,7 @@
 					<choicetype type="string">Purchased Time Raider Traits</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Unstoppable Mind</name>
-					<repeatable type="number">0</repeatable>
+					<checkbox type="number">0</checkbox>
 					<text type="formattedtext">
 						<p>Your mind allows you to maintain your focus in any situation. You can&#8217;t be dazed.</p>
 					</text>
@@ -14242,7 +14242,7 @@
 					<choicetype type="string">Signature Trait</choicetype>
 					<locked type="number">1</locked>
 					<name type="string">Signature Trait: Psychic Scar</name>
-					<repeatable type="number">1</repeatable>
+					<checkbox type="number">1</checkbox>
 					<text type="formattedtext">
 						<p>Your mind is a formidable layer of defense. You have psychic immunity equal to your level.</p>
 					</text>
@@ -14852,7 +14852,7 @@
 						<level type="number">1</level>
 						<name type="string">Censor Order: Exorcist</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You specialize in hunting your order's hidden enemies, knowing that an open mind is an unguarded fortress. You have the Read Person skill.</p>
 						</text>
@@ -14862,7 +14862,7 @@
 						<level type="number">1</level>
 						<name type="string">Censor Order: Oracle</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Corruption has deep tendrils that can be missed, leading you to specialize in uncovering clandestine threats to your order. You have the Magic skill.</p>
 						</text>
@@ -14872,7 +14872,7 @@
 						<level type="number">1</level>
 						<name type="string">Censor Order: Paragon</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Without a strong example and a firm hand, the weak will be corrupted. You specialize in setting an example for your order. You have the Lead skill.</p>
 						</text>
@@ -14892,7 +14892,7 @@
 						<level type="number">1</level>
 						<name type="string">Inspired Deception</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>The gods favor your thievery with magic. Whenever you make a test that uses a skill you have from the intrigue skill group, you can use Presence on the test instead of another characteristic.</p>
 						</text>
@@ -14902,7 +14902,7 @@
 						<level type="number">1</level>
 						<name type="string">Inner Light</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Each time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. You place a ray of morning light into the chosen character&#8217;s soul, granting them a +1 bonus to saving throws that lasts until you finish another respite.</p>
 						</text>
@@ -14912,7 +14912,7 @@
 						<level type="number">1</level>
 						<name type="string">Blessing of Fortunous Weather</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Each time you finish a respite, you can decide the weather conditions within 100 squares. Until you finish another respite, the weather conditions you establish follow you through any mundane outdoor locations. Choose one of the following types of weather, each of which grants a benefit to you and your allies:</p>
 							<p>
@@ -14931,7 +14931,7 @@
 						<level type="number">1</level>
 						<name type="string">Protective Circle</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You can spend 10 uninterrupted minutes to create a protective circle on the ground large enough to hold one size 1 creature. The circle lasts for 24 hours, until you create another, or until you dismiss it (no action required). Only creatures you designate at the time of drawing the circle can enter and exit the area. While in the protective circle, a creature can&#8217;t be targeted by strikes.</p>
 						</text>
@@ -14942,7 +14942,7 @@
 						<level type="number">1</level>
 						<name type="string">Faithful Friend</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-01053">Ability: Faithful Friend</link>
@@ -14955,7 +14955,7 @@
 						<level type="number">1</level>
 						<name type="string">Blessing of Compassion</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You exude a magic presence that can soothe those willing to socially engage with you. You gain an edge on any test made to assist another creature with a test.</p>
 							<p>Additionally, when you are present at the start of a negotiation, one NPC of your choice has their patience increased by 1 (to a maximum of 5), and the first test made to influence them gains an edge.</p>
@@ -14967,7 +14967,7 @@
 						<level type="number">1</level>
 						<name type="string">Revitalizing Ritual</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Each time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. The chosen character gains a bonus to their recovery value equal to your level that lasts until you finish another respite.</p>
 						</text>
@@ -14978,7 +14978,7 @@
 						<level type="number">1</level>
 						<name type="string">Blessing of Comprehension</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You can interpret diagrams and charts even if you don&#8217;t understand the language associated with them. You are considered fluent in all languages for the purpose of understanding the project source for any crafting or research project (see Chapter 12: Downtime Projects).</p>
 						</text>
@@ -14989,7 +14989,7 @@
 						<level type="number">1</level>
 						<name type="string">Oracular Visions</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your deity rewards you with hazy visions of things to come. Each time you earn 1 or more Victories, you earn an equal number of fate points. Whenever you or a creature within 10 squares makes a test, you can spend 1 fate point to tap into a vision of the outcome, granting that creature an edge on the test. You lose any remaining fate points when you finish a respite.</p>
 						</text>
@@ -15000,7 +15000,7 @@
 						<level type="number">1</level>
 						<name type="string">Grave Speech</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-01065">Ability: Grave Speech</link>
@@ -15013,7 +15013,7 @@
 						<level type="number">1</level>
 						<name type="string">Hands of the Maker</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-01072">Ability: Hands of the Maker</link>
@@ -15025,7 +15025,7 @@
 						<level type="number">1</level>
 						<name type="string">Sanctified Weapon</name>
 						<prerequisite type="string">Censor</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>As a respite activity, you can bless a weapon. Any creature who wields the weapon gains a +1 bonus to rolled damage with abilities that use the weapon. This benefit lasts until you finish another respite.</p>
 						</text>
@@ -16670,7 +16670,7 @@
 						<level type="number">1</level>
 						<name type="string">Creation Domain Piety and Effect</name>
 						<prerequisite type="string">Creation Domain</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that a creature within 10 squares uses an area ability.</p>
@@ -16683,7 +16683,7 @@
 						<level type="number">1</level>
 						<name type="string">Death Domain Piety and Effect</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that a creature within 10 squares who isn&#8217;t a minion is reduced to 0 Stamina, or the first time in an encounter that a solo creature within 10 squares becomes winded.</p>
@@ -16696,7 +16696,7 @@
 						<level type="number">1</level>
 						<name type="string">Fate Domain Piety and Effect</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that an ally within 10 squares obtains a tier 3 outcome on a power roll, or an enemy within 10 squares obtains a tier 1 outcome on a power roll.</p>
@@ -16709,7 +16709,7 @@
 						<level type="number">1</level>
 						<name type="string">Knowledge Domain Piety and Effect</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that the Director spends Malice (see Draw Steel: Monsters).</p>
@@ -16722,7 +16722,7 @@
 						<level type="number">1</level>
 						<name type="string">Life Domain Piety and Effect</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that a creature within 10 squares regains Stamina.</p>
@@ -16735,7 +16735,7 @@
 						<level type="number">1</level>
 						<name type="string">Love Domain Piety and Effect</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that you or any ally within 10 squares uses the Aid Attack maneuver or an ability that targets an ally.</p>
@@ -16748,7 +16748,7 @@
 						<level type="number">1</level>
 						<name type="string">Nature Domain Piety and Effect</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes acid, cold, fire, lightning, poison, or sonic damage.</p>
@@ -16761,7 +16761,7 @@
 						<level type="number">1</level>
 						<name type="string">Protection Domain Piety and Effect</name>
 						<prerequisite type="string">Protection Domain Piety and Effect</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that you or any ally within 10 squares gains temporary Stamina, or uses a triggered action to reduce incoming damage or to impose a bane or double bane on an enemy&#8217;s power roll.</p>
@@ -16774,7 +16774,7 @@
 						<level type="number">1</level>
 						<name type="string">Storm Domain Piety and Effect</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that an enemy within 10 squares is force moved.</p>
@@ -16787,7 +16787,7 @@
 						<level type="number">1</level>
 						<name type="string">Quickness Ward</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>The gods imbue a divine swiftness within you. Whenever an adjacent creature deals damage to you, you can shift up to a number of squares equal to your Intuition score after the damage is dealt.</p>
 						</text>
@@ -16797,7 +16797,7 @@
 						<level type="number">1</level>
 						<name type="string">Sun Domain Piety and Effect</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that an enemy within 10 squares takes fire or holy damage.</p>
@@ -16810,7 +16810,7 @@
 						<level type="number">1</level>
 						<name type="string">Trickery Domain Piety and Effect</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes the Aid Attack or Hide maneuver.</p>
@@ -16823,7 +16823,7 @@
 						<level type="number">1</level>
 						<name type="string">War Domain Piety and Effect</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>
 								<b>Piety: </b>You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes damage greater than 10 + your level in a single turn.</p>
@@ -16836,7 +16836,7 @@
 						<level type="number">1</level>
 						<name type="string">Sanctuary Ward</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>In response to a foe&#8217;s aggression, your god protects you. Whenever another creature damages you, that creature can&#8217;t target you with a strike until you harm them or one of their allies, or until the end of their next turn.</p>
 						</text>
@@ -16846,7 +16846,7 @@
 						<level type="number">1</level>
 						<name type="string">Bastion Ward</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your god grants you a holy countenance that protects you at all times. You gain a +1 bonus to saving throws.</p>
 						</text>
@@ -16856,7 +16856,7 @@
 						<level type="number">1</level>
 						<name type="string">Spirit Ward</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Invisible spirits surround you if you are harmed. Whenever an adjacent creature deals damage to you, they take corruption damage equal to your Intuition score.</p>
 						</text>
@@ -16866,7 +16866,7 @@
 						<level type="number">1</level>
 						<name type="string">Hands of the Maker</name>
 						<prerequisite type="string">Creation Domain</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-01072">Ability: Hands of the Maker</link>
@@ -16878,7 +16878,7 @@
 						<level type="number">1</level>
 						<name type="string">Grave Speech</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-02065">Ability: Grave Speech</link>
@@ -16890,7 +16890,7 @@
 						<level type="number">1</level>
 						<name type="string">Oracular Visions</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your deity rewards you with hazy visions of things to come. Each time you earn 1 or more Victories, you earn an equal number of fate points. Whenever you or a creature within 10 squares makes a test, you can spend 1 fate point to tap into a vision of the outcome, granting that creature an edge on the test. You lose any remaining fate points when you finish a respite.</p>
 						</text>
@@ -16900,7 +16900,7 @@
 						<level type="number">1</level>
 						<name type="string">Blessing of Comprehension</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You can interpret diagrams and charts even if you don&#8217;t understand the language associated with them. You are considered fluent in all languages for the purpose of understanding the project source for any crafting or research project (see Chapter 12: Downtime Projects).</p>
 						</text>
@@ -16910,7 +16910,7 @@
 						<level type="number">1</level>
 						<name type="string">Revitalizing ritual</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Each time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. The chosen character gains a bonus to their recovery value equal to your level that lasts until you finish another respite.</p>
 						</text>
@@ -16920,7 +16920,7 @@
 						<level type="number">1</level>
 						<name type="string">Blessing of Compassion</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You exude a magic presence that can soothe those willing to socially engage with you. You gain an edge on any test made to assist another creature with a test.</p>
 							<p>Additionally, when you are present at the start of a negotiation, one NPC of your choice has their patience increased by 1 (to a maximum of 5), and the first test made to influence them gains an edge.</p>
@@ -16931,7 +16931,7 @@
 						<level type="number">1</level>
 						<name type="string">Faithful Friend</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-02053">Ability: Faithful Friend</link>
@@ -16943,7 +16943,7 @@
 						<level type="number">1</level>
 						<name type="string">Protective Circle</name>
 						<prerequisite type="string">Protection Domain</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You can spend 10 uninterrupted minutes to create a protective circle on the ground large enough to hold one size 1 creature. The circle lasts for 24 hours, until you create another, or until you dismiss it (no action required). Only creatures you designate at the time of drawing the circle can enter and exit the area. While in the protective circle, a creature can&#8217;t be targeted by strikes.</p>
 						</text>
@@ -16953,7 +16953,7 @@
 						<level type="number">1</level>
 						<name type="string">Blessing of Fortunate Weather</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Each time you finish a respite, you can decide the weather conditions within 100 squares. Until you finish another respite, the weather conditions you establish follow you through any mundane outdoor locations. Choose one of the following types of weather, each of which grants a benefit to you and your allies:</p>
 							<p>
@@ -16972,7 +16972,7 @@
 						<level type="number">1</level>
 						<name type="string">Inner Light</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Each time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. You place a ray of morning light into the chosen character&#8217;s soul, granting them a +1 bonus to saving throws that lasts until you finish another respite.</p>
 						</text>
@@ -16982,7 +16982,7 @@
 						<level type="number">1</level>
 						<name type="string">Inspired Deception</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>The gods favor your thievery with magic. Whenever you make a test that uses a skill you have from the intrigue skill group, you can use Presence on the test instead of another characteristic.</p>
 						</text>
@@ -16992,7 +16992,7 @@
 						<level type="number">1</level>
 						<name type="string">Sanctified Weapon</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>As a respite activity, you can bless a weapon. Any creature who wields the weapon gains a +1 bonus to rolled damage with abilities that use the weapon. This benefit lasts until you finish another respite.</p>
 						</text>
@@ -17002,7 +17002,7 @@
 						<level type="number">1</level>
 						<name type="string">Prayer of Steel</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your god fills your body with the light of creation, making you harder to hurt and move. You gain a +6 bonus to Stamina, and this bonus increases by 6 at 4th, 7th, and 10th levels. Additionally, you gain a +1 bonus to stability.</p>
 							<p />
@@ -17014,7 +17014,7 @@
 						<level type="number">1</level>
 						<name type="string">Prayer of Speed</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your god blesses your flesh and infuses it with divine quickness. You gain a +1 bonus to speed and to the distance you can shift when you take the Disengage move action.</p>
 							<p />
@@ -17026,7 +17026,7 @@
 						<level type="number">1</level>
 						<name type="string">Prayer of Soldier’s Skill</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your god gives your mind the training of a soldier. You can wear light armor and wield light weapons effectively, even though you don&#8217;t have a kit. While you wear light armor, you gain a +3 bonus to Stamina, and that bonus increases by 3 at 4th, 7th, and 10th levels. While you wield a light weapon, you gain a +1 damage bonus with weapon abilities, including free strikes. You can use light armor treasures and light weapon treasures. If you have a kit, you can&#8217;t take this blessing.</p>
 							<p />
@@ -17038,7 +17038,7 @@
 						<level type="number">1</level>
 						<name type="string">Prayer of Distance</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your god blesses you with the ability to stretch your divine magic farther. You have a +2 bonus to the distance of your ranged magic abilities.</p>
 							<p />
@@ -17050,7 +17050,7 @@
 						<level type="number">1</level>
 						<name type="string">Prayer of Destruction</name>
 						<prerequisite type="string">Conduit</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your god infuses wrath within your being. You gain a +1 bonus to rolled damage with magic abilities.</p>
 							<p />
@@ -19358,7 +19358,7 @@
 						<level type="number">1</level>
 						<name type="string">Ward of Delightful Consequences</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>A protective field of void magic absorbs violence aimed at you, then lets you hurl it back at your enemies. The first time each round that you take damage, you gain 1 surge.</p>
 						</text>
@@ -19369,7 +19369,7 @@
 						<level type="number">1</level>
 						<name type="string">Ward of Surprising Reactivity</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You use the magic of fire to create a ward of explosive energy. Whenever an adjacent creature deals damage to you, you can use a free triggered action to push that creature up to a number of squares equal to twice your Reason score.</p>
 						</text>
@@ -19380,7 +19380,7 @@
 						<level type="number">1</level>
 						<name type="string">Ward of Nature’s Affection</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>The green energy writhing within your body allows you to produce powerful vines when you&#8217;re in danger. Whenever a creature within a number of squares equal to your Reason score deals damage to you, you can use a free triggered action to slide that creature up to a number of squares equal to your Reason score.</p>
 						</text>
@@ -19391,7 +19391,7 @@
 						<level type="number">1</level>
 						<name type="string">Elemental Specialization: Earth</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You harness the flow of earth magic to become harder to move. Whenever you use an ability that has the Earth and Magic keywords, your stability increases by 1 until the start of your next turn. This benefit is cumulative.</p>
 							<linklist>
@@ -19405,7 +19405,7 @@
 						<level type="number">1</level>
 						<name type="string">Elemental Specialization: Green</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You harness the residual magic from your green spells to bolster yourself and your allies. Whenever you deal damage to one or more creatures using an ability that has the Green and Magic keywords and that costs essence to use (see below), you or one creature within 10 squares of you gains temporary Stamina equal to your Reason score.</p>
 							<linklist>
@@ -19419,7 +19419,7 @@
 						<level type="number">1</level>
 						<name type="string">Elemental Specialization: Void</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You use your immersion in the mystery of void magic to expand the reach of that magic better than other mages. The distance of all your abilities that have the Magic, Ranged, and Void keywords increases by 2 squares.</p>
 							<linklist>
@@ -19433,7 +19433,7 @@
 						<level type="number">1</level>
 						<name type="string">Ward of Excellent Protection</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You weave a shield of all the elements around yourself, channeling their full protective power. You have immunity to acid, cold, corruption, fire, lightning, poison, or sonic damage equal to your Reason score.</p>
 						</text>
@@ -19444,7 +19444,7 @@
 						<level type="number">1</level>
 						<name type="string">Enchantment of Battle</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You can wear light armor and wield light weapons effectively, even though you don&#8217;t have a kit. While you wear light armor, you gain a +3 bonus to Stamina, and that bonus increases by 3 at 4th, 7th, and 10th levels. While you wield a light weapon, you gain a +1 damage bonus with weapon abilities, including free strikes. You can use light armor treasures and light weapon treasures. If you have a kit, you can&#8217;t take this enchantment.</p>
 						</text>
@@ -19455,7 +19455,7 @@
 						<level type="number">1</level>
 						<name type="string">Enchantment of Celerity</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You gain a +1 bonus to speed and to the distance you can shift when you take the Disengage move action.</p>
 						</text>
@@ -19466,7 +19466,7 @@
 						<level type="number">1</level>
 						<name type="string">Enchantment of Destruction</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You gain a +1 bonus to rolled damage with magic abilities.</p>
 						</text>
@@ -19477,7 +19477,7 @@
 						<level type="number">1</level>
 						<name type="string">Enchantment of Distance</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You have a +2 bonus to the distance of your ranged magic abilities.</p>
 						</text>
@@ -19488,7 +19488,7 @@
 						<level type="number">1</level>
 						<name type="string">Enchantment of Permanence</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You gain a +6 bonus to Stamina, and this bonus increases by 6 at 4th, 7th, and 10th levels. Additionally, you gain a +1 bonus to stability.</p>
 						</text>
@@ -19499,7 +19499,7 @@
 						<level type="number">1</level>
 						<name type="string">Motivate Earth</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You have the following ability.</p>
 							<linklist>
@@ -19513,7 +19513,7 @@
 						<level type="number">1</level>
 						<name type="string">Return to Formlessness</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You have the following ability.</p>
 							<linklist>
@@ -19527,7 +19527,7 @@
 						<level type="number">1</level>
 						<name type="string">It Is The Soul Which Hears</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You can speak with and understand animals, beasts, and plant creatures, even if they don&#8217;t share a language with you. Your ability to communicate with these creatures doesn&#8217;t make them inherently more intelligent, but you can use Reason instead of Presence while making tests to influence them.</p>
 							<p>Additionally, you can touch a living plant that is not a plant creature to communicate with it telepathically. You can use words to communicate with the plant, but it communicates with you only by transmitting feelings and sensations that can&#8217;t be overly specific.</p>
@@ -19539,7 +19539,7 @@
 						<level type="number">1</level>
 						<name type="string">Elemental Specialization: Fire</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You become an expert at wielding destructive flames. Your abilities that have the Fire and Magic keywords gain a +1 bonus to rolled damage. Your Hurl Element ability (see below) also gains this bonus when you use it to deal fire damage.</p>
 							<linklist>
@@ -19553,7 +19553,7 @@
 						<level type="number">1</level>
 						<name type="string">A Beyonding of Vision</name>
 						<prerequisite type="string">Elementalist</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You instantly recognize illusions for what they are, you can see invisible creatures, and supernatural effects can&#8217;t conceal creatures and objects from you. Additionally, you always know if an area or object you observe is magical or affected by magic, and you know the specifics of what that magic can do.</p>
 							<p>You also gain the following ability.</p>
@@ -20801,7 +20801,7 @@
 						<level type="number">1</level>
 						<name type="string">Primordial Cunning</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<h>Primordial Cunning</h>
 							<p>You are never surprised. Additionally, whenever you would push a target with forced movement, you can slide them instead. As your ferocity grows, you gain benefits as noted on the Reaver Growing Ferocity table. Benefits are cumulative except where an improved</p>
@@ -20848,7 +20848,7 @@
 						<level type="number">1</level>
 						<name type="string">Beast Shape</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Whenever you select a kit, you can instead select a stormwight kit (see Stormwight Kits). Your stormwight kit grants you a number of benefits, including benefits tied to your Growing Ferocity feature.</p>
 						</text>
@@ -20858,7 +20858,7 @@
 						<level type="number">1</level>
 						<name type="string">Primordial Strength</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<h>Primordial strength</h>
 							<p>Whenever you damage an object with a weapon strike, the strike deals extra damage equal to your Might score. Additionally, whenever you push another creature into an object, the creature takes extra damage equal to your Might score.</p>
@@ -20906,7 +20906,7 @@
 						<level type="number">1</level>
 						<name type="string">Relentless Hunter</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You gain an edge on tests made using the Track skill.</p>
 						</text>
@@ -20916,7 +20916,7 @@
 						<level type="number">1</level>
 						<name type="string">Kit</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You can use and gain the benefits of a kit. See Chapter 6: Kits for more information. (Quick Build: Panther.)</p>
 						</text>
@@ -20926,7 +20926,7 @@
 						<level type="number">1</level>
 						<name type="string">Kit</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You can use and gain the benefits of a kit. See Chapter 6: Kits for more information. (Quick Build: Panther.)</p>
 						</text>
@@ -20936,7 +20936,7 @@
 						<level type="number">1</level>
 						<name type="string">Lines of Force</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-04073">Ability: Lines of Force</link>
@@ -20948,7 +20948,7 @@
 						<level type="number">1</level>
 						<name type="string">Unearthly Reflexes</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-04071">Ability: Unearthly Reflexes</link>
@@ -20960,7 +20960,7 @@
 						<level type="number">1</level>
 						<name type="string">Furious Change</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-04074">Ability: Furious Change</link>
@@ -20972,7 +20972,7 @@
 						<level type="number">1</level>
 						<name type="string">Primordial Aspect</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You channel your rage into instinct and cunning, challenging the false order of civilization. You gain the Hide skill.</p>
 						</text>
@@ -20982,7 +20982,7 @@
 						<level type="number">1</level>
 						<name type="string">Primordial Aspect</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You channel your rage into the form of animals and primordial storms. You gain the Track skill. Your choice of primordial aspect determines many of the features you&#8217;ll gain from this class.</p>
 						</text>
@@ -20992,7 +20992,7 @@
 						<level type="number">1</level>
 						<name type="string">Primordial Aspect</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You channel your rage into expressions of physical might, acting as a living version of the forces that reshape the world. You gain the Lift skill.</p>
 						</text>
@@ -21002,7 +21002,7 @@
 						<level type="number">1</level>
 						<name type="string">Stormwight Kits</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<h>Stormwight Kits</h>
 							<p>The stormwight primordial aspect lets you channel your ferocity into the form of an animal and grants you knowledge of one stormwight kit of your choice. You can master additional stormwight kits through play, changing them out during a respite as with any other kit (see Chapter 6: Kits).</p>
@@ -21042,7 +21042,7 @@
 						<level type="number">1</level>
 						<name type="string">Boren</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>With this stormwight kit, you channel your primordial ferocity into the form of a bear, becoming large, durable, and imposing. Boren are tied to the craggy, rocky north, and this aspect is associated with the blizzard&#8217;s bitter cold.</p>
 							<h>Aspect Benefits</h>
@@ -21070,7 +21070,7 @@
 						<level type="number">1</level>
 						<name type="string">Vulken</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>With this stormwight kit, you channel your primordial ferocity into the form of a wolf, becoming a fleet-footed hunter. Vuken are tied to forests and open steppes, and this aspect is associated with the thunderstorm.</p>
 							<h>Aspect Benefits</h>
@@ -21098,7 +21098,7 @@
 						<level type="number">1</level>
 						<name type="string">Corven</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>With this stormwight kit, you channel your primordial ferocity into the form of a crow, becoming stealthy and quick. Corven are tied to the mountain passes and the hot winds that flow through them. This aspect is associated with the warm and fast-rising anabatic wind.</p>
 							<h>Aspect Benefits</h>
@@ -21126,7 +21126,7 @@
 						<level type="number">1</level>
 						<name type="string">Raden</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>With this stormwight kit, you channel your primordial ferocity into the form of a rat, becoming mobile and elusive. Raden are associated with the wild nature of the rat, before cities became their habitat. This aspect is associated with the rat flood&#8212;a surge of corrupted water that draws forth hordes of rats.</p>
 							<h>Aspect Benefits</h>
@@ -21154,7 +21154,7 @@
 						<level type="number">1</level>
 						<name type="string">Corven Growing Ferocity</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>As your ferocity grows, you gain benefits as noted on the Corven Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.</p>
 							<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; Corven Growing Ferocity &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
@@ -21200,7 +21200,7 @@
 						<level type="number">1</level>
 						<name type="string">Raden Growing Ferocity</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>As your ferocity grows, you gain benefits as noted on the Raden Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.</p>
 							<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; Raden Growing Ferocity &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
@@ -21246,7 +21246,7 @@
 						<level type="number">1</level>
 						<name type="string">Boren Growing Ferocity</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>As your ferocity grows, you gain benefits as noted on the Boren Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.</p>
 							<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; Boren Growing Ferocity &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
@@ -21292,7 +21292,7 @@
 						<level type="number">1</level>
 						<name type="string">Vulken Growing Ferocity</name>
 						<prerequisite type="string">Fury</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>As your ferocity grows, you gain benefits as noted on the Vuken Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.</p>
 							<h>&#9472;&#9472;&#9472;&#9472;&#9472;&#9830; Vulken Growing Ferocity &#9830;&#9472;&#9472;&#9472;&#9472;&#9472;</h>
@@ -22468,7 +22468,7 @@
 						<level type="number">1</level>
 						<name type="string">Chronokinetic Mastery</name>
 						<prerequisite type="string">Null</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your training unmoors you from temporal reality, allowing you to use the flow of time as another dimension that all things move through. You gain the Psionics skill</p>
 							<p>
@@ -22519,7 +22519,7 @@
 						<level type="number">1</level>
 						<name type="string">Cryokinetic Mastery</name>
 						<prerequisite type="string">Null</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You can tap into absolute cold, the most essential energy of myriad manifolds, and manifest its effects in your body. You gain one skill from the crafting group.</p>
 							<p>
@@ -22572,7 +22572,7 @@
 						<level type="number">1</level>
 						<name type="string">Metakinetic Mastery</name>
 						<prerequisite type="string">Null</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You learn to see through the illusions of the universe to more fully understand your body and its psionic potential. You gain one skill from the exploration group.</p>
 							<p>
@@ -22623,7 +22623,7 @@
 						<level type="number">1</level>
 						<name type="string">Density Augmentation</name>
 						<prerequisite type="string">Null</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You gain a +6 bonus to Stamina, and this bonus increases by 6 at 4th, 7th, and 10th levels. Additionally, you gain a +1 bonus to stability.</p>
 						</text>
@@ -22633,7 +22633,7 @@
 						<level type="number">1</level>
 						<name type="string">Force Augmentation</name>
 						<prerequisite type="string">Null</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your damage-dealing psionic abilities gain a +1 bonus to rolled damage.</p>
 						</text>
@@ -22643,7 +22643,7 @@
 						<level type="number">1</level>
 						<name type="string">Speed Augmentation</name>
 						<prerequisite type="string">Null</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You gain a +1 bonus to speed and to the distance you can shift when you take the Disengage move action.</p>
 						</text>
@@ -22654,7 +22654,7 @@
 						<level type="number">1</level>
 						<name type="string">Chronokinetic</name>
 						<prerequisite type="string">Null</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your training unmoors you from temporal reality, allowing you to use the flow of time as another dimension that all things move through. You gain one skill from the lore group.</p>
 						</text>
@@ -22664,7 +22664,7 @@
 						<level type="number">1</level>
 						<name type="string">Cryokinetic</name>
 						<prerequisite type="string">Null</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You can tap into absolute cold, the most essential energy of myriad manifolds, and manifest its effects in your body. You gain one skill from the crafting group.</p>
 						</text>
@@ -22674,7 +22674,7 @@
 						<level type="number">1</level>
 						<name type="string">Metakinetic</name>
 						<prerequisite type="string">Null</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You learn to see through the illusions of the universe to more fully understand your body and its psionic potential. You gain one skill from the exploration group.</p>
 						</text>
@@ -23765,7 +23765,7 @@
 						<level type="number">1</level>
 						<name type="string">Smoke Bomb</name>
 						<prerequisite type="string">Shadow</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You always carry a supply of smoke bombs to use for distractions and easy getaways. You can use the Hide maneuver even if you are observed and don&#8217;t initially have cover or concealment. When you do so, you can shift a number of squares equal to your Agility score. If you end this movement with cover or concealment, you are automatically hidden.</p>
 						</text>
@@ -23776,7 +23776,7 @@
 						<level type="number">1</level>
 						<name type="string">Black Ash Teleport</name>
 						<prerequisite type="string">Shadow</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-06038">Ability: Black Ash Teleport</link>
@@ -23789,7 +23789,7 @@
 						<level type="number">1</level>
 						<name type="string">Coat the Blade</name>
 						<prerequisite type="string">Shadow</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-06039">Ability: Coat the Blade</link>
@@ -23801,7 +23801,7 @@
 						<level type="number">1</level>
 						<name type="string">Inertial Dampener</name>
 						<prerequisite type="string">Shadow</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>?</p>
 						</text>
@@ -23811,7 +23811,7 @@
 						<level type="number">1</level>
 						<name type="string">Clever Trick </name>
 						<prerequisite type="string">Shadow</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-06041">Ability: Clever Trick</link>
@@ -23823,7 +23823,7 @@
 						<level type="number">1</level>
 						<name type="string">College of Black Ash</name>
 						<prerequisite type="string">Shadow</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>The College of Black Ash founded the art of being a shadow. Its graduates are unmatched in mobility, using sorcery to teleport around the battlefield, manipulate shadows, and summon darkness. You have the Magic skill</p>
 						</text>
@@ -23833,7 +23833,7 @@
 						<level type="number">1</level>
 						<name type="string">College of Caustic Alchemy</name>
 						<prerequisite type="string">Shadow</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>The College of Caustic Alchemy teaches its students recipes for the acids, bombs, and poisons used in their grim work. Graduates of the college are exceptional assassins. You have the Alchemy skill.orruption has deep tendrils that can be missed, leading you to specialize in uncovering clandestine threats to your order. You have the Magic skill.</p>
 						</text>
@@ -23843,7 +23843,7 @@
 						<level type="number">1</level>
 						<name type="string">In All This Confusion</name>
 						<prerequisite type="string">Shadow</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-06043">Ability: In All This Confusion</link>
@@ -23855,7 +23855,7 @@
 						<level type="number">1</level>
 						<name type="string">Defensive Roll</name>
 						<prerequisite type="string">Shadow</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-06042">Ability: Defensive Roll</link>
@@ -23868,7 +23868,7 @@
 						<level type="number">1</level>
 						<name type="string">College of the Harlequin Mask</name>
 						<prerequisite type="string">Shadow</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Graduates of the College of the Harlequin Mask learn illusion magic, which they use to infiltrate enemy strongholds and create orchestrated chaos in combat. You have the Lie skill</p>
 						</text>
@@ -23879,7 +23879,7 @@
 						<level type="number">1</level>
 						<name type="string">I'm No Threat</name>
 						<prerequisite type="string">Shadow</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You have the following ability.</p>
 							<linklist>
@@ -24838,7 +24838,7 @@
 						<level type="number">1</level>
 						<name type="string">Commanding Presence</name>
 						<prerequisite type="string">Tactician</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You command any room you walk into. While you are present during a negotiation, each hero with you treats their Renown as 2 higher than usual. Additionally, each hero with you during a combat encounter has a double edge on tests made to stop combat and start a negotiation.</p>
 						</text>
@@ -24849,7 +24849,7 @@
 						<level type="number">1</level>
 						<name type="string">Covert Operations</name>
 						<prerequisite type="string">Tactician</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>While in your presence or working according to your plans, each of your allies gains an edge on tests using any skill from the intrigue skill group. Additionally, you can use the Lead skill to assist another creature with any test made using a skill from the intrigue group.</p>
 							<p>At the Director&#8217;s discretion, you and your allies can use skills from the intrigue skill group to attempt research or reconnaissance during a negotiation instead of outside of a negotiation.</p>
@@ -24860,7 +24860,7 @@
 						<level type="number">1</level>
 						<name type="string">Studied Commander</name>
 						<prerequisite type="string">Tactician</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges. While you are present, each hero with you treats the Discover Lore project related to a war or battle as one category cheaper. This makes projects seeking common lore free, but such projects still require a respite activity to complete. (See <i>Chapter 12: Downtime Projects </i>for more information.)</p>
 							<p>Additionally, if you have 24 hours or more before a combat encounter or negotiation, and you have one or more clues or rumors regarding the encounter or negotiation, you can make a Reason test as a respite activity. The following test outcomes apply to a combat encounter:</p>
@@ -24879,7 +24879,7 @@
 						<level type="number">1</level>
 						<name type="string">Insurgent</name>
 						<prerequisite type="string">Tactician</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Doing your duty, playing fair, and dying honorably in battle is your opponent&#8217;s job. You&#8217;ll do whatever it takes to keep your allies alive. You gain a skill from the intrigue skill group.</p>
 							<p>
@@ -24895,7 +24895,7 @@
 						<level type="number">1</level>
 						<name type="string">Mastermind</name>
 						<prerequisite type="string">Tactician</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You have an encyclopedic knowledge of warfare, viewing the battlefield as a game board and seeking victory by thinking steps ahead of your opponents. You gain a skill from the lore skill group.</p>
 							<p>
@@ -24911,7 +24911,7 @@
 						<level type="number">1</level>
 						<name type="string">Vanguard</name>
 						<prerequisite type="string">Tactician</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You have learned the stratagems of ancient heroes, letting you lead from the front lines and seek victory through sheer force of will and personality. You gain a skill from the interpersonal skill group.</p>
 							<p>Your tactical doctrine is your subclass, and your choice of doctrine determines many of the features you&#8217;ll gain as you gain new levels.</p>
@@ -24929,7 +24929,7 @@
 						<level type="number">1</level>
 						<name type="string">Covert Operations</name>
 						<prerequisite type="string">Insurgent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>While in your presence or working according to your plans, each of your allies gains an edge on tests using any skill from the intrigue skill group. Additionally, you can use the Lead skill to assist another creature with any test made using a skill from the intrigue group.</p>
 							<p>At the Director&#8217;s discretion, you and your allies can use skills from the intrigue skill group to attempt research or reconnaissance during a negotiation instead of outside of a negotiation.</p>
@@ -24940,7 +24940,7 @@
 						<level type="number">1</level>
 						<name type="string">Commanding Presence</name>
 						<prerequisite type="string">Vanguard</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You command any room you walk into. While you are present during a negotiation, each hero with you treats their Renown as 2 higher than usual. Additionally, each hero with you during a combat encounter has a double edge on tests made to stop combat and start a negotiation.</p>
 						</text>
@@ -24950,7 +24950,7 @@
 						<level type="number">1</level>
 						<name type="string">Studied Commander</name>
 						<prerequisite type="string">Mastermind</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges. While you are present, each hero with you treats the Discover Lore project related to a war or battle as one category cheaper. This makes projects seeking common lore free, but such projects still require a respite activity to complete. (See Chapter 12: Downtime Projects for more information.)</p>
 							<p>Additionally, if you have 24 hours or more before a combat encounter or negotiation, and you have one or more clues or rumors regarding the encounter or negotiation, you can make a Reason test as a respite activity. The following test outcomes apply to a combat encounter:</p>
@@ -26197,7 +26197,7 @@
 						<level type="number">1</level>
 						<name type="string">Battle Augmentation</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You can wear light armor and wield light weapons effectively, even though you don&#8217;t have a kit. While you wear light armor, you gain a +3 bonus to Stamina, and that bonus increases by 3 at 4th, 7th, and 10th levels. While you wield a light weapon, you gain a +1 damage bonus with weapon abilities, including free strikes. You can use light armor treasures and light weapon treasures.</p>
 							<p>If you have a kit, you can&#8217;t take this augmentation.</p>
@@ -26208,7 +26208,7 @@
 						<level type="number">1</level>
 						<name type="string">Density Augmentation</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You gain a +6 bonus to Stamina, and this bonus increases by 6 at 4th, 7th, and 10th levels. Additionally, you gain a +1 bonus to stability.</p>
 						</text>
@@ -26218,7 +26218,7 @@
 						<level type="number">1</level>
 						<name type="string">Distance Augmentation</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your ranged psionic abilities gain a +2 bonus to distance.</p>
 						</text>
@@ -26228,7 +26228,7 @@
 						<level type="number">1</level>
 						<name type="string">Force Augmentation</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your damage-dealing psionic abilities gain a +1 bonus to rolled damage.</p>
 						</text>
@@ -26238,7 +26238,7 @@
 						<level type="number">1</level>
 						<name type="string">Speed Augmentation</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You gain a +1 bonus to speed and to the distance you can shift when you take the Disengage move action.</p>
 						</text>
@@ -26249,7 +26249,7 @@
 						<level type="number">1</level>
 						<name type="string">Vanishing Ward</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your ward allows you to slip away from threats. Whenever you take damage, you become invisible until the end of your next turn.</p>
 						</text>
@@ -26259,7 +26259,7 @@
 						<level type="number">1</level>
 						<name type="string">Steel Ward</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your ward reacts to danger, protecting you from future harm. Whenever you take damage, after the damage resolves, you gain damage immunity equal to your Reason score until the end of your next turn.</p>
 						</text>
@@ -26269,7 +26269,7 @@
 						<level type="number">1</level>
 						<name type="string">Repulsive Ward</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>You surround yourself with an invisible ward of telekinetic energy. Whenever an adjacent creature deals damage to you, you can use a free triggered action to push them up to a number of squares equal to your Reason score.</p>
 						</text>
@@ -26279,7 +26279,7 @@
 						<level type="number">1</level>
 						<name type="string">Entropy Ward</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<p>Your ward slows time for your enemies. Whenever a creature deals damage to you, their speed is reduced by an amount equal to your Reason score and they can&#8217;t use triggered actions until the end of their next turn.</p>
 						</text>
@@ -26290,7 +26290,7 @@
 						<level type="number">1</level>
 						<name type="string">Tradition Features</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<linklist>
 								<link class="ability" recordname="ability.id-08122">Ability: Accelerate</link>
@@ -26303,7 +26303,7 @@
 						<level type="number">1</level>
 						<name type="string">Tradition Features</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<h />
 							<linklist>
@@ -26317,7 +26317,7 @@
 						<level type="number">1</level>
 						<name type="string">Tradition Features</name>
 						<prerequisite type="string">Talent</prerequisite>
-						<repeatable type="number">0</repeatable>
+						<checkbox type="number">0</checkbox>
 						<text type="formattedtext">
 							<h />
 							<linklist>
